@@ -1,5 +1,5 @@
 
-#header{width:600px;font-family:Roboto; border-bottom-color:black; border-bottom-width:.4px; top:  sticky }
+#header{width:100%;font-family:Roboto; border-bottom-color:black; border-bottom-width:.4px; top:  sticky }
 #logo{display: inline-block ;}
 .top-of-page-nav-bar{width: 1000px ;font-family: Roboto ;}
 .top-of-page-nav-bar-form{font-family: Roboto ;color:black; background-color:white;display:inline;height: 80px ;width: 24% ;}
