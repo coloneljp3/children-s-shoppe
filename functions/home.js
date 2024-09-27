@@ -18,10 +18,10 @@ res.send(`
 <header id = "header">
 <img id = "logo" src=""/>
 <nav id = "top-of-page-nav-bar">
-<form onmouseover = "backColorChange('home-button','#63ba11','white')" id = "home-button" action = "/home" class = "top-of-page-nav-bar-form" method = "POST"><button class = "top-of-page-nav-bar-form-button" type = "submit">Home</button></form>
-<form onmouseover = "backColorChange('services-button','#63ba11','white')"  action = "/services" id = "services-button" class = "top-of-page-nav-bar-form" method = "POST"><button class = "top-of-page-nav-bar-form-button" type = "submit">Services</button></form>
-<form onmouseover = "backColorChange('contact-button','#63ba11','white')"  action = "/contact" id = "contact-button"class = "top-of-page-nav-bar-form" method = "POST"><button class = "top-of-page-nav-bar-form-button" type = "submit">Contact</button></form>
-<form onmouseover = "backColorChange('hiring-button','#63ba11','white')"  action = "/hiring" id = "hiring-button"class = "top-of-page-nav-bar-form" method = "POST"><button class = "top-of-page-nav-bar-form-button" type = "submit">Hiring</button></form>
+<form onmouseover = "backColorChange('home-button','#63ba11','white');borderBottomAppear('home-button','white','black')" id = "home-button" action = "/home" class = "top-of-page-nav-bar-form" method = "POST"><button class = "top-of-page-nav-bar-form-button" type = "submit">Home</button></form>
+<form onmouseover = "backColorChange('services-button','#63ba11','white');borderBottomAppear('services-button','white','black')"  action = "/services" id = "services-button" class = "top-of-page-nav-bar-form" method = "POST"><button class = "top-of-page-nav-bar-form-button" type = "submit">Services</button></form>
+<form onmouseover = "backColorChange('contact-button','#63ba11','white');borderBottomAppear('contact-button','white','black')"  action = "/contact" id = "contact-button"class = "top-of-page-nav-bar-form" method = "POST"><button class = "top-of-page-nav-bar-form-button" type = "submit">Contact</button></form>
+<form onmouseover = "backColorChange('hiring-button','#63ba11','white');borderBottomAppear('hiring-button','white','black')"  action = "/hiring" id = "hiring-button"class = "top-of-page-nav-bar-form" method = "POST"><button class = "top-of-page-nav-bar-form-button" type = "submit">Hiring</button></form>
 
 </nav>
 </header>
@@ -29,7 +29,10 @@ res.send(`
 
 
 <body>
+<div style = "width:100%;height:300px;"><img>
 
+<h1 style = "text-align:center;font-size:3em;font-family:">Welcome to the Best Children's Boutique Clothing Store in Ruston, LA!</h1>
+</img></div>
 <div class = "body-div" id = "body-div-1">
 <div class = "body-div" style = "margin:auto">
 <script>
