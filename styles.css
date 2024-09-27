@@ -1,18 +1,18 @@
 
 #header{width:100%;font-family:Roboto; border-bottom-color:black; border-bottom-width:.4px; top:sticky}
-#logo{display: inline-block ;};
-.top-of-page-nav-bar{width: 40% ;font-family: Roboto ;float:right};
-.top-of-page-nav-bar-form{font-family: Roboto ;color:black; background-color:white;display:inline;height: 80px ;width: 24% ;};
+#logo{display: inline-block ;}
+.top-of-page-nav-bar{width: 40% ;font-family: Roboto ;float:right}
+.top-of-page-nav-bar-form{font-family: Roboto ;color:black; background-color:white;display:inline;height: 80px ;width: 24% ;}
 
 .top-of-page-nav-bar-form-button{width: 100% ;font-family: Roboto ;display: inline ;font-size: 20px; 
   color: black; background-color: white;
-  border-style: solid;width:inherit; height: inherit };
+  border-style: solid;width:inherit; height: inherit }
 .body-div{
   font-family: Roboto;
   color: white;
   background-color: #63ba11 ;
   text-align: center;
-};
+}
 #footer-span-1,#footer-span-2,#footer-span-3,body-div-heading-2,.body-div-p{font-family: Roboto ;
   color: white ;
   display: inline-block ;
