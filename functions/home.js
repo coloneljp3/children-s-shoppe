@@ -23,23 +23,8 @@ res.send(`
 <form onmouseover = "backColorChange('contact-button','#63ba11','white');borderBottomAppear('contact-button','white','black')"  action = "/contact" id = "contact-button"class = "top-of-page-nav-bar-form" method = "POST"><button class = "top-of-page-nav-bar-form-button" type = "submit">Contact</button></form>
 <form onmouseover = "backColorChange('hiring-button','#63ba11','white');borderBottomAppear('hiring-button','white','black')"  action = "/hiring" id = "hiring-button"class = "top-of-page-nav-bar-form" method = "POST"><button class = "top-of-page-nav-bar-form-button" type = "submit">Hiring</button></form>
 
-<span style = "width:30px;height:30px"><svg style = "width:inherit;height:inherit">
-<polyline points = "0 0 30 0" stroke = "black" fill = "none" stroke-width="5"></polyline>
-<polyline points = "0 15 30 15" stroke = "black" fill = "none" stroke-width="5"></polyline>
-<polyline points = "0 30 30 30" stroke = "black" fill = "none" stroke-width="5"></polyline>
-
-</svg></span></nav>
-</header>
-
-
-
-<body>
-<div style = "width:100%;height:300px;"><img>
-
-<h1 style = "text-align:center;font-size:3em;font-family:">Welcome to the Best Children's Boutique Clothing Store in Ruston, LA!</h1>
-</img></div>
-<div class = "body-div" id = "body-div-1">
-<div class = "body-div" style = "margin:auto">
+</nav>
+<span style = "width:30px;height:30px">
 <script>
 window.onload = (event) =>{
 document.getElementById('search').style.width = '350px';
@@ -135,6 +120,25 @@ border-color:white;
 transition:width 1s;
 border-style:solid}
 </style>
+
+<svg style = "width:inherit;height:inherit">
+<polyline points = "0 0 30 0" stroke = "black" fill = "none" stroke-width="5"></polyline>
+<polyline points = "0 15 30 15" stroke = "black" fill = "none" stroke-width="5"></polyline>
+<polyline points = "0 30 30 30" stroke = "black" fill = "none" stroke-width="5"></polyline>
+
+</svg></span>
+
+</header>
+
+
+
+<body>
+<div style = "width:100%;height:300px;"><img>
+
+<h1 style = "text-align:center;font-size:3em;font-family:">Welcome to the Best Children's Boutique Clothing Store in Ruston, LA!</h1>
+</img></div>
+<div class = "body-div" id = "body-div-1">
+<div class = "body-div" style = "margin:auto">
   
 <svg onclick = "
 
