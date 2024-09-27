@@ -23,7 +23,12 @@ res.send(`
 <form onmouseover = "backColorChange('contact-button','#63ba11','white');borderBottomAppear('contact-button','white','black')"  action = "/contact" id = "contact-button"class = "top-of-page-nav-bar-form" method = "POST"><button class = "top-of-page-nav-bar-form-button" type = "submit">Contact</button></form>
 <form onmouseover = "backColorChange('hiring-button','#63ba11','white');borderBottomAppear('hiring-button','white','black')"  action = "/hiring" id = "hiring-button"class = "top-of-page-nav-bar-form" method = "POST"><button class = "top-of-page-nav-bar-form-button" type = "submit">Hiring</button></form>
 
-</nav>
+<span style = "width:30px;height:30px"><svg style = "width:inherit;height:inherit">
+<polyline points = "0 0 30 0" stroke = "black" fill = "none" stroke-width="5"></polyline>
+<polyline points = "0 15 30 15" stroke = "black" fill = "none" stroke-width="5"></polyline>
+<polyline points = "0 30 30 30" stroke = "black" fill = "none" stroke-width="5"></polyline>
+
+</svg></span></nav>
 </header>
 
 
@@ -152,12 +157,7 @@ width.style.width = '0px'}
 </div>
 </div>
 
-<div style = "width:30px;height:30px"><svg style = "width:inherit;height:inherit">
-<polyline points = "0 0 30 0" stroke = "black" fill = "none" stroke-width="5"></polyline>
-<polyline points = "0 15 30 15" stroke = "black" fill = "none" stroke-width="5"></polyline>
-<polyline points = "0 30 30 30" stroke = "black" fill = "none" stroke-width="5"></polyline>
 
-</svg></div>
 <h1 id = "body-div-1-heading-1">Heading 1</h1>
 </div>
 
