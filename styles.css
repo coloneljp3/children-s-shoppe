@@ -2,7 +2,7 @@
 #header{width:100%;font-family:Roboto; border-bottom-color:black; border-bottom-width:.4px; top:sticky}
 #logo{display: inline-block ;}
 .top-of-page-nav-bar{width: 40% ;font-family: Roboto ;float:right}
-.top-of-page-nav-bar-form{font-family: Roboto ;color:black; background-color:white;display:inline;height: 80px ;width: 24% ;}
+.top-of-page-nav-bar-form{font-family: Roboto ;color:black; background-color:white;display:inline;height: 80px ;width: 24% ;border-style:none}
 
 .top-of-page-nav-bar-form-button{width: 100% ;font-family: Roboto ;display: inline ;font-size: 20px; 
   color: black; background-color: white;
