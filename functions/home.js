@@ -43,7 +43,7 @@ res.send(`
 
 <h1 style = "text-align:center;font-size:3em;font-family:Roboto">Welcome to the Best Children's Boutique Clothing Store in Ruston, LA!</h1>
 
-<div style = "margin:auto;top:50%">
+<div style = "margin:auto;width:50%;text-align:center">
 <svg onclick = "
 
 var width = document.getElementById('search');
