@@ -135,7 +135,7 @@ border-style:solid}
 <body>
 <div style = "width:100%;height:300px;"><img>
 
-<h1 style = "text-align:center;font-size:3em;font-family:">Welcome to the Best Children's Boutique Clothing Store in Ruston, LA!</h1>
+<h1 style = "text-align:center;font-size:3em;font-family:Roboto">Welcome to the Best Children's Boutique Clothing Store in Ruston, LA!</h1>
 </img></div>
 <div class = "body-div" id = "body-div-1">
 <div class = "body-div" style = "margin:auto">
