@@ -17,7 +17,6 @@ res.send(`
 
 <header id = "header">
 <img id = "logo" src=""/>
-<span>
 <nav id = "top-of-page-nav-bar">
 <form onmouseover = "backColorChange('home-button','#63ba11','white')" id = "home-button" action = "/home" class = "top-of-page-nav-bar-form" method = "POST"><button class = "top-of-page-nav-bar-form-button" type = "submit">Home</button></form>
 <form onmouseover = "backColorChange('services-button','#63ba11','white')"  action = "/services" id = "services-button" class = "top-of-page-nav-bar-form" method = "POST"><button class = "top-of-page-nav-bar-form-button" type = "submit">Services</button></form>
@@ -25,7 +24,6 @@ res.send(`
 <form onmouseover = "backColorChange('hiring-button','#63ba11','white')"  action = "/hiring" id = "hiring-button"class = "top-of-page-nav-bar-form" method = "POST"><button class = "top-of-page-nav-bar-form-button" type = "submit">Hiring</button></form>
 
 </nav>
-</span>
 </header>
 
 
