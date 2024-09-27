@@ -10,13 +10,13 @@
 .body-div{
   font-family: Roboto;
   color: white;
-  background-color: #63ba11 ;
+  background-color: "#63ba11" ;
   text-align: center;
 }
 #footer-span-1,#footer-span-2,#footer-span-3,body-div-heading-2,.body-div-p{font-family: Roboto ;
   color: white ;
-  display: inline ;
-  background-color: #63ba11 }
+  display: inline-block ;
+  background-color: "#63ba11" }
 #logo{
 height: 50px ;
 width: 100px ;
