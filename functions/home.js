@@ -16,7 +16,7 @@ res.send(`
 <script type = "text/javascript" src = "/functions.js"></script>
 
 <header id = "header">
-<img id = "logo" src="https://s3-us-west-2.amazonaws.com/mfcollectnew/ChIJDWPizkHFMYYRDaiP9UdwJyA/5qLr2MEGEG.png"/>
+<img id = "logo" src=""/>
 <span>
 <nav id = "top-of-page-nav-bar">
 <form onmouseover = "backColorChange('home-button','#63ba11','white')" id = "home-button" action = "/home" class = "top-of-page-nav-bar-form" method = "POST"><button class = "top-of-page-nav-bar-form-button" type = "submit">Home</button></form>
@@ -150,6 +150,13 @@ width.style.width = '0px'}
 
 </div>
 </div>
+
+<div style = "width:30px;height:30px"><svg style = "width:inherit;height:inherit">
+<polyline points = "0 0 30 0" stroke = "black" fill = "none" stroke-width="5"></polyline>
+<polyline points = "0 15 30 15" stroke = "black" fill = "none" stroke-width="5"></polyline>
+<polyline points = "0 30 30 30" stroke = "black" fill = "none" stroke-width="5"></polyline>
+
+</svg></div>
 <h1 id = "body-div-1-heading-1">Heading 1</h1>
 </div>
 
