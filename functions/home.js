@@ -24,6 +24,7 @@ res.send(`
 <form onmouseover = "backColorChange('hiring-button','#63ba11','white');borderBottomAppear('hiring-button','white','black')"  action = "/hiring" id = "hiring-button"class = "top-of-page-nav-bar-form" method = "POST"><button class = "top-of-page-nav-bar-form-button" type = "submit">Hiring</button></form>
 
 </nav>
+
 <span style = "width:30px;height:30px">
 
 <svg style = "width:inherit;height:inherit">
@@ -42,6 +43,25 @@ res.send(`
 
 <h1 style = "text-align:center;font-size:3em;font-family:Roboto">Welcome to the Best Children's Boutique Clothing Store in Ruston, LA!</h1>
 </img>
+<svg onclick = "
+
+var width = document.getElementById('search');
+if(width.style.width == '0px'){
+width.style.width = '350px';
+}
+else{
+width.style.width = '0px'}
+
+
+" style = "width:30px;height:20px;display:inline-block;">
+<circle cx = 8 cy = 8 stroke-width = 3 stroke = "black" fill = "none" r = 6></circle>
+<polyline points = "12 12 20 20 " stroke-width = 3 stroke = "black" fill = "none"></polyline>
+</svg>
+<input placeholder = "Search for info Sundown Tavern"  onkeyup = "searchReq()" id  = "search" type = "search" />
+<div style = "position:relative"> 
+<div id = "options"></div>
+
+</div>
 <script>
 window.onload = (event) =>{
 document.getElementById('search').style.width = '350px';
@@ -141,25 +161,7 @@ border-style:solid}
 <div class = "body-div" id = "body-div-1">
 <div class = "body-div" style = "margin:auto">
   
-<svg onclick = "
 
-var width = document.getElementById('search');
-if(width.style.width == '0px'){
-width.style.width = '350px';
-}
-else{
-width.style.width = '0px'}
-
-
-" style = "width:30px;height:20px;display:inline-block;">
-<circle cx = 8 cy = 8 stroke-width = 3 stroke = "black" fill = "none" r = 6></circle>
-<polyline points = "12 12 20 20 " stroke-width = 3 stroke = "black" fill = "none"></polyline>
-</svg>
-<input placeholder = "Search for info Sundown Tavern"  onkeyup = "searchReq()" id  = "search" type = "search" />
-<div style = "position:relative"> 
-<div id = "options"></div>
-
-</div>
 </div>
 
 
