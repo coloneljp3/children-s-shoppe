@@ -28,7 +28,12 @@ function fadeIn(id,visibility){
 var element = document.getElementById(id);
 
   if(element.style.visiblity == "hidden")
-  {element.style.visibility = "visible"};
+  {element.style.visibility = "visible"}
 
   else{element.style.visiblity == "hidden"};
 };
+
+function borderBottomAppear(id, color_1, color_2){
+  var elem = document.getElementById(id);
+if(elem.style.borderBottomColor == color_1){
+elem.style.borderBottomColor = color_2;}else{elem.style.borderBottomColor = color_1;}}
