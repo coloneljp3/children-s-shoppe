@@ -185,7 +185,7 @@ border-style:solid}
 </body>
 
 <footer id = "footer">
-<span id = "footer-span-1">
+<span class = "footer-span" id = "footer-span-1">
 <section class = "footer-span-section" id = "footer-span-section-1">dddd</section>
 <section class = "footer-span-section" id = "footer-span-section-2">dddd</section>
 <section class = "footer-span-section" id = "footer-span-section-3">ddd</section>
@@ -193,7 +193,7 @@ border-style:solid}
 
 </span>
 
-<span id = "footer-span-2">
+<span class = "footer-span" id = "footer-span-2">
 <section class = "footer-span-section" id = "footer-span2-section-1">ddddd</section>
 <section class = "footer-span-section" id = "footer-span2-section-2">dddd</section>
 <section class = "footer-span-section" id = "footer-span2-section-3">dd</section>
@@ -201,7 +201,7 @@ border-style:solid}
 
 </span>
 
-<span id = "footer-span-3">
+<span class = "footer-span" id = "footer-span-3">
 <section class = "footer-span-section" id = "footer-span3-section-1">dd</section>
 <section class = "footer-span-section" id = "footer-span3-section-2">dd</section>
 <section class = "footer-span-section" id = "footer-span3-section-3">dd</section>
