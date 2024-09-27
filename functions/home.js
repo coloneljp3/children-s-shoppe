@@ -164,21 +164,37 @@ border-style:solid}
 
 </div>
 
-
-<h1 id = "body-div-1-heading-1">Heading 1</h1>
 </div>
 
 <div id = "body-div-2" class = "body-div">
-<h2 class = "body-div-h2">Heading 2</h2>
-<p class = "body-div-p">P</p>
+<div style = "width:50%;display:inline-block"">
+
+Call to Action
+</div>
+<div style = "width:50%;display:inline-block">
+<h2 class = "body-div-h2">What We Do</h2>
+<p class = "body-div-p">Since 2000, the Children's Shoppe has provided the best children's apparel for an affordable price. No matter the occassion or circumstance, we can help your child look their best.</p>
+</div>
+
 </div>
 <div id = "body-div-3" class = "body-div">
-<h2 class = "body-div-h2">Heading 2</h2>
-<p class = "body-div-p">P</p>
+<div style = "width:50%;display:inline-block"><h2 class = "body-div-h2">Heading 2</h2>
+<p class = "body-div-p">P</p></div>
+<div style = "width:50%;display:inline-block"">
+
+Call to Action
+</div>
+
 </div>
 <div id = "body-div-4"  class = "body-div">
-<h2 class = "body-div-h2">Heading 2</h2>
+<div style = "width:50%;display:inline-block"">
+
+Call to Action
+</div>
+<div style = "display:inline-block:width:50%"><h2 class = "body-div-h2">Heading 2</h2>
 <p class = "body-div-p">P</p>
+</div>
+
 </div>
 
 
