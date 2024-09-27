@@ -39,10 +39,10 @@ res.send(`
 
 
 <body>
-<div style = "width:100%;height:300px;"><img>
+<div style = "background:no-repeat url();width:100%;height:300px;">
 
 <h1 style = "text-align:center;font-size:3em;font-family:Roboto">Welcome to the Best Children's Boutique Clothing Store in Ruston, LA!</h1>
-</img>
+
 <div style = "margin:auto;top:50%">
 <svg onclick = "
 
@@ -148,7 +148,7 @@ text-decoration:none
 #search{
 border-radius:25px;
 font-family:Roboto;
-width:0px;
+width:50%;
 display:inline-block;
 height:50px;
 top:50%;
