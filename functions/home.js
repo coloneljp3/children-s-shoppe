@@ -72,10 +72,10 @@ document.getElementById('options').innerHTML = '';
 }
     
 var search_list = {
-"HOME":"https://sundowntavern.netlify.app/home",
-"SERVICES":"https://sundowntavern.netlify.app/services",
-"CONTACT":"https://sundowntavern.netlify.app/contact",
-"HIRING":"https://sundowntavern.netlify.app/hiring",
+"HOME":"https://childrensshoppe.netlify.app/home",
+"SERVICES":"https://childrensshoppe.netlify.app/services",
+"CONTACT":"https://childrensshoppe.netlify.app/contact",
+"HIRING":"https://childrensshoppe.netlify.app/hiring"
         }
 function searchReq(){
   document.getElementById('options').innerHTML = '';
@@ -96,7 +96,6 @@ but.style.color = "white";
 but.style.borderColor = "#63ba11"
 but.style.backgroundColor = "#63ba11";
 but.style.borderRadius = "10px"
-but.style.fontWeight = "bold";
 but.style.margin = "0px";
 but.style.display = "block"
 but.style.height = "50px";
