@@ -938,16 +938,15 @@ on orders over $125!</p>
           
             <span class="shipping-icon"></span>
           
-          <p>Free shipping<br />
-on orders over $125!</p>
+    
         </div> <!-- end .announcement -->
       </div> <!-- end .announcement-wrap -->
 
     </div> <!-- end .header_left -->
 
     <a href="  " class="logo">
-      <img src="//thefrillyfrog.com/cdn/shop/t/48/assets/logo.png?v=99494972473028420121727202577" alt="The Frilly Frog" />
-      <img src="//thefrillyfrog.com/cdn/shop/t/48/assets/logo_mobile.png?v=172953471722853889181727202577" alt="The Frilly Frog" />
+      <img src="" alt="The Frilly Frog" />
+      <img  src = "" alt="The Children's Shoppe" />
     </a> <!-- end a.logo -->
 
     <div class="utilities">
