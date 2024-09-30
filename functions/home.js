@@ -25,7 +25,7 @@ res.send(`
 		<link rel="canonical" href="  /" />
 		<link rel="shortcut icon" href="//thefrillyfrog.com/cdn/shop/t/48/assets/favicon_transparent.png?v=92374346313299296431727202577" type="image/png" />
 
-		<title>Children&#39;s Boutique | The Frilly Frog, Greenwood, SC</title>
+		<title>Children's Shoppe Boutique Ruston, LA</title>
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
