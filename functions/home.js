@@ -22,7 +22,7 @@ res.send(`
 
 		
 
-		<link rel="canonical" href="https://thefrillyfrog.com/" />
+		<link rel="canonical" href="  /" />
 		<link rel="shortcut icon" href="//thefrillyfrog.com/cdn/shop/t/48/assets/favicon_transparent.png?v=92374346313299296431727202577" type="image/png" />
 
 		<title>Children&#39;s Boutique | The Frilly Frog, Greenwood, SC</title>
@@ -41,7 +41,7 @@ res.send(`
 		
 
 <meta property="og:site_name" content="The Frilly Frog">
-<meta property="og:url" content="https://thefrillyfrog.com/">
+<meta property="og:url" content="  /">
 <meta property="og:title" content="Children&#39;s Boutique | The Frilly Frog, Greenwood, SC">
 <meta property="og:type" content="website">
 <meta property="og:description" content="A Children&#39;s boutique with a curated collection of the best for baby and child, specializing in timeless classics, play, layette and gifts."><meta name="twitter:card" content="summary_large_image">
@@ -522,7 +522,7 @@ window.ShopifyPay.apiHost = "shop.app\/pay";</script>
 <link href="https://cdn.shopify.com/extensions/b0bdc5df-fd50-442b-8d41-f581603d20be/gift-reggie-gift-registry-58/assets/app-embed-block.css" rel="stylesheet" type="text/css" media="all">
 <link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
 <script>(function(){if ("sendBeacon" in navigator && "performance" in window) {var session_token = document.cookie.match(/_shopify_s=([^;]*)/);function handle_abandonment_event(e) {var entries = performance.getEntries().filter(function(entry) {return /monorail-edge.shopifysvc.com/.test(entry.name);});if (!window.abandonment_tracked && entries.length === 0) {window.abandonment_tracked = true;var currentMs = Date.now();var navigation_start = performance.timing.navigationStart;var payload = {shop_id: 7029397,url: window.location.href,navigation_start,duration: currentMs - navigation_start,session_token: session_token && session_token.length === 2 ? session_token[1] : "",page_type: "index"};window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({schema_id: "online_store_buyer_site_abandonment/1.1",payload: payload,metadata: {event_created_at_ms: currentMs,event_sent_at_ms: currentMs}}));}}window.addEventListener('pagehide', handle_abandonment_event);}}());</script>
-<script id="web-pixels-manager-setup">(function d(d,e,r,a,n){var o,i,t,s,l=(i=(o={modern:/Edge?\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Firefox\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(9{2}|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(15\.\d+|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9{2}|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(15[._]\d+|(1[6-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](12[89]|1[3-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Android.+Firefox\/(12[7-9]|1[3-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(12[89]|1[3-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|SamsungBrowser\/([2-9]\d|\d{3,})\.\d+/,legacy:/Edge?\/(1[6-9]|[2-9]\d|\d{3,})\.\d+(\.\d+|)|Firefox\/(5[4-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)|Chrom(ium|e)\/(5[1-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))|(Maci|X1{2}).+ Version\/(10\.\d+|(1[1-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(3[89]|[4-9]\d|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(10[._]\d+|(1[1-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](12[89]|1[3-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(12[7-9]|1[3-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(12[89]|1[3-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(15\.([5-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(5\.\d+|([6-9]|\d{2,})\.\d+)|Android.+MQ{2}Browser\/(14(\.(9|\d{2,})|)|(1[5-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(3\.\d+|([4-9]|\d{2,})\.\d+)(\.\d+|)/}).modern,t=o.legacy,s=navigator.userAgent,i.test(s)?"modern":(t.test(s),"legacy"));window.Shopify=window.Shopify||{};var c=window.Shopify;c.analytics=c.analytics||{};var u=c.analytics;u.replayQueue=[],u.publish=function(d,e,r){return u.replayQueue.push([d,e,r]),!0};try{self.performance.mark("wpm:start")}catch(d){}var h=[r,"/wpm","/b",n,l.substring(0,1),".js"].join("");!function(d){var e=d.src,r=d.async,a=void 0===r||r,n=d.onload,o=d.onerror,i=document.createElement("script"),t=document.head,s=document.body;i.async=a,i.src=e,n&&i.addEventListener("load",n),o&&i.addEventListener("error",o),t?t.appendChild(i):s?s.appendChild(i):console.error("Did not find a head or body element to append the script")}({src:h,async:!0,onload:function(){var r=window.webPixelsManager.init(d);e(r);var a=window.Shopify.analytics;a.replayQueue.forEach((function(d){var e=d[0],a=d[1],n=d[2];r.publishCustomEvent(e,a,n)})),a.replayQueue=[],a.publish=r.publishCustomEvent,a.visitor=r.visitor},onerror:function(){var e=d.storefrontBaseUrl.replace(/\/$/,""),r="".concat(e,"/.well-known/shopify/monorail/unstable/produce_batch"),n=JSON.stringify({metadata:{event_sent_at_ms:(new Date).getTime()},events:[{schema_id:"web_pixels_manager_load/3.1",payload:{version:a||"latest",bundle_target:l,page_url:self.location.href,status:"failed",surface:d.surface,error_msg:"".concat(h," has failed to load")},metadata:{event_created_at_ms:(new Date).getTime()}}]});try{if(self.navigator.sendBeacon.bind(self.navigator)(r,n))return!0}catch(d){}var o=new XMLHttpRequest;try{return o.open("POST",r,!0),o.setRequestHeader("Content-Type","text/plain"),o.send(n),!0}catch(d){console&&console.warn&&console.warn("[Web Pixels Manager] Got an unhandled error while logging a load error.")}return!1}})})({shopId: 7029397,storefrontBaseUrl: "https://thefrillyfrog.com",extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager",surface: "storefront-renderer",enabledBetaFlags: ["5de24938","d04dc9f4","4735909c"],webPixelsConfigList: [{"id":"147259541","configuration":"{\"pixel_id\":\"1061956080950154\",\"pixel_type\":\"facebook_pixel\",\"metaapp_system_user_token\":\"-\"}","eventPayloadVersion":"v1","runtimeContext":"OPEN","scriptVersion":"8b3843af2d71780cfb83fdde884ce168","type":"APP","apiClientId":2329312,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"]},{"id":"87818389","configuration":"{\"tagID\":\"2620558455077\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"4fd0680eed907adaf3f85849c393d688","type":"APP","apiClientId":3009811,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"]},{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"0220","apiClientId":"shopify-pixel","type":"APP","privacyPurposes":["ANALYTICS","MARKETING"]},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"0220","apiClientId":"shopify-pixel","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING"]}],isMerchantRequest: false,initData: {"shop":{"name":"The Frilly Frog","paymentSettings":{"currencyCode":"USD"},"myshopifyDomain":"the-frilly-frog-2.myshopify.com","countryCode":"US","storefrontUrl":"https:\/\/thefrillyfrog.com"},"customer":null,"cart":null,"checkout":null,"productVariants":[],"purchasingCompany":null},},function pageEvents(webPixelsManagerAPI) {webPixelsManagerAPI.publish("page_viewed", {});},"https://thefrillyfrog.com/cdn","dfbb31c8552c83d6d047278c418daa0f369b24f4","c3421179wde532104pe70d9b14m030ede8e",);</script>  <script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+<script id="web-pixels-manager-setup">(function d(d,e,r,a,n){var o,i,t,s,l=(i=(o={modern:/Edge?\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Firefox\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(9{2}|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(15\.\d+|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9{2}|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(15[._]\d+|(1[6-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](12[89]|1[3-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Android.+Firefox\/(12[7-9]|1[3-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(12[89]|1[3-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|SamsungBrowser\/([2-9]\d|\d{3,})\.\d+/,legacy:/Edge?\/(1[6-9]|[2-9]\d|\d{3,})\.\d+(\.\d+|)|Firefox\/(5[4-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)|Chrom(ium|e)\/(5[1-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))|(Maci|X1{2}).+ Version\/(10\.\d+|(1[1-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(3[89]|[4-9]\d|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(10[._]\d+|(1[1-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](12[89]|1[3-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(12[7-9]|1[3-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(12[89]|1[3-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(15\.([5-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(5\.\d+|([6-9]|\d{2,})\.\d+)|Android.+MQ{2}Browser\/(14(\.(9|\d{2,})|)|(1[5-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(3\.\d+|([4-9]|\d{2,})\.\d+)(\.\d+|)/}).modern,t=o.legacy,s=navigator.userAgent,i.test(s)?"modern":(t.test(s),"legacy"));window.Shopify=window.Shopify||{};var c=window.Shopify;c.analytics=c.analytics||{};var u=c.analytics;u.replayQueue=[],u.publish=function(d,e,r){return u.replayQueue.push([d,e,r]),!0};try{self.performance.mark("wpm:start")}catch(d){}var h=[r,"/wpm","/b",n,l.substring(0,1),".js"].join("");!function(d){var e=d.src,r=d.async,a=void 0===r||r,n=d.onload,o=d.onerror,i=document.createElement("script"),t=document.head,s=document.body;i.async=a,i.src=e,n&&i.addEventListener("load",n),o&&i.addEventListener("error",o),t?t.appendChild(i):s?s.appendChild(i):console.error("Did not find a head or body element to append the script")}({src:h,async:!0,onload:function(){var r=window.webPixelsManager.init(d);e(r);var a=window.Shopify.analytics;a.replayQueue.forEach((function(d){var e=d[0],a=d[1],n=d[2];r.publishCustomEvent(e,a,n)})),a.replayQueue=[],a.publish=r.publishCustomEvent,a.visitor=r.visitor},onerror:function(){var e=d.storefrontBaseUrl.replace(/\/$/,""),r="".concat(e,"/.well-known/shopify/monorail/unstable/produce_batch"),n=JSON.stringify({metadata:{event_sent_at_ms:(new Date).getTime()},events:[{schema_id:"web_pixels_manager_load/3.1",payload:{version:a||"latest",bundle_target:l,page_url:self.location.href,status:"failed",surface:d.surface,error_msg:"".concat(h," has failed to load")},metadata:{event_created_at_ms:(new Date).getTime()}}]});try{if(self.navigator.sendBeacon.bind(self.navigator)(r,n))return!0}catch(d){}var o=new XMLHttpRequest;try{return o.open("POST",r,!0),o.setRequestHeader("Content-Type","text/plain"),o.send(n),!0}catch(d){console&&console.warn&&console.warn("[Web Pixels Manager] Got an unhandled error while logging a load error.")}return!1}})})({shopId: 7029397,storefrontBaseUrl: "  ",extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager",surface: "storefront-renderer",enabledBetaFlags: ["5de24938","d04dc9f4","4735909c"],webPixelsConfigList: [{"id":"147259541","configuration":"{\"pixel_id\":\"1061956080950154\",\"pixel_type\":\"facebook_pixel\",\"metaapp_system_user_token\":\"-\"}","eventPayloadVersion":"v1","runtimeContext":"OPEN","scriptVersion":"8b3843af2d71780cfb83fdde884ce168","type":"APP","apiClientId":2329312,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"]},{"id":"87818389","configuration":"{\"tagID\":\"2620558455077\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"4fd0680eed907adaf3f85849c393d688","type":"APP","apiClientId":3009811,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"]},{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"0220","apiClientId":"shopify-pixel","type":"APP","privacyPurposes":["ANALYTICS","MARKETING"]},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"0220","apiClientId":"shopify-pixel","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING"]}],isMerchantRequest: false,initData: {"shop":{"name":"The Frilly Frog","paymentSettings":{"currencyCode":"USD"},"myshopifyDomain":"the-frilly-frog-2.myshopify.com","countryCode":"US","storefrontUrl":"https:\/\/thefrillyfrog.com"},"customer":null,"cart":null,"checkout":null,"productVariants":[],"purchasingCompany":null},},function pageEvents(webPixelsManagerAPI) {webPixelsManagerAPI.publish("page_viewed", {});},"  /cdn","dfbb31c8552c83d6d047278c418daa0f369b24f4","c3421179wde532104pe70d9b14m030ede8e",);</script>  <script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
 window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
 window.ShopifyAnalytics.meta.currency = 'USD';
 var meta = {"page":{"pageType":"home"}};
@@ -744,7 +744,7 @@ for (var attr in meta) {
   window.BOOMR.themeId = 141531447445;
   window.BOOMR.renderRegion = "gcp-us-central1";
   window.BOOMR.url =
-    "https://thefrillyfrog.com/cdn/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js";
+    "  /cdn/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js";
   var where = document.currentScript || document.getElementsByTagName("script")[0];
   var parentNode = where.parentNode;
   var promoted = false;
@@ -875,7 +875,7 @@ for (var attr in meta) {
 })();</script>
 <script
   defer
-  src="https://thefrillyfrog.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-1.0.0.min.js"
+  src="  /cdn/shopifycloud/perf-kit/shopify-perf-kit-1.0.0.min.js"
   data-application="storefront-renderer"
   data-shop-id="7029397"
   data-render-region="gcp-us-central1"
@@ -945,7 +945,7 @@ on orders over $125!</p>
 
     </div> <!-- end .header_left -->
 
-    <a href="https://thefrillyfrog.com" class="logo">
+    <a href="  " class="logo">
       <img src="//thefrillyfrog.com/cdn/shop/t/48/assets/logo.png?v=99494972473028420121727202577" alt="The Frilly Frog" />
       <img src="//thefrillyfrog.com/cdn/shop/t/48/assets/logo_mobile.png?v=172953471722853889181727202577" alt="The Frilly Frog" />
     </a> <!-- end a.logo -->
@@ -997,7 +997,7 @@ on orders over $125!</p>
                   
                     <p>Shop fresh arrivals.</p>
                     <div class="button">
-                      <a href="https://thefrillyfrog.com/collections/new-noteworthy?sort_by=created-descending">See what's new</a>
+                      <a href="  /collections/new-noteworthy?sort_by=created-descending">See what's new</a>
                     </div> <!-- end .button -->
                   
                 </div> <!-- end .featurette -->
@@ -1231,7 +1231,7 @@ on orders over $125!</p>
                   
                     <p>Dashing little gent</p>
                     <div class="button">
-                      <a href="https://thefrillyfrog.com/collections/baby-boy-one-piece-outfits">Shop One Piece Outifts</a>
+                      <a href="  /collections/baby-boy-one-piece-outfits">Shop One Piece Outifts</a>
                     </div> <!-- end .button -->
                   
                 </div> <!-- end .featurette -->
@@ -3363,7 +3363,7 @@ specializing in timeless classics, play, layette and gifts.</h1>
 
   <p>The Halloween Shop</p>
 
-  <a href="https://thefrillyfrog.com/collections/halloween">All things spooky</a>
+  <a href="  /collections/halloween">All things spooky</a>
 
 </div> <!-- end .panel.left -->
 
@@ -3373,7 +3373,7 @@ specializing in timeless classics, play, layette and gifts.</h1>
 
   <p>All Things Fall</p>
 
-  <a href="https://thefrillyfrog.com/collections/fall-2024">Shop Cozy Fall Picks</a>
+  <a href="  /collections/fall-2024">Shop Cozy Fall Picks</a>
 
 </div> <!-- end .panel.right -->
 
