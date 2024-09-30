@@ -23,7 +23,7 @@ res.send(`
 		
 
 		<link rel="canonical" href="  /" />
-		<link rel="shortcut icon" href="//thefrillyfrog.com/cdn/shop/t/48/assets/favicon_transparent.png?v=92374346313299296431727202577" type="image/png" />
+		<link rel="shortcut icon" href="/styles_1.css"/>
 
 		<title>Children's Shoppe Boutique Ruston, LA</title>
 
