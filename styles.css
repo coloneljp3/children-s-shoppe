@@ -7,3 +7,6 @@ top:sticky;
 position:fixed;
 }
 
+.main-nav-bar-items-container{
+  display:inline-block
+}
