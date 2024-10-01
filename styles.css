@@ -7,7 +7,7 @@ top:sticky;
 position:fixed;
 }
 
-#search_bar.main-nav-bar-items-container{
+#search_bar,.main-nav-bar-items-container{
   display:inline-block;
 }
 
