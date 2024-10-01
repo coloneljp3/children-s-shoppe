@@ -38,10 +38,10 @@ res.send(`
 </form>
 <div class = "main-nav-bar-dropdown-container">
 <ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a><br>
 
 </ul>
 
@@ -57,10 +57,10 @@ res.send(`
 </form>
 <div class = "main-nav-bar-dropdown-container">
 <ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a><br>
 
 </ul>
 
@@ -71,15 +71,15 @@ res.send(`
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button type = "submit" id = "contac-button" class = "main-nav-bar-form-button"></button>
+<button type = "submit" id = "contac-button" class = "main-nav-bar-form-button">Lorem Ipsum</button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container">
 <ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a><br>
 
 </ul>
 
@@ -91,15 +91,15 @@ res.send(`
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button type = "submit" id = "home-button" class = "main-nav-bar-form-button"></button>
+<button type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem Ipsum</button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container">
 <ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a><br>
 
 </ul>
 
