@@ -16,10 +16,18 @@ position:fixed;
 .body-div{height:200px;width:100%}
 
 .dropdown-button{
-width:inherit;
-height:24%;
-color: white;
-background-color:#193821;
-font-family:Cormorant Garamond;
+width: inherit;
+    height: 24%;
+    color: white;
+    background-color: #193821;
+    font-family: Cormorant Garamond;
+    font-size: 20px;
+    font-weight: bold;
+    border-style: none;
 
+}
+
+.main-page-heading{
+font-family:Cormorant Garamond;
+  
 }
