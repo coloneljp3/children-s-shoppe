@@ -12,6 +12,7 @@ app.use('/',(req,res)=>{
 res.send(`
 <html>
 <head>
+<link rel = "stylesheet" href = "/styles.css"></link>
 <title>The Children's Shoppe</title>
 <meta></meta>
 </head>
