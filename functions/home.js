@@ -190,7 +190,7 @@ res.send(`
 
 
 
-`)
+`);})
 app.use('/.netlify/functions/home',router)
 
 module.exports.handler = serverless(app);
