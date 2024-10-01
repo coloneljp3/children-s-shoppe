@@ -7,6 +7,9 @@ top:sticky;
 position:fixed;
 }
 
-.main-nav-bar-items-container{
-  display:inline-block
+#search_bar.main-nav-bar-items-container{
+  display:inline-block;
 }
+
+.body-div{height:200px;width:100%}
+
