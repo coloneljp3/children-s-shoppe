@@ -32,9 +32,57 @@ res.send(`
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button type = "submit" id = "home-button" class = "main-nav-bar-form-button"></button>
+<button type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
 
 </form>
+<div class = "main-nav-bar-dropdown-container">
+<ul class = "main-nav-bar-dropdown">
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+
+</ul>
+
+</div>
+</span>
+
+<span class = "main-nav-bar-items-container">
+
+<form action = "" method = "POST" class = "main-nav-bar-form">
+
+<button type = "submit" id = "products-button" class = "main-nav-bar-form-button">Products</button>
+
+</form>
+<div class = "main-nav-bar-dropdown-container">
+<ul class = "main-nav-bar-dropdown">
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+
+</ul>
+
+</div>
+</span>
+
+<span class = "main-nav-bar-items-container">
+
+<form action = "" method = "POST" class = "main-nav-bar-form">
+
+<button type = "submit" id = "contac-button" class = "main-nav-bar-form-button"></button>
+
+</form>
+<div class = "main-nav-bar-dropdown-container">
+<ul class = "main-nav-bar-dropdown">
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+
+</ul>
+
+</div>
 
 </span>
 
@@ -57,36 +105,7 @@ res.send(`
 </div>
 </span>
 
-<span class = "main-nav-bar-items-container">
-
-<form action = "" method = "POST" class = "main-nav-bar-form">
-
-<button type = "submit" id = "home-button" class = "main-nav-bar-form-button"></button>
-
-</form>
-
-</span>
-
-<span class = "main-nav-bar-items-container">
-
-<form action = "" method = "POST" class = "main-nav-bar-form">
-
-<button type = "submit" id = "home-button" class = "main-nav-bar-form-button"></button>
-
-</form>
-<div class = "main-nav-bar-dropdown-container">
-<ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-
-</ul>
-
-</div>
-</span>
-
-<input id = "search-bar"></input>
+<input id = "search-bar" type = "search"/>
 
 
 
@@ -95,16 +114,77 @@ res.send(`
 
 </nav>
 </header>
-<body>
-<div id = "post-header-div" class = "body-div">
-<div><h1 id = "main-page-heading">The Children's Shoppe</h1></div>
 
+<body>
+
+<div id = "post-header-body-div-1" class = "body-div">
+
+<div>
+
+<h1 id = "main-page-heading">The Children's Shoppe</h1>
 
 </div>
 
 
-</body>
+</div>
 
+<div id = "post-header-body-div-2" class = "body-div">
+<span><img class = "product-images"></img><h2>Lorem Ipsum</h2><p>Lorem Ipsum</p></span>
+<span><img class = "product-images"></img><h2>Lorem Ipsum</h2><p>Lorem Ipsum</p></span>
+<span><img class = "product-images"></img><h2>Lorem Ipsum</h2><p>Lorem Ipsum</p></span>
+<span><img class = "product-images"></img><h2>Lorem Ipsum</h2><p>Lorem Ipsum</p></span>
+
+</div>
+
+</body>
+<footer>
+<span>
+<div class = "main-nav-bar-dropdown-container">
+<ul class = "main-nav-bar-dropdown">
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+
+</ul>
+
+</div>
+</span>
+
+<span>
+<div class = "main-nav-bar-dropdown-container">
+<ul class = "main-nav-bar-dropdown">
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+
+</ul>
+
+</div>
+</span>
+
+<span>
+<div class = "main-nav-bar-dropdown-container">
+<ul class = "main-nav-bar-dropdown">
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
+
+</ul>
+
+</div>
+</span>
+
+<span>
+<p>Lorem Ipsum</p>
+<span>|</span>
+<p>Lorem Ipsum</p>
+<span>|</span>
+<p>Lorem Ipsum</p>
+</span>
+</footer>
 </html>
 
 
