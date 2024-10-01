@@ -7,9 +7,19 @@ top:sticky;
 position:fixed;
 }
 
-#search_bar,.main-nav-bar-items-container{
+#search-bar,.main-nav-bar-items-container{
   display:inline-block;
+  font-family:Cormorant Garamond;
+  
 }
 
 .body-div{height:200px;width:100%}
 
+.dropdown-button{
+width:inherit;
+height:24%;
+color: white;
+background-color:#193821;
+font-family:Cormorant Garamond;
+
+}
