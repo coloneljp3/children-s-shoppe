@@ -125,11 +125,9 @@ res.send(`
 
 <div id = "post-header-body-div-1" class = "body-div">
 
-<div>
 
 <h1 id = "main-page-heading">The Children's Shoppe</h1>
 
-</div>
 
 
 </div>
