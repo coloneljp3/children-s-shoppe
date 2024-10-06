@@ -64,7 +64,7 @@ for(let i of dropDown){
 dropDown.style.height = '0px';    
 }
   else{
-    dropDown.style.height = 100%;
+    dropDown.style.height = '100%';
   }
   }
 }
