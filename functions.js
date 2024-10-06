@@ -37,3 +37,12 @@ function borderBottomAppear(id, color_1, color_2){
   var elem = document.getElementById(id);
 if(elem.style.borderBottomColor == color_1){
 elem.style.borderBottomColor = color_2;}else{elem.style.borderBottomColor = color_1;}}
+
+function dropDown(classname){
+var dropDown = document.getElementsByClassName(classname);
+for(let i of dropDown){
+dropDown.style.height = 100%  
+  }
+}
+
+
