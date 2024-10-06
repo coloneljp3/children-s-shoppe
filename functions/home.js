@@ -42,8 +42,9 @@ element.style.backgroundColor = color_1;
   
 };
 
-function fadeIn(id,visibility){
+function fadeIn(id,visibility,transition){
 var element = document.getElementById(id);
+element.style.transition = "visibility "+ transition;
 
   if(element.style.visiblity == "hidden")
   {element.style.visibility = "visible"}
