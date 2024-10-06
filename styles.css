@@ -13,6 +13,7 @@ text-align:center
 
 .dropdown-button-1, .dropdown-button-2, .dropdown-button-3, .dropdown-button-4{
 height:0px;
+width:0px;
 border-style:none;
 color:white;
 background-color:#193821
