@@ -15,7 +15,59 @@ res.send(`
 <link rel = "stylesheet" href = "/styles.css"></link>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<script src = "/functions.js" type = "text/javascript"></script>
+<script src = "/functions.js" type = "text/javascript">
+function colorChange(id, color_1, color_2){
+var element = document.getElementById(id);
+
+  if(element.style.color == color_1){
+
+    element.style.color = color_2;
+  }
+  else{
+element.style.color = color_1;
+    
+  }
+};
+
+function backColorChange(id, color_1,color_2){
+  var element = document.getElementById(id);
+   if(element.style.backgroundColor == color_1){
+
+    element.style.backgroundColor = color_2;
+  }
+  else{
+element.style.backgroundColor = color_1;
+    
+  }
+  
+};
+
+function fadeIn(id,visibility){
+var element = document.getElementById(id);
+
+  if(element.style.visiblity == "hidden")
+  {element.style.visibility = "visible"}
+
+  else{element.style.visiblity == "hidden"};
+};
+
+function borderBottomAppear(id, color_1, color_2){
+  var elem = document.getElementById(id);
+if(elem.style.borderBottomColor == color_1){
+elem.style.borderBottomColor = color_2;}else{elem.style.borderBottomColor = color_1;}}
+
+function dropDown(classname){
+var dropDown = document.getElementsByClassName(classname);
+for(let i of dropDown){
+  if(dropDown.style.height = '100%'){
+dropDown.style.height = '0px';    
+}
+  else{
+    dropDown.style.height = 100%;
+  }
+  }
+}
+</script>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
 <title>The Children's Shoppe</title>
@@ -145,10 +197,10 @@ res.send(`
 <footer>
 <div id = "footer-half-1">
 <span></span>
+<span></span>
 </div>
 
 <div id = "footer-half-2">
-<span></span>
 </div>
 </footer>
 </html>
