@@ -12,6 +12,7 @@ app.use('/',(req,res)=>{
 res.send(`
 <html>
 <head>
+<link rel = "stylesheet" href = "/styles.css"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <script src = "/functions.js" type = "text/javascript">
@@ -73,16 +74,7 @@ dropDown.style.height = '0px';
 <title>The Children's Shoppe</title>
 <meta></meta>
 </head>
-<style>
-#main-nav-bar{}
 
-.main-nav-bar-items-container{}
-
-#main-header{}
-
-
-
-</style>
 <header id = "main-header">
 <div style = "background-color:white;height:50%;width:100%"><img src = ""></img></div>
 <nav id = "main-nav-bar">
