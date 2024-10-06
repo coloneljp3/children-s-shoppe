@@ -51,8 +51,9 @@ width: inherit;
 }
 
 
-#post-header-body-div-2.span{
-  display:inline-block
+#post-header-body-div-2,#post-header-body-div-1{
+text-align:center;
+font-family:Cormorant Garamond;
 }
 
 #main-page-heading{
@@ -72,6 +73,7 @@ display:inline-block
 
 #footer-half-2,#footer-half-1{
 width:49%;
+display:inline-block;
 background-color:#193821;
 color:white;  
 }
