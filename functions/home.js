@@ -84,7 +84,7 @@ dropDown.style.height = '0px';
 
 </style>
 <header id = "main-header">
-<div style = "height:50%;width:100%"><img src = ""></img></div>
+<div style = "background-color:white;height:50%;width:100%"><img src = ""></img></div>
 <nav id = "main-nav-bar">
 
 <span class = "main-nav-bar-items-container">
