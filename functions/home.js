@@ -188,8 +188,88 @@ dropDown.style.height = '0px';
 </body>
 <footer>
 <div id = "footer-half-1">
-<span></span>
-<span></span>
+
+
+<span class = "main-nav-bar-items-container">
+
+<form action = "" method = "POST" class = "main-nav-bar-form">
+
+<button onmouseover = "dropDown('dropdown-button-5')" onmouseleave = "dropDown('dropdown-button-5')" type = "submit" class = "main-nav-bar-form-button">Contact</button>
+
+</form>
+<div class = "main-nav-bar-dropdown-container">
+<ul class = "main-nav-bar-dropdown">
+<a href = ""><button class = "dropdown-button-5">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-5">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-5">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-5">Lorem Ipsum</button></a><br>
+
+</ul>
+
+</div>
+</span>
+
+
+<span class = "main-nav-bar-items-container">
+
+<form action = "" method = "POST" class = "main-nav-bar-form">
+
+<button onmouseover = "dropDown('dropdown-button-6')" onmouseleave = "dropDown('dropdown-button-6')" type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
+
+</form>
+<div class = "main-nav-bar-dropdown-container">
+<ul class = "main-nav-bar-dropdown">
+<a href = ""><button class = "dropdown-button-6">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-6">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-6">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-6">Lorem Ipsum</button></a><br>
+
+</ul>
+
+</div>
+</span>
+
+<span class = "main-nav-bar-items-container">
+
+<form action = "" method = "POST" class = "main-nav-bar-form">
+
+<button onmouseover = "dropDown('dropdown-button-7')" onmouseleave = "dropDown('dropdown-button-7')" type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
+
+</form>
+<div class = "main-nav-bar-dropdown-container">
+<ul class = "main-nav-bar-dropdown">
+<a href = ""><button class = "dropdown-button-7">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-7">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-7">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-7">Lorem Ipsum</button></a><br>
+
+</ul>
+
+</div>
+</span>
+
+<span class = "main-nav-bar-items-container">
+
+<form action = "" method = "POST" class = "main-nav-bar-form">
+
+<button onmouseover = "dropDown('dropdown-button-8')" onmouseleave = "dropDown('dropdown-button-8')" type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
+
+</form>
+<div class = "main-nav-bar-dropdown-container">
+<ul class = "main-nav-bar-dropdown">
+<a href = ""><button class = "dropdown-button-8">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-8">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-8">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-8">Lorem Ipsum</button></a><br>
+
+</ul>
+
+</div>
+</span>
+
+
+
+
 </div>
 
 <div id = "footer-half-2">
