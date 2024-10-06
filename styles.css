@@ -61,3 +61,11 @@ footer.span{
 display:inline-block
   
 }
+
+#footer-half-2,#footer-half-1{
+width:49%;
+background-color:#193821;
+color:white;  
+}
+
+
