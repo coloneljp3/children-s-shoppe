@@ -214,7 +214,7 @@ dropDown.style.height = '0px';
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-6')" onmouseleave = "dropDown('dropdown-button-6')" type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
+<button onmouseover = "dropDown('dropdown-button-6')" onmouseleave = "dropDown('dropdown-button-6')" type = "submit"  class = "main-nav-bar-form-button">Contact</button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container">
@@ -233,7 +233,7 @@ dropDown.style.height = '0px';
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-7')" onmouseleave = "dropDown('dropdown-button-7')" type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
+<button onmouseover = "dropDown('dropdown-button-7')" onmouseleave = "dropDown('dropdown-button-7')" type = "submit"  class = "main-nav-bar-form-button">Contact</button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container">
@@ -252,7 +252,7 @@ dropDown.style.height = '0px';
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-8')" onmouseleave = "dropDown('dropdown-button-8')" type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
+<button onmouseover = "dropDown('dropdown-button-8')" onmouseleave = "dropDown('dropdown-button-8')" type = "submit"  class = "main-nav-bar-form-button">Contact</button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container">
