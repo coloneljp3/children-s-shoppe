@@ -142,49 +142,7 @@ res.send(`
 </div>
 
 </body>
-<footer>
 
-<div class = "main-footer-dropdown-container">
-<ul class = "main-footer-dropdown">
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-
-</ul>
-
-</div>
-
-<div class = "main-footer-dropdown-container">
-<ul class = "main-footer-dropdown">
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-
-</ul>
-
-</div>
-
-<div class = "main-footer-dropdown-container">
-<ul class = "main-footer-dropdown">
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-<a href = ""><button class = "dropdown-button">Lorem Ipsum</button></a>
-
-</ul>
-
-</div>
-
-<span>
-<p>Lorem Ipsum</p>
-<span>|</span>
-<p>Lorem Ipsum</p>
-<span>|</span>
-<p>Lorem Ipsum</p>
-</span>
-</footer>
 </html>
 
 
