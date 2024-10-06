@@ -12,7 +12,6 @@ app.use('/',(req,res)=>{
 res.send(`
 <html>
 <head>
-<link rel = "stylesheet" href = "/styles.css"></link>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <script src = "/functions.js" type = "text/javascript">
