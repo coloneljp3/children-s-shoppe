@@ -45,7 +45,7 @@ width: inherit;
 
 }
 
-#home-button.main-nav-bar-form-button:hover{
+#home-button.main-nav-bar-form-button{
   height:24%;
   font-size:20px;
 }
