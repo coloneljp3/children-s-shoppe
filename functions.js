@@ -41,11 +41,11 @@ elem.style.borderBottomColor = color_2;}else{elem.style.borderBottomColor = colo
 function dropDown(classname){
 var dropDown = document.getElementsByClassName(classname);
 for(let i of dropDown){
-  if(dropDown.style.height = '100%'){
-dropDown.style.height = '0px';    
+  if(i.style.height = '100%'){
+i.style.height = '0px';    
 }
   else{
-    dropDown.style.height = 100%;
+    i.style.height = 100%;
   }
   }
 }
