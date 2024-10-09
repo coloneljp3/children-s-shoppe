@@ -89,10 +89,10 @@ dropDown.style.height = '0px';
 </form>
 <div class = "main-nav-bar-dropdown-container">
 <ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-1">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-1">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-1">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-1">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
 
 </ul>
 
@@ -108,10 +108,10 @@ dropDown.style.height = '0px';
 </form>
 <div class = "main-nav-bar-dropdown-container">
 <ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-2">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-2">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-2">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-2">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-2">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-2">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-2">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-2">Lorem  </button></a><br>
 
 </ul>
 
@@ -122,15 +122,15 @@ dropDown.style.height = '0px';
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-3')" onmouseleave = "dropDown('dropdown-button-3')" type = "submit" id = "contac-button" class = "main-nav-bar-form-button">Lorem Ipsum</button>
+<button onmouseover = "dropDown('dropdown-button-3')" onmouseleave = "dropDown('dropdown-button-3')" type = "submit" id = "contac-button" class = "main-nav-bar-form-button">Lorem  </button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container">
 <ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-3">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-3">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-3">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-3">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-3">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-3">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-3">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-3">Lorem  </button></a><br>
 
 </ul>
 
@@ -142,15 +142,15 @@ dropDown.style.height = '0px';
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-4')" onmouseleave = "dropDown('dropdown-button-4')" type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem Ipsum</button>
+<button onmouseover = "dropDown('dropdown-button-4')" onmouseleave = "dropDown('dropdown-button-4')" type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem  </button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container">
 <ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-4">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-4">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-4">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-4">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-4">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-4">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-4">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-4">Lorem  </button></a><br>
 
 </ul>
 
@@ -161,15 +161,15 @@ dropDown.style.height = '0px';
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-5')" onmouseleave = "dropDown('dropdown-button-4')" type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem Ipsum</button>
+<button onmouseover = "dropDown('dropdown-button-5')" onmouseleave = "dropDown('dropdown-button-4')" type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem  </button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container">
 <ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-5">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-5">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-5">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-5">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-5">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-5">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-5">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-5">Lorem  </button></a><br>
 
 </ul>
 
@@ -180,15 +180,15 @@ dropDown.style.height = '0px';
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-6')" onmouseleave = "dropDown('dropdown-button-6')" type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem Ipsum</button>
+<button onmouseover = "dropDown('dropdown-button-6')" onmouseleave = "dropDown('dropdown-button-6')" type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem  </button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container">
 <ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-6">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-6">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-6">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-6">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-6">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-6">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-6">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-6">Lorem  </button></a><br>
 
 </ul>
 
@@ -217,10 +217,10 @@ dropDown.style.height = '0px';
 </div>
 
 <div id = "post-header-body-div-2" class = "body-div">
-<div class = "product-images-container"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem Ipsum</p></div>
-<div class = "product-images-container"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem Ipsum</p></div>
-<div class = "product-images-container"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem Ipsum</p></div>
-<div class = "product-images-container"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem Ipsum</p></div>
+<div class = "product-images-container"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
+<div class = "product-images-container"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
+<div class = "product-images-container"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
+<div class = "product-images-container"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
 
 </div>
 
@@ -240,10 +240,10 @@ dropDown.style.height = '0px';
 </form>
 <div class = "main-nav-bar-dropdown-container">
 <ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-7">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-7">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-7">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-7">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-7">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-7">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-7">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-7">Lorem  </button></a><br>
 
 </ul>
 
@@ -260,10 +260,10 @@ dropDown.style.height = '0px';
 </form>
 <div class = "main-nav-bar-dropdown-container">
 <ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-8">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-8">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-8">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-8">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-8">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-8">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-8">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-8">Lorem  </button></a><br>
 
 </ul>
 
@@ -279,10 +279,10 @@ dropDown.style.height = '0px';
 </form>
 <div class = "main-nav-bar-dropdown-container">
 <ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-9">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-9">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-9">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-9">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-9">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-9">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-9">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-9">Lorem  </button></a><br>
 
 </ul>
 
@@ -298,10 +298,10 @@ dropDown.style.height = '0px';
 </form>
 <div class = "main-nav-bar-dropdown-container">
 <ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-10">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-10">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-10">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-10">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-10">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-10">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-10">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-10">Lorem  </button></a><br>
 
 </ul>
 
