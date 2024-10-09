@@ -78,7 +78,8 @@ dropDown.style.height = '0px';
 <header id = "main-header">
 <div style = "background-color:white;height:50%;width:100%"><img src = ""></img></div>
 <nav id = "main-nav-bar">
-
+<div id = "main-nav-bar-top-half"></div>
+<div id = "main-nav-bar-bottom-half">
 <span class = "main-nav-bar-items-container">
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
@@ -198,7 +199,7 @@ dropDown.style.height = '0px';
 
 
 
-
+</div>
 
 
 </nav>
