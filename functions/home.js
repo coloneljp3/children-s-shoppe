@@ -178,10 +178,10 @@ dropDown.style.height = '0px';
 </div>
 
 <div id = "post-header-body-div-2" class = "body-div">
-<span><img class = "product-images"></img><h2>Lorem Ipsum</h2><p>Lorem Ipsum</p></span>
-<span><img class = "product-images"></img><h2>Lorem Ipsum</h2><p>Lorem Ipsum</p></span>
-<span><img class = "product-images"></img><h2>Lorem Ipsum</h2><p>Lorem Ipsum</p></span>
-<span><img class = "product-images"></img><h2>Lorem Ipsum</h2><p>Lorem Ipsum</p></span>
+<span class = "product-images-container"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem Ipsum</p></span>
+<span class = "product-images-container"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem Ipsum</p></span>
+<span class = "product-images-container"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem Ipsum</p></span>
+<span class = "product-images-container"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem Ipsum</p></span>
 
 </div>
 
