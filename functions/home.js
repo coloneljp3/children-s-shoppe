@@ -186,7 +186,9 @@ dropDown.style.height = '0px';
 </div>
 
 </body>
-<footer>
+
+
+<footer style = "position:relative">
 <div id = "footer-half-1">
 
 
