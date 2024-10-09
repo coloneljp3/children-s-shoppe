@@ -9,7 +9,6 @@ text-align:center
 display:inline-block;
 font-family:Cormorant Garamond;
 width:49%;
-opacity:100%
 transition:"opacity 1.5s"
   
 }
@@ -56,7 +55,6 @@ width: inherit;
 }
 
 #home-button.main-nav-bar-form-button{
-  height:24%;
   font-size:20px;
 }
 
