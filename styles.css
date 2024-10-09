@@ -5,6 +5,15 @@ background-color:#193821;
 text-align:center
 }
 
+.product-image-container{
+display:inline-block;
+font-family:Cormorant Garamond;
+width:49%;
+opacity:100%
+transition:"opacity 1.5s"
+  
+}
+
 #search-bar,.main-nav-bar-items-container{
   display:inline-block;
   font-family:Cormorant Garamond;
