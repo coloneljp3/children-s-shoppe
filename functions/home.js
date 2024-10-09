@@ -216,10 +216,10 @@ dropDown.style.height = '0px';
 </div>
 
 <div id = "post-header-body-div-2" class = "body-div">
-<span class = "product-images-container"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem Ipsum</p></span>
-<span class = "product-images-container"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem Ipsum</p></span>
-<span class = "product-images-container"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem Ipsum</p></span>
-<span class = "product-images-container"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem Ipsum</p></span>
+<div class = "product-images-container"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem Ipsum</p></div>
+<div class = "product-images-container"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem Ipsum</p></div>
+<div class = "product-images-container"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem Ipsum</p></div>
+<div class = "product-images-container"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem Ipsum</p></div>
 
 </div>
 
@@ -234,46 +234,7 @@ dropDown.style.height = '0px';
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-5')" onmouseleave = "dropDown('dropdown-button-5')" type = "submit" class = "main-nav-bar-form-button">Contact</button>
-
-</form>
-<div class = "main-nav-bar-dropdown-container">
-<ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-5">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-5">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-5">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-5">Lorem Ipsum</button></a><br>
-
-</ul>
-
-</div>
-</span>
-
-
-<span class = "main-nav-bar-items-container">
-
-<form action = "" method = "POST" class = "main-nav-bar-form">
-
-<button onmouseover = "dropDown('dropdown-button-6')" onmouseleave = "dropDown('dropdown-button-6')" type = "submit"  class = "main-nav-bar-form-button">Contact</button>
-
-</form>
-<div class = "main-nav-bar-dropdown-container">
-<ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-6">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-6">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-6">Lorem Ipsum</button></a><br>
-<a href = ""><button class = "dropdown-button-6">Lorem Ipsum</button></a><br>
-
-</ul>
-
-</div>
-</span>
-
-<span class = "main-nav-bar-items-container">
-
-<form action = "" method = "POST" class = "main-nav-bar-form">
-
-<button onmouseover = "dropDown('dropdown-button-7')" onmouseleave = "dropDown('dropdown-button-7')" type = "submit"  class = "main-nav-bar-form-button">Contact</button>
+<button onmouseover = "dropDown('dropdown-button-7')" onmouseleave = "dropDown('dropdown-button-7')" type = "submit" class = "main-nav-bar-form-button">Contact</button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container">
@@ -287,6 +248,7 @@ dropDown.style.height = '0px';
 
 </div>
 </span>
+
 
 <span class = "main-nav-bar-items-container">
 
@@ -301,6 +263,44 @@ dropDown.style.height = '0px';
 <a href = ""><button class = "dropdown-button-8">Lorem Ipsum</button></a><br>
 <a href = ""><button class = "dropdown-button-8">Lorem Ipsum</button></a><br>
 <a href = ""><button class = "dropdown-button-8">Lorem Ipsum</button></a><br>
+
+</ul>
+
+</div>
+</span>
+
+<span class = "main-nav-bar-items-container">
+
+<form action = "" method = "POST" class = "main-nav-bar-form">
+
+<button onmouseover = "dropDown('dropdown-button-9')" onmouseleave = "dropDown('dropdown-button-9')" type = "submit"  class = "main-nav-bar-form-button">Contact</button>
+
+</form>
+<div class = "main-nav-bar-dropdown-container">
+<ul class = "main-nav-bar-dropdown">
+<a href = ""><button class = "dropdown-button-9">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-9">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-9">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-9">Lorem Ipsum</button></a><br>
+
+</ul>
+
+</div>
+</span>
+
+<span class = "main-nav-bar-items-container">
+
+<form action = "" method = "POST" class = "main-nav-bar-form">
+
+<button onmouseover = "dropDown('dropdown-button-10')" onmouseleave = "dropDown('dropdown-button-10')" type = "submit"  class = "main-nav-bar-form-button">Contact</button>
+
+</form>
+<div class = "main-nav-bar-dropdown-container">
+<ul class = "main-nav-bar-dropdown">
+<a href = ""><button class = "dropdown-button-10">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-10">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-10">Lorem Ipsum</button></a><br>
+<a href = ""><button class = "dropdown-button-10">Lorem Ipsum</button></a><br>
 
 </ul>
 
