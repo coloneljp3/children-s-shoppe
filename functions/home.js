@@ -263,7 +263,7 @@ res.send(`
 
 <div id = "footer-half-2">
 <div class = "social-media-image-container"><img src = "/facebook.svg" class = "social-media-image"></img></div>
-<div class = "social-media-image-container"><a class = "social-media-image" href="https://www.flaticon.com/free-icons/twitter-x" title="twitter x icons">Twitter x icons created by khulqi Rosyid - Flaticon</a></div>
+<div class = "social-media-image-container"><img src = "/twitter.png"></img></div>
 <div class = "social-media-image-container"><img class = "social-media-image"></img></div>
 </div>
 </footer>
