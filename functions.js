@@ -41,7 +41,7 @@ elem.style.borderBottomColor = color_2;}else{elem.style.borderBottomColor = colo
 function dropDown(classname){
 var dropDown = document.getElementsByClassName(classname);
 for(let i of dropDown){
-  if(i.style.height = '100%'){
+  if(i.style.height = '100%' && i.style.width = "100%" && i.style.visibility = "visible"){
 i.style.height = '0px';
 i.style.width = '0px';
 i.style.visibility = "hidden";
