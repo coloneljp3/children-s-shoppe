@@ -15,6 +15,10 @@ height:500px;
 transition:"opacity 1.5s"
   
 }
+.main-nav-bar-dropdown-container{
+position:absolute;
+  
+}
 
 #search-bar,.main-nav-bar-items-container{
   display:inline-block;
