@@ -30,12 +30,15 @@ width:0px;
 border-style:none;
 visibility:hidden;
 color:white;
-background-color:#193821
+background-color:#193821;
+font-size:20px
 }
 
 .dropdown-button-7,.dropdown-button-8,.dropdown-button-9,.dropdown-button-10{
 color:white;
-background-color:#193821
+background-color:#193821;
+border-style:none;
+font-size:20px;
   
 }
 
