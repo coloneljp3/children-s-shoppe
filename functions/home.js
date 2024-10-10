@@ -80,6 +80,8 @@ dropDown.style.height = '0px';
 <nav id = "main-nav-bar">
 <div id = "main-nav-bar-top-half"></div>
 <div id = "main-nav-bar-bottom-half">
+<input id = "search-bar" type = "search"/>
+
 <span class = "main-nav-bar-items-container">
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
@@ -185,17 +187,15 @@ dropDown.style.height = '0px';
 </form>
 <div class = "main-nav-bar-dropdown-container">
 <ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-6">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-6">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-6">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-6">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-6">Lorem</button></a><br>
+<a href = ""><button class = "dropdown-button-6">Lorem</button></a><br>
+<a href = ""><button class = "dropdown-button-6">Lorem</button></a><br>
+<a href = ""><button class = "dropdown-button-6">Lorem</button></a><br>
 
 </ul>
 
 </div>
 </span>
-
-<input id = "search-bar" type = "search"/>
 
 
 
