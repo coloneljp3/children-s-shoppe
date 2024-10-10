@@ -16,58 +16,6 @@ res.send(`
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <script src = "/functions.js" type = "text/javascript">
-function colorChange(id, color_1, color_2){
-var element = document.getElementById(id);
-
-  if(element.style.color == color_1){
-
-    element.style.color = color_2;
-  }
-  else{
-element.style.color = color_1;
-    
-  }
-};
-
-function backColorChange(id, color_1,color_2){
-  var element = document.getElementById(id);
-   if(element.style.backgroundColor == color_1){
-
-    element.style.backgroundColor = color_2;
-  }
-  else{
-element.style.backgroundColor = color_1;
-    
-  }
-  
-};
-
-function fadeIn(id,visibility,transition){
-var element = document.getElementById(id);
-element.style.transition = "visibility "+ transition;
-
-  if(element.style.visiblity == "hidden")
-  {element.style.visibility = "visible"}
-
-  else{element.style.visiblity == "hidden"};
-};
-
-function borderBottomAppear(id, color_1, color_2){
-  var elem = document.getElementById(id);
-if(elem.style.borderBottomColor == color_1){
-elem.style.borderBottomColor = color_2;}else{elem.style.borderBottomColor = color_1;}}
-
-function dropDown(classname){
-var dropDown = document.getElementsByClassName(classname);
-for(let i of dropDown){
-  if(dropDown.style.height = '100%'){
-dropDown.style.height = '0px';    
-}
-  else{
-    dropDown.style.height = '100%';
-  }
-  }
-}
 </script>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
@@ -80,7 +28,7 @@ dropDown.style.height = '0px';
 <nav id = "main-nav-bar">
 <div id = "main-nav-bar-top-half"></div>
 <div id = "main-nav-bar-bottom-half">
-<input id = "search-bar" type = "search"/>
+<input id = "search-bar" type = "search"/><br/>
 
 <span class = "main-nav-bar-items-container">
 
