@@ -24,13 +24,13 @@ element.style.backgroundColor = color_1;
   
 };
 
-function fadeIn(id,visibility,transition){
+function fadeIn(id,transition){
 var element = document.getElementById(id);
 element.style.transition = "visibility "+ transition;
   if(element.style.visiblity == "hidden")
   {element.style.visibility = "visible"}
 
-  else{element.style.visiblity == "hidden"};
+  
 };
 
 function borderBottomAppear(id, color_1, color_2){
