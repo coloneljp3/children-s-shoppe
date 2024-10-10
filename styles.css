@@ -48,6 +48,7 @@ background-color:#193821
 .dropdown-button{
 width: inherit;
     height: 0px;
+  visibility:hidden;
     color: white;
     background-color: #193821;
     font-family: Cormorant Garamond;
