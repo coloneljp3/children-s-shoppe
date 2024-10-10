@@ -48,8 +48,8 @@ i.style.visibility = "hidden";
 }
   else{
     i.style.visibility = "visible"
-    i.style.width = 100%;
-    i.style.height = 100%;
+    i.style.width = "100%";
+    i.style.height = "100%";
   }
   }
 }
