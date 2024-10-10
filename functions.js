@@ -39,7 +39,7 @@ if(elem.style.borderBottomColor == color_1){
 elem.style.borderBottomColor = color_2;}else{elem.style.borderBottomColor = color_1;}}
 
 function dropDown(classname){
-var dropDown = Object.keys(document.getElementsByClassName(classname));
+var dropDown = document.getElementsByClassName(classname);
 for(let i of dropDown){
   if(i.style.height = '100%'){
 i.style.height = '0px';
