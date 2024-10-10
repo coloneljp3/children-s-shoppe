@@ -314,6 +314,9 @@ dropDown.style.height = '0px';
 </div>
 
 <div id = "footer-half-2">
+<div class = "social-media-image-container"><img class = "social-media-image"></img></div>
+<div class = "social-media-image-container"><img class = "social-media-image"></img></div>
+<div class = "social-media-image-container"><img class = "social-media-image"></img></div>
 </div>
 </footer>
 </html>
