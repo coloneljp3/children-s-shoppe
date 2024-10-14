@@ -24,7 +24,11 @@ res.send(`
 </head>
 
 <header id = "main-header">
-<div style = "background-color:white;height:50%;width:100%"><img src = ""></img></div>
+<div style = "background-color:white;height:50%;width:100%">
+
+<img onload = "imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1','https://childrensshoppe.netlify.app/pic_2'])" id = "image-slider" src = ""></img>
+
+</div>
 <nav id = "main-nav-bar">
 <div id = "main-nav-bar-top-half"></div>
 <div id = "main-nav-bar-bottom-half">
