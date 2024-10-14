@@ -160,7 +160,9 @@ res.send(`
 
 <h1 id = "main-page-heading">The Children's Shoppe</h1>
 
-
+<img class = "image-slider-image" src = ""></img>
+<img class = "image-slider-image" src = ""></img>
+<img class = "image-slider-image" src = ""></img>
 
 </div>
 
