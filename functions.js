@@ -63,10 +63,10 @@ var image = document.getElementById(id);
 for(let i of urlList){
   setTimeOut(
 image.style.src = i;
-,2000)
-}
+,2000);
+};
 
-  imageSlide(classname, urlList)
+  imageSlide(classname, urlList);
 }
 
 
