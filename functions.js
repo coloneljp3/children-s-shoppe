@@ -61,9 +61,7 @@ i.style.visibility = "hidden";
 function imageSlide(id,urlList){
 var image = document.getElementById(id);
 for(let i of urlList){
-  setTimeout(
 image.src = i;
-,2000);
 };
 
   imageSlide(classname, urlList);
