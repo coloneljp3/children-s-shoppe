@@ -103,4 +103,11 @@ height:50px
   
 }
 
+.image-slider-image{
+z-index:-1;
+width:0px;
+height:0px;
+visibility:hidden;
 
+  
+}
