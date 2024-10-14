@@ -26,7 +26,7 @@ res.send(`
 <header id = "main-header">
 <div style = "background-color:white;height:50%;width:100%">
 
-<img onload = "imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg'])" id = "image-slider" src = ""></img>
+<img src = ""></img>
 
 </div>
 <nav id = "main-nav-bar">
@@ -164,9 +164,8 @@ res.send(`
 
 <h1 id = "main-page-heading">The Children's Shoppe</h1>
 
-<img class = "image-slider-image" src = ""></img>
-<img class = "image-slider-image" src = ""></img>
-<img class = "image-slider-image" src = ""></img>
+<img onload = "imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg'])" id = "image-slider" ></img>
+
 
 </div>
 
