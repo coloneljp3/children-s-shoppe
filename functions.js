@@ -58,16 +58,15 @@ i.style.visibility = "hidden";
   }
 }
 
-function imageSlide(classname){
-var imageList = document.getElementsByClassName(classname);
-for(let i of imageList){
+function imageSlide(id,urlList){
+var image = document.getElementById(id);
+for(let i of urlList){
   setTimeOut(
-i.style.width = 100%;
-i.style.height = 100%;
-i.style.visibility = "visible";
+image.src = i;
 ,2000)
 }
-  
+
+  imageSlide(classname, urlList)
 }
 
 
