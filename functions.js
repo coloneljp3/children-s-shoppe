@@ -60,7 +60,13 @@ i.style.visibility = "hidden";
 
 function imageSlide(classname){
 var imageList = document.getElementsByClassName(classname);
-  
+for(let i of imageList){
+  setTimeOut(
+i.style.width = 100%;
+i.style.height = 100%;
+i.style.visibility = "visible";
+,2000)
+}
   
 }
 
