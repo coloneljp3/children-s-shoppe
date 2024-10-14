@@ -103,6 +103,11 @@ height:50px
   
 }
 
+.social-media-image-container{
+display:inline-block;
+  
+}
+
 .image-slider-image{
 z-index:-1;
 width:0px;
