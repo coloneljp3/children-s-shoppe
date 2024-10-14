@@ -62,7 +62,7 @@ function imageSlide(id,urlList){
 var image = document.getElementById(id);
 for(let i of urlList){
   setTimeout(
-image.style.src = i;
+image.src = i;
 ,2000);
 };
 
