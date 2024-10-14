@@ -34,10 +34,10 @@ res.send(`
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-1')" onmouseleave = "revDropDown('dropdown-button-1')" type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
+<button onmouseover = "dropDown('dropdown-button-1')"  type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
 
 </form>
-<div class = "main-nav-bar-dropdown-container">
+<div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-1')">
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
@@ -53,10 +53,10 @@ res.send(`
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-2')" onmouseleave = "revDropDown('dropdown-button-2')" type = "submit" id = "products-button" class = "main-nav-bar-form-button">Products</button>
+<button onmouseover = "dropDown('dropdown-button-2')"  type = "submit" id = "products-button" class = "main-nav-bar-form-button">Products</button>
 
 </form>
-<div class = "main-nav-bar-dropdown-container">
+<div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-2')">
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-2">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-2">Lorem  </button></a><br>
@@ -72,10 +72,10 @@ res.send(`
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-3')" onmouseleave = "revDropDown('dropdown-button-3')" type = "submit" id = "contac-button" class = "main-nav-bar-form-button">Lorem  </button>
+<button onmouseover = "dropDown('dropdown-button-3')"  type = "submit" id = "contac-button" class = "main-nav-bar-form-button">Lorem  </button>
 
 </form>
-<div class = "main-nav-bar-dropdown-container">
+<div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-3')">
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-3">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-3">Lorem  </button></a><br>
@@ -92,10 +92,10 @@ res.send(`
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-4')" onmouseleave = "revDropDown('dropdown-button-4')" type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem  </button>
+<button onmouseover = "dropDown('dropdown-button-4')"  type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem  </button>
 
 </form>
-<div class = "main-nav-bar-dropdown-container">
+<div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-4')">
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-4">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-4">Lorem  </button></a><br>
@@ -111,10 +111,10 @@ res.send(`
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-5')" onmouseleave = "revDropDown('dropdown-button-4')" type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem  </button>
+<button onmouseover = "dropDown('dropdown-button-5')"  type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem  </button>
 
 </form>
-<div class = "main-nav-bar-dropdown-container">
+<div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-4')">
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-5">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-5">Lorem  </button></a><br>
@@ -130,10 +130,10 @@ res.send(`
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-6')" onmouseleave = "revDropDown('dropdown-button-6')" type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem  </button>
+<button onmouseover = "dropDown('dropdown-button-6')"  type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem  </button>
 
 </form>
-<div class = "main-nav-bar-dropdown-container">
+<div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-6')">
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-6">Lorem</button></a><br>
 <a href = ""><button class = "dropdown-button-6">Lorem</button></a><br>
@@ -183,10 +183,10 @@ res.send(`
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-7')" onmouseleave = "revDropDown('dropdown-button-7')" type = "submit" class = "main-nav-bar-form-button">Contact</button>
+<button onmouseover = "dropDown('dropdown-button-7')" type = "submit" class = "main-nav-bar-form-button">Contact</button>
 
 </form>
-<div class = "main-nav-bar-dropdown-container">
+<div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-7')" >
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-7">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-7">Lorem  </button></a><br>
@@ -203,10 +203,10 @@ res.send(`
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-8')" onmouseleave = "revDropDown('dropdown-button-8')" type = "submit"  class = "main-nav-bar-form-button">Contact</button>
+<button onmouseover = "dropDown('dropdown-button-8')" type = "submit"  class = "main-nav-bar-form-button">Contact</button>
 
 </form>
-<div class = "main-nav-bar-dropdown-container">
+<div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-8')" >
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-8">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-8">Lorem  </button></a><br>
@@ -222,10 +222,10 @@ res.send(`
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-9')" onmouseleave = "revDropDown('dropdown-button-9')" type = "submit"  class = "main-nav-bar-form-button">Contact</button>
+<button onmouseover = "dropDown('dropdown-button-9')"  type = "submit"  class = "main-nav-bar-form-button">Contact</button>
 
 </form>
-<div class = "main-nav-bar-dropdown-container">
+<div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-9')">
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-9">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-9">Lorem  </button></a><br>
@@ -241,10 +241,10 @@ res.send(`
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-10')" onmouseleave = "revDropDown('dropdown-button-10')" type = "submit"  class = "main-nav-bar-form-button">Contact</button>
+<button onmouseover = "dropDown('dropdown-button-10')" type = "submit"  class = "main-nav-bar-form-button">Contact</button>
 
 </form>
-<div class = "main-nav-bar-dropdown-container">
+<div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-10')" >
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-10">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-10">Lorem  </button></a><br>
