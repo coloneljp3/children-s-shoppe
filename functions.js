@@ -58,4 +58,10 @@ i.style.visibility = "hidden";
   }
 }
 
+function imageSlide(classname){
+var imageList = document.getElementsByClassName(classname);
+  
+  
+}
+
 
