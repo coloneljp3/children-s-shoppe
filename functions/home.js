@@ -269,7 +269,7 @@ res.send(`
 <div id = "footer-half-2">
 <div class = "social-media-image-container"><img src = "/facebook.svg" class = "social-media-image"></img></div>
 <div class = "social-media-image-container"><img class = "social-media-image"src = "/twitter.png"></img></div>
-<div class = "social-media-image-container"><img class = "social-media-image"></img></div>
+<div class = "social-media-image-container"><img class = "social-media-image" src = "/insta-icon.png"></img></div>
 </div>
 </footer>
 <div id = "product-selection">
