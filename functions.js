@@ -79,7 +79,7 @@ document.getElementById('product-selection').innerHTML = xml.responseText;
 xml.open('GET','https://chidrensshoppe.netlify.app/products.xml','true');
   xml.setRequestHeader('X-Request-With','XMLHttpRequest');
   xml.setRequestHeader('Access-Control-Allow-Origin','https://chidrensshoppe.netlify.app');
-  xml.setRequestHeader('Content-Type','application/json');
+  xml.setRequestHeader('Content-Type','text/xml');
 
 xml.send()
   
