@@ -273,7 +273,7 @@ res.send(`
 </div>
 </footer>
 <div id = "product-selection">
-<div onclick = "productFilter()"><button>dddddd</button></div>
+<div onclick = "productFilter()" style = 'width:100px;height:100px'><button>dddddd</button></div>
 </div>
 
 </html>
