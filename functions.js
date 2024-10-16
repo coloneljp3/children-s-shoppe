@@ -67,4 +67,16 @@ image.src = i;
   imageSlide(classname, urlList);
 }
 
+function productFilter(){
+var xml = new XMLHttpRequest();
 
+xml.onreadystatechange = ()=>{
+  if(this.status == 200 && this.readyState == 4){
+
+    
+  };
+};
+xml.open('GET','https://chidrensshoppe.netlify.app/products.xml','true');
+xml.send()
+  
+}
