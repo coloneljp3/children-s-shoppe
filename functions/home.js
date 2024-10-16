@@ -272,6 +272,10 @@ res.send(`
 <div class = "social-media-image-container"><img class = "social-media-image"></img></div>
 </div>
 </footer>
+<div id = "product-selection">
+<div onclick = "productFilter()"><button>dddddd</button></div>
+</div>
+
 </html>
 
 
