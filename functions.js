@@ -65,7 +65,7 @@ for(let i of urlList){
 image.src = i;
 };
 
-  imageSlide(classname, urlList);
+  imageSlide(id, urlList);
 }
 
 function productFilter(){
