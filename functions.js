@@ -77,10 +77,7 @@ document.getElementById('product-selection').innerHTML = xml.responseText;
   };
 };
 xml.open('GET','https://chidrensshoppe.netlify.app/products.xml','true');
-  xml.setRequestHeader('X-Request-With','XMLHttpRequest');
-  xml.setRequestHeader('Access-Origin-Access-Control','*');
     xml.setRequestHeader('Access-Control-Allow-Origin','*');
-  xml.setRequestHeader('Content-Type','text/xml');
 
 xml.send()
   
