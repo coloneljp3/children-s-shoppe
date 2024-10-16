@@ -69,7 +69,8 @@ image.src = i;
 
 function productFilter(){
 var xml = new XMLHttpRequest();
-
+xml.setRequestHeader('X-Request-With','XMLHttpRequest');
+xml.setRequestHeader('Access-Control-Allow-Origin','*');
 xml.onreadystatechange = ()=>{
   if(this.status == 200 && this.readyState == 4){
 document.getElementById('product-selection').innerHTML = xml.responseText
