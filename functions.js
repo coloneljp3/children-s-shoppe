@@ -11,9 +11,8 @@ element.style.color = color_1;
   }
 };
 
-function propChange(id,property,value,transition){
+function propChange(id,property,value){
 var element = document.getElementById(id);
-element.style.transition += transition;
 element.style.property = value;
   
 }
