@@ -53,7 +53,8 @@ color:white;
 background-color: #a3b8c8;
 display:inline-block;
 width:33%;
-text-align:center
+text-align:center;
+transition:"color 2s, background-color 2s"
 }
 
 #post-header-body-div-3{width:100%;
