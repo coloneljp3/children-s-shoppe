@@ -3,7 +3,7 @@
 #main-header{
 width:100%;
 height:300px;
-background-color:#193821;
+background-color:#a3b8c8;
 text-align:center
 }
 
@@ -34,7 +34,7 @@ width:0px;
 border-style:none;
 visibility:hidden;
 color:white;
-background-color:#193821;
+background-color:#a3b8c8;
 font-size:20px
 }
 
@@ -45,7 +45,7 @@ font-size:20px
 .body-div{width:100%}
 
 .main-nav-bar-form-button{    color: white;
-    background-color: #193821;
+    background-color: #a3b8c8;
     font-family: Cormorant Garamond;
     font-size: 20px;
     font-weight: bold;
@@ -56,7 +56,7 @@ font-size:20px
 width: inherit;
     height: 0px;
     color: white;
-    background-color: #193821;
+    background-color: #a3b8c8;
     font-family: Cormorant Garamond;
     font-size: 0px;
     font-weight: bold;
@@ -92,7 +92,7 @@ display:inline-block
 #footer-half-2,#footer-half-1{
 width:49%;
 display:inline-block;
-background-color:#193821;
+background-color:#a3b8c8;
 color:white;  
 }
 
