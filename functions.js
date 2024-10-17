@@ -13,7 +13,7 @@ element.style.color = color_1;
 
 function propChange(id,property,value){
 var element = document.getElementById(id);
-element.style.property = value;
+document.getElementById(id).style.property = value;
   
 }
 
