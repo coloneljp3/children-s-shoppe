@@ -27,6 +27,13 @@ position:absolute;
   
 }
 
+.home-info-paragraph{
+font-family:Cormorant Garamond;
+color:white;
+background-color:#a3b8c8
+  
+}
+
 .dropdown-button-1, .dropdown-button-2, .dropdown-button-3, .dropdown-button-4,.dropdown-button-5,
 .dropdown-button-6,.dropdown-button-7,.dropdown-button-8,.dropdown-button-9,.dropdown-button-10{
 height:0px;
@@ -40,7 +47,13 @@ font-size:20px
 
 
 #post-header-body-div-1{height:500px;background-image:url('')}
+.home-info{
+font-family: Cormorant Garamond;
+color:white;
+background-color: #a3b8c8;
+display:inline-block
 
+}
 
 .body-div{width:100%}
 
@@ -121,4 +134,5 @@ transistion:"visibility 1s"
 height:350px;
 width:100%;
   
+
 }
