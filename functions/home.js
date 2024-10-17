@@ -180,8 +180,8 @@ imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1.jpg','http
 </div>
 
 <div id = "post-header-body-div-3" class = "body-div">
-<div onmouseover = "propChange('home-info-1','backgroundColor','white', 'background-color 2s');propChange('home-info-1','color','#a3b8c8', 'color 2s')
-" onmouseleave = "propChange('home-info-1','backgroundColor','#a3b8c8', 'background-color 2s');propChange('home-info-1','color','white', 'color 2s')
+<div onmouseover = "propChange('home-info-1','backgroundColor','white');propChange('home-info-1','color','#a3b8c8')
+" onmouseleave = "propChange('home-info-1','backgroundColor','#a3b8c8');propChange('home-info-1','color','white')
 " id = "home-info-1" class = "home-info">
 <h2 class = "secondary-headings" id = "home-info-1-secondary-headings">About Us</h2>
 <p class = "home-info-paragraph" id = "home-info-paragraph-1">Lorem Ipsum</p>
