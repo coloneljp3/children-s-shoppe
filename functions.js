@@ -11,6 +11,13 @@ element.style.color = color_1;
   }
 };
 
+function propChange(id, property,value ,transition){
+var element = document.getElementById(id);
+element.style.transition = transition;
+element.style.property = value;
+  
+}
+
 function backColorChange(id, color_1,color_2){
   var element = document.getElementById(id);
    if(element.style.backgroundColor == color_1){
