@@ -1,5 +1,8 @@
 #main-nav-bar-top-half{width:100%;height:20%}
-
+.main-nav-bar-dropdown{
+transition:visibility 2s;
+  
+}
 #main-header{
 width:100%;
 height:300px;
