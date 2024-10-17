@@ -180,15 +180,15 @@ imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1.jpg','http
 </div>
 
 <div id = "post-header-body-div-3" class = "body-div">
-<div onmouseover = "propChange('color','#a3b8c8');propChange('backgroundColor','white');propChange('borderStyle','solid');propChange('borderColor','#a3b8c8')" onmouseleave = "this.style.backgroundColor = '#a3b8c8'; this.style.color = 'white'" id = "home-info-1" class = "home-info">
+<div onmouseover = "this.style.backgroundColor = '#a3b8c8'; this.style.color = 'white';this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.backgroundColor = '#a3b8c8'; this.style.color = 'white';this.style.borderStyle = 'none';this.style.borderColor = 'white'" id = "home-info-1" class = "home-info">
 <h2 class = "secondary-headings" id = "home-info-1-secondary-headings">About Us</h2>
 <p class = "home-info-paragraph" id = "home-info-paragraph-1">Lorem Ipsum</p>
 </div>
-<div onmouseover = "this.style.backgroundColor = 'white';this.style.color = '#a3b8c8'" onmouseleave = "this.style.backgroundColor = '#a3b8c8'; this.style.color = 'white'"id = "home-info-2" class = "home-info">
+<div onmouseover = "this.style.backgroundColor = 'white';this.style.color = '#a3b8c8';this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.backgroundColor = '#a3b8c8'; this.style.color = 'white; this.style.color = 'white';this.style.borderStyle = 'none';this.style.borderColor = 'white''"id = "home-info-2" class = "home-info">
 <h2 class = "secondary-headings" id = "home-info-2-secondary-headings">About Us</h2>
 <p class = "home-info-paragraph" id = "home-info-paragraph-2">Lorem Ipsum</p>
 </div>
-<div onmouseover = "this.style.backgroundColor = 'white';this.style.color = '#a3b8c8'" onmouseleave = "this.style.backgroundColor = '#a3b8c8'; this.style.color = 'white'" id = "home-info-3" class = "home-info">
+<div onmouseover = "this.style.backgroundColor = 'white';this.style.color = '#a3b8c8';this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.backgroundColor = '#a3b8c8'; this.style.color = 'white'; this.style.color = 'white';this.style.borderStyle = 'none';this.style.borderColor = 'white'" id = "home-info-3" class = "home-info">
 <h2 class = "secondary-headings" id = "home-info-3-secondary-headings">About Us</h2>
 <p class = "home-info-paragraph" id = "home-info-paragraph-3">Lorem Ipsum</p>
 </div>
