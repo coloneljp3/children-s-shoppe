@@ -11,10 +11,8 @@ element.style.color = color_1;
   }
 };
 
-function propChange(id,property,value){
-var element = document.getElementById(id);
-document.getElementById(id).style.property = value;
-  
+function propChange(property,value){
+this.style.property = value; 
 }
 
 function backColorChange(id, color_1,color_2){
