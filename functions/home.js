@@ -43,8 +43,8 @@ imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1.jpg','http
 <button onmouseover = "dropDown('dropdown-button-1')"  type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
 
 </form>
-<div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-1')">
-<ul class = "main-nav-bar-dropdown">
+<div class = "main-nav-bar-dropdown-container">
+<ul class = "main-nav-bar-dropdown" onmouseleave = "revDropDown('dropdown-button-1')" >
 <a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
@@ -179,7 +179,24 @@ imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1.jpg','http
 
 </div>
 
+<div id = "post-header-body-div-3" class = "body-div">
+<div id = "home-info-1" class = "home-info">
+<h2 class = "secondary-headings" id = "home-info-1-secondary-headings">About Us</h2>
+<p class = "home-info-paragraph" id = "home-info-paragraph-1">Lorem Ipsum</p>
+</div>
+<div id = "home-info-2" class = "home-info">
+<h2 class = "secondary-headings" id = "home-info-2-secondary-headings">About Us</h2>
+<p class = "home-info-paragraph" id = "home-info-paragraph-2">Lorem Ipsum</p>
+</div>
+<div id = "home-info-3" class = "home-info">
+<h2 class = "secondary-headings" id = "home-info-3-secondary-headings">About Us</h2>
+<p class = "home-info-paragraph" id = "home-info-paragraph-3">Lorem Ipsum</p>
+</div>
+
+
+</div>
 </body>
+
 
 
 <footer style = "position:relative">
