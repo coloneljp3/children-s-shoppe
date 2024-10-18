@@ -295,6 +295,6 @@ Lorem Ipsum
 
 
 `);})
-app.use('/.netlify/functions/products',router)
+app.use('/products',router)
 
 module.exports.handler = serverless(app);
