@@ -172,10 +172,10 @@ imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1.jpg','http
 </div>
 
 <div id = "post-header-body-div-2" class = "body-div">
-<div class = "product-images-container" id = "product-images-container-1" onmouseover = "fadeIn('product-images-container-1',1s)"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
-<div class = "product-images-container" id = "product-images-container-2" onmouseover = "fadeIn('product-images-container-2',1s)"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
-<div class = "product-images-container" id = "product-images-container-3" onmouseover = "fadeIn('product-images-container-3',1s)"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
-<div class = "product-images-container" id = "product-images-container-4" onmouseover = "fadeIn('product-images-container-4',1s)"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
+<div class = "product-images-container" id = "product-images-container-1" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
+<div class = "product-images-container" id = "product-images-container-2" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
+<div class = "product-images-container" id = "product-images-container-3" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
+<div class = "product-images-container" id = "product-images-container-4" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
 
 </div>
 
