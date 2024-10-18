@@ -38,13 +38,11 @@ imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1.jpg','http
 
 <span class = "main-nav-bar-items-container">
 
-<form action = "" method = "POST" class = "main-nav-bar-form">
+<form action = "" method = "POST" class = "main-nav-bar-form" onmouseleave = "revDropDown('dropdown-button-1')">
 
-<button onmouseover = "dropDown('dropdown-button-1')"  type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
-
-</form>
+<button onmouseover = "dropDown('dropdown-button-1')"type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
 <div class = "main-nav-bar-dropdown-container">
-<ul class = "main-nav-bar-dropdown" onmouseleave = "revDropDown('dropdown-button-1')" >
+<ul class = "main-nav-bar-dropdown" onmouseenter = "dropDown('dropdown-button-1')"  >
 <a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
@@ -53,13 +51,15 @@ imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1.jpg','http
 </ul>
 
 </div>
+</form>
+
 </span>
 
 <span class = "main-nav-bar-items-container">
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-2')"  type = "submit" id = "products-button" class = "main-nav-bar-form-button">Products</button>
+<button onmouseover = "dropDown('dropdown-button-2')" onmouseleave =  type = "submit" id = "products-button" class = "main-nav-bar-form-button">Products</button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-2')">
