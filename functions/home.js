@@ -164,7 +164,7 @@ imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1.jpg','http
 <div id = "post-header-body-div-1" class = "body-div">
 
 
-<h1 id = "main-page-heading">The Children's Shoppe</h1>
+<h1 id = "main-page-heading" onload = "this.style.visibility = 'visible'">The Children's Shoppe</h1>
 
 <img id = "image-slider" ></img>
 
