@@ -12,6 +12,14 @@ app.use('/',(req,res)=>{
 res.send(`
 <html>
 <head>
+<style>.product-images-container{
+display:inline-block;
+font-family:Cormorant Garamond;
+width:49%;
+height:300px;
+transition:"borderStyle 1s"
+  
+}</style>
 <link rel = "stylesheet" href = "/styles.css"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -179,22 +187,6 @@ imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1.jpg','http
 
 </div>
 
-<div id = "post-header-body-div-3" class = "body-div">
-<div onmouseover = "this.style.backgroundColor = 'white';this.style.color = '#a3b8c8';this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.backgroundColor = '#a3b8c8'; this.style.color = 'white'; this.style.color = 'white';this.style.borderStyle = 'none';this.style.borderColor = 'white'" id = "home-info-1" class = "home-info">
-<h2 class = "secondary-headings" id = "home-info-1-secondary-headings">About Us</h2>
-Lorem Ipsum
-</div>
-<div onmouseover = "this.style.backgroundColor = 'white';this.style.color = '#a3b8c8';this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.backgroundColor = '#a3b8c8'; this.style.color = 'white'; this.style.color = 'white';this.style.borderStyle = 'none';this.style.borderColor = 'white'"id = "home-info-2" class = "home-info">
-<h2 class = "secondary-headings" id = "home-info-2-secondary-headings">About Us</h2>
-Lorem Ipsum
-</div>
-<div onmouseover = "this.style.backgroundColor = 'white';this.style.color = '#a3b8c8';this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.backgroundColor = '#a3b8c8'; this.style.color = 'white'; this.style.color = 'white';this.style.borderStyle = 'none';this.style.borderColor = 'white'" id = "home-info-3" class = "home-info">
-<h2 class = "secondary-headings" id = "home-info-3-secondary-headings">About Us</h2>
-Lorem Ipsum
-</div>
-
-
-</div>
 </body>
 
 
