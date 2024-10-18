@@ -51,10 +51,10 @@ imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1.jpg','http
 <button onmouseover = "dropDown('dropdown-button-1')"type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
 <div class = "main-nav-bar-dropdown-container">
 <ul class = "main-nav-bar-dropdown" onmouseenter = "dropDown('dropdown-button-1')"  >
-<a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-1">Lorem</button></a><br>
+<a href = ""><button class = "dropdown-button-1">Lorem</button></a><br>
+<a href = ""><button class = "dropdown-button-1">Lorem</button></a><br>
+<a href = ""><button class = "dropdown-button-1">Lorem</button></a><br>
 
 </ul>
 
