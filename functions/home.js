@@ -289,9 +289,7 @@ Lorem Ipsum
 <div class = "social-media-image-container"><img class = "social-media-image" src = "/insta-icon.png"></img></div>
 </div>
 </footer>
-<div id = "product-selection">
-<div onclick = "productFilter()" style = 'width:100px;height:100px'><button>dddddd</button></div>
-</div>
+
 </html>
 
 
