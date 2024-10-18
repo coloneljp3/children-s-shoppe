@@ -34,7 +34,126 @@ imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1.jpg','http
 <nav id = "main-nav-bar">
 <div id = "main-nav-bar-top-half"></div>
 <div id = "main-nav-bar-bottom-half">
-<input id = "search-bar" type = "search"/><br/>
+<script>
+window.onload = (event) =>{
+document.getElementById('search').style.width = '350px';
+}
+window.onclick = (event) =>{
+document.getElementById('options').innerHTML = '';
+}
+    
+var search_list = {
+"CLOTHES":"",
+"SHIRTS":"",
+"PANTS":"", 
+"TOPS":"",
+"BOTTOMS":"",
+"HATS":"",
+"TOYS":"",
+"SWEATSHIRTS":""
+
+        }
+function searchReq(){
+  document.getElementById('options').innerHTML = '';
+var val = document.getElementById('search').value;
+var list = Object.keys(search_list);
+
+for(let i of list){
+
+if(i.includes(val.toUpperCase())){
+    var elem = document.createElement('div');
+    var a = document.createElement('a');
+    var but = document.createElement('button')
+    
+    a.className = 'search_op';
+    elem.className = 'search_op';
+but.style.fontFamily = 'Helvetica'
+but.style.color = "white";
+but.style.borderColor = "#a3b8c8"
+but.style.backgroundColor = "#a3b8c8";
+but.style.borderRadius = "10px"
+but.style.fontWeight = "bold";
+but.style.margin = "0px";
+but.style.display = "block"
+but.style.height = "50px";
+but.style.width= "275px";
+a.style.position = "absolute"
+    elem.style.visibility = "visible";
+    a.style.visibility = "visible";
+    elem.style.height = "50px";
+    a.style.height = "50px" 
+    a.href = list[i];
+	a.append(but)
+    but.append(i);
+
+    elem.appendChild(a);
+    document.getElementById('options').append(elem);
+
+
+}
+
+
+
+}
+
+}
+</script>
+<style>
+:hover:-moz-placeholder{
+    color:rgba(0, 0, 120, 0.8)
+    
+  } 
+  
+  :hover::-webkit-input-placeholder { 
+    color:rgba(0, 0, 120, 0.8)}
+  
+  :hover:-ms-input-placeholder { 
+    color:rgba(0, 0, 120, 0.8)}
+  
+  :hover::-moz-placeholder{ 
+    color:rgba(0, 0, 120, 0.8)}
+  
+  
+  
+  
+a{
+text-decoration:none
+}
+
+	#options{position:absolute;z-index:1}
+#search{
+border-radius:25px;
+font-family:Cormorant Garamond;
+width:0px;
+display:inline-block;
+height:50px;
+text-align:center;
+border-color:white;
+transition:width 1s;
+border-style:solid}
+</style>
+  
+<svg onclick = "
+
+var width = document.getElementById('search');
+if(width.style.width == '0px'){
+width.style.width = '350px';
+}
+else{
+width.style.width = '0px'}
+
+
+" style = "width:30px;height:20px;display:inline-block;">
+<circle cx = 8 cy = 8 stroke-width = 3 stroke = "white" fill = "none" r = 6></circle>
+<polyline points = "12 12 20 20 " stroke-width = 3 stroke = "white" fill = "none"></polyline>
+</svg>
+<input placeholder = "Search for info about AIMLS 2024 Conference"  onkeyup = "searchReq()" id  = "search" type = "search" />
+
+<div style = "position:relative"> 
+    
+<div id = "options"></div>
+
+</div><br/>
 
 <span class = "main-nav-bar-items-container">
 
