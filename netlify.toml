@@ -7,8 +7,8 @@ command = "npm run"
   to = "/.netlify/functions/home"
   status = 200
 [[redirects]]
-  from = "/services"
-  to = "/.netlify/functions/services"
+  from = "/products"
+  to = "/.netlify/functions/products"
   status = 200
 [[redirects]]
 
