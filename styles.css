@@ -56,6 +56,7 @@ color:white;
 background-color: #a3b8c8;
 display:inline-block;
 width:32.3%;
+height:300px;
 text-align:center;
 transition:color 1s, background-color 1s
 }
