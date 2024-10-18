@@ -294,7 +294,7 @@ Lorem Ipsum
 <div id = "product-selection">
 <div onclick = "productFilter()" style = 'width:100px;height:100px'><button>dddddd</button></div>
 </div>
-
+<script>document.getElementById('main-page-heading').style.visibility = 'visible'</script>
 </html>
 
 
