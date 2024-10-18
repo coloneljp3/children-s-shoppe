@@ -201,15 +201,11 @@ Lorem Ipsum
 
 <footer style = "position:relative">
 <div id = "footer-half-1">
-
-
 <span class = "main-nav-bar-items-container">
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
 <button onmouseover = "dropDown('dropdown-button-7')" type = "submit" class = "main-nav-bar-form-button">Contact</button>
-
-</form>
 <div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-7')" >
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-7">Lorem  </button></a><br>
@@ -220,6 +216,8 @@ Lorem Ipsum
 </ul>
 
 </div>
+</form>
+
 </span>
 
 
@@ -294,7 +292,6 @@ Lorem Ipsum
 <div id = "product-selection">
 <div onclick = "productFilter()" style = 'width:100px;height:100px'><button>dddddd</button></div>
 </div>
-<script>document.getElementById('main-page-heading').style.visibility = 'visible'</script>
 </html>
 
 
