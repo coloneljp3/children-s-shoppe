@@ -147,7 +147,7 @@ width.style.width = '0px'}
 <circle cx = 8 cy = 8 stroke-width = 3 stroke = "white" fill = "none" r = 6></circle>
 <polyline points = "12 12 20 20 " stroke-width = 3 stroke = "white" fill = "none"></polyline>
 </svg>
-<input placeholder = "Search for info about AIMLS 2024 Conference"  onkeyup = "searchReq()" id  = "search" type = "search" />
+<input placeholder = "Search for info about The Children's Shoppe"  onkeyup = "searchReq()" id  = "search" type = "search" />
 
 <div style = "position:relative"> 
     
