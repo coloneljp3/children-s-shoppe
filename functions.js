@@ -82,8 +82,6 @@ document.getElementById('product-selection').innerHTML = xml.responseText;
   };
 };
 xml.open('GET','https://chidrensshoppe.netlify.app/products.xml','true');
-  xml.setRequestHeader('Access-Control-Request-Headers','*')
-
-xml.send()
+xml.send();
   
 }
