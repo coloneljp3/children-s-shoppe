@@ -83,7 +83,8 @@ document.getElementById('product-selection').innerHTML = xml.responseText;
 };
 xml.open('GET','https://chidrensshoppe.netlify.app/products.xml','true');
 xml.setRequestHeader('Access-Control-Allow-Headers','Access-Control-Allow-Origin');
-xml.setRequestHeader('Access-Control-Allow-Origin','*')
+xml.setRequestHeader('Access-Control-Allow-Origin','*');
+xml.setRequestHeader('Content-Type','application/xml')
 
 xml.send();
   
