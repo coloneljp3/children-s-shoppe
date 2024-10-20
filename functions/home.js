@@ -32,8 +32,7 @@ imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1.jpg','http
 
 </div>
 <nav id = "main-nav-bar">
-<div id = "main-nav-bar-top-half"></div>
-<div id = "main-nav-bar-bottom-half">
+<div id = "main-nav-bar-top-half">
 <script>
 window.onload = (event) =>{
 document.getElementById('search').style.width = '350px';
@@ -120,7 +119,7 @@ a{
 text-decoration:none
 }
 
-	#options{position:absolute;z-index:1}
+	#options{position:absolute;z-index:1;width:50%;margin:auto;}
 #search{
 border-radius:25px;
 font-family:Cormorant Garamond;
@@ -154,6 +153,9 @@ width.style.width = '0px'}
 <div id = "options"></div>
 
 </div><br/>
+</div>
+<div id = "main-nav-bar-bottom-half">
+
 
 <span class = "main-nav-bar-items-container">
 
@@ -341,12 +343,6 @@ Lorem Ipsum
 
 
 <span class = "main-nav-bar-items-container">
-
-<form action = "" method = "POST" class = "main-nav-bar-form">
-
-<button onmouseover = "dropDown('dropdown-button-8')" type = "submit"  class = "main-nav-bar-form-button">Contact</button>
-
-</form>
 <div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-8')" >
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-8">Lorem  </button></a><br>
@@ -357,15 +353,15 @@ Lorem Ipsum
 </ul>
 
 </div>
+<form action = "" method = "POST" class = "main-nav-bar-form">
+
+<button onmouseover = "dropDown('dropdown-button-8')" type = "submit"  class = "main-nav-bar-form-button">Contact</button>
+
+</form>
+
 </span>
 
 <span class = "main-nav-bar-items-container">
-
-<form action = "" method = "POST" class = "main-nav-bar-form">
-
-<button onmouseover = "dropDown('dropdown-button-9')"  type = "submit"  class = "main-nav-bar-form-button">Contact</button>
-
-</form>
 <div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-9')">
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-9">Lorem  </button></a><br>
@@ -376,15 +372,15 @@ Lorem Ipsum
 </ul>
 
 </div>
+<form action = "" method = "POST" class = "main-nav-bar-form">
+
+<button onmouseover = "dropDown('dropdown-button-9')"  type = "submit"  class = "main-nav-bar-form-button">Contact</button>
+
+</form>
+
 </span>
 
 <span class = "main-nav-bar-items-container">
-
-<form action = "" method = "POST" class = "main-nav-bar-form">
-
-<button onmouseover = "dropDown('dropdown-button-10')" type = "submit"  class = "main-nav-bar-form-button">Contact</button>
-
-</form>
 <div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-10')" >
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-10">Lorem  </button></a><br>
@@ -395,6 +391,12 @@ Lorem Ipsum
 </ul>
 
 </div>
+<form action = "" method = "POST" class = "main-nav-bar-form">
+
+<button onmouseover = "dropDown('dropdown-button-10')" type = "submit"  class = "main-nav-bar-form-button">Contact</button>
+
+</form>
+
 </span>
 
 
