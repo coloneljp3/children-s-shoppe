@@ -49,6 +49,15 @@ for(let i of dropDown){
 i.style.height = '100%';
 i.style.width = '100%';
 i.style.visibility = "visible";
+i.addEventListener('mouseover',(event)=>{
+this.style.borderBottomStyle = 'solid';
+this.style.borderColor = 'white'
+  
+});
+i.addEventListener('mouseleave',(event)=>{
+this.style.borderBottomStyle = 'none';
+
+});
   }
 }
 
@@ -66,10 +75,10 @@ function imageSlide(id,urlList){
 var image = document.getElementById(id);
 for(let i of urlList){
   console.log(i)
-setTimeout(image.src = i,4000)
+image.src = i
 };
 
-  imageSlide(id, urlList);
+  setTimeout(imageSlide(id, urlList),4000);
 }
 
 function productFilter(){
