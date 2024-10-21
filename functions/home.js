@@ -321,7 +321,7 @@ Lorem Ipsum
 
 
 <footer style = "position:relative">
-<div id = "footer-half-1">
+<div style = "width:49%;color:white;background-color:#a3b8c8;display:inline-block">
 <span class = "main-nav-bar-items-container">
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
@@ -404,7 +404,7 @@ Lorem Ipsum
 
 </div>
 
-<div id = "footer-half-2">
+<div style = "width:49%;color:white;background-color:#a3b8c8;display:inline-block">
 <p>dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</p>
 </div>
 </footer>
