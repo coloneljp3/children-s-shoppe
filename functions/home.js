@@ -20,9 +20,12 @@ res.send(`
 imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg'])
 </script>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
+<meta charset = "utf-8">
+<meta http-equiv = "X-UA-Compatible" content = "IE=edge,chrome=1">
+<meta name="author" content = "The Children's Shoppe">
+<meta name = "description" content = "The Children's Shoppe is the best children's toy, clothing, and furniture store in Ruston, Louisiana.">
+<meta name = "generator" content = "The Children's Shoppe">
 <title>The Children's Shoppe</title>
-<meta></meta>
 </head>
 
 <header id = "main-header">
@@ -66,7 +69,7 @@ if(i.includes(val.toUpperCase())){
     
     a.className = 'search_op';
     elem.className = 'search_op';
-but.style.fontFamily = 'Helvetica'
+but.style.fontFamily = 'Cormorant Garamond'
 but.style.color = "white";
 but.style.borderColor = "#a3b8c8"
 but.style.backgroundColor = "#a3b8c8";
@@ -124,6 +127,8 @@ text-decoration:none
 border-radius:25px;
 font-family:Cormorant Garamond;
 width:0px;
+border-style:solid;
+border-color:#a3b8c8;
 display:inline-block;
 height:50px;
 text-align:center;
