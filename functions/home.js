@@ -325,7 +325,7 @@ Lorem Ipsum
 
 
 
-<footer style = "position:relative">
+<footer style = "position:relative;background-color:#a3b8c8;">
 <div style = "width:49%;color:white;background-color:#a3b8c8;display:inline-block">
 <span class = "main-nav-bar-items-container">
 
@@ -410,8 +410,9 @@ Lorem Ipsum
 </div>
 
 <div style = "width:49%;color:white;background-color:#a3b8c8;display:inline-block">
-<p>dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</p>
-</div>
+<div class = "social-media-image-container"><a href = ""><img src = "/facebook.svg" class = "social-media-image"></img></a></div>
+<div class = "social-media-image-container"><a href = ""><img class = "social-media-image"src = "/twitter.png"></img></a></div>
+<div class = "social-media-image-container"><a href = ""><img class = "social-media-image" src = "/insta-icon.png"></img></a></div></div>
 </footer>
 
 </html>
@@ -420,7 +421,5 @@ Lorem Ipsum
 
 `);})
 app.use('/.netlify/functions/home',router)
-//<div class = "social-media-image-container"><img src = "/facebook.svg" class = "social-media-image"></img></div>
-//<div class = "social-media-image-container"><img class = "social-media-image"src = "/twitter.png"></img></div>
-//<div class = "social-media-image-container"><img class = "social-media-image" src = "/insta-icon.png"></img></div>
+
 module.exports.handler = serverless(app);
