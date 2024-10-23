@@ -285,7 +285,33 @@ width.style.width = '0px'}
 </nav>
 </header>
 
-<body></body>
+<body>
+<div>
+<h2>Mission Statement</h2>
+<p></p>
+</div>
+
+
+<div id = "body-div-2">
+<h2>About Us</h2>
+<div class = "contact-div-info">
+<img class = "contact-div-info-image"></img>
+<div>
+
+<h2>Name</h2>
+<h3>Role</h3>
+<h2>Biography</h2>
+<p></p>
+
+</div>
+</div>
+
+</div>
+
+
+
+
+</body>
 
 
 <footer style = "position:relative;background-color:#a3b8c8;">
