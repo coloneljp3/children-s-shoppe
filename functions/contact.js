@@ -301,10 +301,40 @@ width.style.width = '0px'}
 <h2>Name</h2>
 <h3>Role</h3>
 <h2>Biography</h2>
-<p></p>
+<p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+<br></br><br/><br/><br/><br/></p>
 
 </div>
 </div>
+<br/><br/>
+<div class = "contact-div-info">
+<img class = "contact-div-info-image"></img>
+<div>
+
+<h2>Name</h2>
+<h3>Role</h3>
+<h2>Biography</h2>
+<p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+<br></br><br/><br/><br/><br/></p>
+
+</div>
+</div>
+
+<br/><br/>
+<div class = "contact-div-info">
+<img class = "contact-div-info-image"></img>
+<div>
+
+<h2>Name</h2>
+<h3>Role</h3>
+<h2>Biography</h2>
+<p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+<br></br><br/><br/><br/><br/>
+</p>
+
+</div>
+</div>
+
 
 </div>
 
