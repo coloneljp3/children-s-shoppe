@@ -151,6 +151,23 @@ font-family:Cormorant Garamond;
 background-color:#a3b8c8;
 color:white;
 border-radius:15px;
+  text-align:center;
+
 
   
+}
+
+.contact-div-info-image{
+display:inline-block;
+height:100%;
+width:20%
+  
+}
+
+.right-content{
+display:inline-block;
+height:100%;
+width:79%;
+background-color:#a3b8c8;
+text-align:center;  
 }
