@@ -160,7 +160,8 @@ border-radius:15px;
 .contact-div-info-image{
 display:inline-block;
 height:100%;
-width:20%
+width:20%;
+border-radius:50%
   
 }
 
