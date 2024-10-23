@@ -296,7 +296,7 @@ width.style.width = '0px'}
 <h2>About Us</h2>
 <div class = "contact-div-info">
 <img class = "contact-div-info-image"></img>
-<div>
+<div class = "right-contact">
 
 <h2>Name</h2>
 <h3>Role</h3>
@@ -309,7 +309,7 @@ width.style.width = '0px'}
 <br/><br/>
 <div class = "contact-div-info">
 <img class = "contact-div-info-image"></img>
-<div>
+<div class = "right-contact">
 
 <h2>Name</h2>
 <h3>Role</h3>
@@ -323,7 +323,7 @@ width.style.width = '0px'}
 <br/><br/>
 <div class = "contact-div-info">
 <img class = "contact-div-info-image"></img>
-<div>
+<div class = "right-contact">
 
 <h2>Name</h2>
 <h3>Role</h3>
