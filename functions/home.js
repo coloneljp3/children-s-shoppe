@@ -162,9 +162,9 @@ width.style.width = '0px'}
 <div id = "main-nav-bar-bottom-half">
 
 
-<span class = "main-nav-bar-items-container">
+<span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-1')">
 
-<form action = "" method = "POST" class = "main-nav-bar-form" onmouseleave = "revDropDown('dropdown-button-1')">
+<form action = "" method = "POST" class = "main-nav-bar-form">
 
 <button onmouseover = "dropDown('dropdown-button-1')"type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
 <div class = "main-nav-bar-dropdown-container">
@@ -181,14 +181,14 @@ width.style.width = '0px'}
 
 </span>
 
-<span class = "main-nav-bar-items-container">
+<span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-2')">
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-2')" onmouseleave =  type = "submit" id = "products-button" class = "main-nav-bar-form-button">Products</button>
+<button onmouseover = "dropDown('dropdown-button-2')"  type = "submit" id = "products-button" class = "main-nav-bar-form-button">Products</button>
 
 </form>
-<div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-2')">
+<div class = "main-nav-bar-dropdown-container" >
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-2">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-2">Lorem  </button></a><br>
@@ -200,14 +200,14 @@ width.style.width = '0px'}
 </div>
 </span>
 
-<span class = "main-nav-bar-items-container">
+<span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-3')">
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
 <button onmouseover = "dropDown('dropdown-button-3')"  type = "submit" id = "contac-button" class = "main-nav-bar-form-button">Lorem  </button>
 
 </form>
-<div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-3')">
+<div class = "main-nav-bar-dropdown-container" >
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-3">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-3">Lorem  </button></a><br>
@@ -220,14 +220,14 @@ width.style.width = '0px'}
 
 </span>
 
-<span class = "main-nav-bar-items-container">
+<span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-4')">
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
 <button onmouseover = "dropDown('dropdown-button-4')"  type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem  </button>
 
 </form>
-<div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-4')">
+<div class = "main-nav-bar-dropdown-container" >
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-4">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-4">Lorem  </button></a><br>
@@ -239,14 +239,14 @@ width.style.width = '0px'}
 </div>
 </span>
 
-<span class = "main-nav-bar-items-container">
+<span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-5')">
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
 <button onmouseover = "dropDown('dropdown-button-5')"  type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem  </button>
 
 </form>
-<div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-4')">
+<div class = "main-nav-bar-dropdown-container" >
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-5">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-5">Lorem  </button></a><br>
@@ -258,14 +258,14 @@ width.style.width = '0px'}
 </div>
 </span>
 
-<span class = "main-nav-bar-items-container">
+<span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-6')">
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
 <button onmouseover = "dropDown('dropdown-button-6')"  type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem  </button>
 
 </form>
-<div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-6')">
+<div class = "main-nav-bar-dropdown-container" >
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-6">Lorem</button></a><br>
 <a href = ""><button class = "dropdown-button-6">Lorem</button></a><br>
@@ -347,8 +347,8 @@ Lorem Ipsum
 </span>
 
 
-<span class = "main-nav-bar-items-container">
-<div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-8')" >
+<span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-8')">
+<div class = "main-nav-bar-dropdown-container" >
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-8">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-8">Lorem  </button></a><br>
@@ -366,8 +366,8 @@ Lorem Ipsum
 
 </span>
 
-<span class = "main-nav-bar-items-container">
-<div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-9')">
+<span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-9')">
+<div class = "main-nav-bar-dropdown-container">
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-9">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-9">Lorem  </button></a><br>
@@ -385,8 +385,8 @@ Lorem Ipsum
 
 </span>
 
-<span class = "main-nav-bar-items-container">
-<div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-10')" >
+<span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-10')">
+<div class = "main-nav-bar-dropdown-container" >
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-10">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-10">Lorem  </button></a><br>
