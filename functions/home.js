@@ -327,12 +327,12 @@ Lorem Ipsum
 
 <footer style = "position:relative;background-color:#a3b8c8;">
 <div style = "width:49%;color:white;background-color:#a3b8c8;display:inline-block">
-<span class = "main-nav-bar-items-container">
+<span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-7')" >
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
 <button onmouseover = "dropDown('dropdown-button-7')" type = "submit" class = "main-nav-bar-form-button">Contact</button>
-<div class = "main-nav-bar-dropdown-container" onmouseleave = "revDropDown('dropdown-button-7')" >
+<div class = "main-nav-bar-dropdown-container" >
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-7">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-7">Lorem  </button></a><br>
@@ -411,8 +411,8 @@ Lorem Ipsum
 
 <div style = "width:49%;color:white;background-color:#a3b8c8;display:inline-block">
 <div class = "social-media-image-container"><a href = ""><img src = "/facebook.svg" class = "social-media-image"></img></a></div>
-<div class = "social-media-image-container"><a href = ""><img class = "social-media-image"src = "/twitter.png"></img></a></div>
-<div class = "social-media-image-container"><a href = ""><img class = "social-media-image" src = "/insta-icon.png"></img></a></div></div>
+<div class = "social-media-image-container"><a href = ""><img src = "/twitter.png" class = "social-media-image"></img></a></div>
+<div class = "social-media-image-container"><a href = ""><img src = "/insta-icon.png" class = "social-media-image" ></img></a></div></div>
 </footer>
 
 </html>
