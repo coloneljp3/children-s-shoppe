@@ -290,7 +290,7 @@ width.style.width = '0px'}
 <h2 style = "text-align:center;font-family:Cormorant Garamond">Mission Statement</h2>
 <p></p>
 </div>
-
+<div id = "1-body-div"></div>
 
 <div id = "body-div-2">
 <h2 style = "text-align:center;font-family:Cormorant Garamond">About Us</h2>
@@ -445,7 +445,7 @@ width.style.width = '0px'}
 <br>
 <br>
 
-<p></p>
+<p style = "text-align:center;width:100%;font-family:Cormorant Garamond;">Hephty Solutions | All Rights Reserved</p>
 </div>
 </footer>
 
