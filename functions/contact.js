@@ -290,10 +290,12 @@ width.style.width = '0px'}
 <h2 style = "text-align:center;font-family:Cormorant Garamond">Mission Statement</h2>
 <p></p>
 </div>
-<div id = "1-body-div"></div>
 
-<div id = "body-div-2">
 <h2 style = "text-align:center;font-family:Cormorant Garamond">About Us</h2>
+
+<div id = "1-body-div"></div>
+<div id = "body-div-2">
+
 <div onmouseleave = "this.style.backgroundColor = #a3b8c8;this.style.color = white;this.style.borderStyle = none"onmouseover = "this.style.backgroundColor = white;this.style.color = #a3b8c8;this.style.borderColor = #a3b8c8;this.style.borderStyle = solid" class = "contact-div-info">
 <img class = "contact-div-info-image"></img>
 <div class = "right-contact">
