@@ -419,10 +419,7 @@ Lorem Ipsum
 
 </div>
 
-<div style = "width:49%;color:white;background-color:#a3b8c8;display:inline-block">
-<div class = "social-media-image-container"><a href = ""><img src = "/facebook.svg" class = "social-media-image"></img></a></div>
-<div class = "social-media-image-container"><a href = ""><img src = "/twitter.png" class = "social-media-image"></img></a></div>
-<div class = "social-media-image-container"><a href = ""><img src = "/insta-icon.png" class = "social-media-image" ></img></a></div></div>
+
 <div>
 <br>
 <br>
@@ -436,7 +433,11 @@ Lorem Ipsum
 <br>
 <br>
 
-<p style = "text-align:center;width:100%;font-family:Cormorant Garamond;color:white;background-color:#a3b8c8">Hephty Solutions | All Rights Reserved</p>
+<p style = "display:inline-block;text-align:center;width:100%;font-family:Cormorant Garamond;color:white;background-color:#a3b8c8">Hephty Solutions | All Rights Reserved</p>
+<div style = "width:49%;color:white;background-color:#a3b8c8;display:inline-block">
+<div class = "social-media-image-container"><a href = ""><img src = "/facebook.svg" class = "social-media-image"></img></a></div>
+<div class = "social-media-image-container"><a href = ""><img src = "/twitter.png" class = "social-media-image"></img></a></div>
+<div class = "social-media-image-container"><a href = ""><img src = "/insta-icon.png" class = "social-media-image" ></img></a></div></div>
 </div>
 </footer>
 
