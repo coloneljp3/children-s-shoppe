@@ -40,7 +40,7 @@ background-color:#a3b8c8
 }
 
 .dropdown-button-1, .dropdown-button-2, .dropdown-button-3, .dropdown-button-4,.dropdown-button-5,
-.dropdown-button-6,.dropdown-button-7,.dropdown-button-8,.dropdown-button-9,.dropdown-button-10{
+.dropdown-button-6{
 height:0px;
 width:0px;
 border-style:none;
@@ -49,7 +49,17 @@ color:white;
 background-color:#7f8e9a;
 font-size:20px
 }
+.dropdown-button-7,.dropdown-button-8,.dropdown-button-9,.dropdown-button-10{
+height:0px;
+width:0px;
+border-style:none;
+visibility:hidden;
+color:white;
+background-color:#2d6087;
+font-size:20px
 
+  
+}
 
 #post-header-body-div-1{height:500px;background-image:url('')}
 .home-info{
