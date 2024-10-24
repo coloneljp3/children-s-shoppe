@@ -445,7 +445,7 @@ width.style.width = '0px'}
 <br>
 <br>
 
-<p style = "text-align:center;width:100%;font-family:Cormorant Garamond;">Hephty Solutions | All Rights Reserved</p>
+<p style = "text-align:center;width:100%;font-family:Cormorant Garamond;color:white;background-color:#a3b8c8">Hephty Solutions | All Rights Reserved</p>
 </div>
 </footer>
 
