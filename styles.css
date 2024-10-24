@@ -150,7 +150,8 @@ width:100%;
 font-family:Cormorant Garamond;
 background-color:#a3b8c8;
 color:white;
-border-radius:15px;
+border-radius:25px;
+height:100px;
   text-align:center;
 
 
@@ -167,7 +168,7 @@ border-radius:50%
 
 .right-content{
 display:inline-block;
-height:75px;
+height:150px;
 width:79%;
 background-color:#a3b8c8;
 text-align:center;  
