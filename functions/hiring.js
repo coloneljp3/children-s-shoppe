@@ -376,6 +376,21 @@ width.style.width = '0px'}
 <div class = "social-media-image-container"><a href = ""><img src = "/facebook.svg" class = "social-media-image"></img></a></div>
 <div class = "social-media-image-container"><a href = ""><img class = "social-media-image"src = "/twitter.png"></img></a></div>
 <div class = "social-media-image-container"><a href = ""><img class = "social-media-image" src = "/insta-icon.png"></img></a></div></div>
+<div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p style = "text-align:center;width:100%;font-family:Cormorant Garamond;color:white;background-color:#a3b8c8">Hephty Solutions | All Rights Reserved</p>
+</div>
 </footer>
 
 </html>
