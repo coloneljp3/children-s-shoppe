@@ -308,6 +308,16 @@ width.style.width = '0px'}
 </body>
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <footer style = "position:relative;background-color:#a3b8c8;">
 <div style = "width:49%;color:white;background-color:#a3b8c8;display:inline-block">
