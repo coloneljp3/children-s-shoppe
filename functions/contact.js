@@ -298,7 +298,7 @@ width.style.width = '0px'}
 <div id = "body-div-2">
 
 <div onmouseleave = "this.style.backgroundColor = #a3b8c8;this.style.color = white;this.style.borderStyle = none"onmouseover = "this.style.backgroundColor = white;this.style.color = #a3b8c8;this.style.borderColor = #a3b8c8;this.style.borderStyle = solid" class = "contact-div-info">
-<img class = "contact-div-info-image"></img>
+<div style = "display:inline-block"><img class = "contact-div-info-image"></img></div>
 <div class = "right-contact">
 
 <h2>Name</h2>
@@ -311,7 +311,7 @@ width.style.width = '0px'}
 </div>
 <br/><br/>
 <div onmouseleave = "this.style.backgroundColor = #a3b8c8;this.style.color = white;this.style.borderStyle = none"onmouseover = "this.style.backgroundColor = white;this.style.color = #a3b8c8;this.style.borderColor = #a3b8c8;this.style.borderStyle = solid" class = "contact-div-info">
-<img class = "contact-div-info-image"></img>
+<div style = "display:inline-block"><img class = "contact-div-info-image"></img></div>
 <div class = "right-contact">
 
 <h2>Name</h2>
@@ -325,7 +325,7 @@ width.style.width = '0px'}
 
 <br/><br/>
 <div onmouseleave = "this.style.backgroundColor = #a3b8c8;this.style.color = white;this.style.borderStyle = none"onmouseover = "this.style.backgroundColor = white;this.style.color = #a3b8c8;this.style.borderColor = #a3b8c8;this.style.borderStyle = solid" class = "contact-div-info">
-<img class = "contact-div-info-image"></img>
+<div style = "display:inline-block"><img class = "contact-div-info-image"></img></div>
 <div class = "right-contact">
 
 <h2>Name</h2>
