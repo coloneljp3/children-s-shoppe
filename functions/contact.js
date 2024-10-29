@@ -36,6 +36,7 @@ imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1.jpg','http
 </div>
 <nav id = "main-nav-bar">
 <div id = "main-nav-bar-top-half">
+<br>
 <script>
 window.onload = (event) =>{
 document.getElementById('search').style.width = '350px';
