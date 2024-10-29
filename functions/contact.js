@@ -160,6 +160,7 @@ width.style.width = '0px'}
 
 </div><br/>
 </div>
+<br>
 <div id = "main-nav-bar-bottom-half">
 
 
