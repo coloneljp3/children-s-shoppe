@@ -115,6 +115,7 @@ font-size:40px;
 font-weight:bold;
 margin:auto;
 transition:width .5s,visibility .1s;
+visibility:none;
 width:0px;
 background-color:black;
 color:white;
