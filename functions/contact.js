@@ -299,44 +299,9 @@ width.style.width = '0px'}
 <div id = "body-div-2">
 
 <div onmouseleave = "this.style.backgroundColor = #a3b8c8;this.style.color = white;this.style.borderStyle = none"onmouseover = "this.style.backgroundColor = white;this.style.color = #a3b8c8;this.style.borderColor = #a3b8c8;this.style.borderStyle = solid" class = "contact-div-info">
-<div style="width:19%;height:100%;display:inline-block"><img class = "contact-div-info-image"></img></div>
-<div class = "right-contact">
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<h2>Name</h2>
-<h3>Role</h3>
-<h2>Biography</h2>
-<p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-<br></br><br/><br/><br/><br/></p>
-
-</div>
 </div>
 <br/><br/>
 <div onmouseleave = "this.style.backgroundColor = #a3b8c8;this.style.color = white;this.style.borderStyle = none"onmouseover = "this.style.backgroundColor = white;this.style.color = #a3b8c8;this.style.borderColor = #a3b8c8;this.style.borderStyle = solid" class = "contact-div-info">
-<div style="width:19%;height:100%;display:inline-block" ><img class = "contact-div-info-image"></img></div>
-<div class = "right-contact">
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<h2>Name</h2>
-<h3>Role</h3>
-<h2>Biography</h2>
-<p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-<br></br><br/><br/><br/><br/></p>
-
-</div>
 </div>
 
 <br/><br/>
