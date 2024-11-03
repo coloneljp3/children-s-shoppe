@@ -459,6 +459,14 @@ Lorem Ipsum
 <div class = "social-media-image-container"><a href = ""><img src = "/twitter.png" class = "social-media-image"></img></a></div>
 <div class = "social-media-image-container"><a href = ""><img src = "/insta-icon.png" class = "social-media-image" ></img></a></div></div>
 </div>
+<div id = "messaging-feature">
+<h2>Please message us if you have any questions!</h2>
+<form action = "/submit" method = "POST">
+<input id = "sender" name = "sender" />
+<input id = "message" name = "message" />
+<button id = "message-button" type = "submit">Send</button>
+</form>
+</div>
 
 </footer>
 
