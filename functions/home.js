@@ -77,7 +77,7 @@ if(i.includes(val.toUpperCase())){
 but.style.fontFamily = 'Cormorant Garamond'
 but.style.color = "white";
 but.style.borderColor = "#e6eab7"
-but.style.backgroundColor = "#a3b8c8";
+but.style.backgroundColor = "#e6eab7";
 but.style.borderRadius = "10px"
 but.style.fontWeight = "bold";
 but.style.margin = "0px";
