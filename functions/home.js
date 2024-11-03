@@ -457,10 +457,7 @@ Lorem Ipsum
 <div class = "social-media-image-container"><a href = ""><img src = "/twitter.png" class = "social-media-image"></img></a></div>
 <div class = "social-media-image-container"><a href = ""><img src = "/insta-icon.png" class = "social-media-image" ></img></a></div></div>
 </div>
-<div>
-<input name = "sender" />
-<input name = "message" />
-</div>
+
 </footer>
 
 </html>
