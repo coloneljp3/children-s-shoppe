@@ -41,6 +41,8 @@ res.send(`
 window.onload = (event) =>{
 document.getElementById('search').style.width = '350px';
 document.getElementById('main-page-heading').style.width = '50%';
+document.getElementById('main-page-heading').style.visibility = 'visible';
+
 }
 window.onclick = (event) =>{
 document.getElementById('options').innerHTML = '';
