@@ -34,7 +34,7 @@ position:absolute;
 
 .home-info-paragraph{
 font-family:Cormorant Garamond;
-color:white;
+color:#a1ad20;
 background-color:#dee594
   
 }
@@ -45,7 +45,7 @@ height:0px;
 width:0px;
 border-style:none;
 visibility:hidden;
-color:white;
+color:#a1ad20;
 background-color:#dee594;
 font-size:20px
 }
@@ -54,7 +54,7 @@ height:0px;
 width:0px;
 border-style:none;
 visibility:hidden;
-color:white;
+color:#a1ad20;
 background-color:#dee594;
 font-size:20px
 
@@ -64,7 +64,7 @@ font-size:20px
 #post-header-body-div-1{height:500px;background-image:url('')}
 .home-info{
 font-family: Cormorant Garamond;
-color:white;
+color:#a1ad20;
 background-color: #dee594;
 display:inline-block;
 width:32.3%;
@@ -78,7 +78,7 @@ height:500px;}
 
 .body-div{width:100%}
 
-.main-nav-bar-form-button{    color: white;
+.main-nav-bar-form-button{    color: #a1ad20;
     background-color: #dee594;
     font-family: Cormorant Garamond;
     font-size: 20px;
@@ -89,7 +89,7 @@ height:500px;}
 .dropdown-button{
 width: inherit;
     height: 0px;
-    color: white;
+    color: #a1ad20;
     background-color: #dee594;
     font-family: Cormorant Garamond;
     font-size: 0px;
@@ -127,7 +127,7 @@ display:inline-block
 width:49%;
 display:inline-block;
 background-color:#dee594;
-color:white;  
+color:#a1ad20;  
 }
 
 .social-media-image{
@@ -161,7 +161,7 @@ width:100%;
 .contact-div-info{
 font-family:Cormorant Garamond;
 background-color:#dee594;
-color:white;
+color:#a1ad20;
 border-radius:25px;
 height:300px;
   text-align:center;
