@@ -24,3 +24,15 @@ text-align:center;
 }
 
 #sender,#message{}
+
+<svg style = "width:50px;height:50px">
+<polyline stroke = "black" stroke-width = 3 points = "0 25 50 0"></polyline>
+<polyline stroke = "black" stroke-width = 3 points = "0 25 50 50"></polyline>
+
+</svg>
+
+<svg style = "width:50px;height:50px">
+<polyline stroke = "black" stroke-width = 3 points = "50 25 0 0"></polyline>
+<polyline stroke = "black" stroke-width = 3 points = "50 25 0 50"></polyline>
+
+</svg>
