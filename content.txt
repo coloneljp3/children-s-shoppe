@@ -5,3 +5,22 @@ Our Staff:
 
 
 Our Selection:
+
+
+<div id = "messaging-feature">
+<form action = "/submit" method = "POST">
+<input id = "sender" name = "sender" />
+<input id = "message" name = "message" />
+</form>
+</div>
+
+
+#messaging-feature{
+margin:auto;
+width:49%;
+text-align:center;
+
+
+}
+
+#sender,#message{}
