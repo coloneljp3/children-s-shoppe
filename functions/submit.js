@@ -5,10 +5,31 @@ const app = express();
 var bodyParser = require('body-parser');
 const serverless = require('serverless-http');
 const router = express.Router();
+const nodemailer = require('nodemailer')
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true}));
 
 app.use('/',(req,res)=>{
+var mail = nodemailer.createTransport({
+	host:smtp.gmail.com,
+	port:587,
+	secure:false,
+	auth:{
+		user:,
+		pass:
+	};
+
+var mailSend = mail.sendMail({
+from: req.body.sender,
+to: '',
+subject:'Children's Shoppe Website Mail',
+text:req.body.message});
+
+mailSend;
+
+})
+
+	
 res.send(`
 <html>
 <head>
