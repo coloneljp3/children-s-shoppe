@@ -32,7 +32,7 @@ imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1.jpg','http
 </head>
 
 <header id = "main-header">
-<div style = "background-color:white;height:50%;width:100%">
+<div style = "background-color:#e6eab7;height:50%;width:100%">
 
 <img style = "height:100%" src = "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB"></img>
 
@@ -357,8 +357,8 @@ Lorem Ipsum
 <br>
 <br>
 
-<footer style = "position:relative;background-color:#a3b8c8;">
-<div style = "width:49%;color:white;background-color:#a3b8c8;display:inline-block">
+<footer style = "position:relative;background-color:#e6eab7;">
+<div style = "width:49%;color:white;background-color:#e6eab7;display:inline-block">
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-7')" >
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
