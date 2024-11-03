@@ -17,7 +17,7 @@ res.send(`
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <script src = "/functions.js" type = "text/javascript">
 
-imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg'])
+imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://3.bp.blogspot.com/_agDfEExZqlg/TKAjZaWTMfI/AAAAAAAABmE/j6l91yesQn8/s1600/Quality+Discount+Clothes+for+Kids+10.jpg','https://ae01.alicdn.com/kf/HTB1OR.jdzgy_uJjSZTEq6AYkFXaD/Newborn-Baby-Boy-Clothing-Set-Toddler-Child-Kids-Warm-Spring-Fashion-Outerwear-Children-s-Boys-Clothes.jpg','https://thumbs.dreamstime.com/b/kids-clothes-toys-different-88173947.jpg','https://www.consignkoolkids.com/img/slideClothesEdge.jpg'])
 </script>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 <meta charset = "utf-8">
@@ -300,6 +300,21 @@ width.style.width = '0px'}
 
 
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <div id = "post-header-body-div-2" class = "body-div">
 <div class = "product-images-container" id = "product-images-container-1" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
