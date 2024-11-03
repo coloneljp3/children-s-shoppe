@@ -74,11 +74,9 @@ i.style.visibility = "hidden";
 function imageSlide(id,urlList){
 var image = document.getElementById(id);
 for(let i of urlList){
-  console.log(i)
-image.src = i
+setTimeout(image.style.opacity = 0%;image.style.opacity = 100%;image.src = i,'4000')
 };
-
-  setTimeout(imageSlide(id, urlList),4000);
+imageSlide(id, urlList)
 }
 
 function productFilter(){
