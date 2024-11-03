@@ -296,9 +296,10 @@ width.style.width = '0px'}
 
 
 <h1 id = "main-page-heading" onload = "this.style.visibility = 'visible'">The Children's Shoppe</h1>
-
+<div style = "width:100%">
+<h1 style = "text-align:center;height:50%;width:50%;z-index:1;color:white">Browse Our Store Online Or In Person!</h1>
 <img src = "https://www.consignkoolkids.com/img/slideClothesEdge.jpg" id = "image-slider" style = "height:100%;opacity:50%" ></img>
-
+</div>
 </div>
 <br>
 <br>
