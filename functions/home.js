@@ -40,6 +40,7 @@ res.send(`
 <script>
 window.onload = (event) =>{
 document.getElementById('search').style.width = '350px';
+document.getElementById('main-page-heading').style.width = '50%';
 }
 window.onclick = (event) =>{
 document.getElementById('options').innerHTML = '';
