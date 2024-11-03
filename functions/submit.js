@@ -316,7 +316,7 @@ width.style.width = '0px'}
 
 
 `);})
-app.use('/.netlify/functions/home',router)
+app.use('/.netlify/functions/submit',router)
 
 module.exports.handler = serverless(app);
 
