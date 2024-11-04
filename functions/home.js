@@ -34,6 +34,19 @@ imageSlide('image-slider',['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/3
 <meta name="author" content = "The Children's Shoppe">
 <meta name = "description" content = "The Children's Shoppe is the best children's toy, clothing, and furniture store in Ruston, Louisiana.">
 <meta name = "generator" content = "The Children's Shoppe">
+<meta property="og:site_name" content="TheChildren&#39;sShoppe">
+<meta property="og:url" content="https://thechildrensshoppe.net">
+<meta property="og:title" content="TheChildren&#39;sShoppe">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Infant and Children's clothing and toys in Ruston and Monroe Louisiana">
+
+
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="TheChildren&#39;sShoppe">
+<meta name="twitter:description" content="Infant and Children's clothing and toys in Ruston and Monroe Louisiana">
 <title>The Children's Shoppe</title>
 </head>
 
