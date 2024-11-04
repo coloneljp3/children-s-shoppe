@@ -465,8 +465,8 @@ Lorem Ipsum
 <div id = "messaging-feature">
 <h2>Please message us if you have any questions!</h2>
 <form action = "/submit" method = "POST">
-<textarea id = "sender" name = "sender" />
-<textarea id = "message" name = "message" />
+<textarea id = "sender" name = "sender"></textarea>
+<textarea id = "message" name = "message"></textarea>
 <button id = "message-button" type = "submit">Send</button>
 </form>
 </div>
