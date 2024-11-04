@@ -301,69 +301,7 @@ width.style.width = '0px'}
 </nav>
 </header>
 
-<body>
-
-<div id = "post-header-body-div-1" class = "body-div">
-
-
-<div style = "width:100%;background-color:black"><h1 id = "main-page-heading" onload = "this.style.visibility = 'visible'">The Children's Shoppe</h1></div>
-<div style = "width:100%">
-<svg style = "width:50px;height:50px;left:20px;position:absolute;top:100%">
-<polyline stroke = "white" stroke-width = 3 points = "0 12.5 25 0"></polyline>
-<polyline stroke = "white" stroke-width = 3 points = "0 12.5 25 25"></polyline>
-
-</svg>
-
-<svg style = "width:25px;height:25px;right:20px;position:absolute;top:100%">
-<polyline stroke = "white" stroke-width = 3 points = "25 12.5 0 0"></polyline>
-<polyline stroke = "white" stroke-width = 3 points = "25 12.5 0 25"></polyline>
-
-</svg>
-<h1 style = "text-align:center;position:absolute;width:100%;top:100%;z-index:1;color:white;margin:auto">Browse Our Store Online Or In Person!</h1>
-<img src = "https://www.consignkoolkids.com/img/slideClothesEdge.jpg" id = "image-slider" style = "filter:grayscale(40%);height:100%;opacity:80%" ></img>
-</div>
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<div id = "post-header-body-div-2" class = "body-div">
-<div class = "product-images-container" id = "product-images-container-1" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#e6eab7'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
-<div class = "product-images-container" id = "product-images-container-2" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#e6eab7'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
-<div class = "product-images-container" id = "product-images-container-3" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#e6eab7'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
-<div class = "product-images-container" id = "product-images-container-4" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#e6eab7'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
-
-</div>
-
-<div id = "post-header-body-div-3" class = "body-div">
-<div onmouseover = "this.style.backgroundColor = 'white';this.style.color = '#a3b8c8';this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.backgroundColor = '#e6eab7'; this.style.color = '#a1ad20';this.style.borderStyle = 'none';this.style.borderColor = 'white'" id = "home-info-1" class = "home-info">
-<h2 class = "secondary-headings" id = "home-info-1-secondary-headings">About Us</h2>
-Lorem Ipsum
-</div>
-<div onmouseover = "this.style.backgroundColor = 'white';this.style.color = '#a3b8c8';this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.backgroundColor = '#e6eab7'; this.style.color = '#a1ad20';this.style.borderStyle = 'none';this.style.borderColor = 'white'"id = "home-info-2" class = "home-info">
-<h2 class = "secondary-headings" id = "home-info-2-secondary-headings">About Us</h2>
-Lorem Ipsum
-</div>
-<div onmouseover = "this.style.backgroundColor = 'white';this.style.color = '#a3b8c8';this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.backgroundColor = '#e6eab7'; this.style.color = '#a1ad20'; this.style.borderStyle = 'none';this.style.borderColor = 'white'" id = "home-info-3" class = "home-info">
-<h2 class = "secondary-headings" id = "home-info-3-secondary-headings">About Us</h2>
-Lorem Ipsum
-</div>
-
-
-</div>
-</body>
+<body></body>
 
 
 <br>
