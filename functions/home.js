@@ -476,6 +476,7 @@ Lorem Ipsum
 
 
 <div>
+<div id = "contact-footer-div"></div>
 <div id = "messaging-feature">
 <h2>Want to contact us? Send us a message!</h2>
 <form action = "/submit" method = "POST">
