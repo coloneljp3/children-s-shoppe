@@ -148,6 +148,8 @@ height:50px
 
 .social-media-image-container{
 display:inline-block;
+float:right;
+padding-left:10px;
   
 }
 
@@ -226,7 +228,7 @@ border-style:none;
 
 #messaging-feature{
 margin:auto;
-width:49%;
+width:100%;
 text-align:center;
   display:block;
 }
