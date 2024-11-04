@@ -323,13 +323,13 @@ width.style.width = '0px'}
 
 <div id = "main-page-heading-container"><h1 id = "main-page-heading" onload = "this.style.visibility = 'visible'">The Children's Shoppe</h1></div>
 <div style = "width:100%">
-<svg style = "z-index:1;width:25px;height:25px;left:20px;position:absolute;top:100%;border-left-color:white" onclick = "shiftImage(['https://www.consignkoolkids.com/img/slideClothesEdge.jpg','https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/07/27/11/lifestyle.jpg',],'image-slider')" onmouseover = "this.stroke = black;this.backgroundColor = white" onmouseleave = "this.stroke = white;this.backgroundColor = none">
+<svg id = "arrow_1" style = "z-index:1;width:25px;height:25px;left:20px;position:absolute;top:100%;border-left-color:white" onclick = "shiftImage(['https://www.consignkoolkids.com/img/slideClothesEdge.jpg','https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/07/27/11/lifestyle.jpg',],'image-slider','arrow_1')" onmouseover = "this.stroke = black;this.backgroundColor = white" onmouseleave = "this.stroke = white;this.backgroundColor = none">
 <polyline stroke = "white" stroke-width = 3 points = "0 12.5 25 0"></polyline>
 <polyline stroke = "white" stroke-width = 3 points = "0 12.5 25 25"></polyline>
 
 </svg>
 
-<svg style = "z-index:1;width:25px;height:25px;right:20px;position:absolute;top:100%;border-right-color:white"  onclick = "shiftImage(['https://www.consignkoolkids.com/img/slideClothesEdge.jpg','https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/07/27/11/lifestyle.jpg',],'image-slider')" onmouseover = "this.stroke = black;this.backgroundColor = white" onmouseleave = "this.stroke = white;this.backgroundColor = none">
+<svg id = "arrow_2" style = "z-index:1;width:25px;height:25px;right:20px;position:absolute;top:100%;border-right-color:white"  onclick = "shiftImage(['https://www.consignkoolkids.com/img/slideClothesEdge.jpg','https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/07/27/11/lifestyle.jpg',],'image-slider',arrow_2)" onmouseover = "this.stroke = black;this.backgroundColor = white" onmouseleave = "this.stroke = white;this.backgroundColor = none">
 <polyline stroke = "white" stroke-width = 3 points = "25 12.5 0 0"></polyline>
 <polyline stroke = "white" stroke-width = 3 points = "25 12.5 0 25"></polyline>
 
