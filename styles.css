@@ -216,8 +216,9 @@ background-color: #e6eab7;
 border-style:none;
   color:#a1ad20;
   height:40px;
-  width:100px;
-    display:block;
+width:100%
+  display:block;
+  margin:auto;
 
   
 }
