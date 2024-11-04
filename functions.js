@@ -118,3 +118,10 @@ root.appendChild(div);
 }
   
 }
+
+function imageSlide(id,urlList){
+var image = document.getElementById(id);
+for(let i of urlList){
+setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = i},4000);
+};
+};
