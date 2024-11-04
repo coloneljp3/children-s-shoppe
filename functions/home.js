@@ -63,12 +63,11 @@ imageSlide('image-slider',['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/3
 <script>
 window.onload = (event) =>{
 document.getElementById('search').style.width = '350px';
-
-}
-
-window.onload = (event) =>{
 document.getElementById('main-page-heading-container').style.width = 100%;
+
 }
+
+
 window.onclick = (event) =>{
 document.getElementById('options').innerHTML = '';
 }
