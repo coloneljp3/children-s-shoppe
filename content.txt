@@ -2,10 +2,10 @@ Mission Statement: Since 2004, it's been our goal to provide families in Ruston 
 Whether your child is a newborn or a toddler, we can service your needs.
 
 Our Staff:
-
+Our shoppe has come a long way, and it wouldn't be where it is without our lovely staff. We've cultivated a great work environment for our employees, and our respect for our staff is reflected in our customer service.
 
 Our Selection:
-
+    Whether you need toys, shoes, or clothes for your child, we have what you need. Our store has a large selection of sizes and fits for children's clothing. If you need it, we have it.
 
 <div id = "messaging-feature">
 <form action = "/submit" method = "POST">
@@ -38,3 +38,8 @@ width:200px
 <polyline stroke = "black" stroke-width = 3 points = "50 25 0 50"></polyline>
 
 </svg>
+
+
+
+*** Links to images:
+  https://pilarsboutique.com/wp-content/uploads/2019/07/Children-Boutique-Clothing0-768x513.jpg
