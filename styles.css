@@ -216,3 +216,16 @@ border-style:none;
   width:100px;
   
 }
+
+#messaging-feature{
+margin:auto;
+width:49%;
+text-align:center;
+}
+
+#sender,#message{
+height:100px;
+width:200px
+
+}
+
