@@ -93,10 +93,10 @@ xml.send();
 
 
 
-function shiftImage(urlList,id,event){
+function shiftImage(urlList,id){
 var elem = document.getElementById(id);
 var ind = urlList.indexOf(elem.src);
-if(event.style.right !=""){
+if(this.style.right !=""){
 elem.src = urlList[ind+1]}
 
 else{
