@@ -214,6 +214,8 @@ border-style:none;
   color:#a1ad20;
   height:40px;
   width:100px;
+    display:block;
+
   
 }
 
@@ -221,11 +223,14 @@ border-style:none;
 margin:auto;
 width:49%;
 text-align:center;
+  display:block;
 }
 
 #sender,#message{
 height:100px;
-width:200px
+width:200px;
+  display:block;
+
 
 }
 
