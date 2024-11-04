@@ -96,7 +96,7 @@ xml.send();
 function shiftImage(urlList,id){
 var elem = document.getElementById(id);
 var ind = urlList.indexOf(elem.src);
-if(this.style.right !=""){
+if(elem.style.right !=""){
 elem.src = urlList[ind+1]}
 
 else{
