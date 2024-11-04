@@ -203,11 +203,7 @@ display:inline-block
   
 }
 
-#messaging-feature{
-margin:auto;
-width:49%;
-text-align:center;
-}
+
 
 #sender,#message{
 height:100px;
@@ -227,11 +223,17 @@ border-style:none;
 }
 
 #messaging-feature{
-margin:auto;
 width:100%;
 text-align:center;
-  display:block;
+  display:inline-block;
 }
+#contact-footer-div{
+width:100%;
+text-align:center;
+  display:inline-block;
+  
+}
+
 
 #sender,#message{
 height:100px;
