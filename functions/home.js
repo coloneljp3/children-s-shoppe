@@ -63,7 +63,7 @@ imageSlide('image-slider',['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/3
 <script>
 window.onload = (event) =>{
 document.getElementById('search').style.width = '350px';
-document.getElementById('main-page-heading').style.visibility = 'visible';
+document.getElementById('main-page-heading-container').style.width = 100%;
 
 }
 window.onclick = (event) =>{
@@ -319,7 +319,7 @@ width.style.width = '0px'}
 <div id = "post-header-body-div-1" class = "body-div">
 
 
-<div style = "width:100%;background-color:black"><h1 id = "main-page-heading" onload = "this.style.visibility = 'visible'">The Children's Shoppe</h1></div>
+<div id = "main-page-heading-container"><h1 id = "main-page-heading" onload = "this.style.visibility = 'visible'">The Children's Shoppe</h1></div>
 <div style = "width:100%">
 <svg style = "z-index:1;width:25px;height:25px;left:20px;position:absolute;top:100%;border-left-color:white" onclick = "shiftImage(['https://www.consignkoolkids.com/img/slideClothesEdge.jpg','https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/07/27/11/lifestyle.jpg',],'image-slider')" onmouseover = "this.stroke = black;this.backgroundColor = white" onmouseleave = "this.stroke = white;this.backgroundColor = none">
 <polyline stroke = "white" stroke-width = 3 points = "0 12.5 25 0"></polyline>
