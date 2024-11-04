@@ -301,7 +301,7 @@ width.style.width = '0px'}
 <div style = "width:100%;background-color:black"><h1 id = "main-page-heading" onload = "this.style.visibility = 'visible'">The Children's Shoppe</h1></div>
 <div style = "width:100%">
 <h1 style = "text-align:center;position:absolute;width:100%;top:100%;z-index:1;color:white;margin:auto">Browse Our Store Online Or In Person!</h1>
-<img src = "https://www.consignkoolkids.com/img/slideClothesEdge.jpg" id = "image-slider" style = "height:100%;opacity:50%" ></img>
+<img src = "https://www.consignkoolkids.com/img/slideClothesEdge.jpg" id = "image-slider" style = "filter:grayscale(40%);height:100%;opacity:80%" ></img>
 </div>
 </div>
 <br>
