@@ -463,9 +463,11 @@ Lorem Ipsum
 
 <div>
 <div id = "messaging-feature">
-<h2>Please message us if you have any questions!</h2>
+<h2>Want to contact us? Send us a message!</h2>
 <form action = "/submit" method = "POST">
+<h3 style = "text-align:center">Type your full name in the box below.</h3>
 <textarea id = "sender" name = "sender"></textarea>
+<h3 style = "text-align:center">Type your message in the box below.</h3>
 <textarea id = "message" name = "message"></textarea>
 <button id = "message-button" type = "submit">Send</button>
 </form>
