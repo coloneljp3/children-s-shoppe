@@ -91,33 +91,7 @@ xml.send();
   
 };
 
-function productList(products,attr ,filter,root){
-var root = document.getElementById(root);
-for(let i of products){
-var div = document.createElement('div');
-var hone = document.createElement('h1');
-var p = document.createElement('p');
-var button = document.createElement('button');
-var form = document.createElement('form');
-div.className = 'product-images-container';
-button.type = 'submit';
-form.method = 'POST';
-form.action = i["link"];
-form.appendChild(button)
-hone.append(i['title']);
-p.append(i['price']);
 
-  
-div.appendChild(hone);
-div.appendChild(p);
-div.appendChild(form)
-root.appendChild(div);
-  
-
-  
-}
-  
-}
 
 function shiftImage(urlList,id,event){
 var elem = document.getElementById(id);
