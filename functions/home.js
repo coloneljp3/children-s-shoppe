@@ -308,14 +308,14 @@ width.style.width = '0px'}
 <div style = "width:100%;background-color:black"><h1 id = "main-page-heading" onload = "this.style.visibility = 'visible'">The Children's Shoppe</h1></div>
 <div style = "width:100%">
 <svg style = "width:50px;height:50px;left:20px;position:absolute;top:100%">
-<polyline stroke = "black" stroke-width = 3 points = "0 25 50 0"></polyline>
-<polyline stroke = "black" stroke-width = 3 points = "0 25 50 50"></polyline>
+<polyline stroke = "white" stroke-width = 3 points = "0 12.5 25 0"></polyline>
+<polyline stroke = "white" stroke-width = 3 points = "0 12.5 25 25"></polyline>
 
 </svg>
 
-<svg style = "width:50px;height:50px;right:20px;position:absolute;top:100%">
-<polyline stroke = "black" stroke-width = 3 points = "50 25 0 0"></polyline>
-<polyline stroke = "black" stroke-width = 3 points = "50 25 0 50"></polyline>
+<svg style = "width:25px;height:25px;right:20px;position:absolute;top:100%">
+<polyline stroke = "white" stroke-width = 3 points = "25 12.5 0 0"></polyline>
+<polyline stroke = "white" stroke-width = 3 points = "25 12.5 0 25"></polyline>
 
 </svg>
 <h1 style = "text-align:center;position:absolute;width:100%;top:100%;z-index:1;color:white;margin:auto">Browse Our Store Online Or In Person!</h1>
