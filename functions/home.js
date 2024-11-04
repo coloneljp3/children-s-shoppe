@@ -78,7 +78,8 @@ var search_list = {
 "BOTTOMS":"",
 "HATS":"",
 "TOYS":"",
-"SWEATSHIRTS":""
+"SWEATSHIRTS":"",
+
 
         }
 function searchReq(){
