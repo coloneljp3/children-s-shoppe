@@ -105,5 +105,4 @@ elem.src = urlList[ind-1]}
   
 }
   
-}
 
