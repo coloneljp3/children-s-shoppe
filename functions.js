@@ -119,10 +119,17 @@ root.appendChild(div);
   
 }
 
-function shiftImage(urlList,id){
+function shiftImage(event,urlList,id){
 var elem = document.getElementById(id);
 var ind = urlList.indexOf(elem.src);
-elem.src = urlList[ind+1]
+if(event.target.style.right !=""){
+elem.src = urlList[ind+1]}
+
+else{
+elem.src = urlList[ind-1]}
+
+  
+}
   
 }
 
