@@ -307,13 +307,13 @@ width.style.width = '0px'}
 
 <div style = "width:100%;background-color:black"><h1 id = "main-page-heading" onload = "this.style.visibility = 'visible'">The Children's Shoppe</h1></div>
 <div style = "width:100%">
-<svg style = "width:50px;height:50px;left:20px;position:absolute;top:100%">
+<svg style = "z-index:1;width:25px;height:25px;left:20px;position:absolute;top:100%;border-left-color:white" onmouseover = "this.stroke = black;this.backgroundColor = white" onmouseleave = "this.stroke = white;this.backgroundColor = none">
 <polyline stroke = "white" stroke-width = 3 points = "0 12.5 25 0"></polyline>
 <polyline stroke = "white" stroke-width = 3 points = "0 12.5 25 25"></polyline>
 
 </svg>
 
-<svg style = "width:25px;height:25px;right:20px;position:absolute;top:100%">
+<svg style = "z-index:1;width:25px;height:25px;right:20px;position:absolute;top:100%;border-right-color:white" onmouseover = "this.stroke = black;this.backgroundColor = white" onmouseleave = "this.stroke = white;this.backgroundColor = none">
 <polyline stroke = "white" stroke-width = 3 points = "25 12.5 0 0"></polyline>
 <polyline stroke = "white" stroke-width = 3 points = "25 12.5 0 25"></polyline>
 
