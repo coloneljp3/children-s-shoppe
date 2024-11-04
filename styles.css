@@ -114,12 +114,17 @@ font-family:Cormorant Garamond;
 font-size:40px;
 font-weight:bold;
 margin:auto;
-transition:visibility 4s;
 visibility:hidden;
 width:50%;
 background-color:black;
 color:white;
 text-align:center;
+}
+
+#main-page-heading-container{
+transition:width 2s;
+width:0px;
+  
 }
 
 footer.span{
