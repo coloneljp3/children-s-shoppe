@@ -62,7 +62,7 @@ imageSlide('image-slider',['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/3
 
 <script>
 window.onload = (event) =>{
-document.getElementById('main-page-heading-container').style.width = 100%;
+document.getElementById('search').style.width = 350px;
 
 }
 
@@ -320,7 +320,7 @@ width.style.width = '0px'}
 <div id = "post-header-body-div-1" class = "body-div">
 
 
-<div id = "main-page-heading-container"><h1 id = "main-page-heading" onload = "this.style.visibility = 'visible'">The Children's Shoppe</h1></div>
+<div id = "main-page-heading-container"><h1 id = "main-page-heading" >The Children's Shoppe</h1></div>
 <div style = "width:100%">
 <button onclick = "shiftImage(['https://www.consignkoolkids.com/img/slideClothesEdge.jpg','https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/07/27/11/lifestyle.jpg',],'image-slider','arrow_1')" >
 <svg id = "arrow_1" style = "z-index:1;width:25px;height:25px;left:20px;position:absolute;top:100%;border-left-color:white"  >
