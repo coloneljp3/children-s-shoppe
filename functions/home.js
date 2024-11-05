@@ -481,16 +481,15 @@ Lorem Ipsum
 <div>
 <div id = "contact-footer-div"></div>
 <div id = "messaging-feature">
-<h2>Want to contact us? Send us a message!</h2>
+<h4 style = "text-align:center">Follow Us!</h4>
 <form action = "/submit" method = "POST">
-<h3 style = "text-align:center">Type your full name in the box below.</h3>
+<h4 style = "text-align:center">Type your full name in the box below.</h4>
 <textarea id = "sender" name = "sender"></textarea>
-<h3 style = "text-align:center">Type your message in the box below.</h3>
+<h4 style = "text-align:center">Type your message in the box below.</h4>
 <textarea id = "message" name = "message"></textarea>
 <button id = "message-button" type = "submit">Send</button>
 </form>
 <div style = "color:#a1ad20;background-color:#e6eab7;display:block">
-<h4 style = "text-align:center">Follow Us!</h4>
 <div class = "social-media-image-container"><a href = ""><img src = "/facebook.svg" class = "social-media-image"></img></a></div>
 <div class = "social-media-image-container"><a href = ""><img src = "/twitter.png" class = "social-media-image"></img></a></div>
 <div class = "social-media-image-container"><a href = ""><img src = "/insta-icon.png" class = "social-media-image" ></img></a></div></div>
