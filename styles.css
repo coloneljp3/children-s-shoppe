@@ -46,6 +46,7 @@ width:0px;
 border-style:none;
 visibility:hidden;
 color:#a1ad20;
+  display:inline-block;
 background-color:#e6eab7;
 font-size:20px
 }
@@ -54,6 +55,8 @@ height:0px;
 width:0px;
 border-style:none;
 visibility:hidden;
+    display:inline-block;
+
 color:#a1ad20;
 background-color:#e6eab7;
 font-size:20px
