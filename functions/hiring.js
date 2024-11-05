@@ -172,13 +172,13 @@ width.style.width = '0px'}
 
 <button onmouseover = "dropDown('dropdown-button-1')"type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
 <div class = "main-nav-bar-dropdown-container">
-<ul class = "main-nav-bar-dropdown" onmouseenter = "dropDown('dropdown-button-1')"  >
+<div class = "main-nav-bar-dropdown" onmouseenter = "dropDown('dropdown-button-1')"  >
 <a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
 
-</ul>
+</div>
 
 </div>
 </form>
@@ -193,13 +193,13 @@ width.style.width = '0px'}
 
 </form>
 <div class = "main-nav-bar-dropdown-container">
-<ul class = "main-nav-bar-dropdown">
+<div class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-2">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-2">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-2">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-2">Lorem  </button></a><br>
 
-</ul>
+</div>
 
 </div>
 </span>
@@ -212,13 +212,13 @@ width.style.width = '0px'}
 
 </form>
 <div class = "main-nav-bar-dropdown-container">
-<ul class = "main-nav-bar-dropdown">
+<div class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-3">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-3">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-3">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-3">Lorem  </button></a><br>
 
-</ul>
+</div>
 
 </div>
 
@@ -232,13 +232,13 @@ width.style.width = '0px'}
 
 </form>
 <div class = "main-nav-bar-dropdown-container" >
-<ul class = "main-nav-bar-dropdown">
+<div class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-4">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-4">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-4">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-4">Lorem  </button></a><br>
 
-</ul>
+</div>
 
 </div>
 </span>
@@ -251,13 +251,13 @@ width.style.width = '0px'}
 
 </form>
 <div class = "main-nav-bar-dropdown-container">
-<ul class = "main-nav-bar-dropdown">
+<div class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-5">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-5">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-5">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-5">Lorem  </button></a><br>
 
-</ul>
+</div>
 
 </div>
 </span>
@@ -270,13 +270,13 @@ width.style.width = '0px'}
 
 </form>
 <div class = "main-nav-bar-dropdown-container">
-<ul class = "main-nav-bar-dropdown">
+<div class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-6">Lorem</button></a><br>
 <a href = ""><button class = "dropdown-button-6">Lorem</button></a><br>
 <a href = ""><button class = "dropdown-button-6">Lorem</button></a><br>
 <a href = ""><button class = "dropdown-button-6">Lorem</button></a><br>
 
-</ul>
+</div>
 
 </div>
 </span>
@@ -310,13 +310,13 @@ width.style.width = '0px'}
 
 <button onmouseover = "dropDown('dropdown-button-7')" type = "submit" class = "main-nav-bar-form-button">Contact</button>
 <div class = "main-nav-bar-dropdown-container"  >
-<ul class = "main-nav-bar-dropdown">
+<div class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-7">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-7">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-7">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-7">Lorem  </button></a><br>
 
-</ul>
+</div>
 
 </div>
 </form>
@@ -326,13 +326,13 @@ width.style.width = '0px'}
 
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-8')">
 <div class = "main-nav-bar-dropdown-container" >
-<ul class = "main-nav-bar-dropdown">
+<div class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-8">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-8">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-8">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-8">Lorem  </button></a><br>
 
-</ul>
+</div>
 
 </div>
 <form action = "" method = "POST" class = "main-nav-bar-form">
@@ -345,13 +345,13 @@ width.style.width = '0px'}
 
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-9')">
 <div class = "main-nav-bar-dropdown-container">
-<ul class = "main-nav-bar-dropdown">
+<div class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-9">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-9">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-9">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-9">Lorem  </button></a><br>
 
-</ul>
+</div>
 
 </div>
 <form action = "" method = "POST" class = "main-nav-bar-form">
@@ -364,13 +364,13 @@ width.style.width = '0px'}
 
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-10')">
 <div class = "main-nav-bar-dropdown-container"  >
-<ul class = "main-nav-bar-dropdown">
+<div class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-10">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-10">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-10">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-10">Lorem  </button></a><br>
 
-</ul>
+</div>
 
 </div>
 <form action = "" method = "POST" class = "main-nav-bar-form">
