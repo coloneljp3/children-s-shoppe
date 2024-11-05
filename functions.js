@@ -97,7 +97,7 @@ function shiftImage(urlList,id,id_2){
 var elem = document.getElementById(id);
 var elem_2 = document.getElementById(id_2);
   var ind = urlList.indexOf(elem.src);
-if(elem_2.style.right != 'undefined'){
+if(id_2 == 'arrow_2'){
 elem.src = urlList[ind+1]}
 
 else{
