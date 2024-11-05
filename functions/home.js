@@ -365,17 +365,20 @@ width.style.width = '0px'}
 
 <div id = "post-header-body-div-3" class = "body-div">
 <div onmouseover = "this.style.backgroundColor = 'white';this.style.color = '#a3b8c8';this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.backgroundColor = '#e6eab7'; this.style.color = '#a1ad20';this.style.borderStyle = 'none';this.style.borderColor = 'white'" id = "home-info-1" class = "home-info">
-<h2 class = "secondary-headings" id = "home-info-1-secondary-headings">About Us</h2>
-Lorem Ipsum
+<h2 class = "secondary-headings" id = "home-info-1-secondary-headings">Mission Statement</h2>
+<p>Since 2004, it's been our goal to provide families in Ruston and Monroe with the best quality clothing and toys for their children.
+Whether your child is a newborn or a toddler, we can service your needs.
+</p>
 </div>
 <div onmouseover = "this.style.backgroundColor = 'white';this.style.color = '#a3b8c8';this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.backgroundColor = '#e6eab7'; this.style.color = '#a1ad20';this.style.borderStyle = 'none';this.style.borderColor = 'white'"id = "home-info-2" class = "home-info">
-<h2 class = "secondary-headings" id = "home-info-2-secondary-headings">About Us</h2>
-Lorem Ipsum
+<h2 class = "secondary-headings" id = "home-info-2-secondary-headings">Our Staff</h2>
+<p>Our shoppe has come a long way, and it wouldn't be where it is without our lovely staff. We've cultivated a great work environment for our employees, and our respect for our staff is reflected in our customer service.
+</p>
 </div>
 <div onmouseover = "this.style.backgroundColor = 'white';this.style.color = '#a3b8c8';this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.backgroundColor = '#e6eab7'; this.style.color = '#a1ad20'; this.style.borderStyle = 'none';this.style.borderColor = 'white'" id = "home-info-3" class = "home-info">
-<h2 class = "secondary-headings" id = "home-info-3-secondary-headings">About Us</h2>
-Lorem Ipsum
-</div>
+<h2 class = "secondary-headings" id = "home-info-3-secondary-headings">Our Selection</h2>
+<p>    Whether you need toys, shoes, or clothes for your child, we have what you need. Our store has a large selection of sizes and fits for children's clothing. If you need it, we have it.
+</p></div>
 
 
 </div>
