@@ -489,15 +489,17 @@ Lorem Ipsum
 <textarea id = "message" name = "message"></textarea>
 <button id = "message-button" type = "submit">Send</button>
 </form>
-</div>
-
-
-<p style = "display:inline-block;text-align:center;width:100%;font-family:Cormorant Garamond;color:#a1ad20;background-color:#e6eab7">Hephty Solutions | All Rights Reserved</p>
-<div style = "width:49%;color:#a1ad20;background-color:#e6eab7;display:inline-block">
+<div style = "color:#a1ad20;background-color:#e6eab7;display:block">
+<h4 style = "text-align:center">Follow Us!</h4>
 <div class = "social-media-image-container"><a href = ""><img src = "/facebook.svg" class = "social-media-image"></img></a></div>
 <div class = "social-media-image-container"><a href = ""><img src = "/twitter.png" class = "social-media-image"></img></a></div>
 <div class = "social-media-image-container"><a href = ""><img src = "/insta-icon.png" class = "social-media-image" ></img></a></div></div>
 </div>
+</div>
+
+
+<p style = "display:inline-block;text-align:center;width:100%;font-family:Cormorant Garamond;color:#a1ad20;background-color:#e6eab7">Hephty Solutions | All Rights Reserved</p>
+
 
 </footer>
 
