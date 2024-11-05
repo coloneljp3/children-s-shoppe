@@ -16,22 +16,44 @@ res.send(`
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <script src = "/functions.js" type = "text/javascript">
+function imageSlide(id,urlList){
+var image = document.getElementById(id);
+for(let i of urlList){
+setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = i},4000);
+};
+};
 
-imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg'])
+imageSlide('image-slider',['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB'
+,'https://www.consignkoolkids.com/img/slideClothesEdge.jpg'])
+
 </script>
+
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 <meta charset = "utf-8">
 <meta http-equiv = "X-UA-Compatible" content = "IE=edge,chrome=1">
 <meta name="author" content = "The Children's Shoppe">
 <meta name = "description" content = "The Children's Shoppe is the best children's toy, clothing, and furniture store in Ruston, Louisiana.">
 <meta name = "generator" content = "The Children's Shoppe">
-<title>The Children's Shoppe: Products</title>
+<meta property="og:site_name" content="TheChildren&#39;sShoppe">
+<meta property="og:url" content="https://childrensshoppe.netlify.app/home">
+<meta property="og:title" content="TheChildren&#39;sShoppe">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Infant and Children's clothing and toys in Ruston and Monroe Louisiana">
+
+
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="TheChildren&#39;sShoppe">
+<meta name="twitter:description" content="Infant and Children's clothing and toys in Ruston and Monroe Louisiana">
+<title>The Children's Shoppe</title>
 </head>
 
 <header id = "main-header">
-<div style = "background-color:white;height:50%;width:100%">
+<div style = "background-color:#e6eab7;height:50%;width:100%">
 
-<img src = ""></img>
+<img style = "height:100%" src = "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB"></img>
 
 </div>
 <nav id = "main-nav-bar">
@@ -41,7 +63,10 @@ imageSlide('image-slider',['https://childrensshoppe.netlify.app/pic_1.jpg','http
 <script>
 window.onload = (event) =>{
 document.getElementById('search').style.width = '350px';
+
 }
+
+
 window.onclick = (event) =>{
 document.getElementById('options').innerHTML = '';
 }
@@ -54,7 +79,8 @@ var search_list = {
 "BOTTOMS":"",
 "HATS":"",
 "TOYS":"",
-"SWEATSHIRTS":""
+"SWEATSHIRTS":"",
+
 
         }
 function searchReq(){
@@ -73,8 +99,8 @@ if(i.includes(val.toUpperCase())){
     elem.className = 'search_op';
 but.style.fontFamily = 'Cormorant Garamond'
 but.style.color = "white";
-but.style.borderColor = "#a3b8c8"
-but.style.backgroundColor = "#a3b8c8";
+but.style.borderColor = "#e6eab7"
+but.style.backgroundColor = "#e6eab7";
 but.style.borderRadius = "10px"
 but.style.fontWeight = "bold";
 but.style.margin = "0px";
@@ -162,12 +188,13 @@ width.style.width = '0px'}
 </div><br/>
 </div>
 <br>
+
 <div id = "main-nav-bar-bottom-half">
 
 
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-1')">
 
-<form action = "" method = "POST" class = "main-nav-bar-form" >
+<form action = "" method = "POST" class = "main-nav-bar-form">
 
 <button onmouseover = "dropDown('dropdown-button-1')"type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
 <div class = "main-nav-bar-dropdown-container">
@@ -207,7 +234,7 @@ width.style.width = '0px'}
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-3')"  type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Lorem  </button>
+<button onmouseover = "dropDown('dropdown-button-3')"  type = "submit" id = "contac-button" class = "main-nav-bar-form-button">Lorem  </button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container" >
@@ -287,6 +314,7 @@ width.style.width = '0px'}
 
 </nav>
 </header>
+
 
 <body>
 
