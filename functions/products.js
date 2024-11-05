@@ -322,14 +322,14 @@ width.style.width = '0px'}
 <br>
 <br>
 
-<footer style = "position:relative;background-color:#a3b8c8;">
-<div style = "width:49%;color:white;background-color:#a3b8c8;display:inline-block">
-<span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-7')">
+<footer style = "position:relative;background-color:#e6eab7;">
+<div style = "width:49%;color:white;background-color:#e6eab7;display:inline-block">
+<span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-7')" >
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
 <button onmouseover = "dropDown('dropdown-button-7')" type = "submit" class = "main-nav-bar-form-button">Contact</button>
-<div class = "main-nav-bar-dropdown-container"  >
+<div class = "main-nav-bar-dropdown-container" >
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-7">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-7">Lorem  </button></a><br>
@@ -382,8 +382,8 @@ width.style.width = '0px'}
 
 </span>
 
-<span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-10')" >
-<div class = "main-nav-bar-dropdown-container">
+<span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-10')">
+<div class = "main-nav-bar-dropdown-container" >
 <ul class = "main-nav-bar-dropdown">
 <a href = ""><button class = "dropdown-button-10">Lorem  </button></a><br>
 <a href = ""><button class = "dropdown-button-10">Lorem  </button></a><br>
@@ -408,25 +408,29 @@ width.style.width = '0px'}
 
 
 <div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<p style = "display:inline-block;text-align:center;width:100%;font-family:Cormorant Garamond;color:white;background-color:#a3b8c8">Hephty Solutions | All Rights Reserved</p>
-<div style = "width:49%;color:white;background-color:#a3b8c8;display:inline-block">
+<div id = "contact-footer-div"></div>
+<div id = "messaging-feature">
+<form action = "/submit" method = "POST">
+<h4 style = "text-align:center">Type your full name in the box below.</h4>
+<textarea id = "sender" name = "sender"></textarea>
+<h4 style = "text-align:center">Type your message in the box below.</h4>
+<textarea id = "message" name = "message"></textarea>
+<button id = "message-button" type = "submit">Send</button>
+</form>
+<div style = "color:#a1ad20;background-color:#e6eab7;display:block">
+<h4 style = "text-align:center">Follow Us!</h4>
 <div class = "social-media-image-container"><a href = ""><img src = "/facebook.svg" class = "social-media-image"></img></a></div>
-<div class = "social-media-image-container"><a href = ""><img class = "social-media-image"src = "/twitter.png"></img></a></div>
-<div class = "social-media-image-container"><a href = ""><img class = "social-media-image" src = "/insta-icon.png"></img></a></div></div>
+<div class = "social-media-image-container"><a href = ""><img src = "/twitter.png" class = "social-media-image"></img></a></div>
+<div class = "social-media-image-container"><a href = ""><img src = "/insta-icon.png" class = "social-media-image" ></img></a></div></div>
 </div>
+</div>
+
+
+<p style = "display:inline-block;text-align:center;width:100%;font-family:Cormorant Garamond;color:#a1ad20;background-color:#e6eab7">Hephty Solutions | All Rights Reserved</p>
+
+
 </footer>
+
 
 </html>
 
