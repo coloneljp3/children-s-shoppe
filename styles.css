@@ -147,8 +147,7 @@ height:50px
 .social-media-image-container{
 display:inline-block;
 float:right;
-padding-left:10px;
-  
+width:33%  
 }
 
 .image-slider-image{
@@ -225,6 +224,7 @@ width:100%
 width:49%;
 text-align:center;
 display:inline-block;
+height:49%
 }
 #contact-footer-div{
 width:49%;
