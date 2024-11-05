@@ -484,6 +484,7 @@ Whether your child is a newborn or a toddler, we can service your needs.
 <div>
 <div id = "contact-footer-div"></div>
 <div id = "messaging-feature">
+<h4 style = "text-align:center">Have a Question? Contact Us.</h4>
 <form action = "/submit" method = "POST">
 <h4 style = "text-align:center">Type your full name in the box below.</h4>
 <textarea id = "sender" name = "sender"></textarea>
