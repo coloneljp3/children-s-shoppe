@@ -1,4 +1,4 @@
-'use strict'
+ 'use strict'
 const mysql = require('mysql2');
 const express = require('express');
 const app = express();
@@ -305,6 +305,14 @@ width.style.width = '0px'}
 <div class = "product-images-container" id = "product-images-container-2" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
 <div class = "product-images-container" id = "product-images-container-3" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
 <div class = "product-images-container" id = "product-images-container-4" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
+<div class = "product-images-container" id = "product-images-container-5" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
+<div class = "product-images-container" id = "product-images-container-6" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
+<div class = "product-images-container" id = "product-images-container-7" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
+<div class = "product-images-container" id = "product-images-container-8" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
+<div class = "product-images-container" id = "product-images-container-9" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
+<div class = "product-images-container" id = "product-images-container-10" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
+<div class = "product-images-container" id = "product-images-container-11" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
+<div class = "product-images-container" id = "product-images-container-12" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
 
 </div>
 
