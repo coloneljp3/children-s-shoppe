@@ -322,19 +322,16 @@ width.style.width = '0px'}
 
 <div id = "main-page-heading-container"><h1 id = "main-page-heading" >The Children's Shoppe</h1></div>
 <div style = "width:100%">
-<button onclick = "shiftImage(['https://www.consignkoolkids.com/img/slideClothesEdge.jpg','https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/07/27/11/lifestyle.jpg','https://i.pinimg.com/originals/d0/fc/3c/d0fc3c9b5d7d00ed771a93884df6bd60.jpg'],'image-slider','arrow_1')" >
 <svg id = "arrow_1" style = "z-index:1;width:25px;height:25px;left:20px;position:absolute;top:100%;border-left-color:white"  >
 <polyline stroke = "white" stroke-width = 3 points = "0 12.5 25 0"></polyline>
 <polyline stroke = "white" stroke-width = 3 points = "0 12.5 25 25"></polyline>
 
-</svg></button>
-<button onclick = "shiftImage(['https://www.consignkoolkids.com/img/slideClothesEdge.jpg','https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/07/27/11/lifestyle.jpg','https://i.pinimg.com/originals/d0/fc/3c/d0fc3c9b5d7d00ed771a93884df6bd60.jpg'],'image-slider',arrow_2)">
+</svg>
 <svg id = "arrow_2" style = "z-index:1;width:25px;height:25px;right:20px;position:absolute;top:100%;border-right-color:white">
 <polyline stroke = "white" stroke-width = 3 points = "25 12.5 0 0"></polyline>
 <polyline stroke = "white" stroke-width = 3 points = "25 12.5 0 25"></polyline>
 
 </svg>
-</button>
 <h1 style = "text-align:center;position:absolute;width:100%;top:100%;z-index:1;color:white;margin:auto">Browse Our Store Online Or In Person!</h1>
 <img src = "https://www.consignkoolkids.com/img/slideClothesEdge.jpg" id = "image-slider" style = "filter:grayscale(40%);height:100%;opacity:80%" ></img>
 </div>
