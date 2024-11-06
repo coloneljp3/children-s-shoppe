@@ -77,11 +77,10 @@ function productFilter(){
 var xml = new XMLHttpRequest();
 
 xml.onreadystatechange = ()=>{
-  if(this.status == 304 || this.status = 200){
+  
 document.getElementById('product-selection').innerHTML = xml.responseText;
     
   };
-};
 xml.open('GET','https://chidrensshoppe.netlify.app/products.xml','true');
 
 xml.send();
