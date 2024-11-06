@@ -77,15 +77,12 @@ function productFilter(){
 var xml = new XMLHttpRequest();
 
 xml.onreadystatechange = ()=>{
-  if(this.status == 200 && this.readyState == 4){
+  if(this.status == 304 || this.status = 200){
 document.getElementById('product-selection').innerHTML = xml.responseText;
     
   };
 };
 xml.open('GET','https://chidrensshoppe.netlify.app/products.xml','true');
-xml.setRequestHeader('Access-Control-Allow-Headers','Access-Control-Allow-Origin');
-xml.setRequestHeader('Access-Control-Allow-Origin','*');
-xml.setRequestHeader('Content-Type','x-www-form-urlencoded')
 
 xml.send();
   
