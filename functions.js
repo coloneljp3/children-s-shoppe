@@ -73,13 +73,19 @@ i.style.visibility = "hidden";
 
 
 
-function productFilter(){
+function productFilter(prod,attr){
 var xml = new XMLHttpRequest();
 
 xml.onreadystatechange = ()=>{
-  
-document.getElementById('product-selection').innerHTML = xml.responseText;
-    
+if(attr == 'none'){
+document.getElementById('product-selection').innerHTML = xml.getElementsByTagName(prod);
+}
+
+else{
+
+  document.getElementById('product-selection').innerHTML = xml.getElementsByTagName(prod)[];
+
+}
   };
 xml.open('GET','/products.xml','true');
 
