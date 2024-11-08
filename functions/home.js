@@ -316,7 +316,7 @@ width.style.width = '0px'}
 </header>
 
 <body>
-
+<div id = "product-selection"></div>
 <div id = "post-header-body-div-1" class = "body-div">
 
 
