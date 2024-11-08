@@ -1,2 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<Product>Shirt</Product>
+<Product>
+<Title>T-Shirt</Title>
+<Price>$4.00</Price>
+</Product>
