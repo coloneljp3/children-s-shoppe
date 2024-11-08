@@ -81,7 +81,7 @@ xml.onreadystatechange = ()=>{
 document.getElementById('product-selection').innerHTML = xml.responseText;
     
   };
-xml.open('GET','https://chidrensshoppe.netlify.app/products.xml','true');
+xml.open('GET','/products.xml','true');
 
 xml.send();
   
