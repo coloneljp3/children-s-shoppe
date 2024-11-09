@@ -3,7 +3,7 @@
 transition:visibility 1s;
   
 }
-
+a{display:inline-block}
 footer{background-color:#e6eab7}
 #main-header{
 width:100%;
