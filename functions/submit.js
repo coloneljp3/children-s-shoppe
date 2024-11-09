@@ -15,13 +15,13 @@ var mail = nodemailer.createTransport({
 	port:587,
 	secure:false,
 	auth:{
-		user:,
-		pass:
+		user:jpbreaux225@gmail.com,
+		pass:FatBoi23
 	};
 
 var mailSend = mail.sendMail({
 from: req.body.sender,
-to: '',
+to: 'hephtymail@gmail.com',
 subject:'Children's Shoppe Website Mail',
 text:req.body.message});
 
