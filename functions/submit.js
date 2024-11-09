@@ -15,8 +15,8 @@ var mail = nodemailer.createTransport({
 	port:587,
 	secure:false,
 	auth:{
-		user:jpbreaux225@gmail.com,
-		pass:FatBoi23
+		user:'jpbreaux225@gmail.com',
+		pass:'FatBoi23'
 	};
 
 var mailSend = mail.sendMail({
