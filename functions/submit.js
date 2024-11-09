@@ -22,7 +22,7 @@ var mail = nodemailer.createTransport({
 var mailSend = mail.sendMail({
 from: req.body.sender,
 to: 'hephtymail@gmail.com',
-subject:'Children's Shoppe Website Mail',
+subject:"Children's Shoppe Website Mail",
 text:req.body.message});
 
 mailSend;
