@@ -108,5 +108,21 @@ document.getElementById(id).src = urlList[ind-1]}
 
   
 }
+
+  function xmlMailSend(){
+var sender = document.getElementById('sender');
+var message = document.getElementById('message');
+let xml = new XMLHttpRequest();
+xml.onreadystatechange = ()=>{
+var f = document.querySelector('#email');
+var frm = new FormData(f); 
+frm.append('form','form');
+xml.open('POST','/submit.js','True')
+xml.send();
+  
+}
+
+
+    }
   
 
