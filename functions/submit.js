@@ -17,13 +17,13 @@ var mail = nodemailer.createTransport({
 	auth:{
 		user:'jpbreaux225@gmail.com',
 		pass:'FatBoi23'
-	};
+	}
 
 var mailSend = mail.sendMail({
 from: req.body.sender,
 to: 'hephtymail@gmail.com',
 subject:"Children's Shoppe Website Mail",
-text:req.body.message});
+text:req.body.message})
 
 mailSend;
 
@@ -315,7 +315,7 @@ width.style.width = '0px'}
 
 
 
-`);})
+`)})
 app.use('/.netlify/functions/submit',router)
 
 module.exports.handler = serverless(app);
