@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true}));
 
 app.use('/',(req,res)=>{
-var mail = nodemailer.createTransport({
+let mail = nodemailer.createTransport({
 	host:smtp.gmail.com,
 	port:587,
 	secure:false,
@@ -19,7 +19,7 @@ var mail = nodemailer.createTransport({
 		pass:'FatBoi23'
 	}
 
-var mailSend = mail.sendMail({
+let mailSend = mail.sendMail({
 from: req.body.sender,
 to: 'hephtymail@gmail.com',
 subject:"Children's Shoppe Website Mail",
