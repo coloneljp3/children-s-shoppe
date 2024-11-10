@@ -4,5 +4,5 @@
 <Guy: p style = "font-family:Helvetica;text-align:center">Nobody</Guy: p>
 <Price: p style = "font-family:Helvetica;text-align:center">$4.00</Price: p>
 <Color: p style = "font-family:Helvetica;text-align:center">Black</Color: p>
-</ProductL div>
+</Product: div>
 </root>
