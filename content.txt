@@ -43,3 +43,33 @@ width:200px
 
 *** Links to images:
   https://pilarsboutique.com/wp-content/uploads/2019/07/Children-Boutique-Clothing0-768x513.jpg
+
+
+<script>
+function addFilter(id){
+var elem = document.getElementById(id);
+var div = createElement('div');
+var p = createElement('p');
+var z = div;
+var a = p
+z.style.color = white;
+z.style.backgroundColor = black;
+a.innerHTML = this.value;
+z.appendChild(a)
+elem.appendChild(z)
+}
+</script>
+<div>
+<h2 style = "font-family:Helvetica" class = "filter-heading">Filter</h2>
+<select style = "text-align:center;font-family:Helvetica;width:200px;height:40px;font-size:15px" placeholder = "Select a filter for your products">
+<option onclick = "addFilter('applied-filters')" value = "none"> Select a filter for your products</option>
+<option onselect = "addFilter('applied-filters')" value = "Least to Most Expensive">Least to Most Expensive</option>
+<option onselect = "addFilter('applied-filters')" value = "Boys">Boys</option>
+<option onselect = "addFilter('applied-filters')" value = "Girls">Girls</option>
+<option onselect = "addFilter('applied-filters')" value = "Shirts">Shirts</option>
+<option onselect = "addFilter('applied-filters')" value = "Toys">Toys</option>
+<option onselect = "addFilter('applied-filters')" value = "Pants">Pants</option>
+
+</select>
+<div id = "applied-filters"></div>
+</div>
