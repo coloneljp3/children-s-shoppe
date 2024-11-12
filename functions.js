@@ -123,5 +123,20 @@ xml.send();
 
 
     }
+
+function searchQuery(classname,property,value){
+var list = document.getElementsByClassName(classname)
+for(let i of list){
+if(i.property == value){
+
+  i.style.display = block
   
+}
+  else{
+i.style.display = none
+    
+  }
+}
+  
+}
 
