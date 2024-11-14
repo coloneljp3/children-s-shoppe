@@ -479,7 +479,7 @@ Whether your child is a newborn or a toddler, we can service your needs.
 
 
 <div>
-<div id = "contact-footer-div">
+<div style = "color:white;background-color:black;font-family:helvetica" id = "contact-footer-div">
 <h3>The Children's Shoppe</h3>
 <p><b>109 N Trenton St<br>
 Ruston, LA 71270</b></p>
