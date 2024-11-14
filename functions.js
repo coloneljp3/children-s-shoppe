@@ -140,3 +140,34 @@ i.style.display = none
   
 }
 
+function sort(classname, quality){
+var classes = document.getElementsByClassName(classname)
+for(let i of classes){
+if(i.quality){
+i.style.display = "inline-block";
+  
+}
+  else{
+i.style.display = "none"
+    
+  }
+  
+}
+  
+}
+
+function priceSort(classname,price){
+var classes = document.getElementsByClassName(classname)
+for(let i of range(0,classes.length)){
+  var min_index = i
+    for(let a of range(i+1,classes.length)){
+          if(classes[a]<classes[min_index]){
+          min_index = classes[a]
+          }
+      
+    }
+  classes[i+1]
+  
+}
+  
+}
