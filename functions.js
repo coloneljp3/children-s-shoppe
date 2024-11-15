@@ -166,8 +166,8 @@ for(let i of range(0,classes.length)){
           }
       
     }
-  classes[i+1]
+  classes[a],classes[min_index] = classes[min_index],classes[a];
   
 }
-  
+return classes
 }
