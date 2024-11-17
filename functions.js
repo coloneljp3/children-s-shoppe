@@ -25,7 +25,7 @@ function backColorChange(id, color_1,color_2){
 element.style.backgroundColor = color_1;
     
   }
-  
+
 };
 
 function fadeIn(id,transition){
@@ -154,6 +154,18 @@ i.style.display = "none"
   
 }
   
+}
+
+function range(b,e){
+  z=[]
+while(b<=e){
+z.push(b)
+b+=1
+  
+}
+return z
+
+
 }
 
 function priceSort(classname,price){
