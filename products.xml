@@ -4,31 +4,31 @@
   <Image: img class = "product-images"></Image: img>
     <Title: h2>Product Image</Title: h2>
   <br>
-<Price: price = "100" p style = "font-family:Helvetica;text-align:center">$4.00</Price: p>
+<Price: class = "price" price = "100" p style = "font-family:Helvetica;text-align:center">$4.00</Price: p>
 </Product: div>
 <Product: div class = "product-images-container" id = "product-images-container-1">
   <Image: img class = "product-images"></Image: img>
     <Title: h2>Product Image</Title: h2><br>
-<Price: price = "99" p style = "font-family:Helvetica;text-align:center">$4.00</Price: p>
+<Price: class = "price" price = "99" p style = "font-family:Helvetica;text-align:center">$4.00</Price: p>
 </Product: div>
   <Product: div class = "product-images-container" id = "product-images-container-1">
   <Image: img class = "product-images"></Image: img>
     <Title: h2>Product Image</Title: h2><br>
-<Price: price = "98" p style = "font-family:Helvetica;text-align:center">$4.00</Price: p>
+<Price: class = "price" price = "98" p style = "font-family:Helvetica;text-align:center">$4.00</Price: p>
 </Product: div>
   <Product: div class = "product-images-container" id = "product-images-container-1">
   <Image: img class = "product-images"></Image: img>
     <Title: h2>Product Image</Title: h2><br>
-<Price: price = "97" p style = "font-family:Helvetica;text-align:center">$4.00</Price: p>
+<Price: class = "price" price = "97" p style = "font-family:Helvetica;text-align:center">$4.00</Price: p>
 </Product: div>
   <Product: div class = "product-images-container" id = "product-images-container-1">
   <Image: img class = "product-images"></Image: img>
     <Title: h2>Product Image</Title: h2><br>
-<Price: price = "96" p style = "font-family:Helvetica;text-align:center">$4.00</Price: p>
+<Price: class = "price" price = "96" p style = "font-family:Helvetica;text-align:center">$4.00</Price: p>
 </Product: div>
   <Product: div class = "product-images-container" id = "product-images-container-1">
   <Image: img class = "product-images"></Image: img>
     <Title: h2>Product Image</Title: h2><br>
-<Price: price = "95" p style = "font-family:Helvetica;text-align:center">$4.00</Price: p>
+<Price: class = "price" price = "95" p style = "font-family:Helvetica;text-align:center">$4.00</Price: p>
 </Product: div>
 </root>
