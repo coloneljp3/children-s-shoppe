@@ -4,7 +4,7 @@
   <Image: img class = "product-images"></Image: img>
     <Title: h2>Product Image</Title: h2>
   <br>
-<Price: class = "price" price = "100" p style = "font-family:Helvetica;text-align:center">$4.00</Price: p>
+<Price: p style = "font-family:Helvetica;text-align:center">$4.00</Price: p>
 </Product: div>
 <Product: div class = "product-images-container" id = "product-images-container-1">
   <Image: img class = "product-images"></Image: img>
