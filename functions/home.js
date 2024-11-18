@@ -17,7 +17,7 @@ res.send(`
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <script src = "/functions.js" type = "text/javascript">
 
-function productFilter(prod,attr){
+function productFilter(){
 var xml = new XMLHttpRequest();
 xml.onreadystatechange =()=>{
 document.getElementById('product-selection').innerHTML = xml.responseText;
@@ -27,6 +27,7 @@ xml.open('GET','/products.xml','true');
 xml.send();
   
 };
+productFilter();
 
 function imageSlide(id,urlList){
 var image = document.getElementById(id);
@@ -68,7 +69,7 @@ imageSlide('image-slider',['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/3
 <img style = "height:100%" src = "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB"></img>
 
 </div>
-<div id = "main-page-heading-container"><h1 id = "main-page-heading" >The Children's Shoppe</h1></div>
+
 <nav id = "main-nav-bar">
 <div id = "main-nav-bar-top-half">
 <br>
@@ -330,6 +331,7 @@ width.style.width = '0px'}
 
 <body>
 <div id = "product-selection"></div>
+<div id = "main-page-heading-container"><h1 id = "main-page-heading" >The Children's Shoppe</h1></div>
 <div id = "post-header-body-div-1" class = "body-div">
 
 
