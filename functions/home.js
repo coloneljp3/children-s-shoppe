@@ -331,6 +331,7 @@ width.style.width = '0px'}
 
 <body>
 <div id = "product-selection"></div>
+<button onclick = "productFilter();priceSort('price')">Find all products from least to most expensive</button>
 <div id = "main-page-heading-container"><h1 id = "main-page-heading" >The Children's Shoppe</h1></div>
 <div id = "post-header-body-div-1" class = "body-div">
 
