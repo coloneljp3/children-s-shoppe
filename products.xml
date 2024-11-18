@@ -1,4 +1,4 @@
-<?xml encoding = "UTF-8" version = "1.0"?>
+<?xml encoding = "UTF-8"?>
 <root>
 <Product: div class = "product-images-container" id = "product-images-container-1">
   <Image: img class = "product-images"></Image: img>
