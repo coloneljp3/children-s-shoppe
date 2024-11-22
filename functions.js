@@ -1,3 +1,13 @@
+function productFilter(){
+var xml = new XMLHttpRequest();
+xml.onreadystatechange =()=>{
+document.getElementById('product-selection').innerHTML = xml.responseText;
+}
+xml.open('GET','/products.xml','true');
+
+xml.send();
+  
+};
 function colorChange(id, color_1, color_2){
 var element = document.getElementById(id);
 
