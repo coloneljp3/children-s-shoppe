@@ -12,22 +12,11 @@ app.use('/',(req,res)=>{
 res.send(`
 <html>
 <head>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&amp;family=Raleway:ital,wght@1,200&amp;display=swap" rel="stylesheet">
 <link rel = "stylesheet" href = "/styles.css"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <script src = "/functions.js" type = "text/javascript">
-
-function productFilter(){
-var xml = new XMLHttpRequest();
-xml.onreadystatechange =()=>{
-document.getElementById('product-selection').innerHTML = xml.responseText;
-}
-xml.open('GET','/products.xml','true');
-
-xml.send();
-  
-};
-productFilter();
 
 function imageSlide(id,urlList){
 var image = document.getElementById(id);
@@ -348,7 +337,7 @@ width.style.width = '0px'}
 <polyline stroke = "white" stroke-width = 3 points = "25 12.5 0 25"></polyline>
 
 </svg>
-<h1 style = "text-align:center;position:absolute;width:100%;top:75%;z-index:1;color:white;margin:auto">Browse Our Store Online Or In Person!</h1>
+<button style = "border-width:5px;border-color:white;border-radius:25px;font-family:Raleway;text-align:center;position:absolute;font-size:40px;width:75%;left:12.5%;top:75%;z-index:1;color:white;margin:auto;background-color:transparent;border-style:solid">Browse Our Store Online Or In Person!</button>
 <img src = "https://www.consignkoolkids.com/img/slideClothesEdge.jpg" id = "image-slider" style = "filter:grayscale(40%);height:100%;opacity:80%" ></img>
 </div>
 </div>
