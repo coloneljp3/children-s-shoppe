@@ -1,69 +1,70 @@
 <?xml version = '1.0' encoding = "UTF-8" ?>
 <root>
-<product: div class = "product-images-container" id = "product-images-container-1">
-  <image: img class = "product-images"></image: img>
-    <title: h2>Product Image</title: h2>
+<p: div class = "product-images-container" id = "product-images-container-1">
+  <i: img class = "product-images"></i: img>
+    <t: h2>Product Image</t: h2>
   <br>
-<price: p style = "font-family:Helvetica;text-align:center">$4.00</price: p>
-</product: div>
-<product: div class = "product-images-container" id = "product-images-container-1">
-  <image: img class = "product-images"></image: img>
-    <title: h2>Product Image</title: h2>
+<c: p style = "font-family:Helvetica;text-align:center">$4.00</c: p>
+</p: div>
+  <p: div class = "product-images-container" id = "product-images-container-1">
+  <i: img class = "product-images"></i: img>
+    <t: h2>Product Image</t: h2>
   <br>
-<price: p style = "font-family:Helvetica;text-align:center">$4.00</price: p>
-</product: div>
-  <product: div class = "product-images-container" id = "product-images-container-1">
-  <image: img class = "product-images"></image: img>
-    <title: h2>Product Image</title: h2>
+<c: p style = "font-family:Helvetica;text-align:center">$4.00</c: p>
+</p: div>
+  <p: div class = "product-images-container" id = "product-images-container-1">
+  <i: img class = "product-images"></i: img>
+    <t: h2>Product Image</t: h2>
   <br>
-<price: p style = "font-family:Helvetica;text-align:center">$4.00</price: p>
-</product: div>
-  <product: div class = "product-images-container" id = "product-images-container-1">
-  <image: img class = "product-images"></image: img>
-    <title: h2>Product Image</title: h2>
+<c: p style = "font-family:Helvetica;text-align:center">$4.00</c: p>
+</p: div>
+  <p: div class = "product-images-container" id = "product-images-container-1">
+  <i: img class = "product-images"></i: img>
+    <t: h2>Product Image</t: h2>
   <br>
-<price: p style = "font-family:Helvetica;text-align:center">$4.00</price: p>
-</product: div>
-  <product: div class = "product-images-container" id = "product-images-container-1">
-  <image: img class = "product-images"></image: img>
-    <title: h2>Product Image</title: h2>
+<c: p style = "font-family:Helvetica;text-align:center">$4.00</c: p>
+</p: div>
+  <p: div class = "product-images-container" id = "product-images-container-1">
+  <i: img class = "product-images"></i: img>
+    <t: h2>Product Image</t: h2>
   <br>
-<price: p style = "font-family:Helvetica;text-align:center">$4.00</price: p>
-</product: div>
-  <product: div class = "product-images-container" id = "product-images-container-1">
-  <image: img class = "product-images"></image: img>
-    <title: h2>Product Image</title: h2>
+<c: p style = "font-family:Helvetica;text-align:center">$4.00</c: p>
+</p: div>
+  <p: div class = "product-images-container" id = "product-images-container-1">
+  <i: img class = "product-images"></i: img>
+    <t: h2>Product Image</t: h2>
   <br>
-<price: p style = "font-family:Helvetica;text-align:center">$4.00</price: p>
-</product: div>
-  <product: div class = "product-images-container" id = "product-images-container-1">
-  <image: img class = "product-images"></image: img>
-    <title: h2>Product Image</title: h2>
+<c: p style = "font-family:Helvetica;text-align:center">$4.00</c: p>
+</p: div>
+  <p: div class = "product-images-container" id = "product-images-container-1">
+  <i: img class = "product-images"></i: img>
+    <t: h2>Product Image</t: h2>
   <br>
-<price: p style = "font-family:Helvetica;text-align:center">$4.00</price: p>
-</product: div>
-  <product: div class = "product-images-container" id = "product-images-container-1">
-  <image: img class = "product-images"></image: img>
-    <title: h2>Product Image</title: h2>
+<c: p style = "font-family:Helvetica;text-align:center">$4.00</c: p>
+</p: div>
+  <p: div class = "product-images-container" id = "product-images-container-1">
+  <i: img class = "product-images"></i: img>
+    <t: h2>Product Image</t: h2>
   <br>
-<price: p style = "font-family:Helvetica;text-align:center">$4.00</price: p>
-</product: div>
-  <product: div class = "product-images-container" id = "product-images-container-1">
-  <image: img class = "product-images"></image: img>
-    <title: h2>Product Image</title: h2>
+<c: p style = "font-family:Helvetica;text-align:center">$4.00</c: p>
+</p: div>
+  <p: div class = "product-images-container" id = "product-images-container-1">
+  <i: img class = "product-images"></i: img>
+    <t: h2>Product Image</t: h2>
   <br>
-<price: p style = "font-family:Helvetica;text-align:center">$4.00</price: p>
-</product: div>
-  <product: div class = "product-images-container" id = "product-images-container-1">
-  <image: img class = "product-images"></image: img>
-    <title: h2>Product Image</title: h2>
+<c: p style = "font-family:Helvetica;text-align:center">$4.00</c: p>
+</p: div>
+  <p: div class = "product-images-container" id = "product-images-container-1">
+  <i: img class = "product-images"></i: img>
+    <t: h2>Product Image</t: h2>
   <br>
-<price: p style = "font-family:Helvetica;text-align:center">$4.00</price: p>
-</product: div>
-  <product: div class = "product-images-container" id = "product-images-container-1">
-  <image: img class = "product-images"></image: img>
-    <title: h2>Product Image</title: h2>
+<c: p style = "font-family:Helvetica;text-align:center">$4.00</c: p>
+</p: div>
+  <p: div class = "product-images-container" id = "product-images-container-1">
+  <i: img class = "product-images"></i: img>
+    <t: h2>Product Image</t: h2>
   <br>
-<price: p style = "font-family:Helvetica;text-align:center">$4.00</price: p>
-</product: div>
+<c: p style = "font-family:Helvetica;text-align:center">$4.00</c: p>
+</p: div>
+
 </root>
