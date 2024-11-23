@@ -339,7 +339,7 @@ width.style.width = '0px'}
 >
 
 </button>
-<button style = "border-width:5px;border-color:white;border-radius:25px;font-family:Raleway;text-align:center;position:absolute;font-size:40px;width:75%;left:12.5%;top:75%;z-index:1;color:white;margin:auto;background-color:transparent;border-style:none" onmouseover="propChange('transition', 'border-style 1s')propChange('borderStyle','solid');" onmouseleave="propChange('borderStyle','none');">Browse Our Store Online Or In Person!</button>
+<button id = "call-to-action" style = "border-width:5px;border-color:white;border-radius:25px;font-family:Raleway;text-align:center;position:absolute;font-size:40px;width:75%;left:12.5%;top:75%;z-index:1;color:white;margin:auto;background-color:transparent;border-style:none" onmouseover="propChange('call-to-action','transition', 'border-style 1s')propChange('call-to-action','borderStyle','solid');" onmouseleave="propChange('call-to-action','borderStyle','none');">Browse Our Store Online Or In Person!</button>
 <img src = "https://www.consignkoolkids.com/img/slideClothesEdge.jpg" id = "image-slider" style = "filter:grayscale(40%);height:100%;opacity:80%" ></img>
 </div>
 </div>
