@@ -21,8 +21,8 @@ element.style.color = color_1;
   }
 };
 
-function propChange(property,value){
-this.style[property] = value; 
+function propChange(id,property,value){
+document.getElementById(id).style[property] = value; 
 }
 
 function backColorChange(id, color_1,color_2){
