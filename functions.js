@@ -22,7 +22,7 @@ element.style.color = color_1;
 };
 
 function propChange(property,value){
-this.style.property = value; 
+this.style[property] = value; 
 }
 
 function backColorChange(id, color_1,color_2){
