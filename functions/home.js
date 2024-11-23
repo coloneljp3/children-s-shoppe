@@ -13,6 +13,8 @@ res.send(`
 <html>
 <head>
 <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&amp;family=Raleway:ital,wght@1,200&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@7f00..700&amp;family=Raleway:ital,wght@1,200&amp;display=swap" rel="stylesheet">
+
 <link rel = "stylesheet" href = "/styles.css"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -327,16 +329,16 @@ width.style.width = '0px'}
 
 
 <div style = "width:100%">
-<svg id = "arrow_1" style = "z-index:1;width:25px;height:25px;left:20px;position:absolute;top:75%;border-left-color:white"  >
-<polyline stroke = "white" stroke-width = 3 points = "0 12.5 25 0"></polyline>
-<polyline stroke = "white" stroke-width = 3 points = "0 12.5 25 25"></polyline>
+<button id = "arrow_1" onclick = "shiftImage(['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB'
+,'https://www.consignkoolkids.com/img/slideClothesEdge.jpg'],'image-slider','arrow_1')" style = "z-index:1;width:25px;height:25px;left:20px;position:absolute;top:75%;border-left-color:white"  >
+<
 
-</svg>
-<svg id = "arrow_2" style = "z-index:1;width:25px;height:25px;right:20px;position:absolute;top:75%;border-right-color:white">
-<polyline stroke = "white" stroke-width = 3 points = "25 12.5 0 0"></polyline>
-<polyline stroke = "white" stroke-width = 3 points = "25 12.5 0 25"></polyline>
+</button>
+<button id = "arrow_2" onclick = "shiftImage(['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB'
+,'https://www.consignkoolkids.com/img/slideClothesEdge.jpg'],'image-slider','arrow_2')" style = "z-index:1;width:25px;height:25px;right:20px;position:absolute;top:75%;border-right-color:white">
+>
 
-</svg>
+</button>
 <button style = "border-width:5px;border-color:white;border-radius:25px;font-family:Raleway;text-align:center;position:absolute;font-size:40px;width:75%;left:12.5%;top:75%;z-index:1;color:white;margin:auto;background-color:transparent;border-style:solid">Browse Our Store Online Or In Person!</button>
 <img src = "https://www.consignkoolkids.com/img/slideClothesEdge.jpg" id = "image-slider" style = "filter:grayscale(40%);height:100%;opacity:80%" ></img>
 </div>
