@@ -27,8 +27,7 @@ setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = 
 };
 };
 
-imageSlide('image-slider',['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB'
-,'https://www.consignkoolkids.com/img/slideClothesEdge.jpg'])
+
 
 </script>
 
@@ -57,7 +56,7 @@ imageSlide('image-slider',['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/3
 <header id = "main-header">
 <div style = "background-color:#e6eab7;height:50%;width:100%">
 
-<img style = "height:100%" src = "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB"></img>
+<img style = "height:100%" src = "/main_logo.jpg"></img>
 
 </div>
 
@@ -330,12 +329,12 @@ width.style.width = '0px'}
 
 <div style = "width:100%">
 <button id = "arrow_1" onclick = "shiftImage(['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB'
-,'https://www.consignkoolkids.com/img/slideClothesEdge.jpg'],'image-slider','arrow_1')" style = "z-index:1;width:25px;height:25px;left:20px;position:absolute;top:75%;border-left-color:white"  >
+,'/pic_1.jpg'.'/pic_2.jpg','/pic_3.jpg','/pic_4.jpg'],'image-slider','arrow_1')"  >
 <
 
 </button>
 <button id = "arrow_2" onclick = "shiftImage(['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB'
-,'https://www.consignkoolkids.com/img/slideClothesEdge.jpg'],'image-slider','arrow_2')" style = "z-index:1;width:25px;height:25px;right:20px;position:absolute;top:75%;border-right-color:white">
+,'/pic_1.jpg'.'/pic_2.jpg','/pic_3.jpg','/pic_4.jpg'],'image-slider','arrow_2')">
 >
 
 </button>
