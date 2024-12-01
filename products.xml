@@ -4,7 +4,7 @@
   <img class = "product-images"></img>
     <h2>Product Image</h2>
   <br>
-<p style = "font-family:Helvetica;text-align:center">$4.00</p>
+<p style = "font-family:Helvetica;text-align:center">$2.00</p>
   </div>
   <div class = "product-images-container" id = "product-images-container-1">
   <img class = "product-images"></img>
@@ -22,7 +22,7 @@
   <img class = "product-images"></img>
     <h2>Product Image</h2>
   <br>
-<p style = "font-family:Helvetica;text-align:center">$4.00</p>
+<p style = "font-family:Helvetica;text-align:center">$3.00</p>
   </div>
   <div class = "product-images-container" id = "product-images-container-1">
   <img class = "product-images"></img>
@@ -40,7 +40,7 @@
   <img class = "product-images"></img>
     <h2>Product Image</h2>
   <br>
-<p style = "font-family:Helvetica;text-align:center">$4.00</p>
+<p style = "font-family:Helvetica;text-align:center">$5.00</p>
   </div>
   <div class = "product-images-container" id = "product-images-container-1">
   <img class = "product-images"></img>
@@ -52,7 +52,7 @@
   <img class = "product-images"></img>
     <h2>Product Image</h2>
   <br>
-<p style = "font-family:Helvetica;text-align:center">$4.00</p>
+<p style = "font-family:Helvetica;text-align:center">$1.00</p>
   </div>
   <div class = "product-images-container" id = "product-images-container-1">
   <img class = "product-images"></img>
