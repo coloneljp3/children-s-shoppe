@@ -17,7 +17,7 @@ let mail = nodemailer.createTransport({
 	auth:{
 		user:'jpbreaux225@gmail.com',
 		pass:'FatBoi23'
-	}
+	}})
 
 let mailSend = mail.sendMail({
 from: req.body.sender,
@@ -27,7 +27,7 @@ text:req.body.message})
 
 mailSend;
 
-})
+
 
 	
 res.send(`
