@@ -6,6 +6,10 @@ command = "npm run"
   from = "/home"
   to = "/.netlify/functions/home"
   status = 200
+
+[[redirects]]
+from = "/"
+to = "/home"
 [[redirects]]
   from = "/products"
   to = "/.netlify/functions/products"
