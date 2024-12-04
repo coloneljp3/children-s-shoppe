@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true}));
 
 app.use('/',(req,res)=>{
 let mail = nodemailer.createTransport({
-	host:smtp.gmail.com,
+	host:'smtp.gmail.com',
 	port:587,
 	secure:false,
 	auth:{
