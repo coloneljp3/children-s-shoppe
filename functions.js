@@ -157,6 +157,7 @@ var classes = document.getElementsByClassName(classname)
 for(let i of range(0,classes.length)){
   var min_index = i
     for(let a of range(i+1,classes.length)){
+      console.log(classes[min_index]);
           if(classes[a].value < classes[min_index].value){
           min_index = classes[a]
           }
