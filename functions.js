@@ -142,7 +142,7 @@ i.style.display = "none"
 
 function range(b,e){
   z=[]
-while(b<=e){
+while(b<e){
 z.push(b)
 b+=1
   
@@ -157,7 +157,7 @@ var classes = document.getElementsByClassName(classname)
 for(let i of range(0,classes.length)){
   var min_index = i
     for(let a of range(i+1,classes.length)){
-          if(classes[a].value<classes[min_index].value){
+          if(classes[a].value < classes[min_index].value){
           min_index = classes[a]
           }
       
@@ -167,7 +167,7 @@ for(let i of range(0,classes.length)){
 }
 return classes
 }
-function productFilter(){
+function productReq(){
 var xml = new XMLHttpRequest();
 xml.onreadystatechange =()=>{
 document.getElementById('product-selection').innerHTML = xml.responseText;
@@ -177,4 +177,14 @@ xml.open('GET','/products.xml','true');
 xml.send();
   
 };
+
+function searchList(){
+  var xml = new XMLHttpRequest();
+xml.onreadystatechange =()=>{
+document.getElementById('options').innerHTML = xml.responseText;
+}
+xml.open('GET','/search_options.xml','true');
+
+xml.send();
+}
 
