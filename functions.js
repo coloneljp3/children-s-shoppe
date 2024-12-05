@@ -156,6 +156,7 @@ return z
 
 function priceSort(classname){
 var classes = document.getElementsByClassName(classname)
+var z;
 for(let i of range(0,classes.length)){
   var min_index = i;
         console.log(i);
@@ -163,10 +164,11 @@ for(let i of range(0,classes.length)){
       console.log(min_index);
           if(classes[a].value < classes[min_index].value){
           min_index = a;
-          }
+          };
+      z = a;
       
-    }
-  classes[a].value,classes[min_index].value = classes[min_index].value,classes[a].value;
+    };
+  classes[z].value,classes[min_index].value = classes[min_index].value,classes[z].value;
   
 }
 return classes
