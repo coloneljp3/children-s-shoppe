@@ -162,7 +162,7 @@ for(let i of range(0,classes.length)){
     for(let a of range(i+1,classes.length)){
       console.log(min_index);
           if(classes[a].value < classes[min_index].value){
-          min_index = classes[a];
+          min_index = a;
           }
       
     }
