@@ -13,8 +13,8 @@ res.send(`
 <html>
 <head>
 <style>
-@media(){
-
+@media(max-width:600px){
+#main-nav-bar-bottom-half{display:none};
 
 }
 </style>
@@ -62,7 +62,35 @@ setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = 
 <header id = "main-header">
 <div style = "background-color:#e6eab7;height:50%;width:100%">
 
-<img style = "height:100%" src = "/main_logo.jpg"></img>
+<svg style = "float:left;display:inline-block" onclick = "
+function menuStat(id){
+var menu = document.getElementById(menu);
+if(menu.style.width == '0px'){
+menu.style.width == '50%';
+};
+else{
+menu.style.width == '0%';
+}
+}
+menuStat('menu-bar')
+">
+<script>function menuStat(id){
+var menu = document.getElementById(menu);
+if(menu.style.width == '0px'){
+menu.style.width == '50%';
+};
+else{
+menu.style.width == '0px';
+}
+}
+menuStat('menu-bar')</script>
+<polyline stroke = "black" stroke-width = "4" points = "0 10 50 10"></polyline>
+<polyline stroke = "black" stroke-width = "4" points = "0 20 50 20"></polyline>
+<polyline stroke = "black" stroke-width = "4" points = "0 30 50 30"></polyline>
+
+</svg>
+
+<div id = "menu-bar" style = "position:absolute;z-index:1;width:0px;height:1000px;border-right-style:solid;border-right-width:.01px"></div><img style = "height:100%" src = "/main_logo.jpg"></img>
 
 </div>
 
