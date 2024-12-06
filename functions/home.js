@@ -12,6 +12,12 @@ app.use('/',(req,res)=>{
 res.send(`
 <html>
 <head>
+<style>
+@media(){
+
+
+}
+</style>
 <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&amp;family=Raleway:ital,wght@1,200&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@7f00..700&amp;family=Raleway:ital,wght@1,200&amp;display=swap" rel="stylesheet">
 
@@ -282,7 +288,7 @@ width.style.width = '0px'}
 >
 
 </button>
-<button id = "call-to-action" style = "border-width:5px;border-color:white;border-radius:25px;font-family:Raleway;text-align:center;position:absolute;font-size:40px;width:75%;left:12.5%;top:75%;z-index:1;color:white;margin:auto;background-color:transparent;border-style:none" onmouseover="propChange('call-to-action','transition', 'border-style 1s')propChange('call-to-action','borderStyle','solid');" onmouseleave="propChange('call-to-action','borderStyle','none');">Browse Our Store Online Or In Person!</button>
+<button id = "call-to-action" style = "border-width:5px;border-color:white;border-radius:25px;font-family:Raleway;text-align:center;position:absolute;font-size:40px;width:700px;left:12.5%;top:75%;z-index:1;color:white;margin:auto;background-color:transparent;border-style:none" onmouseover="propChange('call-to-action','transition', 'border-style 1s')propChange('call-to-action','borderStyle','solid');" onmouseleave="propChange('call-to-action','borderStyle','none');">Browse Our Store Online Or In Person!</button>
 <img src = "https://www.consignkoolkids.com/img/slideClothesEdge.jpg" id = "image-slider-image" style = "filter:grayscale(40%);height:100%;opacity:80%" ></img>
 </div>
 </div>
