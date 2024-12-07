@@ -1,4 +1,12 @@
 
+function circleSelect(ind,urlList,id){
+if(this.fill == 'black'){this.fill = 'none'}
+else{
+  this.fill = 'black';
+  document.getElementById(id).src = urlList[ind]
+}
+}
+
 function colorChange(id, color_1, color_2){
 var element = document.getElementById(id);
 
