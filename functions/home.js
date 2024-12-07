@@ -14,9 +14,10 @@ res.send(`
 <head>
 <style>
 @media(max-width:600px){
-#main-nav-bar-bottom-half{display:none};
+#main-nav-bar-bottom-half{visibility:hidden};
 
 }
+
 </style>
 <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&amp;family=Raleway:ital,wght@1,200&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@7f00..700&amp;family=Raleway:ital,wght@1,200&amp;display=swap" rel="stylesheet">
