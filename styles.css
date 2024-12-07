@@ -264,3 +264,9 @@ color: #a1ad20;
     display:block
     
   }
+
+#menu-bar{
+  display:inline-block;
+transition: visibility 2s
+  
+}
