@@ -73,7 +73,7 @@ setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = 
 
 </svg>
 
-<div id = "menu-bar" style = "position:absolute;z-index:1;width:0px;height:1000px;border-right-style:solid;border-right-width:.01px"><button type = "submit" class = "menu-bar-options">Contact</button>
+<div id = "menu-bar" style = "visibility:hidden;position:absolute;z-index:1;width:0px;height:1000px;border-right-style:solid;border-right-width:.01px"><button type = "submit" class = "menu-bar-options">Contact</button>
 <button type = "submit" class = "menu-bar-options">Contact</button>
 <button type = "submit" class = "menu-bar-options">Contact</button>
 <button type = "submit" class = "menu-bar-options">Contact</button>
