@@ -13,7 +13,7 @@ app.use('/',(req,res)=>{
 let mail = nodemailer.createTransport({
 	host:'smtp.gmail.com',
 	port:587,
-	secure:false,
+	secure:true,
 	auth:{
 		user:'jpbreaux225@gmail.com',
 		pass:'FatBoi23'
