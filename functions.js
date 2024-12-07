@@ -1,4 +1,14 @@
+function menuStat(id){
+var menu = document.getElementById(id);
+if(menu.style.width == '0px'){
+menu.style.width == '100px';
+menu.style.height = '400px'}
+else{
+menu.style.width == '0px';
+menu.style.height = '0px'}
+}
 
+menuStat('menu-bar')
 function circleSelect(ind,urlList,id){
 if(this.fill == 'black'){this.fill = 'none'}
 else{
