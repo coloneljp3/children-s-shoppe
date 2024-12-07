@@ -319,7 +319,7 @@ width.style.width = '0px'}
 >
 
 </button>
-<button id = "call-to-action" style = "border-width:5px;border-color:white;border-radius:25px;font-family:Raleway;text-align:center;position:absolute;font-size:40px;width:700px;left:12.5%;top:75%;z-index:1;color:white;margin:auto;background-color:transparent;border-style:none" onmouseover="propChange('call-to-action','transition', 'border-style 1s')propChange('call-to-action','borderStyle','solid');" onmouseleave="propChange('call-to-action','borderStyle','none');">Browse Our Store Online Or In Person!</button>
+<button id = "call-to-action" style = "border-width:5px;border-color:white;border-radius:25px;font-family:Raleway;text-align:center;position:absolute;font-size:40px;width:79%;left:12.5%;top:700px;z-index:1;color:white;margin:auto;background-color:transparent;border-style:none" onmouseover="propChange('call-to-action','transition', 'border-style 1s')propChange('call-to-action','borderStyle','solid');" onmouseleave="propChange('call-to-action','borderStyle','none');">Browse Our Store Online Or In Person!</button>
 <img src = "https://www.consignkoolkids.com/img/slideClothesEdge.jpg" id = "image-slider" style = "filter:grayscale(40%);height:100%;opacity:80%" ></img>
 <svg style = "text-align:center;margin:auto"><circle cx = "20" cy = "20" r = "5" stroke = "black"></circle>
 <circle cx = "40" cy = "20" r = "5" stroke = "black"></circle>
