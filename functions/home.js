@@ -473,13 +473,13 @@ Ruston, LA 71270</b></p>
 </div>
 <div id = "messaging-feature">
 <h4 style = "text-align:center">Have a Question? Contact Us.</h4>
-<form method = "POST" id = "email" action = "/submit">
+<div method = "POST" id = "email" action = "/submit">
 <h4 style = "text-align:center">Type your full name in the box below.</h4>
 <textarea id = "sender" name = "sender"></textarea>
 <h4 style = "text-align:center">Type your message in the box below.</h4>
 <textarea id = "message" name = "message"></textarea>
 <button id = "message-button" onclick = "xmlMailSend()">Send</button>
-</form>
+</div>
 <div style = "color:#a1ad20;background-color:#e6eab7;display:block">
 <h4 style = "text-align:center">Follow Us!</h4>
 <div class = "social-media-image-container"><a href = ""><img src = "/facebook.svg" class = "social-media-image"></img></a></div>
