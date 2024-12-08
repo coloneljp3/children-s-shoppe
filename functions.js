@@ -178,11 +178,11 @@ var classes = document.getElementsByClassName(classname)
 var z;
 for(let i of range(0,classes.length)){
   var min_index = i;
-        console.log(i);
     for(let a of range(i+1,classes.length)){
-      console.log(min_index);
           if(classes[a].value < classes[min_index].value){
           min_index = a;
+                  console.log(min_index);
+
           };
       z = a;
       
