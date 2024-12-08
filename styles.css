@@ -259,7 +259,9 @@ color: #a1ad20;
     font-family: Cormorant Garamond;
     font-size: 20px;
     font-weight: bold;
-    width:24%;
+    width:inherit;
+    height:inherit;
+    visibility:inherit;
     border-style: none;
     display:block
     
