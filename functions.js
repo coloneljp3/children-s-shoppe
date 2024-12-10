@@ -179,7 +179,7 @@ var z;
 for(let i of range(0,classes.length)){
   var min_index = i;
     for(let a of range(i+1,classes.length)){
-          if(classes[a].value < classes[min_index].value){
+          if(classes[a].childNodes[4].value < classes[min_index].childNodes[4].value){
           min_index = a;
                   console.log(min_index);
 
@@ -187,8 +187,10 @@ for(let i of range(0,classes.length)){
       z = a;
       
     };
-  classes[z].value,classes[min_index].value = classes[min_index].value,classes[z].value;
-  
+let c = classes[min_index]
+let v = classes[z]
+classes[min_index] = v;
+classes[z] = c;
 }
 return classes
 }
