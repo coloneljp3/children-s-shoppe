@@ -19,7 +19,7 @@ let mail = nodemailer.createTransport({
 		pass:'FatBoi23'
 	}})
 
-let mailSend = await mail.sendMail({
+let mailSend = mail.sendMail({
 from: req.body.sender,
 to: 'hephtymail@gmail.com',
 subject:"Children's Shoppe Website Mail",
