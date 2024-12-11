@@ -21,6 +21,12 @@ height:500px;
 transition:"borderStyle 1s";
   
 }
+
+.product-images{
+width:100px;
+height:100px;
+  
+}
 .main-nav-bar-dropdown-container{
 position:absolute;
   
