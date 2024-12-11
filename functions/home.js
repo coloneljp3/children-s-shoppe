@@ -41,10 +41,16 @@ mapInt();
 <style>
 
 @media(max-width:600px){
-#main-nav-bar-bottom-half{visibility:hidden}
+#main-nav-bar-bottom-half,.main-nav-bar-items-container{visibility:hidden}
 #search{visibility:hidden}#search_icon{position:fixed;top:10px;width:25px;right:20px};
-.product-images-container{width:100%}}
+.product-images-container{width:100%;display:block}}
+@media(max-width:400px){
+.social-media-image-container{width:20px;height:20px};
+.home-info{width:100%;display:block}
 
+
+
+}
 </style>
 <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&amp;family=Raleway:ital,wght@1,200&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@7f00..700&amp;family=Raleway:ital,wght@1,200&amp;display=swap" rel="stylesheet">
