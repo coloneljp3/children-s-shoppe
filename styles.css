@@ -11,8 +11,8 @@ height:300px;
 background-color:#e6eab7;
 text-align:center
 }
-#arrow_1{z-index:1;width:25px;height:25px;left:20px;position:absolute;top:700px;border-style:none;font-size:3em;color:white;background-color:transparent}
-#arrow_2{z-index:1;width:25px;height:25px;right:20px;position:absolute;top:700px;border-style:none;font-size:3em;color:white;background-color:transparent}
+#arrow_1{z-index:1;width:25px;height:50px;left:20px;position:absolute;top:700px;border-style:none;font-size:3em;color:white;background-color:transparent}
+#arrow_2{z-index:1;width:25px;height:50px;right:20px;position:absolute;top:700px;border-style:none;font-size:3em;color:white;background-color:transparent}
 .product-images-container{
 display:inline-block;
 font-family:Cormorant Garamond;
