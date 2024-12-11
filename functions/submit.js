@@ -25,8 +25,8 @@ to: 'hephtymail@gmail.com',
 subject:"Children's Shoppe Website Mail",
 text:req.body.message})
 
-try(mailSend){
-res.send('Noice')
+try{
+	mailSend();
 	
 }
 	catch{
