@@ -12,14 +12,14 @@ app.use(bodyParser.urlencoded({ extended: true}));
 app.use('/',(req,res)=>{
 let mail = nodemailer.createTransport({
 	host:'smtp.gmail.com',
-	port:587,
+	port:993,
 	secure:false,
 	auth:{
 		user:'jpbreaux225@gmail.com',
 		pass:'FatBoi23'
 	}})
 
-let mailSend = mail.sendMail({
+let mailSend = await mail.sendMail({
 from: req.body.sender,
 to: 'hephtymail@gmail.com',
 subject:"Children's Shoppe Website Mail",
