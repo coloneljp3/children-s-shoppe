@@ -1,39 +1,39 @@
-<div class = "search-option-container">
+<div id = "CLOTHES" class = "search-option-container">
   <a class = "search-option-link" href = "">
     <button class = "search-option-button">Clothes</button>
   </a>
 </div>
-<div class = "search-option-container">
+<div id = "SHIRTS" class = "search-option-container">
   <a class = "search-option-link" href = "">
     <button class = "search-option-button">Shirts</button>
   </a>
 </div>
-<div class = "search-option-container">
+<div id = "PANTS" class = "search-option-container">
   <a class = "search-option-link" href = "">
     <button class = "search-option-button">Pants</button>
   </a>
 </div>
-<div class = "search-option-container">
+<div id = "TOPS" class = "search-option-container">
   <a class = "search-option-link" href = "">
     <button class = "search-option-button">Tops</button>
   </a>
 </div>
-<div class = "search-option-container">
+<div id = "BOTTOMS" class = "search-option-container">
   <a class = "search-option-link" href = "">
     <button class = "search-option-button">Bottoms</button>
   </a>
 </div>
-<div class = "search-option-container">
+<div id = "HATS" class = "search-option-container">
   <a class = "search-option-link" href = "">
     <button class = "search-option-button">Hats</button>
   </a>
 </div>
-<div class = "search-option-container">
+<div id = "TOYS" class = "search-option-container">
   <a class = "search-option-link" href = "">
     <button class = "search-option-button">Toys</button>
   </a>
 </div>
-<div class = "search-option-container">
+<div id = "SWEATSHIRTS" class = "search-option-container">
   <a class = "search-option-link" href = "">
     <button class = "search-option-button">Sweatshirts</button>
   </a>
