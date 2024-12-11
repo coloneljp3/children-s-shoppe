@@ -205,10 +205,17 @@ xml.send();
   
 };
 
-function searchList(){
+function searchList(req_word){
   var xml = new XMLHttpRequest();
-xml.onreadystatechange =()=>{
-document.getElementById('options').innerHTML = xml.responseText;
+ xml.onreadystatechange =()=>{
+for(let i of xml.responseText){
+if(i.id.includes(req_word.toUpperCase())){
+document.getElementById('options')
+.appendChild(i)
+  
+}
+  
+}
 }
 xml.open('GET','/search_options.xml','true');
 
