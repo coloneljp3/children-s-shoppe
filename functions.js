@@ -208,15 +208,17 @@ xml.send();
 function searchList(req_word){
   var xml = new XMLHttpRequest();
  xml.onreadystatechange =()=>{
-   document.getElementById('options').innerHTML = xml.responseText;
-for(let i of xml.responseText){
+  var precursor = document.getElementById('precursor');
+    precursor.innerHTML = xml.responseText;
+   var div = document.createElement('div');
+for(let i of precursor.innerHTML){
 if(i.id.includes(req_word.toUpperCase())){
-document.getElementById('options')
-.appendChild(i)
-  
+
+  div.appendChild(i)
 }
   
 }
+   document.getElementById('options').appendChild(div);
 }
 xml.open('GET','/search_options.xml','true');
 
