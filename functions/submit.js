@@ -25,11 +25,11 @@ to: 'hephtymail@gmail.com',
 subject:"Children's Shoppe Website Mail",
 text:req.body.message})
 
-if(mailSend){
+try(mailSend){
 res.send('Noice')
 	
 }
-	else{
+	catch{
 		res.send('Fuck')
 	}
 
