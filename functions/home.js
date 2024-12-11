@@ -15,10 +15,11 @@ res.send(`
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
-@media(max-width:600px){
-#main-nav-bar-bottom-half{visibility:hidden};
 
-}
+@media(max-width:600px){
+#main-nav-bar-bottom-half{visibility:hidden}
+#search{visibility:hidden}#search_icon{position:fixed;top:10px;width:25px;right:20px};
+.product-images-container{width:100%}}
 
 </style>
 <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&amp;family=Raleway:ital,wght@1,200&amp;display=swap" rel="stylesheet">
@@ -65,11 +66,11 @@ setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = 
 <header id = "main-header">
 <div style = "background-color:#e6eab7;height:50%;width:100%">
 
-<svg style = "float:left;display:inline-block" onclick = "menuStat('menu-bar')">
+<svg style = "position:fixed;left:15px;display:inline-block" onclick = "menuStat('menu-bar')">
 
-<polyline stroke = "black" stroke-width = "4" points = "0 10 50 10"></polyline>
-<polyline stroke = "black" stroke-width = "4" points = "0 20 50 20"></polyline>
-<polyline stroke = "black" stroke-width = "4" points = "0 30 50 30"></polyline>
+<polyline stroke = "green" stroke-width = "4" points = "0 10 40 10"></polyline>
+<polyline stroke = "green" stroke-width = "4" points = "0 20 40 20"></polyline>
+<polyline stroke = "green" stroke-width = "4" points = "0 30 40 30"></polyline>
 
 </svg>
 
@@ -139,7 +140,7 @@ transition:width 1s;
 border-style:solid}
 </style>
   
-<svg onclick = "
+<svg id = "search_icon" onclick = "
 
 var width = document.getElementById('search');
 if(width.style.width == '0px'){
@@ -149,11 +150,11 @@ else{
 width.style.width = '0px'}
 
 
-" style = "width:30px;height:20px;display:inline-block;">
-<circle cx = 8 cy = 8 stroke-width = 3 stroke = "white" fill = "none" r = 6></circle>
-<polyline points = "12 12 20 20 " stroke-width = 3 stroke = "white" fill = "none"></polyline>
+" style = "width:30px;height:20px;display:inline-block;color:green">
+<circle cx = 8 cy = 8 stroke-width = 3 stroke = "green" fill = "none" r = 6></circle>
+<polyline points = "12 12 20 20 " stroke-width = 3 stroke = "green" fill = "none"></polyline>
 </svg>
-<input placeholder = "Search for info about The Children's Shoppe"  onkeyup = "searchReq()" id  = "search" type = "search" />
+<input placeholder = "Search for info about The Children's Shoppe"  onkeyup = "searchList(this.value)" id  = "search" type = "search" />
 
 <div style = "position:relative"> 
     
