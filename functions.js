@@ -208,6 +208,7 @@ xml.send();
 function searchList(req_word){
   var xml = new XMLHttpRequest();
  xml.onreadystatechange =()=>{
+   document.getElementById('options').innerHTML = xml.responseText;
 for(let i of xml.responseText){
 if(i.id.includes(req_word.toUpperCase())){
 document.getElementById('options')
