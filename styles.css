@@ -8,7 +8,7 @@ footer{background-color:#e6eab7}
 #main-header{
 width:100%;
 height:300px;
-background-color:#e6eab7;
+background-color:#aaaaff;
 text-align:center
 }
 #arrow_1{z-index:1;width:50px;height:50px;left:20px;position:absolute;top:700px;border-style:none;font-size:3em;color:white;background-color:transparent}
@@ -35,13 +35,14 @@ position:absolute;
 #search-bar,.main-nav-bar-items-container{
   display:inline-block;
   font-family:Cormorant Garamond;
-  width:16%
+  width:16%;
+  background-color:#aaaaff;
   
 }
 
 .home-info-paragraph{
 font-family:Cormorant Garamond;
-color:#a1ad20;
+color:green;
 background-color:#e6eab7
   
 }
@@ -54,7 +55,7 @@ border-style:none;
 visibility:hidden;
 color:#a1ad20;
   display:inline-block;
-background-color:#e6eab7;
+background-color:#aaaaff;
 font-size:20px
 }
 .dropdown-button-7,.dropdown-button-8,.dropdown-button-9,.dropdown-button-10{
@@ -75,8 +76,8 @@ font-size:20px
 }
 .home-info{
 font-family: Cormorant Garamond;
-color:#a1ad20;
-background-color: #e6eab7;
+color:green;
+background-color: #aaaaff;
 display:inline-block;
 width:32.3%;
 height:300px;
@@ -90,7 +91,7 @@ height:500px;}
 .body-div{width:100%}
 
 .main-nav-bar-form-button{    color: #a1ad20;
-    background-color: #e6eab7;
+    background-color: #aaaaff;
     font-family: Cormorant Garamond;
     font-size: 20px;
     font-weight: bold;
@@ -101,7 +102,7 @@ height:500px;}
 width: inherit;
     height: 0px;
     color: #a1ad20;
-    background-color: #e6eab7;
+    background-color: #aaaaff;
     font-family: Cormorant Garamond;
     font-size: 0px;
     font-weight: bold;
@@ -126,13 +127,13 @@ font-size:40px;
 font-weight:bold;
 margin:auto;
 width:50%;
-background-color:black;
+background-color:#aaaaff;
 color:white;
 text-align:center;
 }
 
 #main-page-heading-container{
-background-color:black
+background-color:#aaaaff
 }
 
 footer.span{
@@ -214,11 +215,7 @@ display:inline-block
 
 
 
-#sender,#message{
-height:100px;
-width:200px
 
-}
 
 #message-button{
 background-color: #e6eab7;
