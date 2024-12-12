@@ -173,13 +173,19 @@ return z
 
 }
 
-function priceSort(classname){
-var classes = document.getElementsByClassName(classname)
+function priceSort(xmlInfo){
+var classes = xmlInfo;
+var classes_2 = document.getElementById('product-selection')
 var z;
-for(let i of range(0,classes.length)){
+var classe = []
+for(let i of classes){
+
+  classe.push(i.value)
+}
+for(let i of range(0,classe.length)){
   var min_index = i;
-    for(let a of range(i+1,classes.length)){
-          if(classes[a].childNodes[4].value < classes[min_index].childNodes[4].value){
+    for(let a of range(i+1,classe.length)){
+          if(classe[a] < classe[min_index]){
           min_index = a;
                   console.log(min_index);
 
@@ -187,17 +193,26 @@ for(let i of range(0,classes.length)){
       z = a;
       
     };
-let c = classes[min_index]
-let v = classes[z]
-classes[min_index] = v;
-classes[z] = c;
+let c = classe[min_index]
+let v = classe[z]
+classe[min_index] = v;
+classe[z] = c;
 }
-return classes
+for(let i of classe){
+for(let v of classes){
+if(v.value == i){
+classes_2.appendChild(v);
+  
+}  
+}
+  
+}
+return classes_2;
 }
 function productReq(){
 var xml = new XMLHttpRequest();
 xml.onreadystatechange =()=>{
-document.getElementById('product-selection').innerHTML = xml.responseText;
+priceSort(xml.responseText)
 }
 xml.open('GET','/products.xml','true');
 
