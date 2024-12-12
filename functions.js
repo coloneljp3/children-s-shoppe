@@ -206,13 +206,15 @@ xml.send();
 };
 
 function searchList(req_word){
+  document.getElementById('options').innerHTML = ''
   var xml = new XMLHttpRequest();
  xml.onreadystatechange =()=>{
   var precursor = document.getElementById('precursor');
     precursor.innerHTML = xml.responseText;
    var div = document.createElement('div');
-for(let i of precursor.innerHTML){
-if(i.id.includes(req_word.toUpperCase())){
+for(let i of precursor.childNodes){
+var ide = i.id;
+    if(ide.includes(req_word.toUpperCase())){
 
   div.appendChild(i)
 }
@@ -224,4 +226,3 @@ xml.open('GET','/search_options.xml','true');
 
 xml.send();
 }
-
