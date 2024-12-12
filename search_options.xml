@@ -1,3 +1,5 @@
+<?xml version = '1.0' encoding = "UTF-8" ?>
+<root>
 <div id = "CLOTHES" class = "search-option-container">
   <a class = "search-option-link" href = "">
     <button class = "search-option-button">Clothes</button>
@@ -38,3 +40,4 @@
     <button class = "search-option-button">Sweatshirts</button>
   </a>
 </div>
+</root>
