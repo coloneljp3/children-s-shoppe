@@ -199,7 +199,7 @@ classe[min_index] = v;
 classe[z] = c;
 }
 for(let i of classe){
-for(let v of classes){
+for(let v of classes.childNodes){
 if(v.value == i){
 classes_2.appendChild(v);
   
