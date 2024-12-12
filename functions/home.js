@@ -510,7 +510,8 @@ Ruston, LA 71270</b></p>
 </form>
 <div style = "color:#a1ad20;background-color:#e6eab7;display:block">
 <h4 style = "text-align:center">Follow Us!</h4>
-<div class = "social-media-image-container"><a href = ""><img src = "https://sguru.org/wp-content/uploads/2018/02/facebook_black_outline_logo_transparent_background_png_font_icon_vector_button_maker_and.png" class = "social-media-image"></img></a></div>
+<div class = "social-media-image-container"><a href = ""><img class = "social-media-image" width="50" height="50" src="https://img.icons8.com/ios/50/facebook-new.png" alt="facebook-new"/>
+</a></div>
 <div class = "social-media-image-container"><a href = ""><img src = "/twitter.png" class = "social-media-image"></img></a></div>
 <div class = "social-media-image-container"><a href = ""><img src = "https://pluspng.com/img-png/instagram-png-instagram-icon-1600.png" class = "social-media-image" ></img></a></div></div>
 </div>
