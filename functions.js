@@ -2,13 +2,11 @@ function menuStat(id){
 var menu = document.getElementById(id);
 if(menu.style.width == '0px'){
 menu.style.width = '100px';
-menu.style.height = '400px'
-menu.style.visibility = 'visible'}
+menu.style.height = '50px'}
 else{
 menu.style.width = '0px';
-menu.style.visibility = 'hidden'
 menu.style.height = '0px'}
-}
+};
 
 function circleSelect(ind,urlList,id){
 if(this.fill == 'black'){this.fill = 'none'}
@@ -199,7 +197,7 @@ classe[min_index] = v;
 classe[z] = c;
 }
 for(let i of classe){
-for(let v of classes.childNodes){
+for(let v of classes[0].childNodes){
 if(v.value == i){
 classes_2.appendChild(v);
   
