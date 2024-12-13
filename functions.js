@@ -173,6 +173,7 @@ return z
 
 function priceSort(xmlInfo){
 var classes = xmlInfo;
+  console.log(classes)
 var classes_2 = document.getElementById('product-selection')
 var z;
 var classe = []
