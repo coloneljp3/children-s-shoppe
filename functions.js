@@ -198,8 +198,8 @@ classe[min_index] = v;
 classe[z] = c;
 }
 for(let i of classe){
-for(let v of classes[0].childNodes){
-if(v.value == i){
+for(let v of classes.getElementsByClassName('root').getElementsByClassName('product-images-container ')){
+if(v.getElements.value == i){
 classes_2.appendChild(v);
   
 }  
