@@ -171,22 +171,37 @@ return z
 
 }
 
-function priceSort(xmlInfo){
-var classes = xmlInfo;
-  console.log(classes)
-var classes_2 = document.getElementById('product-selection')
-var z;
-var classe = []
-for(let i of classes){
 
-  classe.push(i.value)
+function productReq(){
+var xml = new XMLHttpRequest();
+var z;
+  xml.onreadystatechange =()=>{
+    z = xml.responseText;
+  document.getElementById("product-selection").innerHTML = xml.responseText
 }
+xml.open('GET','/products.xml','true');
+
+xml.send();
+  
+};
+
+
+
+function priceSort(){
+var classes = document.getElementsByClassName('price');
+var z;
+var classes_2 = document.createElement('div');
+var classe = []
+for(let i of range(0,classes.length)){
+console.log(classes[i].value)
+  classe.push(classes[i].value)
+};
+    
 for(let i of range(0,classe.length)){
   var min_index = i;
     for(let a of range(i+1,classe.length)){
           if(classe[a] < classe[min_index]){
           min_index = a;
-                  console.log(min_index);
 
           };
       z = a;
@@ -198,26 +213,19 @@ classe[min_index] = v;
 classe[z] = c;
 }
 for(let i of classe){
-for(let v of classes.getElementsByClassName('root').getElementsByClassName('product-images-container ')){
-if(v.getElements.value == i){
+for(let v of range(0,classes.length)){
+if(classes[v].value == i){
+    console.log(classes[v])
 classes_2.appendChild(v);
   
 }  
 }
   
 }
-return classes_2;
 }
-function productReq(){
-var xml = new XMLHttpRequest();
-xml.onreadystatechange =()=>{
-priceSort(xml.responseText)
-}
-xml.open('GET','/products.xml','true');
 
-xml.send();
-  
-};
+
+
 
 function searchList(req_word){
   document.getElementById('options').innerHTML = ''
