@@ -208,9 +208,9 @@ for(let i of range(0,classe.length)){
       
     };
 let c = classe[min_index]
-let v = classe[z]
+let v = classe[i]
 classe[min_index] = v;
-classe[z] = c;
+classe[i] = c;
 }
 for(let i of classe){
 for(let v of range(0,classes.length)){
