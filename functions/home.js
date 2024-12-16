@@ -17,23 +17,7 @@ res.send(`
 <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<script>
 
-let mp;
-
-async function mapInt(){
-const { Map } = await google.maps.importLibrary('maps');
-mp = new Map(document.getElementById('map'),{
-center:{lat:,lng:},
-zoom:8
-
-})
-
-
-}
-
-mapInt();
-</script>
 <style>
 
 @media(max-width:600px){
