@@ -347,7 +347,7 @@ D
 <br>
 <br>
 
-<div id = "post-header-body-div-2" class = "body-div">
+<div id = "post-header-body-div-2" class = "body-div"> 
 <div class = "product-images-container" id = "product-images-container-1" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#e6eab7'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><h2 class = "product-image-heading-2>Furniture</h2><p class ="product-image-home-paragraph">For all your kid's furniture needs, the Children's Shoppe has you covered!</p><h3 class = "product-image-heading-3">Product Item</h3><p  style = "font-family:Helvetica;text-align:center">$2.00</p>
     <input style ="display:none;" class ="price" value = '2'/><img src = "https://images-na.ssl-images-amazon.com/images/I/71TxLIHNTzL._AC_SL1500_.jpg" class = "product-images"></img><p>Lorem  </p></div>
 <div class = "product-images-container" id = "product-images-container-2" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#e6eab7'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><h2 class = "product-image-heading-2">Toys</h2><p class ="product-image-home-paragraph">If it's a toy, we have it! Come to the Children's Shoppe to find your child's next Christmas gift!</p><h3 class = "product-image-heading-3">Product Item</h3><p  style = "font-family:Helvetica;text-align:center">$2.00</p>
