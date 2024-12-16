@@ -127,13 +127,13 @@ font-size:40px;
 font-weight:bold;
 margin:auto;
 width:50%;
-background-color:rgb(230, 234, 183);
+background-color:inherit;
 color:white;
 text-align:center;
 }
 
 #main-page-heading-container{
-background-color:rgb(230, 234, 183)
+background-color:rgb(145 151 81)
 }
 
 footer.span{
