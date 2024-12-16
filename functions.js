@@ -182,69 +182,68 @@ var z;
 xml.open('GET','/products.xml','true');
 
 xml.send();
-  
 };
 
 
 
-function priceSort(){
-var classes = document.getElementsByClassName('price');
-var z;
-var classes_2 = document.getElementById('product-selection);
-var classe = []
-for(let i of range(0,classes.length)){
-console.log(classes[i].value)
-  classe.push(classes[i].value)
-};
+//function priceSort(){
+//var classes = document.getElementsByClassName('price');
+//var z;
+//var classes_2 = document.getElementById('product-selection);
+//var classe = []
+//for(let i of range(0,classes.length)){
+//console.log(classes[i].value)
+ // classe.push(classes[i].value)
+//};
     
-for(let i of range(0,classe.length)){
-  var min_index = i;
-    for(let a of range(i+1,classe.length)){
-          if(classe[a] < classe[min_index]){
-          min_index = a;
+//for(let i of range(0,classe.length)){
+  //var min_index = i;
+    //for(let a of range(i+1,classe.length)){
+      //    if(classe[a] < classe[min_index]){
+        //  min_index = a;
 
-          };
-      z = a;
+         // };
+      //z = a;
       
-    };
-let c = classe[min_index]
-let v = classe[i]
-classe[min_index] = v;
-classe[i] = c;
-}
-for(let i of classe){
-for(let v of range(0,classes.length)){
-if(classes[v].value == i){
-    console.log(classes[v])
-document.getElementById('product-selection).appendChild(classes[v]);
+   // };
+//let c = classe[min_index]
+//let v = classe[i]
+//classe[min_index] = v;
+//classe[i] = c;
+//}
+//for(let i of classe){
+//for(let v of range(0,classes.length)){
+//if(classes[v].value == i){
+  //  console.log(classes[v])
+//document.getElementById('product-selection).appendChild(classes[v]);
   
-}  
-}
+//}  
+//}
   
-}
-}
+//}
+//}
 
 
 
 
-function searchList(req_word){
-  document.getElementById('options').innerHTML = ''
-  var xml = new XMLHttpRequest();
- xml.onreadystatechange =()=>{
-  var precursor = document.getElementById('precursor');
-    precursor.innerHTML = xml.responseText;
-   var div = document.createElement('div');
-for(let i of precursor.childNodes){
-var ide = i.id;
-    if(ide.includes(req_word.toUpperCase())){
+//function searchList(req_word){
+  //document.getElementById('options').innerHTML = ''
+  //var xml = new XMLHttpRequest();
+ //xml.onreadystatechange =()=>{
+  //var precursor = document.getElementById('precursor');
+   // precursor.innerHTML = xml.responseText;
+   //var div = document.createElement('div');
+//for(let i of precursor.childNodes){
+//var ide = i.id;
+ //   if(ide.includes(req_word.toUpperCase())){
 
-  div.appendChild(i)
-}
+  //div.appendChild(i)
+//}
   
-}
-   document.getElementById('options').appendChild(div);
-}
-xml.open('GET','/search_options.xml','true');
+//}
+  // document.getElementById('options').appendChild(div);
+//}
+//xml.open('GET','/search_options.xml','true');
 
-xml.send();
-}
+//xml.send();
+//}
