@@ -107,9 +107,10 @@ document.getElementById('search').style.width = '350px';
 window.onclick = (event) =>{
 document.getElementById('options').innerHTML = '';
 var menu = document.getElementById('menu-bar') 
-menu.style.visibility = 'hidden';
 menu.style.width = "0px";
 menu.style.height = "0px";
+menu.style.fontSize = "0px"
+
 }
   
 </script>
