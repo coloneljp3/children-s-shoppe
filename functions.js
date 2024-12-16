@@ -2,7 +2,7 @@ function menuStat(id){
 var menu = document.getElementById(id);
 if(menu.style.width == '0px'){
 menu.style.width = '100px';
-menu.style.height = '50px'}
+menu.style.height = '40px'}
 else{
 menu.style.width = '0px';
 menu.style.height = '0px'}
