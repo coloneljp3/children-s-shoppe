@@ -262,8 +262,7 @@ to{visibility:100%}
 color: #a1ad20;
     background-color: rgb(230, 234, 183);
     font-family: Cormorant Garamond;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: inherit;
     width:inherit;
     height:inherit;
     border-style: none;
@@ -274,6 +273,7 @@ color: #a1ad20;
 #menu-bar{
   display:inline-block;
 transition: visibility 2s
+  font-size:0px;
   
 }
 .search-option-container{
