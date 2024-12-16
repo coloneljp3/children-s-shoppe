@@ -250,8 +250,14 @@ xml.send();
 //xml.send();
 //}
 
-function slideDown(event){
-event.style.width = 100%;
-event.style.height = 100%
+function slideDown(){
+  if(this.style.width == 0%){
+this.style.width = 100%;
+this.style.height = 100%}
+  else{
+this.style.width = 0%;
+this.style.height = 0%
+    
+  }
   
 }
