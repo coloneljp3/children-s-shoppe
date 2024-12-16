@@ -249,3 +249,9 @@ xml.send();
 
 //xml.send();
 //}
+
+function slideDown(event){
+event.style.width = 100%;
+event.style.height = 100%
+  
+}
