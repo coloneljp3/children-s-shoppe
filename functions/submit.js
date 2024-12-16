@@ -26,7 +26,7 @@ subject:"Children's Shoppe Website Mail",
 text:req.body.message})
 
 try{
-	mailSend();
+	mailSend;
 	
 }
 	catch{
