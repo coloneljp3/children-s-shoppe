@@ -2,10 +2,12 @@ function menuStat(id){
 var menu = document.getElementById(id);
 if(menu.style.width == '0px'){
 menu.style.width = '100px';
-menu.style.height = '40px'}
+menu.style.height = '40px'
+menu.style.fontSize = '20px'}
 else{
 menu.style.width = '0px';
-menu.style.height = '0px'}
+menu.style.height = '0px';
+menu.style.fontSize = '0px';}
 };
 
 function circleSelect(ind,urlList,id){
