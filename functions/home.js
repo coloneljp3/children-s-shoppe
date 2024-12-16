@@ -22,7 +22,7 @@ res.send(`
 
 @media(max-width:600px){
 #main-nav-bar-bottom-half,.main-nav-bar-items-container{visibility:hidden}
-#search{visibility:hidden}#search_icon{position:fixed;top:10px;width:25px;right:20px};
+#search_icon{position:fixed;top:10px;width:25px;right:20px};
 .product-images-container{width:100%;display:block}}
 @media(max-width:400px){
 .social-media-image-container{width:20px;height:20px}
@@ -76,7 +76,7 @@ setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = 
 <header id = "main-header">
 <div style = "background-color:#e6eab7;height:50%;width:100%">
 
-<svg style = "position:fixed;left:15px;display:inline-block" onclick = "menuStat('menu-bar')">
+<svg style = "z-index:1;position:fixed;left:15px;display:inline-block" onclick = "menuStat('menu-bar')">
 
 <polyline stroke = "green" stroke-width = "4" points = "0 10 40 10"></polyline>
 <polyline stroke = "green" stroke-width = "4" points = "0 20 40 20"></polyline>
@@ -161,7 +161,7 @@ else{
 width.style.width = '0px'}
 
 
-" style = "width:30px;height:20px;display:inline-block;color:green">
+" style = "z-index:1;width:30px;height:20px;display:inline-block;color:green">
 <circle cx = 8 cy = 8 stroke-width = 3 stroke = "green" fill = "none" r = 6></circle>
 <polyline points = "12 12 20 20 " stroke-width = 3 stroke = "green" fill = "none"></polyline>
 </svg>
