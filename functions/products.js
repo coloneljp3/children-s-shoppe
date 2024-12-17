@@ -303,7 +303,7 @@ width.style.width = '0px'}
 
 <body>
 <div id = "product-selection"></div>
-<div id = "main-page-heading-container"><h1 id = "main-page-heading" >The Children's Shoppe</h1></div>
+<div id = "main-page-heading-container"><h1 id = "main-page-heading" >Product Selection</h1></div>
 <div id = "post-header-body-div-1" class = "body-div">
 
 
@@ -347,33 +347,12 @@ width.style.width = '0px'}
 <br>
 
 <div id = "post-header-body-div-2" class = "body-div"> 
-<div class = "product-images-container" id = "product-images-container-1" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#e6eab7'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><h2 class = "product-image-heading-2">Furniture</h2><div class = "slide-down-div" onmouseover = "slideDown()" onmouseleave = "slideDown()"></div><p class ="product-image-home-paragraph">For all your kid's furniture needs, the Children's Shoppe has you covered!</p><h3 class = "product-image-heading-3">Product Item</h3><p  style = "font-family:Helvetica;text-align:center">$2.00</p>
-    <input style ="display:none;" class ="price" value = '2'/><img src = "https://images-na.ssl-images-amazon.com/images/I/71TxLIHNTzL._AC_SL1500_.jpg" class = "product-images"></img></div>
-<div class = "product-images-container" id = "product-images-container-2" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#e6eab7'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><h2 class = "product-image-heading-2">Toys</h2><div class = "slide-down-div" onmouseover = "slideDown()" onmouseleave = "slideDown()"></div><p class ="product-image-home-paragraph">If it's a toy, we have it! Come to the Children's Shoppe to find your child's next Christmas gift!</p><h3 class = "product-image-heading-3">Product Item</h3><p  style = "font-family:Helvetica;text-align:center">$2.00</p>
-    <input style ="display:none;" class ="price" value = '2'/><img src = "https://i5.walmartimages.com/asr/55aa0e09-b7dc-460e-b21f-ffd4883a9917.3d71a3f510b26d659df46310008cb310.jpeg" class = "product-images"></img></div>
-<div class = "product-images-container" id = "product-images-container-3" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#e6eab7'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><h2 class = "product-image-heading-2">Bottoms</h2><div class = "slide-down-div"onmouseover = "slideDown()" onmouseleave = "slideDown()"></div><p class ="product-image-home-paragraph">Shoes, Pants, Shorts, Swimwear: We have it all!</p><h3 class = "product-image-heading-3">Product Item</h3><p  style = "font-family:Helvetica;text-align:center">$2.00</p>
-    <input style ="display:none;" class ="price" value = '2'/><img src = "https://i5.walmartimages.com/asr/a5dd4a94-fff7-4492-9715-aaee26442e00_1.d31520c4192f9bb8afee638108122aa6.jpeg" class = "product-images"></img></div>
-<div class = "product-images-container" id = "product-images-container-4" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#e6eab7'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><h2 class = "product-image-heading-2">Tops</h2><div class = "slide-down-div" onmouseover = "slideDown()" onmouseleave = "slideDown()"></div><p class ="product-image-home-paragraph">Need to layer up for the winter? Want the best quality long sleeves for your child? Come to the Children's Shoppe!</p><h3 class = "product-image-heading-3">Product Item</h3><p  style = "font-family:Helvetica;text-align:center">$2.00</p>
-    <input style ="display:none;" class ="price" value = '2'/><img src = "https://ae01.alicdn.com/kf/HTB1GWR9KFXXXXcmXXXXq6xXFXXXA/Baby-Toys-Shape-Sorting-Cube-Classic-Educational-Wooden-Toys-For-Children-Intellectual-Toy-Geometry-Box-Birthday.jpg" class = "product-images"></img></div>
+
 </div>
 
 
 <div id = "post-header-body-div-3" class = "body-div">
-<div onmouseover = "this.style.backgroundColor = 'white';this.style.color = '#a3b8c8';this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.backgroundColor = '#e6eab7'; this.style.color = 'green';this.style.borderStyle = 'none';this.style.borderColor = 'white'" id = "home-info-1" class = "home-info">
-<h2 class = "secondary-headings" id = "home-info-1-secondary-headings">Mission Statement</h2>
-<p>Since 2004, it's been our goal to provide families in Ruston and Monroe with the best quality clothing and toys for their children.
-Whether your child is a newborn or a toddler, we can service your needs.
-</p>
 </div>
-<div onmouseover = "this.style.backgroundColor = 'white';this.style.color = '#a3b8c8';this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.backgroundColor = '#e6eab7'; this.style.color = 'green';this.style.borderStyle = 'none';this.style.borderColor = 'white'"id = "home-info-2" class = "home-info">
-<h2 class = "secondary-headings" id = "home-info-2-secondary-headings">Our Staff</h2>
-<p>Our shoppe has come a long way, and it wouldn't be where it is without our lovely staff. We've cultivated a great work environment for our employees, and our respect for our staff is reflected in our customer service.
-</p>
-</div>
-<div onmouseover = "this.style.backgroundColor = 'white';this.style.color = '#a3b8c8';this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.backgroundColor = '#e6eab7'; this.style.color = 'green'; this.style.borderStyle = 'none';this.style.borderColor = 'white'" id = "home-info-3" class = "home-info">
-<h2 class = "secondary-headings" id = "home-info-3-secondary-headings">Our Selection</h2>
-<p>    Whether you need toys, shoes, or clothes for your child, we have what you need. Our store has a large selection of sizes and fits for children's clothing. If you need it, we have it.
-</p></div>
 
 
 </body>
