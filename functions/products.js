@@ -6,16 +6,40 @@ var bodyParser = require('body-parser');
 const serverless = require('serverless-http');
 const router = express.Router();
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true}));
+app.use(bodyParser.urlencoded({extended:true}));
 
 app.use('/',(req,res)=>{
 res.send(`
 <html>
 <head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+
+@media(max-width:600px){
+#main-nav-bar-bottom-half,.main-nav-bar-items-container{display:none}
+#search_icon{position:fixed;top:10px;width:25px;right:20px}
+.product-images-container{width:100%;display:block}}
+@media(max-width:400px){
+.social-media-image-container{width:20px;height:20px}
+.home-info{width:100%;display:block}#arrow_1,#arrow_2{width:25px;height:25px}
+
+
+
+}
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&amp;family=Raleway:ital,wght@1,200&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@7f00..700&amp;family=Raleway:ital,wght@1,200&amp;display=swap" rel="stylesheet">
+
 <link rel = "stylesheet" href = "/styles.css"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <script src = "/functions.js" type = "text/javascript">
+
 function imageSlide(id,urlList){
 var image = document.getElementById(id);
 for(let i of urlList){
@@ -23,8 +47,7 @@ setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = 
 };
 };
 
-imageSlide('image-slider',['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB'
-,'https://www.consignkoolkids.com/img/slideClothesEdge.jpg'])
+
 
 </script>
 
@@ -53,9 +76,23 @@ imageSlide('image-slider',['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/3
 <header id = "main-header">
 <div style = "background-color:#e6eab7;height:50%;width:100%">
 
-<img style = "height:100%" src = "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB"></img>
+<svg style = "z-index:1;position:fixed;left:15px;display:inline-block" onclick = "menuStat('menu-bar')">
+
+<polyline stroke = "green" stroke-width = "4" points = "0 10 40 10"></polyline>
+<polyline stroke = "green" stroke-width = "4" points = "0 20 40 20"></polyline>
+<polyline stroke = "green" stroke-width = "4" points = "0 30 40 30"></polyline>
+
+</svg>
+
+<div id = "menu-bar" style = "font-size:0px;position:fixed;z-index:1;width:0px;height:0px;border-right-style:solid;border-right-width:.01px;display:inline-block"><button type = "submit" class = "menu-bar-options">Contact</button>
+<button type = "submit" class = "menu-bar-options">Contact</button>
+<button type = "submit" class = "menu-bar-options">Contact</button>
+<button type = "submit" class = "menu-bar-options">Contact</button>
+<button type = "submit" class = "menu-bar-options">Contact</button></div><img style = "height:100%" src = "/main_logo.jpg"></img>
+
 
 </div>
+
 <nav id = "main-nav-bar">
 <div id = "main-nav-bar-top-half">
 <br>
@@ -69,64 +106,13 @@ document.getElementById('search').style.width = '350px';
 
 window.onclick = (event) =>{
 document.getElementById('options').innerHTML = '';
-}
-    
-var search_list = {
-"CLOTHES":"",
-"SHIRTS":"",
-"PANTS":"", 
-"TOPS":"",
-"BOTTOMS":"",
-"HATS":"",
-"TOYS":"",
-"SWEATSHIRTS":"",
-
-
-        }
-function searchReq(){
-  document.getElementById('options').innerHTML = '';
-var val = document.getElementById('search').value;
-var list = Object.keys(search_list);
-
-for(let i of list){
-
-if(i.includes(val.toUpperCase())){
-    var elem = document.createElement('div');
-    var a = document.createElement('a');
-    var but = document.createElement('button')
-    
-    a.className = 'search_op';
-    elem.className = 'search_op';
-but.style.fontFamily = 'Cormorant Garamond'
-but.style.color = "white";
-but.style.borderColor = "#e6eab7"
-but.style.backgroundColor = "#e6eab7";
-but.style.borderRadius = "10px"
-but.style.fontWeight = "bold";
-but.style.margin = "0px";
-but.style.display = "block"
-but.style.height = "50px";
-but.style.width= "275px";
-a.style.position = "absolute"
-    elem.style.visibility = "visible";
-    a.style.visibility = "visible";
-    elem.style.height = "50px";
-    a.style.height = "50px" 
-    a.href = list[i];
-	a.append(but)
-    but.append(i);
-
-    elem.appendChild(a);
-    document.getElementById('options').append(elem);
-
+var menu = document.getElementById('menu-bar') 
+menu.style.width = "0px";
+menu.style.height = "0px";
+menu.style.fontSize = "0px"
 
 }
-
-
-
-}
-
-}
+  
 </script>
 <style>
 :hover:-moz-placeholder{
@@ -165,7 +151,7 @@ transition:width 1s;
 border-style:solid}
 </style>
   
-<svg onclick = "
+<svg id = "search_icon" onclick = "
 
 var width = document.getElementById('search');
 if(width.style.width == '0px'){
@@ -175,16 +161,16 @@ else{
 width.style.width = '0px'}
 
 
-" style = "width:30px;height:20px;display:inline-block;">
-<circle cx = 8 cy = 8 stroke-width = 3 stroke = "white" fill = "none" r = 6></circle>
-<polyline points = "12 12 20 20 " stroke-width = 3 stroke = "white" fill = "none"></polyline>
+" style = "z-index:1;width:30px;height:20px;display:inline-block;color:green">
+<circle cx = 8 cy = 8 stroke-width = 3 stroke = "green" fill = "none" r = 6></circle>
+<polyline points = "12 12 20 20 " stroke-width = 3 stroke = "green" fill = "none"></polyline>
 </svg>
-<input placeholder = "Search for info about The Children's Shoppe"  onkeyup = "searchReq()" id  = "search" type = "search" />
+<input placeholder = "Search for info about The Children's Shoppe"  onkeyup = "searchList(this.value)" id  = "search" type = "search" />
 
 <div style = "position:relative"> 
     
 <div id = "options"></div>
-
+<div id = "precursor"></div>
 </div><br/>
 </div>
 <br>
@@ -199,10 +185,10 @@ width.style.width = '0px'}
 <button onmouseover = "dropDown('dropdown-button-1')"type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
 <div class = "main-nav-bar-dropdown-container">
 <div class = "main-nav-bar-dropdown" onmouseenter = "dropDown('dropdown-button-1')"  >
-<a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-1">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-1">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-1">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-1">Lorem  </button></a>
 
 </div>
 
@@ -220,10 +206,10 @@ width.style.width = '0px'}
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-2">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-2">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-2">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-2">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-2">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-2">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-2">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-2">Lorem  </button></a>
 
 </div>
 
@@ -239,10 +225,10 @@ width.style.width = '0px'}
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-3">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-3">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-3">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-3">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-3">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-3">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-3">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-3">Lorem  </button></a>
 
 </div>
 
@@ -259,10 +245,10 @@ width.style.width = '0px'}
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-4">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-4">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-4">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-4">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-4">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-4">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-4">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-4">Lorem  </button></a>
 
 </div>
 
@@ -278,10 +264,10 @@ width.style.width = '0px'}
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-5">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-5">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-5">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-5">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-5">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-5">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-5">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-5">Lorem  </button></a>
 
 </div>
 
@@ -297,10 +283,10 @@ width.style.width = '0px'}
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-6">Lorem</button></a><br>
-<a href = ""><button class = "dropdown-button-6">Lorem</button></a><br>
-<a href = ""><button class = "dropdown-button-6">Lorem</button></a><br>
-<a href = ""><button class = "dropdown-button-6">Lorem</button></a><br>
+<a href = ""><button class = "dropdown-button-6">Lorem</button></a>
+<a href = ""><button class = "dropdown-button-6">Lorem</button></a>
+<a href = ""><button class = "dropdown-button-6">Lorem</button></a>
+<a href = ""><button class = "dropdown-button-6">Lorem</button></a>
 
 </div>
 
@@ -315,34 +301,80 @@ width.style.width = '0px'}
 </nav>
 </header>
 
-
 <body>
-
+<div id = "product-selection"></div>
+<div id = "main-page-heading-container"><h1 id = "main-page-heading" >The Children's Shoppe</h1></div>
 <div id = "post-header-body-div-1" class = "body-div">
 
 
-<h1 id = "main-page-heading" onload = "this.style.visibility = 'visible'">Products</h1>
 
-<img id = "image-slider" ></img>
+<div style = "width:100%">
+<button id = "arrow_1" onclick = "shiftImage(['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB'
+,'https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider','arrow_1')"  >
+<
+
+</button>
+<button id = "arrow_2" onclick = "shiftImage(['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB'
+,'https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider','arrow_2')">
+>
+</button>
+<button id = "call-to-action" style = "border-width:5px;border-color:white;border-radius:25px;font-family:Raleway;text-align:center;position:absolute;font-size:40px;width:79%;left:12.5%;top:700px;z-index:1;color:white;margin:auto;background-color:transparent;border-style:none">Browse Our Store Online Or In Person!</button>
+<img src = "https://www.consignkoolkids.com/img/slideClothesEdge.jpg" id = "image-slider" style = "filter:grayscale(40%);height:100%;opacity:80%" ></img>
+<svg onclick = "circleSelect(0,['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider');
+" style = "text-align:center;margin:auto;width:100px"><circle  fill="none" cx = "20" cy = "20" r = "5" stroke = "black"></circle></svg>
+<svg style = "text-align:center;margin:auto;width:100px" onclick = "circleSelect(1,['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider');
+"><circle  fill="none" cx = "40" cy = "20" r = "5" stroke = "black"></circle></svg>
+<svg style = "text-align:center;margin:auto;width:100px" onclick = "circleSelect(2,['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider');
+" ><circle fill="none" cx = "60" cy = "20" r = "5" stroke = "black"></circle></svg>
 
 
 </div>
-
-<div id = "post-header-body-div-2" class = "body-div">
-<div class = "product-images-container" id = "product-images-container-1" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
-<div class = "product-images-container" id = "product-images-container-2" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
-<div class = "product-images-container" id = "product-images-container-3" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
-<div class = "product-images-container" id = "product-images-container-4" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
-<div class = "product-images-container" id = "product-images-container-5" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
-<div class = "product-images-container" id = "product-images-container-6" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
-<div class = "product-images-container" id = "product-images-container-7" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
-<div class = "product-images-container" id = "product-images-container-8" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
-<div class = "product-images-container" id = "product-images-container-9" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
-<div class = "product-images-container" id = "product-images-container-10" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
-<div class = "product-images-container" id = "product-images-container-11" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
-<div class = "product-images-container" id = "product-images-container-12" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><img class = "product-images"></img><h2>Product Image</h2><p>Lorem  </p></div>
-
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div id = "post-header-body-div-2" class = "body-div"> 
+<div class = "product-images-container" id = "product-images-container-1" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#e6eab7'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><h2 class = "product-image-heading-2">Furniture</h2><div class = "slide-down-div" onmouseover = "slideDown()" onmouseleave = "slideDown()"></div><p class ="product-image-home-paragraph">For all your kid's furniture needs, the Children's Shoppe has you covered!</p><h3 class = "product-image-heading-3">Product Item</h3><p  style = "font-family:Helvetica;text-align:center">$2.00</p>
+    <input style ="display:none;" class ="price" value = '2'/><img src = "https://images-na.ssl-images-amazon.com/images/I/71TxLIHNTzL._AC_SL1500_.jpg" class = "product-images"></img></div>
+<div class = "product-images-container" id = "product-images-container-2" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#e6eab7'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><h2 class = "product-image-heading-2">Toys</h2><div class = "slide-down-div" onmouseover = "slideDown()" onmouseleave = "slideDown()"></div><p class ="product-image-home-paragraph">If it's a toy, we have it! Come to the Children's Shoppe to find your child's next Christmas gift!</p><h3 class = "product-image-heading-3">Product Item</h3><p  style = "font-family:Helvetica;text-align:center">$2.00</p>
+    <input style ="display:none;" class ="price" value = '2'/><img src = "https://i5.walmartimages.com/asr/55aa0e09-b7dc-460e-b21f-ffd4883a9917.3d71a3f510b26d659df46310008cb310.jpeg" class = "product-images"></img></div>
+<div class = "product-images-container" id = "product-images-container-3" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#e6eab7'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><h2 class = "product-image-heading-2">Bottoms</h2><div class = "slide-down-div"onmouseover = "slideDown()" onmouseleave = "slideDown()"></div><p class ="product-image-home-paragraph">Shoes, Pants, Shorts, Swimwear: We have it all!</p><h3 class = "product-image-heading-3">Product Item</h3><p  style = "font-family:Helvetica;text-align:center">$2.00</p>
+    <input style ="display:none;" class ="price" value = '2'/><img src = "https://i5.walmartimages.com/asr/a5dd4a94-fff7-4492-9715-aaee26442e00_1.d31520c4192f9bb8afee638108122aa6.jpeg" class = "product-images"></img></div>
+<div class = "product-images-container" id = "product-images-container-4" onmouseover = "this.style.borderStyle = 'solid';this.style.borderColor = '#e6eab7'" onmouseleave = "this.style.borderStyle = 'none';this.style.borderColor = 'white'"><h2 class = "product-image-heading-2">Tops</h2><div class = "slide-down-div" onmouseover = "slideDown()" onmouseleave = "slideDown()"></div><p class ="product-image-home-paragraph">Need to layer up for the winter? Want the best quality long sleeves for your child? Come to the Children's Shoppe!</p><h3 class = "product-image-heading-3">Product Item</h3><p  style = "font-family:Helvetica;text-align:center">$2.00</p>
+    <input style ="display:none;" class ="price" value = '2'/><img src = "https://ae01.alicdn.com/kf/HTB1GWR9KFXXXXcmXXXXq6xXFXXXA/Baby-Toys-Shape-Sorting-Cube-Classic-Educational-Wooden-Toys-For-Children-Intellectual-Toy-Geometry-Box-Birthday.jpg" class = "product-images"></img></div>
+</div>
+
+
+<div id = "post-header-body-div-3" class = "body-div">
+<div onmouseover = "this.style.backgroundColor = 'white';this.style.color = '#a3b8c8';this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.backgroundColor = '#e6eab7'; this.style.color = 'green';this.style.borderStyle = 'none';this.style.borderColor = 'white'" id = "home-info-1" class = "home-info">
+<h2 class = "secondary-headings" id = "home-info-1-secondary-headings">Mission Statement</h2>
+<p>Since 2004, it's been our goal to provide families in Ruston and Monroe with the best quality clothing and toys for their children.
+Whether your child is a newborn or a toddler, we can service your needs.
+</p>
+</div>
+<div onmouseover = "this.style.backgroundColor = 'white';this.style.color = '#a3b8c8';this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.backgroundColor = '#e6eab7'; this.style.color = 'green';this.style.borderStyle = 'none';this.style.borderColor = 'white'"id = "home-info-2" class = "home-info">
+<h2 class = "secondary-headings" id = "home-info-2-secondary-headings">Our Staff</h2>
+<p>Our shoppe has come a long way, and it wouldn't be where it is without our lovely staff. We've cultivated a great work environment for our employees, and our respect for our staff is reflected in our customer service.
+</p>
+</div>
+<div onmouseover = "this.style.backgroundColor = 'white';this.style.color = '#a3b8c8';this.style.borderStyle = 'solid';this.style.borderColor = '#a3b8c8'" onmouseleave = "this.style.backgroundColor = '#e6eab7'; this.style.color = 'green'; this.style.borderStyle = 'none';this.style.borderColor = 'white'" id = "home-info-3" class = "home-info">
+<h2 class = "secondary-headings" id = "home-info-3-secondary-headings">Our Selection</h2>
+<p>    Whether you need toys, shoes, or clothes for your child, we have what you need. Our store has a large selection of sizes and fits for children's clothing. If you need it, we have it.
+</p></div>
+
 
 </body>
 
@@ -367,10 +399,10 @@ width.style.width = '0px'}
 <button onmouseover = "dropDown('dropdown-button-7')" type = "submit" class = "main-nav-bar-form-button">Contact</button>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-7">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-7">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-7">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-7">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-7">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-7">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-7">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-7">Lorem  </button></a>
 
 </div>
 
@@ -383,10 +415,10 @@ width.style.width = '0px'}
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-8')">
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-8">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-8">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-8">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-8">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-8">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-8">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-8">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-8">Lorem  </button></a>
 
 </div>
 
@@ -402,10 +434,10 @@ width.style.width = '0px'}
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-9')">
 <div class = "main-nav-bar-dropdown-container">
 <div class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-9">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-9">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-9">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-9">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-9">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-9">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-9">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-9">Lorem  </button></a>
 
 </div>
 
@@ -421,10 +453,10 @@ width.style.width = '0px'}
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-10')">
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-10">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-10">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-10">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-10">Lorem  </button></a><br>
+<a href = ""><button class = "dropdown-button-10">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-10">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-10">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-10">Lorem  </button></a>
 
 </div>
 
@@ -444,10 +476,18 @@ width.style.width = '0px'}
 
 
 <div>
-<div id = "contact-footer-div"></div>
+<div style = "color:white;background-color:black;font-family:helvetica" id = "contact-footer-div">
+<h3>The Children's Shoppe</h3>
+<div id = "map"></div>
+<p><b>109 N Trenton St<br>
+Ruston, LA 71270</b></p>
+<p><b>(318)-251-9599</b></p>
+
+
+</div>
 <div id = "messaging-feature">
 <h4 style = "text-align:center">Have a Question? Contact Us.</h4>
-<form action = "/submit" method = "POST">
+<form method = "POST" id = "email" action = "/submit">
 <h4 style = "text-align:center">Type your full name in the box below.</h4>
 <textarea id = "sender" name = "sender"></textarea>
 <h4 style = "text-align:center">Type your message in the box below.</h4>
@@ -456,9 +496,10 @@ width.style.width = '0px'}
 </form>
 <div style = "color:#a1ad20;background-color:#e6eab7;display:block">
 <h4 style = "text-align:center">Follow Us!</h4>
-<div class = "social-media-image-container"><a href = ""><img src = "/facebook.svg" class = "social-media-image"></img></a></div>
+<div class = "social-media-image-container"><a href = ""><img class = "social-media-image" width="50" height="50" src="https://img.icons8.com/ios/50/facebook-new.png" alt="facebook-new"/>
+</a></div>
 <div class = "social-media-image-container"><a href = ""><img src = "/twitter.png" class = "social-media-image"></img></a></div>
-<div class = "social-media-image-container"><a href = ""><img src = "/insta-icon.png" class = "social-media-image" ></img></a></div></div>
+<div class = "social-media-image-container"><a href = ""><img src = "https://pluspng.com/img-png/instagram-png-instagram-icon-1600.png" class = "social-media-image" ></img></a></div></div>
 </div>
 </div>
 
@@ -468,13 +509,11 @@ width.style.width = '0px'}
 
 </footer>
 
-
 </html>
 
 
 
 `);})
 app.use('/.netlify/functions/products',router)
-
 
 module.exports.handler = serverless(app);
