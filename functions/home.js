@@ -24,6 +24,7 @@ res.send(`
 #main-nav-bar-bottom-half,.main-nav-bar-items-container{display:none}
 #search_icon{position:fixed;top:10px;width:25px;right:20px}
 .product-images-container{width:100%;display:block}}
+@media (max-width:500px){#contact-footer-div{display:none}}
 @media(max-width:400px){
 .social-media-image-container{width:20px;height:20px}
 .home-info{width:100%;display:block}#arrow_1,#arrow_2{width:25px;height:25px}
