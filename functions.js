@@ -102,7 +102,7 @@ function shiftImage(urlList,id,id_2){
 var elem = document.getElementById(id);
 var elem_2 = document.getElementById(id_2);
 var ind = urlList.indexOf(elem.src);
-  if(ind == -1){ind=0}
+  if(ind == -1){document.getElementById(id).src = urlList[0]}
 else{
 if(id_2 == 'arrow_2'){
 document.getElementById(id).src = urlList[ind+1]}
