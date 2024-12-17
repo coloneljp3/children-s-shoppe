@@ -250,14 +250,14 @@ xml.send();
 //xml.send();
 //}
 
-function slideDown(){
-  if(this.style.width == 0%){
-this.style.width = 100%;
-this.style.height = 100%}
-  else{
-this.style.width = 0%;
-this.style.height = 0%
+//function slideDown(){
+ // if(this.style.width == 0%){
+//this.style.width = 100%;
+//this.style.height = 100%}
+ // else{
+//this.style.width = 0%;
+//this.style.height = 0%
     
-  }
+  //}
   
-}
+//}
