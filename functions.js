@@ -261,3 +261,22 @@ xml.send();
   //}
   
 //}
+
+function mediaQuery(width,identifier,styles){
+if(window.innerWith <= width){
+if(document.getElementById(identifier) == 'undefined'){
+var classes = document.getElementsByClassName(identifier);
+for(let i of classes){
+i.style.push(styles)
+  
+}
+  
+}
+  else{
+var id = document.getElementById(identifier);
+    id.style.push(styles)
+    
+  }
+}
+  
+}
