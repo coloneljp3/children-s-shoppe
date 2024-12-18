@@ -347,7 +347,7 @@ width.style.width = '0px'}
 <br>
 
 <div id = "post-header-body-div-2" class = "body-div"> 
-
+<input style="border-style:solid;border-color: green;;border-width:3px;font-family:Raleway;text-align:center;height:30px;border-radius:25px;width:50%" placeholder="Type in a filter for the product you want"/>
 </div>
 
 
