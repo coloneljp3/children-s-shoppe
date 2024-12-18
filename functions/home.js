@@ -20,7 +20,7 @@ res.send(`
 
 <style>
 
-@media(max-width:600px){
+@media(max-width:600px){#contact-footer-div{visibility:hidden;position:fixed}
 #main-nav-bar-bottom-half,.main-nav-bar-items-container{display:none}
 #search_icon{position:fixed;top:10px;width:25px;right:20px}
 .product-images-container{width:100%;display:block}}
