@@ -179,7 +179,7 @@ var xml = new XMLHttpRequest();
 var z;
   xml.onreadystatechange =()=>{
     z = xml.responseText;
-  document.getElementById("product-selection").innerHTML = xml.responseText
+  document.getElementById("product-selection").innerHTML = xml.responseText;
 }
 xml.open('GET','/products.xml','true');
 
