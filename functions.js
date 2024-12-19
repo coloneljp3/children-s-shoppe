@@ -217,7 +217,7 @@ for(let i of classe){
 for(let v of range(0,classes.length)){
 if(classes[v].value == i){
     console.log(classes[v])
-document.getElementById('product-selection).appendChild(classes[v]);
+document.getElementById('product-selection').appendChild(classes[v]);
   
 }  
 }
