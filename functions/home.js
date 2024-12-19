@@ -77,7 +77,7 @@ setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = 
 <header id = "main-header">
 <div style = "background-color:#e6eab7;height:50%;width:100%">
 
-<svg style = "z-index:1;position:fixed;left:15px;display:inline-block" onclick = "menuStat('menu-bar')">
+<svg style = "height:50px;width:40px;z-index:1;position:fixed;left:15px;display:inline-block" onmouseleave = "menuStat('menu-bar')" onmouseover = "menuStat('menu-bar')">
 
 <polyline stroke = "green" stroke-width = "4" points = "0 10 40 10"></polyline>
 <polyline stroke = "green" stroke-width = "4" points = "0 20 40 20"></polyline>
@@ -202,7 +202,7 @@ width.style.width = '0px'}
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-2')"  type = "submit" id = "products-button" class = "main-nav-bar-form-button">Products</button>
+<button onmouseover = "dropDown('dropdown-button-2')"  type = "submit" id = "products-button" class = "main-nav-bar-form-button"><a href = "/products">Products</a></button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container" >
