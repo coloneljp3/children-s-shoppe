@@ -232,7 +232,7 @@ function searchList(req_word){
   var xml = new XMLHttpRequest();
  xml.onreadystatechange =()=>{
    var div = document.createElement('div');
-for(let i of xml.responseText.childNodes){
+for(let i of xml.responseText){
 let ide = i.id;
     if(ide.includes(req_word.toUpperCase())){
 
