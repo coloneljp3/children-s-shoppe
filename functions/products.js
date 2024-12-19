@@ -302,7 +302,6 @@ width.style.width = '0px'}
 </header>
 
 <body>
-<div id = "product-selection"></div>
 <div id = "main-page-heading-container"><h1 id = "main-page-heading" >Product Selection</h1></div>
 <div id = "post-header-body-div-1" class = "body-div">
 
@@ -348,6 +347,7 @@ width.style.width = '0px'}
 
 <div id = "post-header-body-div-2" class = "body-div"> 
 <input style="border-style:solid;border-color: green;;border-width:3px;font-family:Raleway;text-align:center;height:30px;border-radius:25px;width:50%" placeholder="Type in a filter for the product you want"/>
+<div id = "product-selection"></div>
 </div>
 
 
