@@ -189,12 +189,12 @@ xml.send();
 
 
 function priceSort(){
+productReq();
 var classes = document.getElementsByClassName('price');
 var z;
 var classes_2 = document.getElementById('product-selection');
 var classe = []
 for(let i of range(0,classes.length)){
-console.log(classes[i].value)
   classe.push(classes[i].value)
 };
     
@@ -216,7 +216,6 @@ classe[i] = c;
 for(let i of classe){
 for(let v of range(0,classes.length)){
 if(classes[v].value == i){
-    console.log(classes[v])
 document.getElementById('product-selection').appendChild(classes[v]);
   
 }  
