@@ -35,7 +35,7 @@ try{
 	
 }
 	catch{
-		res.send('Fuck')
+		res.send('Error: This email couldn't be sent because the credentials were invalid.')
 	}
 
 
