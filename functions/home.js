@@ -20,7 +20,7 @@ res.send(`
 
 <style>
 
-@media(max-width:600px){#contact-footer-div{visibility:hidden;position:fixed}
+@media(max-width:600px){#contact-footer-div{visibility:hidden;position:fixed}#image-slider{display:none;background-color:transparent}
 #main-nav-bar-bottom-half,.main-nav-bar-items-container{display:none}
 #search_icon{position:fixed;top:10px;width:25px;right:20px}
 .product-images-container{width:100%;display:block}}
@@ -310,7 +310,7 @@ width.style.width = '0px'}
 
 
 
-<div style = "width:100%">
+<div style = "width:100%;background-color:rgb(145 151 81)">
 <button id = "arrow_1" onclick = "shiftImage(['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB'
 ,'https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider','arrow_1')"  >
 <
