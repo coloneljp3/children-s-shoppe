@@ -347,7 +347,7 @@ width.style.width = '0px'}
 
 <div id = "post-header-body-div-2" class = "body-div"> 
 <input style="border-style:solid;border-color: green;;border-width:3px;font-family:Raleway;text-align:center;height:30px;border-radius:25px;width:50%" placeholder="Type in a filter for the product you want"/>
-<button onmouseover = "this.style.color = white;this.style.backgroundColor = green" onmouseleave = "this.style.backgroundColor = transparent; this.style.color = black" onclick="priceSort()" style="margin:27%;display:block;font-family:Raleway;text-align:center;background-color:transparent;border-style:solid;width:200px;height:40px;font-weight:bold;border-radius:15px">Request Products for the Children's Shoppe</button>
+<button onmouseover = "this.style.color = white;this.style.backgroundColor = green" onmouseleave = "this.style.backgroundColor = transparent; this.style.color = black" onclick="priceSort()" style="width:100%;margin-top:10%;margin-bottom:10%;display:block;font-family:Raleway;text-align:center;background-color:transparent;border-style:solid;height:40px;font-weight:bold;border-radius:15px">Request Products for the Children's Shoppe</button>
 <div id = "product-selection"></div>
 </div>
 
