@@ -346,7 +346,8 @@ width.style.width = '0px'}
 <br>
 
 <div id = "post-header-body-div-2" class = "body-div"> 
-<input onchange = "productReq()" style="border-style:solid;border-color: green;;border-width:3px;font-family:Raleway;text-align:center;height:30px;border-radius:25px;width:50%" placeholder="Type in a filter for the product you want"/>
+<input style="border-style:solid;border-color: green;;border-width:3px;font-family:Raleway;text-align:center;height:30px;border-radius:25px;width:50%" placeholder="Type in a filter for the product you want"/>
+<button onclick = "priceSort()" style = "font-family:Raleway;font-size:1em;text-align:center;background-color:transparent;border-style:solid;width:50px;height:20px">Request Products for the Children's Shoppe</button>
 <div id = "product-selection"></div>
 </div>
 
