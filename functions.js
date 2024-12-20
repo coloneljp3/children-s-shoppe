@@ -190,36 +190,49 @@ xml.send();
 
 function priceSort(){
 productReq();
-var classes = document.getElementsByClassName('price');
+var prices = document.getElementsByClassName('price');
+var images = document.getElementsByClassName('product-images');
+var titles = document.getElementsByClassName('product-titles');
 var z;
 var classes_2 = document.getElementById('product-selection');
 var classe = []
-for(let i of range(0,classes.length)){
-  classe.push(classes[i].value)
+for(let i of range(0,prices.length)){
+  classe.push([prices[i].value,images[i].src,titles[i].value])
 };
     
 for(let i of range(0,classe.length)){
   var min_index = i;
     for(let a of range(i+1,classe.length)){
-          if(classe[a] < classe[min_index]){
+          if(classe[a][0] < classe[min_index][0]){
           min_index = a;
 
           };
       z = a;
       
     };
-let c = classe[min_index]
-let v = classe[i]
-classe[min_index] = v;
-classe[i] = c;
+let c = classe[min_index][0]
+let v = classe[i][0]
+classe[min_index][0] = v;
+classe[i][0] = c;
 }
 for(let i of classe){
-for(let v of range(0,classes.length)){
-if(classes[v].value == i){
-document.getElementById('product-selection').appendChild(classes[v]);
+let div = document.createElement('div')
+let price = document.createElement('input')
+let h2 = document.createElement('h2')
+let img = document.createElement('img')
+let p = document.createElement('p')
+div.class = "product-images-container";
+img.class = "product-images"
+img.src = i[1]
+price.value = i[0]
+p.innerHTML = i[0]
+h2.innerHTML = i[2]
+div.appendChild(h2)
+div.appendChild(img)
+div.appendChild(input)
+div.appendChild(price)
+document.getElementById('product-selection').appendChild(div)
   
-}  
-}
   
 }
 }
