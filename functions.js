@@ -231,6 +231,7 @@ div.appendChild(h2)
 div.appendChild(img)
 div.appendChild(input)
 div.appendChild(price)
+console.log(h2,price,img,div)
 document.getElementById('product-selection').appendChild(div)
   
   
