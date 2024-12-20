@@ -185,10 +185,10 @@ width.style.width = '0px'}
 <button onmouseover = "dropDown('dropdown-button-1')"type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
 <div class = "main-nav-bar-dropdown-container">
 <div class = "main-nav-bar-dropdown" onmouseenter = "dropDown('dropdown-button-1')"  >
-<a href = ""><button class = "dropdown-button-1">Lorem  </button></a>
-<a href = ""><button class = "dropdown-button-1">Lorem  </button></a>
-<a href = ""><button class = "dropdown-button-1">Lorem  </button></a>
-<a href = ""><button class = "dropdown-button-1">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-1">Owner  </button></a>
+<a href = ""><button class = "dropdown-button-1">Staff  </button></a>
+<a href = ""><button class = "dropdown-button-1">Locations  </button></a>
+<a href = ""><button class = "dropdown-button-1">FAQs  </button></a>
 
 </div>
 
@@ -201,15 +201,15 @@ width.style.width = '0px'}
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-2')"  type = "submit" id = "products-button" class = "main-nav-bar-form-button">Products</button>
+<button onmouseover = "dropDown('dropdown-button-2')"  type = "submit" id = "products-button" class = "main-nav-bar-form-button"><a href = "/products">General Products</a></button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-2">Lorem  </button></a>
-<a href = ""><button class = "dropdown-button-2">Lorem  </button></a>
-<a href = ""><button class = "dropdown-button-2">Lorem  </button></a>
-<a href = ""><button class = "dropdown-button-2">Lorem  </button></a>
+<a href = ""><button class = "dropdown-button-2">Tops  </button></a>
+<a href = ""><button class = "dropdown-button-2">Bottoms  </button></a>
+<a href = ""><button class = "dropdown-button-2">Toys  </button></a>
+<a href = ""><button class = "dropdown-button-2">Furniture  </button></a>
 
 </div>
 
@@ -220,15 +220,15 @@ width.style.width = '0px'}
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-3')"  type = "submit" id = "contac-button" class = "main-nav-bar-form-button">Lorem  </button>
+<button onmouseover = "dropDown('dropdown-button-3')"  type = "submit" id = "contac-button" class = "main-nav-bar-form-button">Shirts  </button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-3">Lorem  </button></a>
-<a href = ""><button class = "dropdown-button-3">Lorem  </button></a>
-<a href = ""><button class = "dropdown-button-3">Lorem  </button></a>
-<a href = ""><button class = "dropdown-button-3">Lorem  </button></a>
+<a href = "/products"><button class = "dropdown-button-3">Cost  </button></a>
+<a href = "/products"><button class = "dropdown-button-3">Designs  </button></a>
+<a href = "/products"><button class = "dropdown-button-3">Sizes  </button></a>
+<a href = "/products"><button class = "dropdown-button-3">Brands  </button></a>
 
 </div>
 
@@ -240,15 +240,16 @@ width.style.width = '0px'}
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-4')"  type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem  </button>
+<button onmouseover = "dropDown('dropdown-button-4')"  type = "submit" id = "home-button" class = "main-nav-bar-form-button">Pants  </button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-4">Lorem  </button></a>
-<a href = ""><button class = "dropdown-button-4">Lorem  </button></a>
-<a href = ""><button class = "dropdown-button-4">Lorem  </button></a>
-<a href = ""><button class = "dropdown-button-4">Lorem  </button></a>
+<a href = "/products"><button class = "dropdown-button-4">Cost  </button></a>
+<a href = "/products"><button class = "dropdown-button-4">Designs  </button></a>
+<a href = "/products"><button class = "dropdown-button-4">Sizes  </button></a>
+<a href = "/products"><button class = "dropdown-button-4">Brands  </button></a>
+
 
 </div>
 
@@ -259,15 +260,15 @@ width.style.width = '0px'}
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-5')"  type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem  </button>
+<button onmouseover = "dropDown('dropdown-button-5')"  type = "submit" id = "home-button" class = "main-nav-bar-form-button">Shorts  </button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-5">Lorem  </button></a>
-<a href = ""><button class = "dropdown-button-5">Lorem  </button></a>
-<a href = ""><button class = "dropdown-button-5">Lorem  </button></a>
-<a href = ""><button class = "dropdown-button-5">Lorem  </button></a>
+<a href = "/products"><button class = "dropdown-button-5">Cost  </button></a>
+<a href = "/products"><button class = "dropdown-button-5">Designs  </button></a>
+<a href = "/products"><button class = "dropdown-button-5">Sizes  </button></a>
+<a href = "/products"><button class = "dropdown-button-5">Brands  </button></a>
 
 </div>
 
@@ -278,20 +279,21 @@ width.style.width = '0px'}
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-6')"  type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem  </button>
+<button onmouseover = "dropDown('dropdown-button-6')"  type = "submit" id = "home-button" class = "main-nav-bar-form-button">Skirts  </button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-6">Lorem</button></a>
-<a href = ""><button class = "dropdown-button-6">Lorem</button></a>
-<a href = ""><button class = "dropdown-button-6">Lorem</button></a>
-<a href = ""><button class = "dropdown-button-6">Lorem</button></a>
+<a href = "/products"><button class = "dropdown-button-6">Costs </button></a>
+<a href = "/products"><button class = "dropdown-button-6">Designs </button></a>
+<a href = "/products"><button class = "dropdown-button-6">Sizes </button></a>
+<a href = "/products"><button class = "dropdown-button-6">Brands </button></a>
 
 </div>
 
 </div>
 </span>
+
 
 
 
