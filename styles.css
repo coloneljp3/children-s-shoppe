@@ -4,7 +4,7 @@ transition:visibility 1s;
   
 }
 
-.price{display:none}
+.price,.product-titles{display:none}
 a{display:inline-block}
 footer{background-color:rgb(230, 234, 183)}
 #main-header{
