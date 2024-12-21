@@ -20,7 +20,7 @@ res.send(`
 
 <style>
 
-@media(max-width:600px){#contact-footer-div{visibility:hidden;position:fixed}#image-slider{display:none;background-color:transparent}
+@media(max-width:600px){#contact-footer-div{visibility:hidden;position:fixed}#image-slider{display:none;background-color:transparent}.circle-select-buttons{display:none}
 #main-nav-bar-bottom-half,.main-nav-bar-items-container{display:none}
 #search_icon{position:fixed;top:10px;width:25px;right:20px}
 .product-images-container{width:100%;display:block}}
@@ -85,7 +85,7 @@ setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = 
 
 </svg>
 
-<div id = "menu-bar" style = "font-size:0px;position:fixed;z-index:1;width:0px;height:0px;border-right-style:solid;border-right-width:.01px;display:inline-block"><button type = "submit" class = "menu-bar-options">Contact</button>
+<div id = "menu-bar"><button type = "submit" class = "menu-bar-options">Contact</button>
 <button type = "submit" class = "menu-bar-options">Contact</button>
 <button type = "submit" class = "menu-bar-options">Contact</button>
 <button type = "submit" class = "menu-bar-options">Contact</button>
@@ -202,7 +202,7 @@ width.style.width = '0px'}
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-2')"  type = "submit" id = "products-button" class = "main-nav-bar-form-button"><a href = "/products">General Products</a></button>
+<button onmouseover = "dropDown('dropdown-button-2')"  type = "submit" id = "products-button" class = "main-nav-bar-form-button"><a href = "/products">Products</a></button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container" >
@@ -322,7 +322,7 @@ width.style.width = '0px'}
 </button>
 <button id = "call-to-action" style = "border-width:5px;border-color:white;border-radius:25px;font-family:Raleway;text-align:center;position:absolute;font-size:40px;width:79%;left:12.5%;top:700px;z-index:1;color:white;margin:auto;background-color:transparent;border-style:none">Browse Our Store Online Or In Person!</button>
 <img src = "https://www.consignkoolkids.com/img/slideClothesEdge.jpg" id = "image-slider" style = "filter:grayscale(40%);height:100%;opacity:80%" ></img>
-<svg onclick = "circleSelect(0,['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider');
+<svg class = "circle-select-buttons" onclick = "circleSelect(0,['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider');
 " style = "text-align:center;margin:auto;width:100px"><circle  fill="none" cx = "20" cy = "20" r = "5" stroke = "black"></circle></svg>
 <svg style = "text-align:center;margin:auto;width:100px" onclick = "circleSelect(1,['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider');
 "><circle  fill="none" cx = "40" cy = "20" r = "5" stroke = "black"></circle></svg>
