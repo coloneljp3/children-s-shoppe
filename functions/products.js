@@ -20,7 +20,7 @@ res.send(`
 
 <style>
 
-@media(max-width:600px){
+@media(max-width:600px){.circle-select-buttons{display:none}
 #main-nav-bar-bottom-half,.main-nav-bar-items-container{display:none}#image-slider{display:none;background-color:transparent}
 #search_icon{position:fixed;top:10px;width:25px;right:20px}
 .product-images-container{width:100%;display:block}}
@@ -84,11 +84,13 @@ setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = 
 
 </svg>
 
-<div id = "menu-bar" style = "font-size:0px;position:fixed;z-index:1;width:0px;height:0px;border-right-style:solid;border-right-width:.01px;display:inline-block"><button type = "submit" class = "menu-bar-options">Contact</button>
-<button type = "submit" class = "menu-bar-options">Contact</button>
-<button type = "submit" class = "menu-bar-options">Contact</button>
-<button type = "submit" class = "menu-bar-options">Contact</button>
-<button type = "submit" class = "menu-bar-options">Contact</button></div><img style = "height:100%" src = "/main_logo.jpg"></img>
+<div id = "menu-bar">
+<form action = ""><button type = "submit" class = "menu-bar-options">Contact</button></form>
+<form><button type = "submit" class = "menu-bar-options">Products</button></form>
+<form><button type = "submit" class = "menu-bar-options">Contact</button></form>
+<form><button type = "submit" class = "menu-bar-options">Contact</button></form>
+<form><button type = "submit" class = "menu-bar-options">Hiring</button></form>
+</div><img style = "height:100%" src = "/main_logo.jpg"></img>
 
 
 </div>
@@ -201,7 +203,7 @@ width.style.width = '0px'}
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-2')"  type = "submit" id = "products-button" class = "main-nav-bar-form-button"><a href = "/products">General Products</a></button>
+<button onmouseover = "dropDown('dropdown-button-2')"  type = "submit" id = "products-button" class = "main-nav-bar-form-button"><a href = "/products">Products</a></button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container" >
