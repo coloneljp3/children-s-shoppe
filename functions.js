@@ -1,8 +1,8 @@
 function menuStat(id){
 var menu = document.getElementById(id);
 if(menu.style.width == '0px'){
-menu.style.width = '100px';
-menu.style.height = '40px'
+menu.style.width = '100%';
+menu.style.height = '60px'
 menu.style.fontSize = '20px'}
 else{
 menu.style.width = '0px';
