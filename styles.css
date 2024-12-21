@@ -274,9 +274,10 @@ color: #a1ad20;
   }
 
 #menu-bar{
-  display:inline-block;
-transition: visibility 2s
-  font-size:0px;
+  font-size: 0px; position: relative;
+  z-index: 1; width: 0px; height: 0px;
+  border-right-style: solid; border-right-width: 0.01px;
+  display: inline-block; transition: width 0.1s, height 0.1s;
   
 }
 .search-option-container{
