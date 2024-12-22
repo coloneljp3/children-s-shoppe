@@ -21,7 +21,7 @@ res.send(`
 <style>
 
 @media(max-width:600px){#contact-footer-div{visibility:hidden;position:fixed}#image-slider{display:none;background-color:transparent}.circle-select-buttons{display:none}
-#main-nav-bar-bottom-half,.main-nav-bar-items-container{display:none}
+#main-nav-bar-bottom-half,.main-nav-bar-items-container,{display:none}
 #search_icon{position:fixed;top:10px;width:25px;right:20px}
 .product-images-container{width:100%;display:block}}
 @media (max-width:500px){#contact-footer-div{display:none}}
