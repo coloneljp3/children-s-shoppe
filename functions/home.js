@@ -77,7 +77,7 @@ setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = 
 <header id = "main-header">
 <div style = "background-color:#e6eab7;height:50%;width:100%">
 
-<svg style = "height:50px;width:40px;z-index:1;position:fixed;left:15px;display:inline-block" onmouseleave = "menuStat('menu-bar')" onmouseover = "menuStat('menu-bar')">
+<svg style = "height:50px;width:40px;z-index:1;position:fixed;left:15px;display:inline-block" onmouseover = "menuStat('menu-bar')">
 
 <polyline stroke = "green" stroke-width = "4" points = "0 10 40 10"></polyline>
 <polyline stroke = "green" stroke-width = "4" points = "0 20 40 20"></polyline>
@@ -85,11 +85,13 @@ setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = 
 
 </svg>
 
-<div id = "menu-bar"><button type = "submit" class = "menu-bar-options">Contact</button>
-<button type = "submit" class = "menu-bar-options">Contact</button>
-<button type = "submit" class = "menu-bar-options">Contact</button>
-<button type = "submit" class = "menu-bar-options">Contact</button>
-<button type = "submit" class = "menu-bar-options">Contact</button></div><img style = "height:100%" src = "/main_logo.jpg"></img>
+<div id = "menu-bar" onmouseleave = "menuStat('menu-bar')">
+<a href = ""><button type = "submit" class = "menu-bar-options">Contact</button></a>
+<a href = ""><button type = "submit" class = "menu-bar-options">Contact</button></a>
+<a href = ""><button type = "submit" class = "menu-bar-options">Contact</button></a>
+<a href = ""><button type = "submit" class = "menu-bar-options">Contact</button></a>
+<a href = ""><button type = "submit" class = "menu-bar-options">Contact</button></a>
+ <img style = "height:100%" src = "/main_logo.jpg"></img>
 
 
 </div>
@@ -446,7 +448,7 @@ Whether your child is a newborn or a toddler, we can service your needs.
 </div>
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-9')"  type = "submit"  class = "main-nav-bar-form-button">Kid's Suits</button>
+<button onmouseover = "dropDown('dropdown-button-9')"  type = "submit"  class = "main-nav-bar-form-button">Suits</button>
 
 </form>
 
@@ -465,7 +467,7 @@ Whether your child is a newborn or a toddler, we can service your needs.
 </div>
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-10')" type = "submit"  class = "main-nav-bar-form-button">Kid's Dresses</button>
+<button onmouseover = "dropDown('dropdown-button-10')" type = "submit"  class = "main-nav-bar-form-button">Dresses</button>
 
 </form>
 
