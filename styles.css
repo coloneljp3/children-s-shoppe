@@ -331,7 +331,7 @@ background-color:white;opacity:85%;position:absolute;width:0%;transition:width 1
     height: 40px;
     width: 400px;
     font-size: 1.2em;}
-
+.hiring-inputs::placeholder{color:white}
 .hiring-label{
   text-align:left
 }
