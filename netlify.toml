@@ -1,7 +1,9 @@
 [build]
 functions = "/functions"
 command = "npm run"
-
+[[redirects]]
+from = "/hiring"
+to = "/.netlify/functions/hiring"
 [[redirects]]
   from = "/home"
   to = "/.netlify/functions/home"
