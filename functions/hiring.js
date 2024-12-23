@@ -326,23 +326,23 @@ width.style.width = '0px'}
 
 <div>
 <div class="hiring-forms" id="hiring-contact-info"><h1 class="hiring-form-headers">Children's Shoppe Hiring Contact Information</h1>
-<div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label>Please type below...</label><input placeholder="Please type in..."></div>
-    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label>Please type below...</label><input placeholder="Please type in..."></div>
-    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label>Please type below...</label><input placeholder="Please type in..."></div>
-    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label>Please type below...</label><input placeholder="Please type in..."></div>
+<div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Please type below...</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Please type below...</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Please type below...</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Please type below...</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
 </div>
-<div class="hiring-forms" id="hiring-work-history"><h1 class="hiring-form-headers">Children's Shoppe Work History Form</h1><div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label>Please type below...</label><input placeholder="Please type in..."></div>
-    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label>Please type below...</label><input placeholder="Please type in..."></div>
-    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label>Please type below...</label><input placeholder="Please type in..."></div>
-    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label>Please type below...</label><input placeholder="Please type in..."></div></div>
-<div class="hiring-forms" id="hiring-references"><h1 class="hiring-form-headers">Children's Shoppe Work References Form</h1><div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label>Please type below...</label><input placeholder="Please type in..."></div>
-    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label>Please type below...</label><input placeholder="Please type in..."></div>
-    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label>Please type below...</label><input placeholder="Please type in..."></div>
-    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label>Please type below...</label><input placeholder="Please type in..."></div></div>
-<div class="hiring-forms" id="hiring-preferences"><h1 class="hiring-form-headers">Hiring Preferences</h1><div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label>Please type below...</label><input placeholder="Please type in..."></div>
-    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label>Please type below...</label><input placeholder="Please type in..."></div>
-    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label>Please type below...</label><input placeholder="Please type in..."></div>
-    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label>Please type below...</label><input placeholder="Please type in..."></div></div>
+<div class="hiring-forms" id="hiring-work-history"><h1 class="hiring-form-headers">Children's Shoppe Work History Form</h1><div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Please type below...</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Please type below...</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Please type below...</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Please type below...</label><input class = "hiring-inputs" placeholder="Please type in..."></div></div>
+<div class="hiring-forms" id="hiring-references"><h1 class="hiring-form-headers">Children's Shoppe Work References Form</h1><div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Please type below...</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Please type below...</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Please type below...</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Please type below...</label><input class = "hiring-inputs" placeholder="Please type in..."></div></div>
+<div class="hiring-forms" id="hiring-preferences"><h1 class="hiring-form-headers">Hiring Preferences</h1><div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Please type below...</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Please type below...</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Please type below...</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Please type below...</label><input class = "hiring-inputs" placeholder="Please type in..."></div></div>
 
 </div>
 
