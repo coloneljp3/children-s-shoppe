@@ -112,7 +112,7 @@ var menu = document.getElementById('menu-bar')
 menu.style.width = "0px";
 menu.style.height = "0px";
 menu.style.fontSize = "0px"
-var specialOffers = document.getElementById('special-offers');specialOffers.style.zIndex = -1
+var specialOffers = document.getElementById('special-offers');specialOffers.style.visibility = hidden;
 
 }
   
@@ -131,7 +131,6 @@ var specialOffers = document.getElementById('special-offers');specialOffers.styl
   
   :hover::-moz-placeholder{ 
     color:rgba(0, 0, 120, 0.8)}
-  
   
   
   
