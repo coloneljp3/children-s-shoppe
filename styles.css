@@ -322,3 +322,16 @@ background-color:white;opacity:85%;position:absolute;width:0%;transition:width 1
 
 #special-offers{
 }
+
+.hiring-inputs{border-style: none;
+    background-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    color: white;
+    height: 40px;
+    width: 400px;
+    font-size: 1.2em;}
+
+.hiring-label{
+  text-align:left
+}
