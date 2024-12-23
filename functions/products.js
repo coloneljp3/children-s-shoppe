@@ -304,6 +304,20 @@ width.style.width = '0px'}
 
 </nav>
 </header>
+<div class = "alert-item" id = "special-offers" style="z-index:2;opacity:80%;background-color:black;width:80%;height:500px;right:10%;position:fixed;top:30px;margin:auto;color:white;text-align:center"><h1 style="font-family:Raleway;font-size:3em">Special Offers</h1>
+<div class="product-images-container" id="product-images-container-1">
+  <img class="product-images">
+    <h2>Product Image</h2>
+  <input class="product-titles" value="Product Image">
+  <br>
+<span style="color:red;text-decoration:line-through
+    "><p style="font-family:Helvetica;text-align:center">$100.00</p></span>
+    <p>50% OFF</p><input style="display:none;" class="price" value="2">
+    <label>Quantity</label><input class="select-quantity" style="
+    width: 20px;
+">
+    <button class="buy-button">Add to Cart</button>
+  </div></div>
 
 <body>
 <div id = "main-page-heading-container"><h1 id = "main-page-heading" >Product Selection</h1></div>
