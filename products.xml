@@ -17,7 +17,8 @@
   <br>
 <p style = "font-family:Helvetica;text-align:center">$4.00</p>
         <input style ="display:none;" class ="price" value = '4'/>
-
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button class = "buy-button">Add to Cart</button>
   </div>
   <div class = "product-images-container" id = "product-images-container-1">
   <img class = "product-images"></img>
@@ -27,7 +28,8 @@
   <br>
 <p style = "font-family:Helvetica;text-align:center">$4.00</p>
         <input style ="display:none;" class ="price" value = '4'/>
-
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button class = "buy-button">Add to Cart</button>
   </div>
   <div class = "product-images-container" id = "product-images-container-1">
   <img class = "product-images"></img>
@@ -36,7 +38,8 @@
   <br>
 <p style = "font-family:Helvetica;text-align:center">$3.00</p>
         <input style ="display:none;" class ="price" value = '3'/>
-
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button class = "buy-button">Add to Cart</button>
   </div>
   <div class = "product-images-container" id = "product-images-container-1">
   <img class = "product-images"></img>
@@ -46,7 +49,8 @@
   <br>
 <p style = "font-family:Helvetica;text-align:center">$4.00</p>
         <input style ="display:none;" class ="price" value = '4'/>
-
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button class = "buy-button">Add to Cart</button>
   </div>
   <div class = "product-images-container" id = "product-images-container-1">
   <img class = "product-images"></img>
@@ -56,7 +60,8 @@
   <br>
 <p style = "font-family:Helvetica;text-align:center">$4.00</p>
         <input style ="display:none;" class ="price" value = '4'/>
-
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button class = "buy-button">Add to Cart</button>
   </div>
   <div class = "product-images-container" id = "product-images-container-1">
   <img class = "product-images"></img>
@@ -66,7 +71,8 @@
   <br>
 <p style = "font-family:Helvetica;text-align:center">$5.00</p>
         <input style ="display:none;" class ="price" value = '5'/>
-
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button class = "buy-button">Add to Cart</button>
   </div>
   <div class = "product-images-container" id = "product-images-container-1">
   <img class = "product-images"></img>
@@ -76,7 +82,8 @@
   <br>
 <p style = "font-family:Helvetica;text-align:center">$4.00</p>
         <input style ="display:none;" class ="price" value = '4'/>
-
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button class = "buy-button">Add to Cart</button>
   </div>
   <div class = "product-images-container" id = "product-images-container-1">
   <img class = "product-images"></img>
@@ -86,7 +93,8 @@
   <br>
 <p style = "font-family:Helvetica;text-align:center">$1.00</p>
         <input style ="display:none;" class ="price" value = '1'/>
-
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button class = "buy-button">Add to Cart</button>
   </div>
   <div class = "product-images-container" id = "product-images-container-1">
   <img class = "product-images"></img>
@@ -96,7 +104,8 @@
   <br>
 <p style = "font-family:Helvetica;text-align:center">$4.00</p>
         <input style ="display:none;" class ="price" value = '4'/>
-
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button class = "buy-button">Add to Cart</button>
   </div>
   <div class = "product-images-container" id = "product-images-container-1">
   <img class = "product-images"></img>
@@ -106,7 +115,8 @@
   <br>
 <p style = "font-family:Helvetica;text-align:center">$4.00</p>
         <input style ="display:none;" class ="price" value = '4'/>
-
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button class = "buy-button">Add to Cart</button>
   </div>
   <div class = "product-images-container" id = "product-images-container-1">
   <img class = "product-images"></img>
@@ -116,7 +126,8 @@
   <br>
 <p style = "font-family:Helvetica;text-align:center">$4.00</p>
         <input style ="display:none;" class ="price" value = '4'/>
-
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button class = "buy-button">Add to Cart</button>
   </div>
   <div class = "product-images-container" id = "product-images-container-1">
   <img class = "product-images"></img>
@@ -125,7 +136,8 @@
   <br>
 <p style = "font-family:Helvetica;text-align:center">$4.00</p>
         <input style ="display:none;" class ="price" value = '4'/>
-
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button class = "buy-button">Add to Cart</button>
   </div>
   <div class = "product-images-container" id = "product-images-container-1">
   <img class = "product-images"></img>
@@ -134,7 +146,8 @@
   <br>
 <p style = "font-family:Helvetica;text-align:center">$4.00</p>
         <input style ="display:none;" class ="price" value = '4'/>
-
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button class = "buy-button">Add to Cart</button>
   </div>
   <div class = "product-images-container" id = "product-images-container-1">
   <img class = "product-images"></img>
@@ -144,6 +157,7 @@
   <br>
 <p style = "font-family:Helvetica;text-align:center">$4.00</p>
         <input style ="display:none;" class ="price" value = '4'/>
-
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button class = "buy-button">Add to Cart</button>
   </div>
 </root>
