@@ -112,9 +112,7 @@ var menu = document.getElementById('menu-bar')
 menu.style.width = "0px";
 menu.style.height = "0px";
 menu.style.fontSize = "0px"
-var specialOffer = document.getElementById('special-offers');
-specialOffer.style.width = "0px";
-specialOffer.style.height = "0px";
+var specialOffers = document.getElementById('special-offers');specialOffers.style.zIndex = -1
 
 }
   
