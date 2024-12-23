@@ -6,6 +6,8 @@
   <br>
 <p  style = "font-family:Helvetica;text-align:center">$2.00</p>
     <input style ="display:none;" class ="price" value = '2'/>
+    <label>Quantity</label><input class = "select-quantity"></input>
+    <button class = "buy-button">Add to Cart</button>
   </div>
   <div class = "product-images-container" id = "product-images-container-1">
   <img class = "product-images"></img>
