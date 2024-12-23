@@ -297,6 +297,10 @@ font-size:20px
 
 .product-image-heading-3{text-align:center;font-family:Raleway}
 
+.buy-button,.select-size,.select-quantity-button{text-align:center;font-family:Raleway;margin:auto}
+
+
+
 .slide-down-div{
 background-color:white;opacity:85%;position:absolute;width:0%;transition:width 1s;height:0%;
   
