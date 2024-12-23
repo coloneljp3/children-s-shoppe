@@ -188,10 +188,10 @@ width.style.width = '0px'}
 <button onmouseover = "dropDown('dropdown-button-1')"type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
 <div class = "main-nav-bar-dropdown-container">
 <div class = "main-nav-bar-dropdown" onmouseenter = "dropDown('dropdown-button-1')"  >
-<a href = ""><button class = "dropdown-button-1">Owner  </button></a>
-<a href = ""><button class = "dropdown-button-1">Staff  </button></a>
-<a href = ""><button class = "dropdown-button-1">Locations  </button></a>
-<a href = ""><button class = "dropdown-button-1">FAQs  </button></a>
+<a href = "/home"><button class = "dropdown-button-1">Owner  </button></a>
+<a href = "/home"><button class = "dropdown-button-1">Staff  </button></a>
+<a href = "/home"><button class = "dropdown-button-1">Locations  </button></a>
+<a href = "/home"><button class = "dropdown-button-1">FAQs  </button></a>
 
 </div>
 
@@ -209,10 +209,10 @@ width.style.width = '0px'}
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-2">Tops  </button></a>
-<a href = ""><button class = "dropdown-button-2">Bottoms  </button></a>
-<a href = ""><button class = "dropdown-button-2">Toys  </button></a>
-<a href = ""><button class = "dropdown-button-2">Furniture  </button></a>
+<a href = "/products"><button class = "dropdown-button-2">Tops  </button></a>
+<a href = "/products"><button class = "dropdown-button-2">Bottoms  </button></a>
+<a href = "/products"><button class = "dropdown-button-2">Toys  </button></a>
+<a href = "/products"><button class = "dropdown-button-2">Furniture  </button></a>
 
 </div>
 
@@ -299,7 +299,9 @@ width.style.width = '0px'}
 
 
 
+
 </div>
+
 
 
 </nav>
