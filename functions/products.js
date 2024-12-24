@@ -303,6 +303,37 @@ width.style.width = '0px'}
 
 
 </nav>
+
+<svg id = "cart" stroke-width = "2">
+<polyline stroke = "green" points = "0 10 60 10"></polyline>
+<polyline stroke = "green" points = "10 20 50 20"></polyline>
+<polyline stroke = "green" points = "15 30 45 30"></polyline>
+<polyline stroke = "green" points = "10 40 50 40"></polyline>
+
+<polyline stroke = "green" points = "10 20 10 10"></polyline>
+<polyline stroke = "green" points = "20 20 20 10"></polyline>
+<polyline stroke = "green" points = "30 20 30 10"></polyline>
+<polyline stroke = "green" points = "40 20 40 10"></polyline>
+<polyline stroke = "green" points = "50 20 50 10"></polyline>
+
+<polyline stroke = "green" points = "15 30 15 20"></polyline>
+<polyline stroke = "green" points = "22.5 30 22.5 20"></polyline>
+<polyline stroke = "green" points = "30 30 30 20"></polyline>
+<polyline stroke = "green" points = "37.5 30 37.5 20"></polyline>
+<polyline stroke = "green" points = "45 30 45 20"></polyline>
+
+<polyline points = "0 10 0 20" stroke = "green"></polyline>
+<polyline points = "0 20 10 20" stroke ="green"></polyline>
+<polyline points = "0 20 15 30" stroke = "green"></polyline>
+
+<polyline points = "15 30 10 40" stroke = "green"></polyline>
+<polyline points = "45 30 50 40" stroke = "green"></polyline>
+<polyline points = "45 30 60 10" stroke = "green"></polyline>
+<polyline points = "60 10 75 3" stroke = "green"></polyline>
+
+<circle stroke = "green" fill = "white"r = "5" cx ="10" cy = "45"/>
+<circle stroke = "green" fill = "white"r = "5" cx ="50" cy = "45"/>
+
 </header>
 <div class = "alert-item" id = "special-offers" style="z-index:2;opacity:80%;background-color:black;width:80%;height:500px;right:10%;position:fixed;top:30px;margin:auto;color:white;text-align:center">
 <span style = "float:left;font-size:20px;font-family:Raleway;font-weight:bold" onclick = "document.getElementById('special-offers').style.visibility = 'hidden'">X</span>
