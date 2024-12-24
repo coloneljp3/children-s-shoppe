@@ -20,7 +20,7 @@ res.send(`
 
 <style>
 
-@media(max-width:600px){#contact-footer-div{visibility:hidden;position:fixed}#image-slider{display:none;background-color:transparent}.circle-select-buttons{display:none}
+@media(max-width:600px){body{font-family:Raleway}#contact-footer-div{visibility:hidden;position:fixed}#image-slider{display:none;background-color:transparent}.circle-select-buttons{display:none}
 #main-nav-bar-bottom-half,.main-nav-bar-items-container,{display:none}
 #search_icon{position:fixed;top:10px;width:25px;right:20px}
 .product-images-container{width:100%;display:block}}
@@ -86,11 +86,11 @@ setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = 
 </svg>
 
 <div id = "menu-bar" onmouseleave = "menuStat('menu-bar')">
-<a href = ""><button type = "submit" class = "menu-bar-options">Contact</button></a>
-<a href = ""><button type = "submit" class = "menu-bar-options">Contact</button></a>
-<a href = ""><button type = "submit" class = "menu-bar-options">Contact</button></a>
-<a href = ""><button type = "submit" class = "menu-bar-options">Contact</button></a>
-<a href = ""><button type = "submit" class = "menu-bar-options">Contact</button></a>
+<a href = ""><button type = "submit" class = "menu-bar-options">About Us</button></a>
+<a href = ""><button type = "submit" class = "menu-bar-options">Products</button></a>
+<a href = ""><button type = "submit" class = "menu-bar-options">Careers</button></a>
+<a href = ""><button type = "submit" class = "menu-bar-options">Specials</button></a>
+<a href = ""><button type = "submit" class = "menu-bar-options">Create Account/Login</button></a>
  <img style = "height:100%" src = "/main_logo.jpg"></img>
 
 
