@@ -252,6 +252,7 @@ let ide = i.id;
 
   div.appendChild(i)
 }
+
   
 }
    document.getElementById('product-selection').appendChild(div);
@@ -291,3 +292,29 @@ var id = document.getElementById(identifier);
 }
   
 }
+
+function addCart(id){
+document.getElementsById()
+var cart = document.getElementById(id);
+var cartItem = document.createElement('div');
+cartItem.style.display = "none";
+}
+
+
+function shiftReview(reviews,id,id_2){
+var reviews = document.getElementsByClassName(reviews);
+var elem = document.getElementById(id);
+var elem_2 = document.getElementById(id_2);
+var ind = reviews.indexOf(elem.innerHTML);
+  if(ind == -1){document.getElementById(id).innerHTML = reviews[0]}
+else{
+if(id_2 == 'arrow_2'){
+document.getElementById(id).innerHTML = reviews[ind+1]}
+
+else{
+document.getElementById(id).innerHTML = reviews[ind-1]}
+
+  
+}
+}
+ 
