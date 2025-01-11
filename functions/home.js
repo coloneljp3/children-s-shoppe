@@ -20,7 +20,7 @@ res.send(`
 
 <style>
 
-@media(max-width:600px){#start-review{width:50%;height:inherit;font-size:1em}body{font-family:Raleway}#contact-footer-div{visibility:hidden;position:fixed}#image-slider{display:none;background-color:transparent}.circle-select-buttons{display:none}
+@media(max-width:600px){#messaging-feature{margin:25%}#review-slider{width:100%;height:100%;visibility:visible}#start-review{width:50%;height:inherit;font-size:1em}body{font-family:Raleway}#contact-footer-div{visibility:hidden;position:fixed}#image-slider{display:none;background-color:transparent}.circle-select-buttons{display:none}
 #main-nav-bar-bottom-half,.main-nav-bar-items-container,{display:none}
 #search_icon{position:fixed;top:10px;width:25px;right:20px}
 .product-images-container{width:100%;display:block}}
@@ -41,7 +41,7 @@ res.send(`
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <script src = "/functions.js" type = "text/javascript">
 window.addEventListener('change',()=>{
-if(window.innerWidth <= 600px){
+if(window.innerWidth <= '600px'){
 document.getElementById('arrow_2').onclick = shiftReview('review-container','review-slider','arrow_2')
 document.getElementById('arrow_1').onclick = shiftReview('review-container','review-slider','arrow_1')
 
@@ -99,11 +99,11 @@ setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = 
 </svg>
 
 <div id = "menu-bar" onmouseleave = "menuStat('menu-bar')">
-<a href = ""><button type = "submit" class = "menu-bar-options">About Us</button></a>
-<a href = ""><button type = "submit" class = "menu-bar-options">Products</button></a>
-<a href = ""><button type = "submit" class = "menu-bar-options">Careers</button></a>
-<a href = ""><button type = "submit" class = "menu-bar-options">Specials</button></a>
-<a href = ""><button type = "submit" class = "menu-bar-options">Create Account/Login</button></a>
+<a href = "" class = "menu-bar-options"><button type = "submit">About Us</button></a>
+<a href = "" class = "menu-bar-options"><button type = "submit">Products</button></a>
+<a href = "" class = "menu-bar-options"><button type = "submit">Careers</button></a>
+<a href = "" class = "menu-bar-options"><button type = "submit">Specials</button></a>
+<a href = "" class = "menu-bar-options"><button type = "submit">Create Account/Login</button></a>
  <img style = "height:100%" src = "/main_logo.jpg"></img>
 
 
@@ -353,30 +353,17 @@ width.style.width = '0px'}
 ,'https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider','arrow_2')">
 >
 </button>
-<button id = "call-to-action" style = "border-width:5px;border-color:white;border-radius:25px;font-family:Raleway;text-align:center;position:absolute;font-size:40px;width:79%;left:12.5%;top:700px;z-index:1;color:white;margin:auto;background-color:transparent;border-style:none">Browse Our Store Online Or In Person!</button>
+<form method = 'POST' action = '/products'><button type = "submit" id = "call-to-action" style = "border-width:5px;border-color:white;border-radius:25px;font-family:Raleway;text-align:center;position:absolute;font-size:40px;width:79%;left:12.5%;top:700px;z-index:1;color:white;margin:auto;background-color:transparent;border-style:none">Browse Our Store Online Or In Person!</button>
 <img src = "https://www.consignkoolkids.com/img/slideClothesEdge.jpg" id = "image-slider" style = "filter:grayscale(40%);height:100%;opacity:80%" ></img>
 <div id = "review-slider">
 <div id = "start-review" class = "review-container">
-<h2 class = "review-header" >Beautiful Outfits for my 4 y/o!</h2>
-<p class = "review-description">4/5</p>
-<p class = "review-description">One of the best stores we've been to! Had just what we needed for family portraits. If your kid needs dress clothes, the Children's Shoppe is a MUST!<br/>-Kelsey Selma</p>
+<h2 id = "review-heading" class = "review-header" >Beautiful Outfits for my 4 y/o!</h2>
+<p id = "review-rating" class = "review-description">4/5</p>
+<p id = "review-paragraph" class = "review-description">One of the best stores we've been to! Had just what we needed for family portraits. If your kid needs dress clothes, the Children's Shoppe is a MUST!<br/>-Kelsey Selma</p>
 
 
 </div>
-<div class = "review-container">
-<h2 class = "review-header">Great Company to Work With!</h2>
-<p class = "review-description">3/5</p>
-<p class = "review-description">We've never had a better provider!<br/>-Matthew Phillips</p>
 
-
-</div>
-<div class = "review-container">
-<h2 class = "review-header">Great Company to Work With!</h2>
-<p class = "review-description">5/5</p>
-<p class = "review-description">The staff here is super friendly, and the work environment is nice and fun! We really feel like a family here.<br/>-John Smith</p>
-
-
-</div>
 </div>
 <svg class = "circle-select-buttons" onclick = "circleSelect(0,['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider');
 " style = "text-align:center;margin:auto;width:100px"><circle  fill="none" cx = "20" cy = "20" r = "5" stroke = "black"></circle></svg>
@@ -448,7 +435,7 @@ Whether your child is a newborn or a toddler, we can service your needs.
 <br>
 <br>
 
-<footer style = "position:relative;background-color:#e6eab7;">
+<footer style = "height:700px;position:relative;background-color:#e6eab7;position:relative;background-color:#e6eab7;">
 <div style = "width:49%;color:white;background-color:#e6eab7;display:inline-block">
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-7')" >
 
@@ -552,19 +539,19 @@ Ruston, LA 71270</b></p>
 <textarea id = "message" name = "message"></textarea>
 <button id = "message-button" type = "submit">Send</button>
 </form>
+
+</div>
+
+<p style = "display:inline-block;text-align:center;width:100%;font-family:Cormorant Garamond;color:#a1ad20;background-color:#e6eab7">Hephty Solutions | All Rights Reserved</p>
 <div style = "color:#a1ad20;background-color:#e6eab7;display:block">
 <h4 style = "text-align:center">Follow Us!</h4>
+<div style = "margin: auto;width: 40%;">
 <div class = "social-media-image-container"><a href = ""><img class = "social-media-image" width="50" height="50" src="https://img.icons8.com/ios/50/facebook-new.png" alt="facebook-new"/>
 </a></div>
 <div class = "social-media-image-container"><a href = ""><img src = "/twitter.png" class = "social-media-image"></img></a></div>
 <div class = "social-media-image-container"><a href = ""><img src = "https://pluspng.com/img-png/instagram-png-instagram-icon-1600.png" class = "social-media-image" ></img></a></div></div>
 </div>
 </div>
-
-
-<p style = "display:inline-block;text-align:center;width:100%;font-family:Cormorant Garamond;color:#a1ad20;background-color:#e6eab7">Hephty Solutions | All Rights Reserved</p>
-
-
 </footer>
 
 </html>
