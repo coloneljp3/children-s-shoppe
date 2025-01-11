@@ -10,6 +10,8 @@ menu.style.height = '0px';
 menu.style.fontSize = '0px';}
 };
 
+function 
+
 function circleSelect(ind,urlList,id){
 if(this.fill == 'black'){this.fill = 'none'}
 else{
@@ -301,20 +303,17 @@ cartItem.style.display = "none";
 }
 
 
-function shiftReview(reviews,id,id_2){
-var reviews = document.getElementsByClassName(reviews);
-var elem = document.getElementById(id);
-var elem_2 = document.getElementById(id_2);
-var ind = reviews.indexOf(elem.innerHTML);
-  if(ind == -1){document.getElementById(id).innerHTML = reviews[0]}
-else{
-if(id_2 == 'arrow_2'){
-document.getElementById(id).innerHTML = reviews[ind+1]}
+function insertReview(data){
 
-else{
-document.getElementById(id).innerHTML = reviews[ind-1]}
+var heading = document.getElementById('review-heading')
+var review = document.getElementById('review-paragraph')
+var rating = document.getElementById('review-rating')
+var i = data.Heading.indexOf(heading.innerHTML)
+heading.innerHTML = data.Heading[i+1]
+review.innerHTML = data.Review[i+1]
+rating.innerHTML = data.Rating[i+1]
 
-  
-}
+    
+    
 }
  
