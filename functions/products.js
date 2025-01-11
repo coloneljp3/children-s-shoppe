@@ -11,6 +11,9 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use('/',(req,res)=>{
 res.send(`
 <html>
+<script>
+
+</script>
 <head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -76,7 +79,7 @@ setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = 
 <header id = "main-header">
 <div style = "background-color:#e6eab7;height:50%;width:100%">
 
-<svg style = "z-index:1;position:fixed;left:15px;display:inline-block" onclick = "menuStat('menu-bar')">
+<svg style = "z-index:1;position:fixed;left:15px;display:inline-block" onmouseover = "menuStat('menu-bar')">
 
 <polyline stroke = "green" stroke-width = "4" points = "0 10 40 10"></polyline>
 <polyline stroke = "green" stroke-width = "4" points = "0 20 40 20"></polyline>
@@ -85,11 +88,11 @@ setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = 
 </svg>
 
 <div id = "menu-bar">
-<form action = ""><button type = "submit" class = "menu-bar-options">Contact</button></form>
-<form><button type = "submit" class = "menu-bar-options">Products</button></form>
-<form><button type = "submit" class = "menu-bar-options">Contact</button></form>
-<form><button type = "submit" class = "menu-bar-options">Contact</button></form>
-<form><button type = "submit" class = "menu-bar-options">Hiring</button></form>
+<form action = "" class = "menu-bar-options"><button type = "submit">Contact</button></form>
+<form class = "menu-bar-options"><button type = "submit">Products</button></form>
+<form class = "menu-bar-options"><button type = "submit">Contact</button></form>
+<form class = "menu-bar-options"><button type = "submit">Contact</button></form>
+<form class = "menu-bar-options"><button type = "submit">Hiring</button></form>
 </div><img style = "height:100%" src = "/main_logo.jpg"></img>
 
 
