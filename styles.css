@@ -82,7 +82,7 @@ font-size:20px
 font-family: Cormorant Garamond;
 color:green;
 background-color: rgb(230, 234, 183);
-display:inline-block;
+display:table-cell;
 width:32.3%;
 height:300px;
 text-align:center;
@@ -158,11 +158,11 @@ display:inline-block;
 height:50px
   
 }
-
+.social-media-image-container::hover{background-color:white}
 .social-media-image-container{
-display:inline-block;
-float:right;
+display:table-cell;
 width:15%  
+margin:auto
 }
 
 .image-slider-image{
@@ -275,13 +275,34 @@ color: #a1ad20;
     
   }
 
+#call-to-action::hover{color:black;background-color:white;transition:color .2s, background-color .2s}
+
+.review-container{visibility:hidden;width:0px;height:0px}
+
+@keyframes slide{
+0%{
+  #e{height:100%;visibility:visible}
+};
+25%{
+  #e{height:100%;visibility:visible}
+};
+50%{
+#e  {height:100%;visibility:visible}
+};
+75%{
+#e  {height:100%;visibility:visible}
+};
+100%{
+ #e {height:100%;visibility:visible}
+};
+}
 #menu-bar{
   font-size: 0px; position: relative;
   z-index: 1; width: 0px; height: 0px;
   border-right-style: solid; border-right-width: 0.01px;
   display: inline-block; transition: width 0.1s, height 0.1s;
-  
 }
+
 .search-option-container{
   height:0px;
 width:0px;
@@ -335,4 +356,12 @@ background-color:white;opacity:85%;position:absolute;width:0%;transition:width 1
 .hiring-inputs::placeholder{color:white}
 .hiring-label{
   text-align:left
+}
+
+#review-slider{
+    animation-name:slide;
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+
 }
