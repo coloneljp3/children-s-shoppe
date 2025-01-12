@@ -10,7 +10,7 @@ menu.style.height = '0px';
 menu.style.fontSize = '0px';}
 };
 
-function 
+ 
 
 function circleSelect(ind,urlList,id){
 if(this.fill == 'black'){this.fill = 'none'}
