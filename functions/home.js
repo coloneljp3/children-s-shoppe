@@ -99,11 +99,11 @@ setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = 
 </svg>
 
 <div id = "menu-bar" onmouseleave = "menuStat('menu-bar')">
-<a href = "" class = "menu-bar-options"><button type = "submit">About Us</button></a>
-<a href = "" class = "menu-bar-options"><button type = "submit">Products</button></a>
-<a href = "" class = "menu-bar-options"><button type = "submit">Careers</button></a>
-<a href = "" class = "menu-bar-options"><button type = "submit">Specials</button></a>
-<a href = "" class = "menu-bar-options"><button type = "submit">Create Account/Login</button></a>
+<a href = "" class = "menu-bar-options"><button type = "submit" class = "menu-bar-options">About Us</button></a>
+<a href = "" class = "menu-bar-options"><button type = "submit" class = "menu-bar-options">Products</button></a>
+<a href = "" class = "menu-bar-options"><button type = "submit" class = "menu-bar-options">Careers</button></a>
+<a href = "" class = "menu-bar-options"><button type = "submit" class = "menu-bar-options">Specials</button></a>
+<a href = "" class = "menu-bar-options"><button type = "submit" class = "menu-bar-options">Create Account/Login</button></a>
  <img style = "height:100%" src = "/main_logo.jpg"></img>
 
 
@@ -136,14 +136,18 @@ document.getElementById('options').innerHTML = '';
 }
     
 var search_list = {
-"CLOTHES":"",
-"SHIRTS":"",
-"PANTS":"", 
-"TOPS":"",
-"BOTTOMS":"",
-"HATS":"",
-"TOYS":"",
-"SWEATSHIRTS":""
+"CLOTHES":"/products",
+"SHIRTS":"/products",
+"PANTS":"/products", 
+"TOPS":"/products",
+"BOTTOMS":"/products",
+"HATS":"/products",
+"TOYS":"/products",
+"SWEATSHIRTS":"/products",
+"HOME":"/home",
+"CAREERS AND HIRING":"/hiring",
+"PRODUCTS":"/products",
+"FURNITURE":"/products"
 
         }
 function searchReq(){
