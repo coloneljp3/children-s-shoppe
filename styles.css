@@ -337,7 +337,7 @@ background-color:white;opacity:85%;position:absolute;width:0%;transition:width 1
   height:49%;
   font-family:Raleway;
   width:49%;
-  display:inline-block
+  display:table
 }
 
 .hiring-form-headers{text-align:center}
