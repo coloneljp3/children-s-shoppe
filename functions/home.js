@@ -128,7 +128,68 @@ menu.style.height = "0px";
 menu.style.fontSize = "0px"
 var specialOffers = document.getElementById('special-offers');specialOffers.style.visibility = hidden;
 }
-  
+  window.onload = (event) =>{
+document.getElementById('search').style.width = '350px';
+}
+window.onclick = (event) =>{
+document.getElementById('options').innerHTML = '';
+}
+    
+var search_list = {
+"CLOTHES":"",
+"SHIRTS":"",
+"PANTS":"", 
+"TOPS":"",
+"BOTTOMS":"",
+"HATS":"",
+"TOYS":"",
+"SWEATSHIRTS":""
+
+        }
+function searchReq(){
+  document.getElementById('options').innerHTML = '';
+var val = document.getElementById('search').value;
+var list = Object.keys(search_list);
+
+for(let i of list){
+
+if(i.includes(val.toUpperCase())){
+    var elem = document.createElement('div');
+    var a = document.createElement('a');
+    var but = document.createElement('button')
+    
+    a.className = 'search_op';
+    elem.className = 'search_op';
+but.style.fontFamily = 'Raleway'
+but.style.color = "white";
+but.style.borderColor = "rgb(145 151 81)"
+but.style.backgroundColor = "rgb(145 151 81)";
+but.style.borderRadius = "10px"
+but.style.fontWeight = "bold";
+but.style.margin = "0px";
+but.style.display = "block"
+but.style.height = "50px";
+but.style.width= "275px";
+a.style.position = "absolute"
+    elem.style.visibility = "visible";
+    a.style.visibility = "visible";
+    elem.style.height = "50px";
+    a.style.height = "50px" 
+    a.href = list[i];
+	a.append(but)
+    but.append(i);
+
+    elem.appendChild(a);
+    document.getElementById('options').append(elem);
+
+
+}
+
+
+
+}
+
+}
 </script>
 <style>
 :hover:-moz-placeholder{
@@ -181,7 +242,7 @@ width.style.width = '0px'}
 <circle cx = 8 cy = 8 stroke-width = 3 stroke = "green" fill = "none" r = 6></circle>
 <polyline points = "12 12 20 20 " stroke-width = 3 stroke = "green" fill = "none"></polyline>
 </svg>
-<input placeholder = "Search for info about The Children's Shoppe"  onkeyup = "searchList(this.value)" id  = "search" type = "search" />
+<input placeholder = "Search for info about The Children's Shoppe"  onkeyup = "searchReq()" id  = "search" type = "search" />
 
 <div style = "position:relative"> 
     
