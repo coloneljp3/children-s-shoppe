@@ -1,4 +1,5 @@
 #main-nav-bar-top-half{width:100%;height:20%}
+#main-nav-bar-bottom-half{padding-top:35px}
 .main-nav-bar-dropdown{
 transition:visibility 1s;
   
