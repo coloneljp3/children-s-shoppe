@@ -79,7 +79,7 @@ setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = 
 <header id = "main-header">
 <div style = "background-color:#e6eab7;height:50%;width:100%">
 
-<svg style = "z-index:1;position:fixed;left:15px;display:inline-block" onmouseover = "menuStat('menu-bar')">
+<svg style = "height:50px;width:40px;z-index:1;position:fixed;left:15px;display:inline-block" onmouseover = "menuStat('menu-bar')">
 
 <polyline stroke = "green" stroke-width = "4" points = "0 10 40 10"></polyline>
 <polyline stroke = "green" stroke-width = "4" points = "0 20 40 20"></polyline>
@@ -87,16 +87,16 @@ setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = 
 
 </svg>
 
-<div id = "menu-bar">
-<form action = "" class = "menu-bar-options"><button type = "submit">Contact</button></form>
-<form class = "menu-bar-options"><button type = "submit">Products</button></form>
-<form class = "menu-bar-options"><button type = "submit">Contact</button></form>
-<form class = "menu-bar-options"><button type = "submit">Contact</button></form>
-<form class = "menu-bar-options"><button type = "submit">Hiring</button></form>
-</div><img style = "height:100%" src = "/main_logo.jpg"></img>
+<div id = "menu-bar" onmouseleave = "menuStat('menu-bar')">
+<a href = "" class = "menu-bar-options"><button type = "submit" class = "menu-bar-options">About Us</button></a>
+<a href = "" class = "menu-bar-options"><button type = "submit" class = "menu-bar-options">Products</button></a>
+<a href = "" class = "menu-bar-options"><button type = "submit" class = "menu-bar-options">Careers</button></a>
+<a href = "" class = "menu-bar-options"><button type = "submit" class = "menu-bar-options">Specials</button></a>
+<a href = "" class = "menu-bar-options"><button type = "submit" class = "menu-bar-options">Create Account/Login</button></a>
 
 
 </div>
+ <img style = "height:100px;width:100px" src = "/main_logo.jpg"></img>
 
 <nav id = "main-nav-bar">
 <div id = "main-nav-bar-top-half">
@@ -116,9 +116,73 @@ menu.style.width = "0px";
 menu.style.height = "0px";
 menu.style.fontSize = "0px"
 var specialOffers = document.getElementById('special-offers');specialOffers.style.visibility = hidden;
+}
+  window.onload = (event) =>{
+document.getElementById('search').style.width = '350px';
+}
+window.onclick = (event) =>{
+document.getElementById('options').innerHTML = '';
+}
+    
+var search_list = {
+"CLOTHES":"/products",
+"SHIRTS":"/products",
+"PANTS":"/products", 
+"TOPS":"/products",
+"BOTTOMS":"/products",
+"HATS":"/products",
+"TOYS":"/products",
+"SWEATSHIRTS":"/products",
+"HOME":"/home",
+"CAREERS AND HIRING":"/hiring",
+"PRODUCTS":"/products",
+"FURNITURE":"/products"
+
+        }
+function searchReq(){
+  document.getElementById('options').innerHTML = '';
+var val = document.getElementById('search').value;
+var list = Object.keys(search_list);
+
+for(let i of list){
+
+if(i.includes(val.toUpperCase())){
+    var elem = document.createElement('div');
+    var a = document.createElement('a');
+    var but = document.createElement('button')
+    
+    a.className = 'search_op';
+    elem.className = 'search_op';
+but.style.fontFamily = 'Raleway'
+but.style.color = "white";
+but.style.borderColor = "rgb(145 151 81)"
+but.style.backgroundColor = "rgb(145 151 81)";
+but.style.borderRadius = "10px"
+but.style.fontWeight = "bold";
+but.style.margin = "0px";
+but.style.display = "block"
+but.style.height = "50px";
+but.style.width= "275px";
+a.style.position = "absolute"
+    elem.style.visibility = "visible";
+    a.style.visibility = "visible";
+    elem.style.height = "50px";
+    a.style.height = "50px" 
+    a.href = list[i];
+	a.append(but)
+    but.append(i);
+
+    elem.appendChild(a);
+    document.getElementById('options').append(elem);
+
 
 }
-  
+
+
+
+}
+
+}
 </script>
 <style>
 :hover:-moz-placeholder{
@@ -134,6 +198,7 @@ var specialOffers = document.getElementById('special-offers');specialOffers.styl
   
   :hover::-moz-placeholder{ 
     color:rgba(0, 0, 120, 0.8)}
+  
   
   
   
@@ -170,7 +235,7 @@ width.style.width = '0px'}
 <circle cx = 8 cy = 8 stroke-width = 3 stroke = "green" fill = "none" r = 6></circle>
 <polyline points = "12 12 20 20 " stroke-width = 3 stroke = "green" fill = "none"></polyline>
 </svg>
-<input placeholder = "Search for info about The Children's Shoppe"  onkeyup = "searchList(this.value)" id  = "search" type = "search" />
+<input placeholder = "Search for info about The Children's Shoppe"  onkeyup = "searchReq()" id  = "search" type = "search" />
 
 <div style = "position:relative"> 
     
@@ -190,10 +255,10 @@ width.style.width = '0px'}
 <button onmouseover = "dropDown('dropdown-button-1')"type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
 <div class = "main-nav-bar-dropdown-container">
 <div class = "main-nav-bar-dropdown" onmouseenter = "dropDown('dropdown-button-1')"  >
-<a href = ""><button class = "dropdown-button-1">Owner  </button></a>
-<a href = ""><button class = "dropdown-button-1">Staff  </button></a>
-<a href = ""><button class = "dropdown-button-1">Locations  </button></a>
-<a href = ""><button class = "dropdown-button-1">FAQs  </button></a>
+<a href = "/home"><button class = "dropdown-button-1">Owner  </button></a>
+<a href = "/home"><button class = "dropdown-button-1">Staff  </button></a>
+<a href = "/home"><button class = "dropdown-button-1">Locations  </button></a>
+<a href = "/home"><button class = "dropdown-button-1">FAQs  </button></a>
 
 </div>
 
@@ -211,10 +276,10 @@ width.style.width = '0px'}
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-2">Tops  </button></a>
-<a href = ""><button class = "dropdown-button-2">Bottoms  </button></a>
-<a href = ""><button class = "dropdown-button-2">Toys  </button></a>
-<a href = ""><button class = "dropdown-button-2">Furniture  </button></a>
+<a href = "/products"><button class = "dropdown-button-2">Tops  </button></a>
+<a href = "/products"><button class = "dropdown-button-2">Bottoms  </button></a>
+<a href = "/products"><button class = "dropdown-button-2">Toys  </button></a>
+<a href = "/products"><button class = "dropdown-button-2">Furniture  </button></a>
 
 </div>
 
@@ -305,38 +370,8 @@ width.style.width = '0px'}
 </div>
 
 
+
 </nav>
-
-<svg id = "cart" stroke-width = "2">
-<polyline stroke = "green" points = "0 10 60 10"></polyline>
-<polyline stroke = "green" points = "10 20 50 20"></polyline>
-<polyline stroke = "green" points = "15 30 45 30"></polyline>
-<polyline stroke = "green" points = "10 40 50 40"></polyline>
-
-<polyline stroke = "green" points = "10 20 10 10"></polyline>
-<polyline stroke = "green" points = "20 20 20 10"></polyline>
-<polyline stroke = "green" points = "30 20 30 10"></polyline>
-<polyline stroke = "green" points = "40 20 40 10"></polyline>
-<polyline stroke = "green" points = "50 20 50 10"></polyline>
-
-<polyline stroke = "green" points = "15 30 15 20"></polyline>
-<polyline stroke = "green" points = "22.5 30 22.5 20"></polyline>
-<polyline stroke = "green" points = "30 30 30 20"></polyline>
-<polyline stroke = "green" points = "37.5 30 37.5 20"></polyline>
-<polyline stroke = "green" points = "45 30 45 20"></polyline>
-
-<polyline points = "0 10 0 20" stroke = "green"></polyline>
-<polyline points = "0 20 10 20" stroke ="green"></polyline>
-<polyline points = "0 20 15 30" stroke = "green"></polyline>
-
-<polyline points = "15 30 10 40" stroke = "green"></polyline>
-<polyline points = "45 30 50 40" stroke = "green"></polyline>
-<polyline points = "45 30 60 10" stroke = "green"></polyline>
-<polyline points = "60 10 75 3" stroke = "green"></polyline>
-
-<circle stroke = "green" fill = "white"r = "5" cx ="10" cy = "45"/>
-<circle stroke = "green" fill = "white"r = "5" cx ="50" cy = "45"/>
-
 </header>
 <div class = "alert-item" id = "special-offers" style="z-index:2;opacity:80%;background-color:black;width:80%;height:500px;right:10%;position:fixed;top:30px;margin:auto;color:white;text-align:center">
 <span style = "float:left;font-size:20px;font-family:Raleway;font-weight:bold" onclick = "document.getElementById('special-offers').style.visibility = 'hidden'">X</span>
