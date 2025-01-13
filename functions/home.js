@@ -104,10 +104,10 @@ setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = 
 <a href = "" class = "menu-bar-options"><button type = "submit" class = "menu-bar-options">Careers</button></a>
 <a href = "" class = "menu-bar-options"><button type = "submit" class = "menu-bar-options">Specials</button></a>
 <a href = "" class = "menu-bar-options"><button type = "submit" class = "menu-bar-options">Create Account/Login</button></a>
- <img style = "height:100%" src = "/main_logo.jpg"></img>
 
 
 </div>
+ <img style = "height:100px;width:100px" src = "/main_logo.jpg"></img>
 
 <nav id = "main-nav-bar">
 <div id = "main-nav-bar-top-half">
