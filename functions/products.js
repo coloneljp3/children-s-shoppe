@@ -459,7 +459,7 @@ width.style.width = '0px'}
 <br>
 <br>
 
-<footer style = "position:relative;background-color:#e6eab7;">
+<footer style = "height:700px;position:relative;background-color:#e6eab7;position:relative;background-color:#e6eab7;">
 <div style = "width:49%;color:white;background-color:#e6eab7;display:inline-block">
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-7')" >
 
@@ -541,8 +541,6 @@ width.style.width = '0px'}
 
 
 
-
-
 </div>
 
 
@@ -565,20 +563,21 @@ Ruston, LA 71270</b></p>
 <textarea id = "message" name = "message"></textarea>
 <button id = "message-button" type = "submit">Send</button>
 </form>
+
+</div>
+
+<p style = "display:inline-block;text-align:center;width:100%;font-family:Cormorant Garamond;color:#a1ad20;background-color:#e6eab7">Hephty Solutions | All Rights Reserved</p>
 <div style = "color:#a1ad20;background-color:#e6eab7;display:block">
 <h4 style = "text-align:center">Follow Us!</h4>
+<div style = "margin: auto;width: 40%;">
 <div class = "social-media-image-container"><a href = ""><img class = "social-media-image" width="50" height="50" src="https://img.icons8.com/ios/50/facebook-new.png" alt="facebook-new"/>
 </a></div>
 <div class = "social-media-image-container"><a href = ""><img src = "/twitter.png" class = "social-media-image"></img></a></div>
 <div class = "social-media-image-container"><a href = ""><img src = "https://pluspng.com/img-png/instagram-png-instagram-icon-1600.png" class = "social-media-image" ></img></a></div></div>
 </div>
 </div>
-
-
-<p style = "display:inline-block;text-align:center;width:100%;font-family:Cormorant Garamond;color:#a1ad20;background-color:#e6eab7">Hephty Solutions | All Rights Reserved</p>
-
-
 </footer>
+
 
 </html>
 
