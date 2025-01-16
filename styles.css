@@ -358,8 +358,9 @@ background-color:white;opacity:85%;position:absolute;width:0%;transition:width 1
 .hiring-label{
   text-align:left
 }
-
+.main-nav-bar-dropdown-forms{display:inline-block}
 #review-slider{
+  color:white;
     font-family:Raleway;
   text-align:center;
 }
