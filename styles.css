@@ -278,7 +278,7 @@ color: #a1ad20;
 
 #call-to-action::hover{color:black;background-color:white;transition:color .2s, background-color .2s}
 
-.review-container{visibility:hidden;width:0px;height:0px}
+.review-container{}
 
 @keyframes slide{
 0%{
@@ -360,9 +360,5 @@ background-color:white;opacity:85%;position:absolute;width:0%;transition:width 1
 }
 
 #review-slider{
-    animation-name:slide;
-    width: 0px;
-    height: 0px;
-    visibility: hidden;
-
+    
 }
