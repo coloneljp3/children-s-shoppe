@@ -9,10 +9,7 @@ const nodemailer = require('nodemailer')
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true}));
 
-app.get('/',(req,res)=>{
-res.send('Error: Page not found')
-	
-})
+
 
 app.post('/',(req,res)=>{
 let mail = nodemailer.createTransport({
@@ -328,7 +325,10 @@ width.style.width = '0px'}
 
 `)})
 
-
+app.get('/',(req,res)=>{
+res.send('Error: Page not found')
+	
+})
 app.use('/.netlify/functions/submit',router)
 
 module.exports.handler = serverless(app);
