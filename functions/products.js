@@ -250,15 +250,15 @@ width.style.width = '0px'}
 
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-1')">
 
-<form action = "" method = "POST" class = "main-nav-bar-form">
+<form action = "/home" method = "POST" class = "main-nav-bar-form">
 
 <button onmouseover = "dropDown('dropdown-button-1')"type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
 <div class = "main-nav-bar-dropdown-container">
 <div class = "main-nav-bar-dropdown" onmouseenter = "dropDown('dropdown-button-1')"  >
-<a href = "/home"><button class = "dropdown-button-1">Owner  </button></a>
-<a href = "/home"><button class = "dropdown-button-1">Staff  </button></a>
-<a href = "/home"><button class = "dropdown-button-1">Locations  </button></a>
-<a href = "/home"><button class = "dropdown-button-1">FAQs  </button></a>
+<form action = "/home" method = "POST"><button type = "submit" class = "dropdown-button-1">Owner  </button></form>
+<form action = "/home" method = "POST"><button type = "submit"  class = "dropdown-button-1">Staff  </button></form>
+<form action = "/home" method = "POST"><button type = "submit"  class = "dropdown-button-1">Locations  </button></form>
+<form action = "/home" method = "POST"><button type = "submit"  class = "dropdown-button-1">FAQs  </button></form>
 
 </div>
 
@@ -271,15 +271,15 @@ width.style.width = '0px'}
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-2')"  type = "submit" id = "products-button" class = "main-nav-bar-form-button"><a href = "/products">Products</a></button>
+<button onmouseover = "dropDown('dropdown-button-2')"  type = "submit" id = "products-button" class = "main-nav-bar-form-button">Products</button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = "/products"><button class = "dropdown-button-2">Tops  </button></a>
-<a href = "/products"><button class = "dropdown-button-2">Bottoms  </button></a>
-<a href = "/products"><button class = "dropdown-button-2">Toys  </button></a>
-<a href = "/products"><button class = "dropdown-button-2">Furniture  </button></a>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-2">Tops  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-2">Bottoms  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-2">Toys  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-2">Furniture  </button></form>
 
 </div>
 
@@ -288,17 +288,17 @@ width.style.width = '0px'}
 
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-3')">
 
-<form action = "" method = "POST" class = "main-nav-bar-form">
+<form action = "/products" method = "POST" class = "main-nav-bar-form">
 
 <button onmouseover = "dropDown('dropdown-button-3')"  type = "submit" id = "contac-button" class = "main-nav-bar-form-button">Shirts  </button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = "/products"><button class = "dropdown-button-3">Cost  </button></a>
-<a href = "/products"><button class = "dropdown-button-3">Designs  </button></a>
-<a href = "/products"><button class = "dropdown-button-3">Sizes  </button></a>
-<a href = "/products"><button class = "dropdown-button-3">Brands  </button></a>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-3">Cost  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-3">Designs  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-3">Sizes  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-3">Brands  </button></form>
 
 </div>
 
@@ -308,17 +308,17 @@ width.style.width = '0px'}
 
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-4')">
 
-<form action = "" method = "POST" class = "main-nav-bar-form">
+<form action = "/products" method = "POST" class = "main-nav-bar-form">
 
 <button onmouseover = "dropDown('dropdown-button-4')"  type = "submit" id = "home-button" class = "main-nav-bar-form-button">Pants  </button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = "/products"><button class = "dropdown-button-4">Cost  </button></a>
-<a href = "/products"><button class = "dropdown-button-4">Designs  </button></a>
-<a href = "/products"><button class = "dropdown-button-4">Sizes  </button></a>
-<a href = "/products"><button class = "dropdown-button-4">Brands  </button></a>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-4">Cost  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-4">Designs  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-4">Sizes  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-4">Brands  </button></form>
 
 
 </div>
@@ -335,10 +335,10 @@ width.style.width = '0px'}
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = "/products"><button class = "dropdown-button-5">Cost  </button></a>
-<a href = "/products"><button class = "dropdown-button-5">Designs  </button></a>
-<a href = "/products"><button class = "dropdown-button-5">Sizes  </button></a>
-<a href = "/products"><button class = "dropdown-button-5">Brands  </button></a>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-5">Cost  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST"  action = "/products"><button type = "submit"  class = "dropdown-button-5">Designs  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST"  action = "/products"><button type = "submit"  class = "dropdown-button-5">Sizes  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-5">Brands  </button></form>
 
 </div>
 
@@ -354,10 +354,10 @@ width.style.width = '0px'}
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = "/products"><button class = "dropdown-button-6">Costs </button></a>
-<a href = "/products"><button class = "dropdown-button-6">Designs </button></a>
-<a href = "/products"><button class = "dropdown-button-6">Sizes </button></a>
-<a href = "/products"><button class = "dropdown-button-6">Brands </button></a>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-6">Costs</button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST"  action = "/products"><button type = "submit"  class = "dropdown-button-6">Designs </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST"  action = "/products"><button type = "submit"  class = "dropdown-button-6">Sizes </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST"  action = "/products"><button type = "submit"  class = "dropdown-button-6">Brands </button></form>
 
 </div>
 
@@ -372,6 +372,8 @@ width.style.width = '0px'}
 
 
 </nav>
+
+<button onclick = "">Add to Cart</button>
 </header>
 <div class = "alert-item" id = "special-offers" style="z-index:2;opacity:80%;background-color:black;width:80%;height:500px;right:10%;position:fixed;top:30px;margin:auto;color:white;text-align:center">
 <span style = "float:left;font-size:20px;font-family:Raleway;font-weight:bold" onclick = "document.getElementById('special-offers').style.visibility = 'hidden'">X</span>
@@ -396,14 +398,15 @@ width.style.width = '0px'}
 
 </div>
 <body>
-<div id = "main-page-heading-container"><h1 id = "main-page-heading" >Product Selection</h1></div>
+<div id = "product-selection"></div>
+<div id = "main-page-heading-container"><h1 id = "main-page-heading" >The Children's Shoppe</h1></div>
 <div id = "post-header-body-div-1" class = "body-div">
 
 
 
 <div style = "width:100%;background-color:rgb(145 151 81)">
 <button id = "arrow_1" onclick = "shiftImage(['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB'
-,'https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider','arrow_1')"  >
+,'https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider','arrow_1')" >
 <
 
 </button>
@@ -411,15 +414,39 @@ width.style.width = '0px'}
 ,'https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider','arrow_2')">
 >
 </button>
-<button id = "call-to-action" style = "border-width:5px;border-color:white;border-radius:25px;font-family:Raleway;text-align:center;position:absolute;font-size:40px;width:79%;left:12.5%;top:700px;z-index:1;color:white;margin:auto;background-color:transparent;border-style:none">Browse Our Store Online Or In Person!</button>
-<img src = "https://www.consignkoolkids.com/img/slideClothesEdge.jpg" id = "image-slider" style = "filter:grayscale(40%);height:100%;opacity:80%" ></img>
-<svg onclick = "circleSelect(0,['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider');
+<form method = 'POST' action = '/products'><button type = "submit" id = "call-to-action" style = "border-width:5px;border-color:white;border-radius:25px;font-family:Raleway;text-align:center;position:absolute;font-size:40px;width:79%;left:12.5%;top:700px;z-index:1;color:white;margin:auto;background-color:transparent;border-style:none">Browse Our Store Online Or In Person!</button>
+<img src="https://www.consignkoolkids.com/img/slideClothesEdge.jpg" id="image-slider" style="filter:grayscale(40%);height:100%;opacity:80%">
+<svg class = "circle-select-buttons" onclick = "circleSelect(0,['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider');
 " style = "text-align:center;margin:auto;width:100px"><circle  fill="none" cx = "20" cy = "20" r = "5" stroke = "black"></circle></svg>
 <svg style = "text-align:center;margin:auto;width:100px" onclick = "circleSelect(1,['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider');
 "><circle  fill="none" cx = "40" cy = "20" r = "5" stroke = "black"></circle></svg>
 <svg style = "text-align:center;margin:auto;width:100px" onclick = "circleSelect(2,['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider');
 " ><circle fill="none" cx = "60" cy = "20" r = "5" stroke = "black"></circle></svg>
 
+
+</div>
+
+
+</div>
+<div style = "width:100%;background-color:rgb(145 151 81)">
+<div id = "review-slider">
+<div id = "start-review" class = "review-container">
+<h2 id = "review-heading" class = "review-header" >Beautiful Outfits for my 4 y/o!</h2>
+<p id = "review-rating" class = "review-description">4/5</p>
+<p id = "review-paragraph" class = "review-description">One of the best stores we've been to! Had just what we needed for family portraits. If your kid needs dress clothes, the Children's Shoppe is a MUST!<br/>-Kelsey Selma</p>
+
+
+</div>
+<button onclick = "shiftReview({Heading:['Great Company to Work With!','Affordable Toys for growing kids!','Friendly Staff.'],Rating:['4/5','4/5','3/5'],Review:['The store has a great selection, and the owner helped us find exactly what we needed!','With our kids constantly outgrowing their toys, pricing is important to us. We're finally glad to have found a kid's store that doesn't break the bank.','Staff was very informative and helpful. Great customer service!']})"  >
+<
+
+</button>
+<button onclick = "shiftReview({Heading:['Great Company to Work With!','Affordable Toys for growing kids!','Friendly Staff.'],Rating:['4/5','4/5','3/5'],Review:['The store has a great selection, and the owner helped us find exactly what we needed!','With our kids constantly outgrowing their toys, pricing is important to us. We're finally glad to have found a kid's store that doesn't break the bank.','Staff was very informative and helpful. Great customer service!']})">
+>
+</button>
+<svg class = "circle-select-buttons" onclick = "shiftReview({Heading:['Great Company to Work With!'],Rating:['4/5'],Review:['The store has a great selection, and the owner helped us find exactly what we needed!']})" style = "text-align:center;margin:auto;width:100px"><circle  fill="none" cx = "20" cy = "20" r = "5" stroke = "black"></circle></svg>
+<svg style = "text-align:center;margin:auto;width:100px" onclick = "shiftReview({Heading:['Affordable Toys for growing kids!'],Rating:['4/5'],Review:['With our kids constantly outgrowing their toys, pricing is important to us. We're finally glad to have found a kid's store that doesn't break the bank.']})"><circle  fill="none" cx = "40" cy = "20" r = "5" stroke = "black"></circle></svg>
+<svg style = "text-align:center;margin:auto;width:100px" onclick = "shiftReview({Heading:['Friendly Staff.'],Rating:['3/5'],Review:['Staff was very informative and helpful. Great customer service!']})" ><circle fill="none" cx = "60" cy = "20" r = "5" stroke = "black"></circle></svg>
 
 </div>
 </div>
@@ -442,6 +469,169 @@ width.style.width = '0px'}
 <div id = "post-header-body-div-2" class = "body-div"> 
 <input style="border-style:solid;border-color: green;;border-width:3px;font-family:Raleway;text-align:center;height:30px;border-radius:25px;width:50%" placeholder="Type in a filter for the product you want"/>
 <button onmouseover = "this.style.color = 'white';this.style.backgroundColor = 'green'" onmouseleave = "this.style.backgroundColor = 'transparent'; this.style.color = 'black'" onclick="priceSort()" style="margin: 10% auto; width: 30%; display: block; font-family: Raleway; text-align: center; background-color: transparent; border-style: solid; height: 40px; font-weight: bold; border-radius: 15px; color: black;">Request Products for the Children's Shoppe</button>
+<root>
+<div class = "product-images-container" id = "product-images-container-1">
+  <img class = "product-images"></img>
+    <h2 >Product Image</h2>
+  <input class = "product-titles" value = "Product Image"/>
+  <br>
+<p  style = "font-family:Helvetica;text-align:center">$2.00</p>
+    <input style ="display:none;" class ="price" value = '2'/>
+    <label>Quantity</label><input class = "select-quantity"></input>
+    <button onclick = "addToCart(this)" class = "buy-button">Add to Cart</button>
+  </div>
+  <div class = "product-images-container" id = "product-images-container-1">
+  <img class = "product-images"></img>
+    <h2 >Product Image</h2>
+    <input class = "product-titles" value = "Product Image"/>
+
+  <br>
+<p style = "font-family:Helvetica;text-align:center">$4.00</p>
+        <input style ="display:none;" class ="price" value = '4'/>
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button onclick = "addToCart(this)" class = "buy-button">Add to Cart</button>
+  </div>
+  <div class = "product-images-container" id = "product-images-container-1">
+  <img class = "product-images"></img>
+    <h2>Product Image</h2>
+      <input class = "product-titles" value = "Product Image"/>
+
+  <br>
+<p style = "font-family:Helvetica;text-align:center">$4.00</p>
+        <input style ="display:none;" class ="price" value = '4'/>
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button onclick = "addToCart(this)" class = "buy-button">Add to Cart</button>
+  </div>
+  <div class = "product-images-container" id = "product-images-container-1">
+  <img class = "product-images"></img>
+    <h2>Product Image</h2>
+      <input class = "product-titles" value = "Product Image"/>
+  <br>
+<p style = "font-family:Helvetica;text-align:center">$3.00</p>
+        <input style ="display:none;" class ="price" value = '3'/>
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button onclick = "addToCart(this)" class = "buy-button">Add to Cart</button>
+  </div>
+  <div class = "product-images-container" id = "product-images-container-1">
+  <img class = "product-images"></img>
+    <h2>Product Image</h2>
+      <input class = "product-titles" value = "Product Image"/>
+
+  <br>
+<p style = "font-family:Helvetica;text-align:center">$4.00</p>
+        <input style ="display:none;" class ="price" value = '4'/>
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button onclick = "addToCart(this)" class = "buy-button">Add to Cart</button>
+  </div>
+  <div class = "product-images-container" id = "product-images-container-1">
+  <img class = "product-images"></img>
+    <h2>Product Image</h2>
+      <input class = "product-titles" value = "Product Image"/>
+
+  <br>
+<p style = "font-family:Helvetica;text-align:center">$4.00</p>
+        <input style ="display:none;" class ="price" value = '4'/>
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button onclick = "addToCart(this)" class = "buy-button">Add to Cart</button>
+  </div>
+  <div class = "product-images-container" id = "product-images-container-1">
+  <img class = "product-images"></img>
+    <h2>Product Image</h2>
+      <input class = "product-titles" value = "Product Image"/>
+
+  <br>
+<p style = "font-family:Helvetica;text-align:center">$5.00</p>
+        <input style ="display:none;" class ="price" value = '5'/>
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button onclick = "addToCart(this)" class = "buy-button">Add to Cart</button>
+  </div>
+  <div class = "product-images-container" id = "product-images-container-1">
+  <img class = "product-images"></img>
+    <h2>Product Image</h2>
+      <input class = "product-titles" value = "Product Image"/>
+
+  <br>
+<p style = "font-family:Helvetica;text-align:center">$4.00</p>
+        <input style ="display:none;" class ="price" value = '4'/>
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button onclick = "addToCart(this)" class = "buy-button">Add to Cart</button>
+  </div>
+  <div class = "product-images-container" id = "product-images-container-1">
+  <img class = "product-images"></img>
+    <h2>Product Image</h2>
+      <input class = "product-titles" value = "Product Image"/>
+
+  <br>
+<p style = "font-family:Helvetica;text-align:center">$1.00</p>
+        <input style ="display:none;" class ="price" value = '1'/>
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button onclick = "addToCart(this)" class = "buy-button">Add to Cart</button>
+  </div>
+  <div class = "product-images-container" id = "product-images-container-1">
+  <img class = "product-images"></img>
+    <h2>Product Image</h2>
+      <input class = "product-titles" value = "Product Image"/>
+
+  <br>
+<p style = "font-family:Helvetica;text-align:center">$4.00</p>
+        <input style ="display:none;" class ="price" value = '4'/>
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button onclick = "addToCart(this)" class = "buy-button">Add to Cart</button>
+  </div>
+  <div class = "product-images-container" id = "product-images-container-1">
+  <img class = "product-images"></img>
+    <h2>Product Image</h2>
+      <input class = "product-titles" value = "Product Image"/>
+
+  <br>
+<p style = "font-family:Helvetica;text-align:center">$4.00</p>
+        <input style ="display:none;" class ="price" value = '4'/>
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button onclick = "addToCart(this)" class = "buy-button">Add to Cart</button>
+  </div>
+  <div class = "product-images-container" id = "product-images-container-1">
+  <img class = "product-images"></img>
+    <h2>Product Image</h2>
+      <input class = "product-titles" value = "Product Image"/>
+
+  <br>
+<p style = "font-family:Helvetica;text-align:center">$4.00</p>
+        <input style ="display:none;" class ="price" value = '4'/>
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button onclick = "addToCart(this)" class = "buy-button">Add to Cart</button>
+  </div>
+  <div class = "product-images-container" id = "product-images-container-1">
+  <img class = "product-images"></img>
+    <h2>Product Image</h2>
+      <input class = "product-titles" value = "Product Image"/>
+  <br>
+<p style = "font-family:Helvetica;text-align:center">$4.00</p>
+        <input style ="display:none;" class ="price" value = '4'/>
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button onclick = "addToCart(this)" class = "buy-button">Add to Cart</button>
+  </div>
+  <div class = "product-images-container" id = "product-images-container-1">
+  <img class = "product-images"></img>
+    <h2>Product Image</h2>
+      <input class = "product-titles" value = "Product Image"/>
+  <br>
+<p style = "font-family:Helvetica;text-align:center">$4.00</p>
+        <input style ="display:none;" class ="price" value = '4'/>
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button onclick = "addToCart(this)" class = "buy-button">Add to Cart</button>
+  </div>
+  <div class = "product-images-container" id = "product-images-container-1">
+  <img class = "product-images"></img>
+    <h2>Product Image</h2>
+      <input class = "product-titles" value = "Product Image"/>
+
+  <br>
+<p style = "font-family:Helvetica;text-align:center">$4.00</p>
+        <input style ="display:none;" class ="price" value = '4'/>
+<label>Quantity</label><input class = "select-quantity"></input>
+    <button onclick = "addToCart(this)" class = "buy-button">Add to Cart</button>
+  </div>
+</root>
 <div id = "product-selection"></div>
 </div>
 
