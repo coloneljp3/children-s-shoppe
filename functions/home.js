@@ -40,20 +40,7 @@ res.send(`
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <script src = "/functions.js" type = "text/javascript">
-window.addEventListener('change',()=>{
-if(window.innerWidth <= '600px'){
-document.getElementById('arrow_2').onclick = shiftReview('review-container','review-slider','arrow_2')
-document.getElementById('arrow_1').onclick = shiftReview('review-container','review-slider','arrow_1')
 
-}
-else{
-document.getElementById('arrow_2').onclick = shiftImage(['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB'
-,'https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider','arrow_2')
-document.getElementById('arrow_1').onclick = shiftImage(['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB'
-,'https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider','arrow_1')
-}
-
-})
 function imageSlide(id,urlList){
 var image = document.getElementById(id);
 for(let i of urlList){
@@ -261,15 +248,15 @@ width.style.width = '0px'}
 
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-1')">
 
-<form action = "" method = "POST" class = "main-nav-bar-form">
+<form action = "/home" method = "POST" class = "main-nav-bar-form">
 
 <button onmouseover = "dropDown('dropdown-button-1')"type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
 <div class = "main-nav-bar-dropdown-container">
 <div class = "main-nav-bar-dropdown" onmouseenter = "dropDown('dropdown-button-1')"  >
-<a href = "/home"><button class = "dropdown-button-1">Owner  </button></a>
-<a href = "/home"><button class = "dropdown-button-1">Staff  </button></a>
-<a href = "/home"><button class = "dropdown-button-1">Locations  </button></a>
-<a href = "/home"><button class = "dropdown-button-1">FAQs  </button></a>
+<form action = "/home" method = "POST"><button type = "submit" class = "dropdown-button-1">Owner  </button></form>
+<form action = "/home" method = "POST"><button type = "submit"  class = "dropdown-button-1">Staff  </button></form>
+<form action = "/home" method = "POST"><button type = "submit"  class = "dropdown-button-1">Locations  </button></form>
+<form action = "/home" method = "POST"><button type = "submit"  class = "dropdown-button-1">FAQs  </button></form>
 
 </div>
 
@@ -287,10 +274,10 @@ width.style.width = '0px'}
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = "/products"><button class = "dropdown-button-2">Tops  </button></a>
-<a href = "/products"><button class = "dropdown-button-2">Bottoms  </button></a>
-<a href = "/products"><button class = "dropdown-button-2">Toys  </button></a>
-<a href = "/products"><button class = "dropdown-button-2">Furniture  </button></a>
+<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-2">Tops  </button></form>
+<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-2">Bottoms  </button></form>
+<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-2">Toys  </button></form>
+<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-2">Furniture  </button></form>
 
 </div>
 
@@ -299,17 +286,17 @@ width.style.width = '0px'}
 
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-3')">
 
-<form action = "" method = "POST" class = "main-nav-bar-form">
+<form action = "/products" method = "POST" class = "main-nav-bar-form">
 
 <button onmouseover = "dropDown('dropdown-button-3')"  type = "submit" id = "contac-button" class = "main-nav-bar-form-button">Shirts  </button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = "/products"><button class = "dropdown-button-3">Cost  </button></a>
-<a href = "/products"><button class = "dropdown-button-3">Designs  </button></a>
-<a href = "/products"><button class = "dropdown-button-3">Sizes  </button></a>
-<a href = "/products"><button class = "dropdown-button-3">Brands  </button></a>
+<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-3">Cost  </button></form>
+<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-3">Designs  </button></form>
+<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-3">Sizes  </button></form>
+<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-3">Brands  </button></form>
 
 </div>
 
@@ -319,17 +306,17 @@ width.style.width = '0px'}
 
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-4')">
 
-<form action = "" method = "POST" class = "main-nav-bar-form">
+<form action = "/products" method = "POST" class = "main-nav-bar-form">
 
 <button onmouseover = "dropDown('dropdown-button-4')"  type = "submit" id = "home-button" class = "main-nav-bar-form-button">Pants  </button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = "/products"><button class = "dropdown-button-4">Cost  </button></a>
-<a href = "/products"><button class = "dropdown-button-4">Designs  </button></a>
-<a href = "/products"><button class = "dropdown-button-4">Sizes  </button></a>
-<a href = "/products"><button class = "dropdown-button-4">Brands  </button></a>
+<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-4">Cost  </button></form>
+<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-4">Designs  </button></form>
+<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-4">Sizes  </button></form>
+<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-4">Brands  </button></form>
 
 
 </div>
@@ -346,10 +333,10 @@ width.style.width = '0px'}
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = "/products"><button class = "dropdown-button-5">Cost  </button></a>
-<a href = "/products"><button class = "dropdown-button-5">Designs  </button></a>
-<a href = "/products"><button class = "dropdown-button-5">Sizes  </button></a>
-<a href = "/products"><button class = "dropdown-button-5">Brands  </button></a>
+<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-5">Cost  </button></form>
+<form method = "POST"  action = "/products"><button type = "submit"  class = "dropdown-button-5">Designs  </button></form>
+<form method = "POST"  action = "/products"><button type = "submit"  class = "dropdown-button-5">Sizes  </button></form>
+<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-5">Brands  </button></form>
 
 </div>
 
@@ -365,10 +352,10 @@ width.style.width = '0px'}
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = "/products"><button class = "dropdown-button-6">Costs </button></a>
-<a href = "/products"><button class = "dropdown-button-6">Designs </button></a>
-<a href = "/products"><button class = "dropdown-button-6">Sizes </button></a>
-<a href = "/products"><button class = "dropdown-button-6">Brands </button></a>
+<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-6">Costs</button></form>
+<form method = "POST"  action = "/products"><button type = "submit"  class = "dropdown-button-6">Designs </button></form>
+<form method = "POST"  action = "/products"><button type = "submit"  class = "dropdown-button-6">Sizes </button></form>
+<form method = "POST"  action = "/products"><button type = "submit"  class = "dropdown-button-6">Brands </button></form>
 
 </div>
 
@@ -427,14 +414,30 @@ window.onsubmit = () =>{
 
 
 <div style = "width:100%;background-color:rgb(145 151 81)">
-<button id = "arrow_1" onclick = "shiftReview({Heading:['Great Company to Work With!','Affordable Toys for growing kids!','Friendly Staff.'],Rating:['4/5','4/5','3/5'],Review:['The store has a great selection, and the owner helped us find exactly what we needed!','With our kids constantly outgrowing their toys, pricing is important to us. We're finally glad to have found a kid's store that doesn't break the bank.','Staff was very informative and helpful. Great customer service!']})"  >
+<button id = "arrow_1" onclick = "shiftImage(['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB'
+,'https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider','arrow_1')" >
 <
 
 </button>
-<button id = "arrow_2" onclick = "shiftReview({Heading:['Great Company to Work With!','Affordable Toys for growing kids!','Friendly Staff.'],Rating:['4/5','4/5','3/5'],Review:['The store has a great selection, and the owner helped us find exactly what we needed!','With our kids constantly outgrowing their toys, pricing is important to us. We're finally glad to have found a kid's store that doesn't break the bank.','Staff was very informative and helpful. Great customer service!']})">
+<button id = "arrow_2" onclick = "shiftImage(['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB'
+,'https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider','arrow_2')">
 >
 </button>
 <form method = 'POST' action = '/products'><button type = "submit" id = "call-to-action" style = "border-width:5px;border-color:white;border-radius:25px;font-family:Raleway;text-align:center;position:absolute;font-size:40px;width:79%;left:12.5%;top:700px;z-index:1;color:white;margin:auto;background-color:transparent;border-style:none">Browse Our Store Online Or In Person!</button>
+<img src="https://www.consignkoolkids.com/img/slideClothesEdge.jpg" id="image-slider" style="filter:grayscale(40%);height:100%;opacity:80%">
+<svg class = "circle-select-buttons" onclick = "circleSelect(0,['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider');
+" style = "text-align:center;margin:auto;width:100px"><circle  fill="none" cx = "20" cy = "20" r = "5" stroke = "black"></circle></svg>
+<svg style = "text-align:center;margin:auto;width:100px" onclick = "circleSelect(1,['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider');
+"><circle  fill="none" cx = "40" cy = "20" r = "5" stroke = "black"></circle></svg>
+<svg style = "text-align:center;margin:auto;width:100px" onclick = "circleSelect(2,['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider');
+" ><circle fill="none" cx = "60" cy = "20" r = "5" stroke = "black"></circle></svg>
+
+
+</div>
+
+
+</div>
+<div style = "width:100%;background-color:rgb(145 151 81)">
 <div id = "review-slider">
 <div id = "start-review" class = "review-container">
 <h2 id = "review-heading" class = "review-header" >Beautiful Outfits for my 4 y/o!</h2>
@@ -443,12 +446,16 @@ window.onsubmit = () =>{
 
 
 </div>
+<button id = "arrow_1" onclick = "shiftReview({Heading:['Great Company to Work With!','Affordable Toys for growing kids!','Friendly Staff.'],Rating:['4/5','4/5','3/5'],Review:['The store has a great selection, and the owner helped us find exactly what we needed!','With our kids constantly outgrowing their toys, pricing is important to us. We're finally glad to have found a kid's store that doesn't break the bank.','Staff was very informative and helpful. Great customer service!']})"  >
+<
 
-</div>
+</button>
+<button id = "arrow_2" onclick = "shiftReview({Heading:['Great Company to Work With!','Affordable Toys for growing kids!','Friendly Staff.'],Rating:['4/5','4/5','3/5'],Review:['The store has a great selection, and the owner helped us find exactly what we needed!','With our kids constantly outgrowing their toys, pricing is important to us. We're finally glad to have found a kid's store that doesn't break the bank.','Staff was very informative and helpful. Great customer service!']})">
+>
+</button>
 <svg class = "circle-select-buttons" onclick = "shiftReview({Heading:['Great Company to Work With!'],Rating:['4/5'],Review:['The store has a great selection, and the owner helped us find exactly what we needed!']})" style = "text-align:center;margin:auto;width:100px"><circle  fill="none" cx = "20" cy = "20" r = "5" stroke = "black"></circle></svg>
 <svg style = "text-align:center;margin:auto;width:100px" onclick = "shiftReview({Heading:['Affordable Toys for growing kids!'],Rating:['4/5'],Review:['With our kids constantly outgrowing their toys, pricing is important to us. We're finally glad to have found a kid's store that doesn't break the bank.']})"><circle  fill="none" cx = "40" cy = "20" r = "5" stroke = "black"></circle></svg>
 <svg style = "text-align:center;margin:auto;width:100px" onclick = "shiftReview({Heading:['Friendly Staff.'],Rating:['3/5'],Review:['Staff was very informative and helpful. Great customer service!']})" ><circle fill="none" cx = "60" cy = "20" r = "5" stroke = "black"></circle></svg>
-
 
 </div>
 </div>
@@ -521,10 +528,10 @@ Whether your child is a newborn or a toddler, we can service your needs.
 <button onmouseover = "dropDown('dropdown-button-7')" type = "submit" class = "main-nav-bar-form-button">Sweaters</button>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = "/products"><button class = "dropdown-button-7">Cost  </button></a>
-<a href = "/products"><button class = "dropdown-button-7">Designs  </button></a>
-<a href = "/products"><button class = "dropdown-button-7">Sizes  </button></a>
-<a href = "/products"><button class = "dropdown-button-7">Brands  </button></a>
+<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-7">Cost  </button></form>
+<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-7">Designs  </button></form>
+<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-7">Sizes  </button></form>
+<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-7">Brands  </button></form>
 
 </div>
 
@@ -537,10 +544,10 @@ Whether your child is a newborn or a toddler, we can service your needs.
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-8')">
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = "/products"><button class = "dropdown-button-8">Cost  </button></a>
-<a href = "/products"><button class = "dropdown-button-8">Designs  </button></a>
-<a href = "/products"><button class = "dropdown-button-8">Sizes  </button></a>
-<a href = "/products"><button class = "dropdown-button-8">Brands  </button></a>
+<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-8">Cost  </button></form>
+<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-8">Designs  </button></form>
+<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-8">Sizes  </button></form>
+<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-8">Brands  </button></form>
 
 </div>
 
@@ -556,10 +563,10 @@ Whether your child is a newborn or a toddler, we can service your needs.
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-9')">
 <div class = "main-nav-bar-dropdown-container">
 <div class = "main-nav-bar-dropdown">
-<a href = "/products"><button class = "dropdown-button-9">Cost  </button></a>
-<a href = "/products"><button class = "dropdown-button-9">Designs  </button></a>
-<a href = "/products"><button class = "dropdown-button-9">Sizes  </button></a>
-<a href = "/products"><button class = "dropdown-button-9">Brands  </button></a>
+<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-9">Cost  </button></form>
+<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-9">Designs  </button></form>
+<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-9">Sizes  </button></form>
+<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-9">Brands  </button></form>
 
 </div>
 
@@ -575,10 +582,10 @@ Whether your child is a newborn or a toddler, we can service your needs.
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-10')">
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<a href = "/products"><button class = "dropdown-button-10">Cost  </button></a>
-<a href = "/products"><button class = "dropdown-button-10">Designs  </button></a>
-<a href = "/products"><button class = "dropdown-button-10">Sizes  </button></a>
-<a href = "/products"><button class = "dropdown-button-10">Brands  </button></a>
+<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-10">Cost  </button></form>
+<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-10">Designs  </button></form>
+<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-10">Sizes  </button></form>
+<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-10">Brands  </button></form>
 
 </div>
 
