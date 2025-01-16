@@ -269,15 +269,15 @@ width.style.width = '0px'}
 
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-2')"  type = "submit" id = "products-button" class = "main-nav-bar-form-button"><a href = "/products">Products</a></button>
+<button onmouseover = "dropDown('dropdown-button-2')"  type = "submit" id = "products-button" class = "main-nav-bar-form-button">Products</button>
 
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-2">Tops  </button></form>
-<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-2">Bottoms  </button></form>
-<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-2">Toys  </button></form>
-<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-2">Furniture  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-2">Tops  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-2">Bottoms  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-2">Toys  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-2">Furniture  </button></form>
 
 </div>
 
@@ -293,10 +293,10 @@ width.style.width = '0px'}
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-3">Cost  </button></form>
-<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-3">Designs  </button></form>
-<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-3">Sizes  </button></form>
-<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-3">Brands  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-3">Cost  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-3">Designs  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-3">Sizes  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-3">Brands  </button></form>
 
 </div>
 
@@ -313,10 +313,10 @@ width.style.width = '0px'}
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-4">Cost  </button></form>
-<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-4">Designs  </button></form>
-<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-4">Sizes  </button></form>
-<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-4">Brands  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-4">Cost  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-4">Designs  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-4">Sizes  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-4">Brands  </button></form>
 
 
 </div>
@@ -333,10 +333,10 @@ width.style.width = '0px'}
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-5">Cost  </button></form>
-<form method = "POST"  action = "/products"><button type = "submit"  class = "dropdown-button-5">Designs  </button></form>
-<form method = "POST"  action = "/products"><button type = "submit"  class = "dropdown-button-5">Sizes  </button></form>
-<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-5">Brands  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-5">Cost  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST"  action = "/products"><button type = "submit"  class = "dropdown-button-5">Designs  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST"  action = "/products"><button type = "submit"  class = "dropdown-button-5">Sizes  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-5">Brands  </button></form>
 
 </div>
 
@@ -352,10 +352,10 @@ width.style.width = '0px'}
 </form>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<form method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-6">Costs</button></form>
-<form method = "POST"  action = "/products"><button type = "submit"  class = "dropdown-button-6">Designs </button></form>
-<form method = "POST"  action = "/products"><button type = "submit"  class = "dropdown-button-6">Sizes </button></form>
-<form method = "POST"  action = "/products"><button type = "submit"  class = "dropdown-button-6">Brands </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit"  class = "dropdown-button-6">Costs</button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST"  action = "/products"><button type = "submit"  class = "dropdown-button-6">Designs </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST"  action = "/products"><button type = "submit"  class = "dropdown-button-6">Sizes </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST"  action = "/products"><button type = "submit"  class = "dropdown-button-6">Brands </button></form>
 
 </div>
 
@@ -382,7 +382,6 @@ window.onsubmit = () =>{
 
 }
 </script>
-<button onclick = "">Add to Cart</button>
 </header>
 <div class = "alert-item" id = "special-offers" style="z-index:2;opacity:80%;background-color:black;width:80%;height:500px;right:10%;position:fixed;top:30px;margin:auto;color:white;text-align:center">
 <span style = "float:left;font-size:20px;font-family:Raleway;font-weight:bold" onclick = "document.getElementById('special-offers').style.visibility = 'hidden'">X</span>
@@ -528,10 +527,10 @@ Whether your child is a newborn or a toddler, we can service your needs.
 <button onmouseover = "dropDown('dropdown-button-7')" type = "submit" class = "main-nav-bar-form-button">Sweaters</button>
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-7">Cost  </button></form>
-<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-7">Designs  </button></form>
-<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-7">Sizes  </button></form>
-<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-7">Brands  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-7">Cost  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-7">Designs  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-7">Sizes  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-7">Brands  </button></form>
 
 </div>
 
@@ -544,10 +543,10 @@ Whether your child is a newborn or a toddler, we can service your needs.
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-8')">
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-8">Cost  </button></form>
-<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-8">Designs  </button></form>
-<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-8">Sizes  </button></form>
-<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-8">Brands  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-8">Cost  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-8">Designs  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-8">Sizes  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-8">Brands  </button></form>
 
 </div>
 
@@ -563,10 +562,10 @@ Whether your child is a newborn or a toddler, we can service your needs.
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-9')">
 <div class = "main-nav-bar-dropdown-container">
 <div class = "main-nav-bar-dropdown">
-<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-9">Cost  </button></form>
-<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-9">Designs  </button></form>
-<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-9">Sizes  </button></form>
-<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-9">Brands  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-9">Cost  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-9">Designs  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-9">Sizes  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-9">Brands  </button></form>
 
 </div>
 
@@ -582,10 +581,10 @@ Whether your child is a newborn or a toddler, we can service your needs.
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-10')">
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
-<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-10">Cost  </button></form>
-<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-10">Designs  </button></form>
-<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-10">Sizes  </button></form>
-<form method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-10">Brands  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-10">Cost  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-10">Designs  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-10">Sizes  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-10">Brands  </button></form>
 
 </div>
 
