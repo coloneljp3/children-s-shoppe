@@ -1,40 +1,469 @@
 'use strict'
 const mysql = require('mysql2');
 const express = require('express');
-const api = express();
-var bodyParser = require('body-parser');
-const serverless = require('serverless-http');
 const router = express.Router();
-api.use(bodyParser.json());
-api.use(bodyParser.urlencoded({ extended: true}));
-router.post('/', (req, res) => {
-const connection = mysql.createPool(process.env.DATABASE_URL);
-var user = req.body.login_user;
-const psw = req.body.login_psw;
-const email_user = req.body.email_user;
-var email_psw = req.body.email_psw;
-  if(user == "jpecka" && psw == "jack"){
-    var user = req.body.sender;
-var query = connection.query(`Select username,services,start_date,address,price,time,id from Records`,(err,result)=>{var z = [];var b; let a = 1;for(let i of result){
-z.push('<span style = "width:320px" class = "data_row" > <div style = "display:inline-block" class = "data_row"><input name = '+"username_" +i["id"] +' value = '+ i["username"] + ' style = "width:inherit;text-align:center;font-family:Montserrat;color:white;background-color:rgba(67, 181, 53, 0.72);display:inline-block"></input></div> <div style = "display:inline-block" class = "data_row"><input name ='+"services_" +i["id"]+' value = ' + i["services"] + '  style = "width:inherit;text-align:center;font-family:Montserrat;color:white;background-color:rgba(67, 181, 53, 0.72);display:inline-block"></input></div> <div style = "display:inline-block" class = "data_row"><input name = '+"start_date_"+i["id"]+' value = '+ i["start_date"] +' style = "width:inherit;text-align:center;font-family:Montserrat;color:white;background-color:rgba(67, 181, 53, 0.72);display:inline-block"></input></div> <div style = "display:inline-block" class = "data_row"><input name = '+"address_" + i["id"] +' value = '+ i["address"] +' style = "width:inherit;text-align:center;font-family:Montserrat;color:white;background-color:rgba(67, 181, 53, 0.72);display:inline-block"></input></div> <div style = "display:inline-block" class = "data_row"><input name = '+"price_"+i["id"]+' value = '+ i["price"] +' style = "width:inherit;text-align:center;font-family:Montserrat;color:white;background-color:rgba(67, 181, 53, 0.72);display:inline-block"></input></div> <div style = "display:inline-block" class = "data_row"><input name = '+"time_"+i["id"]+' value = '+ i["time"] +' style = "width:inherit;text-align:center;font-family:Montserrat;color:white;background-color:rgba(67, 181, 53, 0.72);display:inline-block"></input></div><input value = ' +i["id"]+ ' name = '+"number_"+i["id"]+ ' style = "display:none"/></span><br>');
-a+=1}; 
-         
-         connection.query(`Select username,pasword,address,cell,email from Clientele`,(err,result)=>{
+const app = express();
+const serverless = require('serverless-http');
+const bodyParser = require('body-parser')
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true}));
+router.post('/',(req,res)=>{
+var connection = mysql.createConnection(process.env.DATABASE_URL);
+//var user = req.body.User;
+//var psw = req.body.psw;
+//var cell = req.body.cell;
+//var email_user = req.body.email_user;
+//var email_psw = req.body.email_psw
+//const Signup = connection.query(`Select COUNT(*) from Clientele where username = ? or pasword = ?`,[user,psw],(err,results)=>{var count = results[0]["count(*)"]; if(count == 0){connection.query(`Insert Into Clientele(username,pasword,cell,email,email_psw) values(?,?,?,?,?)`,[user,psw,cell,email_user,email_psw]);connection.query(`SELECT start_date,time FROM Records`,[user,psw],(err,result,fields) => {var z = [];for(let i of result){var b = i["start_date"] +":"+i["time"] + "<br>";z.push(b)};connection.query(`SELECT services FROM Records WHERE username = ?`,[user],(err,results,fields)=>{let a = [];for(let i of results){a.push(i["services"]+"<br>");};})})}});
+//Signup;
 
-  var a = [];var l = [];for(let i of result){l.push('<option value = '+ i["username"] +'> '+i["username"]+'</option>');a.push('<span class = "data_row" style = "width:320px"><div style = "display:inline-block" class = "data_row"><input class = "data_row" value = '+ i["username"] +' style = "width:inherit;text-align:center;font-family:Montserrat;color:white;background-color:rgba(67, 181, 53, 0.72);display:inline-block"></input></div><div style = "display:inline-block" class = "data_row"><input class = "data_row" value = '+ i["pasword"] +' style = "width:inherit;text-align:center;font-family:Montserrat;color:white;background-color:rgba(67, 181, 53, 0.72);display:inline-block"></input></div> <div style = "display:inline-block" class = "data_row"><input class = "data_row" value = '+ i["cell"] +' style = "width:inherit;text-align:center;font-family:Montserrat;color:white;background-color:rgba(67, 181, 53, 0.72);display:inline-block"></input></div> <div style = "display:inline-block" class = "data_row"><input class = "data_row" value = '+ i["email_user"] +' style = "width:inherit;text-align:center;font-family:Montserrat;color:white;background-color:rgba(67, 181, 53, 0.72);display:inline-block"></input></div></span><br>')}; 
-res.send('<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1.0"></link><style>@media(max-width:435px){#email_form{max-height:40px}.email_form{display:none}}.cat{height:22.5px}@media(max-width:1200px){.CPM {display:none;}}@media (max-width: 1837px) {.small_div { height:50px;width:100px}}@media(max-width:1837px){#b_2,#b_1,#b_3,#b_4{font-size:10px}}@media(max-width:834px){#b_2,#b_1,#b_3,#b_4{max-width: 140px;max-height:50px}}@media(max-width:595px){#b_2,#b_1,#b_3,#b_4{max-width: 100px;max-height:50px}}@media(max-width:1304px){.cat{max-width:50px}.data_row{display:inline-block;width:50px;font-size:6px}}@media(max-width:434px){#b_2,#b_1,#b_3,#b_4{max-width: 80px;max-height:50px}}@media(max-width:1484px){#sub_but{max-width:80px;max-height: 40px;}}@media(max-width:1072px){#sub_but{max-width:60px;max-height: 25px;}}@media(max-width:912px){#sub_but{max-width:40px;max-height: 18px;}}@media(max-width:1000px){.heading{font-size:20px}}@media(max-width:900px){.heading{font-size:17px}}@media(max-width:500px){.heading{font-size:12px}}@media(max-width:1495px){.shrink{max-width:400px;font-size:"2px";}}@media(max-width:1300px){.shrink{max-width:300px;font-size:".1px";}}@media(max-width:1015px){.shrink{max-width:200px;font-size:".1px";}}@media(max-width:671px){.shrink{max-width:150px;font-size:".1px";}}@media(max-width:571px){.shrink{max-width:130px;font-size:".1px";}.shrink_4{font-size:4px}}    @media(max-width: 456px) {.shrink {max-width:80px;font-size: ".1px";}}@media(max-width: 326) {.shrink {max-width:40px;font-size: ".1px";}}@media(max-width:1501px){.shrink_2{font-size:8px}}@media(max-width:1098px){.shrink_2{font-size:6px}}@media(max-width:1018px){.shrink_2{font-size:10px}}@media(max-width:1018px){.shrink_2{font-size:10px}}@media(max-width:500px){.shrink_2{font-size:6px}}@media(max-width:1482px){.shrink_3{font-size:15px}}@media(max-width:1369px){.shrink_3{font-size:12px;}}</style><nav style="position:sticky;width:100%;border-color:#414841;font-family:Montserrat;font-weight:bold;border-bottom-style:solid;border-bottom-width:2px;border-bottom-color:black;float: left;"><form style="display:inline-block;position:relative" onmouseover="document.getElementById(`b_1`).style.color = `white`;document.getElementById(`b_1`).style.backgroundColor = `rgba(67, 181, 53, 0.72)`" action="/" method = "POST"><input style = "display:none" name = "email_psw" value = "undefined" /><input style = "display:none" name = "email_user" value = "undefined"/><input value = undefined name = "user" style = "display:none"/><button id="b_1" onmouseleave="document.getElementById(`b_1`).style.color = `rgba(67, 181, 53, 0.72)`; document.getElementById(`b_1`).style.backgroundColor = `white`" onmouseover="document.getElementById(`b_1`).style.color = `white`;document.getElementById(`b_1`).style.backgroundColor = `rgba(67, 181, 53, 0.72)`" style="width:200px;height:100px;border-style:solid;color:rgba(67, 181, 53, 0.72);background-color:white;font-family:Montserrat" type="submit">About <span>&#9660;</span></button></form><form style="display:inline-block;position:relative" action="/.netlify/functions/purchase" method="post"><input style = "display:none" name = "email_psw" value = "undefined" /><input style = "display:none" name = "email_user" value = "undefined" /><input value = "undefined" name = "user" style = "display:none"/><button onmouseleave="document.getElementById(`b_2`).style.color = `rgba(67, 181, 53, 0.72)`; document.getElementById(`b_2`).style.backgroundColor = `white`" onmouseover="document.getElementById(`b_2`).style.color = `white`; document.getElementById(`b_2`).style.backgroundColor = `rgba(67, 181, 53, 0.72)`" id="b_2" type="submit" style="border-style:solid;width:200px;height:100px;color:rgba(67, 181, 53, 0.72);background-color:white;font-family:Montserrat">Services <span>&#9660;</span></button></form><form method = "POST" style="display:inline" action="/.netlify/functions/login"><input style = "display:none" name = "email_psw" value = "undefined" /><input style = "display:none" name = "email_user" value = "undefined" /><input value = "undefined" name = "user" style = "display:none"/><button onmouseleave="document.getElementById(`b_3`).style.color = `rgba(67, 181, 53, 0.72)`; document.getElementById(`b_3`).style.backgroundColor = `white`" onmouseover="document.getElementById(`b_3`).style.color = `white`; document.getElementById(`b_3`).style.backgroundColor = `rgba(67, 181, 53, 0.72)`" id="b_3" type="submit" style="display:inline;border-style:solid;width:200px;height:100px;color:rgba(67, 181, 53, 0.72);background-color:white;font-family:Montserrat">Account-Setup/Login <span>&#9660;</span></button></form><form action="/.netlify/functions/hiring" method="POST" style="display:inline"><input style = "display:none" name = "email_psw" value = "undefined" /><input style = "display:none" name = "email_user" value = "undefined" /><input name = "user" value = "undefined" style = "display:none"><button class="small_div_text" onmouseleave="document.getElementById(`b_4`).style.color = `rgba(67, 181, 53, 0.72)`; document.getElementById(`b_4`).style.backgroundColor = `white`" onmouseover="document.getElementById(`b_4`).style.color = `white`; document.getElementById(`b_4`).style.backgroundColor = `rgba(67, 181, 53, 0.72)`" id="b_4" type="submit" style="display:inline-block;border-style:solid;width:200px;height:100px;color:rgba(67, 181, 53, 0.72);background-color:white;font-family:Montserrat">Hiring <span>&#9660;</span></button><input value = undefined name = "user" style = "display:none"/></form><span style="float:left;height:100px"><svg class="CPM" style="width:600px"><path style="fill:none;stroke:rgb(173 124 124 / 72%);stroke-width:5" d="M225 100 Q50 50 225 0"></path><path style="fill:none;stroke:rgb(173 124 124 / 72%);stroke-width:5" d="M300 100 Q125 50 300 0"></path><polyline style="fill:none;stroke:rgb(167 188 13 / 72%);stroke-width:5" points="325,0 325,100 400,100"></polyline><path style="fill:none;stroke:rgba(67, 181, 53, 0.72);stroke-width:5" d="M410 100 S450 100 490 75 S425 50 400 25 S450 0 500 5"></path></svg></span><span class="small_div" style="font-family:Montserrat; text-align:center;float:right;size:1px"><form method = "POST" action = "/.netlify/functions/email"><input style = "display:none" name = "email_psw" value = "undefined" /><input style = "display:none" name = "email_user" value = "undefined" /><input name = "user" value = "undefined" style = "display:none" /><button type = "submit"><h3>Need to send an email?</h3><p>Send an email to <b>jpbreaux225@gmail.com</b></p></button></form><svg><polyline style="fill:none;stroke-width:3;stroke:rgba(67, 181, 53, 0.72)" points="0,0 100,0 100,50 0,50 0,0"></polyline><polyline style="fill:none;stroke-width:3;stroke:rgba(67, 181, 53, 0.72)" points="0,0 50,25 100,0"></polyline></svg></span></nav><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><h1 style = "text-align:center;font-family:Montserrat;color:rgba(67, 181, 53, 0.72);">Records</h1><form action = "/.netlify/functions/admin_sub" method = "POST"><br><div style = "display:inline-block"><br><textarea style = "width:156.5px;font-family:Montserrat;background-color:rgba(67, 181, 53, 0.72);color:white;display:inline;text-align:center" class = "cat">Username</textarea><textarea style = "width:156.5px;font-family:Montserrat;background-color:rgba(67, 181, 53, 0.72);color:white;display:inline;text-align:center" class = "cat">Services</textarea><textarea style = "width:156.5px;font-family:Montserrat;background-color:rgba(67, 181, 53, 0.72);color:white;display:inline;text-align:center" class = "cat">Start Date</textarea><textarea style = "width:156.5px;font-family:Montserrat;background-color:rgba(67, 181, 53, 0.72);color:white;display:inline;text-align:center" class = "cat">Address</textarea><textarea style = "width:156.5px;font-family:Montserrat;background-color:rgba(67, 181, 53, 0.72);color:white;display:inline;text-align:center" class = "cat">Price</textarea><textarea style = "width:156.5px;font-family:Montserrat;background-color:rgba(67, 181, 53, 0.72);color:white;display:inline;text-align:center" class = "cat">Time</textarea></span><br>'+ z +'<br><button type = "submit" style = "text-align:center;width:100px;height:25px;font-family:Montserrat;background-color:rgba(67, 181, 53, 0.72);color:white">Update</button></form><br><h1 style = "text-align:center;font-family:Montserrat;color:rgba(67, 181, 53, 0.72);">Clientele</h1><form action = "/.netlify/functions/admin_sub" method = "POST"><textarea class = "cat" style="text-align:center;width:156.5px;font-family:Montserrat;background-color:rgba(67, 181, 53, 0.72);color:white;display:inline">Username</textarea><textarea class = "cat" style="text-align:center;width:156.5px;font-family:Montserrat;background-color:rgba(67, 181, 53, 0.72);color:white;display:inline">Password</textarea><textarea class = "cat" style="text-align:center;width:156.5px;font-family:Montserrat;background-color:rgba(67, 181, 53, 0.72);color:white;display:inline">Cell</textarea><textarea class = "cat" style="text-align:center;width:156.5px;font-family:Montserrat;background-color:rgba(67, 181, 53, 0.72);color:white;display:inline-block">Email</textarea></span><br>'+ a +'</form><div style = "font-family:Montserrat;text-align: center;height:100px;width:inherit"><h1 style = "color:rgba(67, 181, 53, 0.72);">Message</h1><script>var user = (id,id_2) =>{var elem = document.getElementById(id);var eleminp = elem.options[elem.selectedIndex].value;if(eleminp==""){document.getElementById(id_2).value = null;}else{document.getElementById(id_2).value = eleminp;document.getElementById(`message`).placeholder = "Send a message to " + eleminp;}}</script><form style = "color:white;background-color:rgba(67, 181, 53, 0.72);" action="/.netlify/functions/message_sub" method="post"><select id="people" onchange = "user(`people`,`people_value`)">'+ l +'</select><br><input style = "display: none;" id = "people_value" name = "people"/><textarea name = "message" id = "message"  placeholder="Send a message to..." style="width:200px;height:100px;font-family:Montserrat"></textarea><br><input style = "display:none" name = "sender" value = '+ user +'/><button type="submit" style = "color:white;background-color: rgba(67, 181, 53, 0.72);font-family: Montserrat;width:50px;height:25px;">Send Message</button></form></div>');
-})
+res.send(`<!DOCTYPE html>
+<html><head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&amp;display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+
+@media(max-width:600px){#messaging-feature{margin:25%}#review-slider{width:100%;height:100%;visibility:visible}#start-review{width:50%;height:inherit;font-size:1em}body{font-family:Raleway}#contact-footer-div{visibility:hidden;position:fixed}#image-slider{display:none;background-color:transparent}.circle-select-buttons{display:none}
+#main-nav-bar-bottom-half,.main-nav-bar-items-container{display:none}
+#search_icon{position:fixed;top:10px;width:25px;right:20px}
+.product-images-container{width:100%;display:block}}
+@media (max-width:500px){#contact-footer-div{display:none}}
+@media(max-width:400px){
+.social-media-image-container{width:20px;height:20px}
+.home-info{width:100%;display:block}#arrow_1,#arrow_2{width:25px;height:25px}
+
+
+
 }
-           
-           
-            )
-query;}
-  else{
-var recordQuery = connection.query(`Select COUNT(*) FROM Clientele WHERE username = ? AND pasword = ?`,[user,psw],(err,results,fields) => {var result= results[0]["count(*)"]; if(result == 1){connection.query(`SELECT start_date,time FROM Records`,[user,psw],(err,result,fields) => {var z = [];for(let i of result){var b = i["start_date"] +":"+i["time"] + "<br>";z.push(b)};connection.query(`SELECT services FROM Records WHERE username = ?`,[user],(err,results,fields)=>{let a = [];for(let i of results){a.push(i["services"]+"<br>");};connection.query(`Select email,email_psw from Clientele where username = ?`,[user],(err,results)=>{var email_psw = results[0]["email_psw"]; var email = results[0]["email_user"];res.send('<!DOCTYPE html><html><link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1.0"></link><style>@media(max-width:1200px){.CPM {display: none;}}@media (max-width: 1837px) {.small_div { display:none;font-size: 2px;}}@media(max-width:1837px){#b_2,#b_1,#b_3,#b_4{font-size:10px}}@media(max-width:435px){#email_form{max-height:40px}.email_form{display:none}}@media(max-width:834px){#b_2,#b_1,#b_3,#b_4{max-width: 140px;font-size:4px;max-height:50px}}@media(max-width:595px){#b_2,#b_1,#b_3,#b_4{max-width: 100px;max-height:50px}}@media(max-width:434px){#b_2,#b_1,#b_3,#b_4{max-width: 80px;max-height:50px}}@media(max-width:1484px){#sub_but{max-width:80px;max-height: 40px;}}@media(max-width:1072px){#sub_but{max-width:60px;max-height: 25px;}}@media(max-width:912px){#sub_but{max-width:40px;max-height: 18px;}}@media(max-width:1000px){.heading{font-size:20px}}@media(max-width:900px){.heading{font-size:17px}}@media(max-width:500px){.heading{font-size:12px}}@media(max-width:1495px){.shrink{max-width:400px;font-size:"2px";}}@media(max-width:1300px){.shrink{max-width:300px;font-size:".1px";}}@media(max-width:1015px){.shrink{max-width:200px;font-size:".1px";}}@media(max-width:671px){.shrink{max-width:150px;font-size:".1px";}}@media(max-width:571px){.shrink{max-width:130px;font-size:".1px";}.shrink_4{font-size:4px}}    @media(max-width: 456px) {.shrink {max-width:80px;font-size: ".1px";}}@media(max-width: 326) {.shrink {max-width:40px;font-size: ".1px";}}@media(max-width:1501px){.shrink_2{font-size:8px}}@media(max-width:1098px){.shrink_2{font-size:6px}}@media(max-width:1018px){.shrink_2{font-size:10px}}@media(max-width:1018px){.shrink_2{font-size:10px}}@media(max-width:500px){.shrink_2{font-size:6px}}@media(max-width:1482px){.shrink_3{font-size:15px}}@media(max-width:1369px){.shrink_3{font-size:12px;}}</style><nav style="position:sticky;width:100%;border-color:#414841;font-family:verdana;font-weight:bold;border-bottom-style:solid;border-bottom-width:2px;border-bottom-color:black;float: left;"><form style="display:inline-block;position:relative" onmouseover="document.getElementById(`b_1`).style.color = `white`;document.getElementById(`b_1`).style.backgroundColor = `rgba(67, 181, 53, 0.72)`" action="/" method = "POST"><input style = "display:none" name = "email_psw" value = '+ email_psw +' /><input style = "display:none" name = "email_user" value = '+ email_user +' /><input name = "user" value = '+user+' style = "display:none"/><button id="b_1" onmouseleave="document.getElementById(`b_1`).style.color = `rgba(67, 181, 53, 0.72)`; document.getElementById(`b_1`).style.backgroundColor = `white`" onmouseover="document.getElementById(`b_1`).style.color = `white`;document.getElementById(`b_1`).style.backgroundColor = `rgba(67, 181, 53, 0.72)`" style="width:200px;height:100px;border-style:solid;color:rgba(67, 181, 53, 0.72);background-color:white;font-family:verdana" id = "form_but" type="submit">About <span>&#9660;</span></button><input style = "display:none" name = "email_user" value = '+ email_user +' /><input value = ' + user + ' name = "user" style = "display:none"/></form><form style="display:inline-block;position:relative" action="/.netlify/functions/purchase" method="post"><input style = "display:none" name = "email_psw" value = '+ email_psw +' /><input style = "display:none" name = "email_user" value = '+ email_user +' /><input name = "user" value = '+user+' style = "display:none" /><button onmouseleave="document.getElementById(`b_2`).style.color = `rgba(67, 181, 53, 0.72)`; document.getElementById(`b_2`).style.backgroundColor = `white`" onmouseover="document.getElementById(`b_2`).style.color = `white`; document.getElementById(`b_2`).style.backgroundColor = `rgba(67, 181, 53, 0.72)`" id="b_2" type="submit" style="border-style:solid;width:200px;height:100px;color:rgba(67, 181, 53, 0.72);background-color:white;font-family:verdana">Services <span>&#9660;</span> </button></form><form style="display:inline" method = "POST"action="/.netlify/functions/login"><input style = "display:none" name = "email_psw" value = '+ email_psw +' /><input style = "display:none" name = "email_user" value = '+ email_user +' /><button onmouseleave="document.getElementById(`b_3`).style.color = `rgba(67, 181, 53, 0.72)`; document.getElementById(`b_3`).style.backgroundColor = `white`" onmouseover="document.getElementById(`b_3`).style.color = `white`; document.getElementById(`b_3`).style.backgroundColor = `rgba(67, 181, 53, 0.72)`" id="b_3" type="submit" style="display:inline;border-style:solid;width:200px;height:100px;color:rgba(67, 181, 53, 0.72);background-color:white;font-family:verdana">Account-Setup/Login <span>&#9660;</span></button><input value = ' + user + ' name = "user" style = "display:none"/></form><form action="/.netlify/functions/hiring" method="post" style="display:inline">    <input style = "display:none" name = "email_psw" value = '+ email_psw +' /><input style = "display:none" name = "email_user" value = '+ email_user +' /><input value = ' + user + ' name = "user" style = "display:none"/><button type = "submit" class = "small_div_text"onmouseleave="document.getElementById(`b_4`).style.color = `rgba(67, 181, 53, 0.72)`; document.getElementById(`b_4`).style.backgroundColor = `white`" onmouseover="document.getElementById(`b_4`).style.color = `white`; document.getElementById(`b_4`).style.backgroundColor = `rgba(67, 181, 53, 0.72)`" id="b_4" type="submit" style="display:inline-block;border-style:solid;width:200px;height:100px;color:rgba(67, 181, 53, 0.72);background-color:white;font-family:verdana">Hiring <span>&#9660;</span></button></form><span style="float:left;height:100px"><svg class="CPM" style="width:600px"><path style="fill:none;stroke:rgb(173 124 124 / 72%);stroke-width:5" d="M225 100 Q50 50 225 0"></path><path style="fill:none;stroke:rgb(173 124 124 / 72%);stroke-width:5" d="M300 100 Q125 50 300 0"></path><polyline style="fill:none;stroke:rgb(167 188 13 / 72%);stroke-width:5" points="325,0 325,100 400,100"></polyline><path style="fill:none;stroke:rgba(67, 181, 53, 0.72);stroke-width:5" d="M410 100 S450 100 490 75 S425 50 400 25 S450 0 500 5"></path></svg></span><span class = "small_div" style="font-family:Verdana; text-align:center;float:right;size:1px"><form method = "POST" action = "/.netlify/functions/email"><input style = "display:none" name = "email_psw" value = '+ email_psw +' /><input style = "display:none" name = "email_user" value = '+ email_user +' /><input name ="user" value = '+user+' style = "display:none" /><button type = "submit"><h3>Need to send an email?</h3><p>Send an email to <b>jpbreaux225@gmail.com</b></p></button></form><svg><polyline style="fill:none;stroke-width:3;stroke:rgba(67, 181, 53, 0.72)" points="0,0 100,0 100,50 0,50 0,0"></polyline><polyline style="fill:none;stroke-width:3;stroke:rgba(67, 181, 53, 0.72)" points="0,0 50,25 100,0"></polyline></svg></span><h1 class = "shrink_3" style=" display:inline;text-align: center;font-family: Montserrat; float:right">Welcome back ' + user + '</h1><br/><form method = "POST" action = "/.netlify/functions/login" style = "float:right"><input value = "undefined" name = "user" style = "display: none;"/><button style = "font-family: Montserrat;color:white;background-color:rgba(67, 181, 53, 0.72);" type = "submit">Sign Out</button></form></nav><body class = "small_div_text"style="font-family:Montserrat;color:rgba(67, 181, 53, 0.72);"><div><h1 class="heading">Past Services</h1><div class = "shrink_3">' + a + '</div></div><div style="text-align: center; margin:auto;width:50%"><div style="text-align: center;margin: auto;width: 100%;" id="current_services"><h2 class = "heading" style="text-align: center;">Service Form</h2><div class = "heading" style="font-size:20px;width:100%;height:300px;text-align:center"><p class = "heading">In order to request a service, please fill out the form below to schedule and locate the service, then press Request Appointment to request an appointment. Be sure to use different dates than the ones under Selected Dates in order to schedule at an available time.</p></div><br><br><div><div class = "shrink" style="background-color:  rgba(67, 181, 53, 0.72);color:white;display:inline-block;float:right;text-align: center"><h1 class = "heading">Selected Dates</h1><div class = "shrink_4">' + z + '</div></div><form class = "shrink"id="form" method="post" style="color:white;font-size:20px;font-family:Montserrat;width:500px;background-color:  rgba(67, 181, 53, 0.72)" action="/.netlify/functions/appointment_sub"><input style = "display:none" id = "email_psw" name = "email_psw" value = '+ email_psw +' /><input id = "email_user" style = "display:none" name = "email_user" value = '+ email_user +'/> <h1 class = "heading">Address</h1><span><input class = "shrink_2" id = "address" name="address" type="placeholder" placeholder="Type the address"/></span><h1 class = "heading">Date</h1><datalist class = "shrink_2" id = "date" onchange="date(`date`,`date_value`)"><option value = "September 9">September 9</option><option value = "September 16">September 16</option><option value = "September 23">September 23</option><option value = "September 30">September 30</option><option value = "October 7">October 7</option><option value = "October 14">October 14</option><option value = "October 21">October 21</option><option value = "October 28">October 28</option><option value = "November 4">November 4</option><option value = "November 11">November 11</option><option value = "November 18">November 18</option><option value = "November 25">November 25</option><option value = "December 2">December 2</option><option value = "December 9">December 9</option><option value = "December 16">December 16</option><option value = "December 23">December 23</option><option value = "December 30">December 30</option><option value = "January 6">January 6</option><option value = "January 13">January 13</option><option value = "January 20">January 20</option><option value = "January 27">January 27</option><option value = "February 3">February 3</option><option value = "February 10">February 10</option><option value = "February 17">February 17</option><option value = "February 24">February 24</option><option value = "March 2">March 2</option><option value = "March 9">March 9</option><option value = "March 16">March 16</option><option value = "March 23">March 23</option><option value = "March 30">March 30</option><option value = "April 6">April 6</option><option value = "April 13">April 13</option><option value = "April 20">April 20</option><option value = "April 27">April 27</option><option value = "May 4">May 4</option><option value = "May 11">May 11</option><option value = "May 18">May 18</option><option value = "May 25">May 25</option><option value = "June 1">June 1</option><option value = "June 8">June 8</option><option value = "June 15">June 15</option><option value = "June 22">June 22</option><option value = "June 29">June 29</option><option value = "July 6">July 6</option><option value = "July 13">July 13</option><option value = "July 20">July 20</option><option value = "July 27">July 27</option><option value = "August 3">August 3</option></datalist><input list = "date" style = "display: none;" name = "date" id = "date_value"/><script>function date(id,id_2){var inp = document.getElementById(id);var selinp = inp.options[inp.selectedIndex].value;if(selinp == ""){document.getElementById(id_2).value = `null`}else{document.getElementById(id_2).value = selinp;}}</script><h1 class = "heading">Time</h1><div><span><span><h3 class = "heading" >Hour</h3><input class = "shrink_2"  list="list_1" id = "hour" name="hour"/><datalist id="list_1"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option></datalist></span></span><span><h3 class = "shrink_3">Minute</h3><input id = "minutes" class = "shrink_2"  name="minutes" list="list_2"><datalist id="list_2"><option>00</option><option>01</option><option>02</option><option>03</option><option>04</option><option>05</option><option>06</option><option>07</option><option>08</option><option>09</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option><option>32</option><option>33</option><option>34</option><option>35</option><option>36</option><option>37</option><option>38</option><option>39</option><option>40</option><option>41</option><option>42</option><option>43</option><option>44</option><option>45</option><option>46</option><option>47</option><option>48</option><option>49</option><option>50</option><option>51</option><option>52</option><option>53</option><option>54</option><option>55</option><option>56</option><option>57</option><option>58</option><option>59</option></datalist></span><span><h3 class = "shrink_3">Time of Day</h3><input class = "shrink_2"  id = "twelvehour" name="12hr" list="list_3"><datalist id="list_3"><option>AM</option><option>PM</option></datalist></span></div><div style="text-align: center;"><h1 class = "shrink_3">Services</h1><input id = "services" class = "shrink_2" name="services" list="list_4"><datalist id="list_4"><option>Mowing</option><option>Weedeating</option><option>Pressure-Washing</option><option>House-Washing</option><option>Pool-Cleaning</option></datalist></div><br><input style="display:none" name="user" value='+ user +'><script> function fieldcheck(){ var minutes; hour; twelvehour;date;address;services; minutes = document.getElementById(`minutes`).value; hour = document.getElementById(`hour`).value; twelvehour =document.getElementById(`twelvehour`).value; date =document.getElementById(`date`).value; address = document.getElementById(`address`).value; services = document.getElementById(`services`).value; var form = document.getElementById(`form`); if((minutes = ""||minutes=="undefined")||(hour =="undefined"||hour=="")||(twelvehour=="undefined" || twelvehour=="")||(date=="undefined"||date=="")||(address =="undefined"|| address=="")||(services =="undefined" || services =="")){ form.action = `/.netlify/functions/purchase`; alert("Please fill all fields"); } else{ form.action = `/.netlify/functions/appointment_sub`; }} </script><button class = "shrink_2"type="submit" id="sub_but" style="width:100px;height:50px;color:white;background-color:rgba(67, 181, 53, 0.72);border-style:none;" onmouseover="document.getElementById(`sub_but`).style.backgroundColor = `blue`" onmouseleave="document.getElementById(`sub_but`).style.backgroundColor = `rgba(67, 181, 53, 0.72)` " onclick = "fieldcheck()">Request Appointment</button></form></div></div></div></body></html>')})});
-})}})
-recordQuery;
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&amp;family=Raleway:ital,wght@1,200&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@7f00..700&amp;family=Raleway:ital,wght@1,200&amp;display=swap" rel="stylesheet">
 
-  }})
+<link rel="stylesheet" href="/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<script src="/functions.js" type="text/javascript">
+window.addEventListener('change',()=>{
+if(window.innerWidth <= '600px'){
+document.getElementById('arrow_2').onclick = shiftReview('review-container','review-slider','arrow_2')
+document.getElementById('arrow_1').onclick = shiftReview('review-container','review-slider','arrow_1')
+
+}
+else{
+document.getElementById('arrow_2').onclick = shiftImage(['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB'
+,'https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider','arrow_2')
+document.getElementById('arrow_1').onclick = shiftImage(['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB'
+,'https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider','arrow_1')
+}
+
+})
+function imageSlide(id,urlList){
+var image = document.getElementById(id);
+for(let i of urlList){
+setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = i},4000);
+};
+};
+
+
+
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="author" content="The Children's Shoppe">
+<meta name="description" content="The Children's Shoppe is the best children's toy, clothing, and furniture store in Ruston, Louisiana.">
+<meta name="generator" content="The Children's Shoppe">
+<meta property="og:site_name" content="TheChildren'sShoppe">
+<meta property="og:url" content="https://childrensshoppe.netlify.app/home">
+<meta property="og:title" content="TheChildren'sShoppe">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Infant and Children's clothing and toys in Ruston and Monroe Louisiana">
+
+
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="TheChildren'sShoppe">
+<meta name="twitter:description" content="Infant and Children's clothing and toys in Ruston and Monroe Louisiana">
+<title>The Children's Shoppe</title>
+</head>
+
+<body><header id="main-header">
+<div style="background-color:#e6eab7;height:50%;width:100%">
+
+<svg style="height:50px;width:40px;z-index:1;position:fixed;left:15px;display:inline-block" onmouseover="menuStat('menu-bar')">
+
+<polyline stroke="green" stroke-width="4" points="0 10 40 10"></polyline>
+<polyline stroke="green" stroke-width="4" points="0 20 40 20"></polyline>
+<polyline stroke="green" stroke-width="4" points="0 30 40 30"></polyline>
+
+</svg>
+
+<div id="menu-bar" onmouseleave="menuStat('menu-bar')">
+<a href="" class="menu-bar-options"><button type="submit" class="menu-bar-options">About Us</button></a>
+<a href="" class="menu-bar-options"><button type="submit" class="menu-bar-options">Products</button></a>
+<a href="" class="menu-bar-options"><button type="submit" class="menu-bar-options">Careers</button></a>
+<a href="" class="menu-bar-options"><button type="submit" class="menu-bar-options">Specials</button></a>
+<a href="" class="menu-bar-options"><button type="submit" class="menu-bar-options">Create Account/Login</button></a>
+
+
+</div>
+ <img style="height:100px;width:100px" src="/main_logo.jpg">
+
+<nav id="main-nav-bar">
+<div id="main-nav-bar-top-half">
+<br>
+
+<script>
+window.onload = (event) =>{
+document.getElementById('search').style.width = '350px';
+
+}
+
+
+window.onclick = (event) =>{
+document.getElementById('options').innerHTML = '';
+var menu = document.getElementById('menu-bar') 
+menu.style.width = "0px";
+menu.style.height = "0px";
+menu.style.fontSize = "0px"
+var specialOffers = document.getElementById('special-offers');specialOffers.style.visibility = hidden;
+}
+  window.onload = (event) =>{
+document.getElementById('search').style.width = '350px';
+}
+window.onclick = (event) =>{
+document.getElementById('options').innerHTML = '';
+}
+    
+var search_list = {
+"CLOTHES":"/products",
+"SHIRTS":"/products",
+"PANTS":"/products", 
+"TOPS":"/products",
+"BOTTOMS":"/products",
+"HATS":"/products",
+"TOYS":"/products",
+"SWEATSHIRTS":"/products",
+"HOME":"/home",
+"CAREERS AND HIRING":"/hiring",
+"PRODUCTS":"/products",
+"FURNITURE":"/products"
+
+        }
+function searchReq(){
+  document.getElementById('options').innerHTML = '';
+var val = document.getElementById('search').value;
+var list = Object.keys(search_list);
+
+for(let i of list){
+
+if(i.includes(val.toUpperCase())){
+    var elem = document.createElement('div');
+    var a = document.createElement('a');
+    var but = document.createElement('button')
+    
+    a.className = 'search_op';
+    elem.className = 'search_op';
+but.style.fontFamily = 'Raleway'
+but.style.color = "white";
+but.style.borderColor = "rgb(145 151 81)"
+but.style.backgroundColor = "rgb(145 151 81)";
+but.style.borderRadius = "10px"
+but.style.fontWeight = "bold";
+but.style.margin = "0px";
+but.style.display = "block"
+but.style.height = "50px";
+but.style.width= "275px";
+a.style.position = "absolute"
+    elem.style.visibility = "visible";
+    a.style.visibility = "visible";
+    elem.style.height = "50px";
+    a.style.height = "50px" 
+    a.href = list[i];
+	a.append(but)
+    but.append(i);
+
+    elem.appendChild(a);
+    document.getElementById('options').append(elem);
+
+
+}
+
+
+
+}
+
+}
+</script>
+<style>
+:hover:-moz-placeholder{
+    color:rgba(0, 0, 120, 0.8)
+    
+  } 
   
-api.use('/.netlify/functions/login_sub', router);
-module.exports.handler = serverless(api); 
+  :hover::-webkit-input-placeholder { 
+    color:rgba(0, 0, 120, 0.8)}
+  
+  :hover:-ms-input-placeholder { 
+    color:rgba(0, 0, 120, 0.8)}
+  
+  :hover::-moz-placeholder{ 
+    color:rgba(0, 0, 120, 0.8)}
+  
+  
+  
+  
+a{
+text-decoration:none
+}
+
+	#options{position:absolute;z-index:1;width:50%;margin:auto;}
+#search{
+border-radius:25px;
+font-family:Cormorant Garamond;
+width:0px;
+border-style:solid;
+border-color:#a3b8c8;
+display:inline-block;
+height:50px;
+text-align:center;
+border-color:white;
+transition:width 1s;
+border-style:solid}
+</style>
+  
+<svg id="search_icon" onclick="
+
+var width = document.getElementById('search');
+if(width.style.width == '0px'){
+width.style.width = '350px';
+}
+else{
+width.style.width = '0px'}
+
+
+" style="z-index:1;width:30px;height:20px;display:inline-block;color:green">
+<circle cx="8" cy="8" stroke-width="3" stroke="green" fill="none" r="6"></circle>
+<polyline points="12 12 20 20 " stroke-width="3" stroke="green" fill="none"></polyline>
+</svg>
+<input placeholder="Search for info about The Children's Shoppe" onkeyup="searchReq()" id="search" type="search" style="width: 350px;">
+
+<div style="position:relative"> 
+    
+<div id="options"></div>
+<div id="precursor"></div>
+</div><br>
+</div>
+<br>
+
+<div id="main-nav-bar-bottom-half">
+
+
+<span class="main-nav-bar-items-container" onmouseleave="revDropDown('dropdown-button-1')">
+
+<form action="" method="POST" class="main-nav-bar-form">
+
+<button onmouseover="dropDown('dropdown-button-1')" type="submit" id="contact-button" class="main-nav-bar-form-button">Contact</button>
+<div class="main-nav-bar-dropdown-container">
+<div class="main-nav-bar-dropdown" onmouseenter="dropDown('dropdown-button-1')">
+<a href="/home"><button class="dropdown-button-1">Owner  </button></a>
+<a href="/home"><button class="dropdown-button-1">Staff  </button></a>
+<a href="/home"><button class="dropdown-button-1">Locations  </button></a>
+<a href="/home"><button class="dropdown-button-1">FAQs  </button></a>
+
+</div>
+
+</div>
+</form>
+
+</span>
+
+<span class="main-nav-bar-items-container" onmouseleave="revDropDown('dropdown-button-2')">
+
+<form action="" method="POST" class="main-nav-bar-form">
+
+<button onmouseover="dropDown('dropdown-button-2')" type="submit" id="products-button" class="main-nav-bar-form-button"><a>Products</a></button>
+
+</form>
+<div class="main-nav-bar-dropdown-container">
+<div class="main-nav-bar-dropdown">
+<a href="/products"><button class="dropdown-button-2">Tops  </button></a>
+<a href="/products"><button class="dropdown-button-2">Bottoms  </button></a>
+<a href="/products"><button class="dropdown-button-2">Toys  </button></a>
+<a href="/products"><button class="dropdown-button-2">Furniture  </button></a>
+
+</div>
+
+</div>
+</span>
+
+<span class="main-nav-bar-items-container" onmouseleave="revDropDown('dropdown-button-3')">
+
+<form action="" method="POST" class="main-nav-bar-form">
+
+<button onmouseover="dropDown('dropdown-button-3')" type="submit" id="contact-button" class="main-nav-bar-form-button">Shirts  </button>
+
+</form>
+<div class="main-nav-bar-dropdown-container">
+<div class="main-nav-bar-dropdown">
+<a href="/products"><button class="dropdown-button-3">Cost  </button></a>
+<a href="/products"><button class="dropdown-button-3">Designs  </button></a>
+<a href="/products"><button class="dropdown-button-3">Sizes  </button></a>
+<a href="/products"><button class="dropdown-button-3">Brands  </button></a>
+
+</div>
+
+</div>
+
+</span>
+
+<span class="main-nav-bar-items-container" onmouseleave="revDropDown('dropdown-button-4')">
+
+<form action="" method="POST" class="main-nav-bar-form">
+
+<button onmouseover="dropDown('dropdown-button-4')" type="submit" id="home-button" class="main-nav-bar-form-button">Pants  </button>
+
+</form>
+<div class="main-nav-bar-dropdown-container">
+<div class="main-nav-bar-dropdown">
+<a href="/products"><button class="dropdown-button-4">Cost  </button></a>
+<a href="/products"><button class="dropdown-button-4">Designs  </button></a>
+<a href="/products"><button class="dropdown-button-4">Sizes  </button></a>
+<a href="/products"><button class="dropdown-button-4">Brands  </button></a>
+
+
+</div>
+
+</div>
+</span>
+
+<span class="main-nav-bar-items-container" onmouseleave="revDropDown('dropdown-button-5')">
+
+<form action="" method="POST" class="main-nav-bar-form">
+
+<button onmouseover="dropDown('dropdown-button-5')" type="submit" id="home-button" class="main-nav-bar-form-button">Shorts  </button>
+
+</form>
+<div class="main-nav-bar-dropdown-container">
+<div class="main-nav-bar-dropdown">
+<a href="/products"><button class="dropdown-button-5">Cost  </button></a>
+<a href="/products"><button class="dropdown-button-5">Designs  </button></a>
+<a href="/products"><button class="dropdown-button-5">Sizes  </button></a>
+<a href="/products"><button class="dropdown-button-5">Brands  </button></a>
+
+</div>
+
+</div>
+</span>
+
+<span class="main-nav-bar-items-container" onmouseleave="revDropDown('dropdown-button-6')">
+
+<form action="" method="POST" class="main-nav-bar-form">
+
+<button onmouseover="dropDown('dropdown-button-6')" type="submit" id="home-button" class="main-nav-bar-form-button">Skirts  </button>
+
+</form>
+<div class="main-nav-bar-dropdown-container">
+<div class="main-nav-bar-dropdown">
+<a href="/products"><button class="dropdown-button-6" style="height: 0px; width: 0px; visibility: hidden;">Costs </button></a>
+<a href="/products"><button class="dropdown-button-6" style="height: 0px; width: 0px; visibility: hidden;">Designs </button></a>
+<a href="/products"><button class="dropdown-button-6" style="height: 0px; width: 0px; visibility: hidden;">Sizes </button></a>
+<a href="/products"><button class="dropdown-button-6" style="height: 0px; width: 0px; visibility: hidden;">Brands </button></a>
+
+</div>
+
+</div>
+</span>
+
+
+
+
+</div>
+
+
+
+</nav>
+<script>
+cart = []
+function addCart(data){
+cart.push(data)
+}
+
+window.onsubmit = () =>{
+
+
+
+}
+</script>
+<button onclick="">Add to Cart</button>
+</div></header>
+<div class="alert-item" id="special-offers" style="z-index: 2; opacity: 0.8; background-color: black; width: 80%; height: 500px; right: 10%; position: fixed; top: 30px; margin: auto; color: white; text-align: center; visibility: hidden;">
+<span style="float:left;font-size:20px;font-family:Raleway;font-weight:bold" onclick="document.getElementById('special-offers').style.visibility = 'hidden'">X</span>
+<h1 style="font-family:Raleway;font-size:3em">Special Offers</h1>
+<div class="product-images-container" id="product-images-container-1">
+  <img class="product-images">
+    <h2>Product Image</h2>
+  <input class="product-titles" value="Product Image">
+  <br>
+<span style="color:red;text-decoration:line-through
+    "><p style="font-family:Helvetica;text-align:center">$100.00</p></span>
+    <p>50% OFF</p><input style="display:none;" class="price" value="2">
+    <label>Quantity</label><input class="select-quantity" style="
+    width: 20px;
+">
+    <button class="buy-button">Add to Cart</button>
+  </div></div>
+<div class="alert-item" id="account-forms" style="z-index: 3; opacity: 0.8; background-color: rgb(75, 85, 118); width: 100%; height: 100%; position: fixed; color: white; text-align: center; top: 0px; visibility: hidden;">
+<span style="float:left;font-size:20px;font-family:Raleway;font-weight:bold" onclick="document.getElementById('account-forms').style.visibility = 'hidden'">X</span>
+
+<div id="2_dif_forms" style="border-color:rgb(145 151 81);border-style: solid;width:500px;border-width: .3cm; text-align: center;margin:auto"><button onclick="var x = document.getElementById('sgnp'); x.style.color = rgb(145 151 81);x.style.backgroundColor = white;var c =document.getElementById('lgin'); c.style.color = white;c.style.backgroundColor = rgb(145 151 81);var form_1 = document.getElementById('form_1');var form_2 = document.getElementById('form_2'); form_1.style.display = none;form_2.style.display = block" id="lgin" style="border-color: whitesmoke; border-radius: 0%; width: 100px; height: 50px; background-color: rgb(145 151 81); color: white; font-family: Raleway; font-size: large;">Login</button><button onclick="var x = document.getElementById('lgin'); x.style.color = rgb(145 151 81);x.style.backgroundColor = white; var c =document.getElementById('sgnp'); c.style.color = white;c.style.backgroundColor = rgb(145 151 81);var form_1 = document.getElementById('form_1');var form_2 = document.getElementById('form_2');form_2.style.display = none;form_1.style.display = block" id="sgnp" style="border-color: whitesmoke; border-radius: 0%; width: 100px; height: 50px; color: rgb(145 151 81); background-color: white; font-family: Arial; font-size: large;">Sign up</button><form name="form_1" style="display: none; margin: 0% 1cm 1cm; border-width: 0.3cm; border-style: solid; border-color: rgb(145 151 81);" action="/signup" method="post" id="form_1"><br><h1 style="font-family:Montserrat;font-size: 1cm;text-align: center;">Create Account</h1><span style="text-align: center;">_____________</span><br><br><input style="width: 200px;height:60px;font-size: .5cm;border-style: solid;border-color: rgb(145 151 81);text-align: center;" id="User" name="User" placeholder="Type your username" type="text"><br><br><input style="width: 200px;height:60px;font-size: .5cm;border-style: solid;border-color: rgb(145 151 81);text-align: center;" id="psw" name="psw" placeholder="Type your password" type="text"><br><br><input style="width: 200px;height:60px;font-size: .5cm;border-style: solid;border-color: rgb(145 151 81);text-align: center;" name="cell" id="cell" placeholder="Type your cell" type="text"><br><br><input style="width: 200px;height:60px;font-size: .5cm;border-style: solid;border-color: rgb(145 151 81);text-align: center;" name="email_user" id="email_user" placeholder="Type your email" type="text"><br><br><input style="width: 200px;height:60px;font-size: .5cm;border-style: solid;border-color: rgb(145 151 81);text-align: center;" name="email_psw" id="email_psw" placeholder="Type your password for your email" type="text"><br><button style="border-color:rgb(145 151 81);border-radius: 0%; width:100px;height:50px;color:white;background-color:rgb(145 151 81) ;font-family:Arial;font-size: large;border-style: none;" onclick="formCheck();" id="register" type="submit">Register</button><script>function formCheck(){var user = document.getElementById('User').value;var email,email_psw,cell,psw;psw = document.getElementById('psw').value;email =  document.getElementById('email_user').value;email_psw =  document.getElementById('email_psw').value;cell =  document.getElementById('cell').value;if((email == ""||email=="undefined")||(cell == ""||cell== "undefined")||(email_psw ==""||email_psw== "undefined")||(User == "" || User== "undefined")||(psw == ""||psw == "undefined")){document.getElementById('register').type = 'text';document.getElementById('form_1').action = '/login';alert("Please fill all fields");}}</script></form><form name="form_2" id="form_2" action="/.netlify/functions/login_sub" method="post" style="display: block; margin: 0% 1cm 1cm; border-width: 0.3cm; border-style: solid; border-color: rgb(145 151 81); font-family: Raleway;"><label><h1 style="font-size: 1cm;">Login</h1><span style="text-align: center;">_____________</span><br><br><input style="width: 200px;height:60px;font-size: .5cm;border-style: solid;border-color: rgb(145 151 81);text-align: center;" placeholder="Type your username" name="login_user" id="lu"><br><br><input style="width: 200px;height:60px;font-size: .5cm;border-style: solid;border-color: rgb(145 151 81);text-align: center;" placeholder="Type your password" id="pw" name="login_psw"><input style="width: 200px;height:60px;font-size: .5cm;border-style: solid;border-color: rgb(145 151 81);text-align: center;display:none" name="cell" placeholder="Type your cell" type="text"><input style="width: 200px;height:60px;font-size: .5cm;border-style: solid;border-color: rgb(145 151 81);text-align: center;display:none" name="email_user" placeholder="Type your cell" type="text"></label><br><br><button style="border-color:whitesmoke;border-radius: 0%; width:100px;height:50px;color:white;background-color:rgb(145 151 81) ;font-family:Arial;font-size: large;border-style:none" type="submit">Login</button></form></div>
+
+</div>
+
+<div id="product-selection"></div>
+<div id="main-page-heading-container"><h1 id="main-page-heading">The Children's Shoppe</h1></div>
+<div class="body-div">
+
+
+
+<div style="border-bottom-style:solid;border-bottom-width:.2px;margin:auto;width:80%;margin-top:20%">
+<h1 style="font-family:Raleway">The page you have requested is still under construction. We will let you know as soon as it is finished</h1>
+
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+</body></html>`)
+
+
+}
+        )
+
+
+app.use("/.netlify/functions/login",router);
+
+module.exports.handler = serverless(app); 
