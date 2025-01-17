@@ -464,6 +464,6 @@ window.onsubmit = () =>{
         )
 
 
-app.use("/.netlify/functions/create_sub",router);
+app.use("/.netlify/functions/signup",router);
 
 module.exports.handler = serverless(app);
