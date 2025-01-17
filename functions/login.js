@@ -7,7 +7,7 @@ const serverless = require('serverless-http');
 const bodyParser = require('body-parser')
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true}));
-router.post('/',(req,res)=>{
+app.use('/',(req,res)=>{
 var connection = mysql.createConnection(process.env.DATABASE_URL);
 //var user = req.body.User;
 //var psw = req.body.psw;
