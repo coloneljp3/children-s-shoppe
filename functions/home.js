@@ -267,7 +267,7 @@ width.style.width = '0px'}
 
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-2')">
 
-<form action = "" method = "POST" class = "main-nav-bar-form">
+<form action = "/products" method = "POST" class = "main-nav-bar-form">
 
 <button onmouseover = "dropDown('dropdown-button-2')"  type = "submit" id = "products-button" class = "main-nav-bar-form-button">Products</button>
 
@@ -557,7 +557,6 @@ Whether your child is a newborn or a toddler, we can service your needs.
 
 <button onmouseover = "dropDown('dropdown-button-8')" type = "submit"  class = "main-nav-bar-form-button">Coats</button>
 
-</form>
 
 </span>
 
@@ -572,14 +571,31 @@ Whether your child is a newborn or a toddler, we can service your needs.
 </div>
 
 </div>
+</form>
+
 <form action = "" method = "POST" class = "main-nav-bar-form">
 
 <button onmouseover = "dropDown('dropdown-button-9')"  type = "submit"  class = "main-nav-bar-form-button">Suits</button>
 
-</form>
 
 </span>
 
+<span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-9')">
+<div class = "main-nav-bar-dropdown-container" >
+<div class = "main-nav-bar-dropdown">
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-9">Cost  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-9">Designs  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-9">Sizes  </button></form>
+<form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-9">Brands  </button></form>
+
+</div>
+
+</div>
+</form>
+
+<form action = "" method = "POST" class = "main-nav-bar-form">
+
+<button onmouseover = "dropDown('dropdown-button-10')" type = "submit"  class = "main-nav-bar-form-button">Dresses</button>
 <span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-10')">
 <div class = "main-nav-bar-dropdown-container" >
 <div class = "main-nav-bar-dropdown">
@@ -587,22 +603,11 @@ Whether your child is a newborn or a toddler, we can service your needs.
 <form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-10">Designs  </button></form>
 <form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-10">Sizes  </button></form>
 <form class = "main-nav-bar-dropdown-forms" method = "POST" action = "/products"><button type = "submit" class = "dropdown-button-10">Brands  </button></form>
-
 </div>
-
 </div>
-<form action = "" method = "POST" class = "main-nav-bar-form">
-
-<button onmouseover = "dropDown('dropdown-button-10')" type = "submit"  class = "main-nav-bar-form-button">Dresses</button>
-
-</form>
-
 </span>
-
-
-
-
 </div>
+</form>
 
 
 <div>
