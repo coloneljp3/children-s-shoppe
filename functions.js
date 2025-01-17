@@ -303,17 +303,39 @@ cartItem.style.display = "none";
 }
 
 
-function insertReview(data){
+function insertReview(id,data){
 
 var heading = document.getElementById('review-heading')
 var review = document.getElementById('review-paragraph')
 var rating = document.getElementById('review-rating')
 var i = data.Heading.indexOf(heading.innerHTML)
-heading.innerHTML = data.Heading[i+1]
+if(id == 'review_arrow_1'){
+ if(i-1 <0){
+ heading.innerHTML = data.Heading[heading.length-1]
+review.innerHTML = data.Review[heading.length-1]
+rating.innerHTML = data.Rating[heading.length-1]
+  
+ }
+ else{
+ heading.innerHTML = data.Heading[i-1]
+review.innerHTML = data.Review[i-1]
+rating.innerHTML = data.Rating[i-1]}
+}
+else{
+if(i+1 == heading.length){
+ heading.innerHTML = data.Heading[0]
+review.innerHTML = data.Review[0]
+rating.innerHTML = data.Rating[0]
+  
+ }
+ else{
+ heading.innerHTML = data.Heading[i+1]
 review.innerHTML = data.Review[i+1]
 rating.innerHTML = data.Rating[i+1]
-
-    
+  
+ }
+ 
+}    
     
 }
  
