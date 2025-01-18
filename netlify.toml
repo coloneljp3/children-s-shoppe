@@ -16,12 +16,10 @@ to = "/home"
   from = "/products"
   to = "/.netlify/functions/products"
   status = 200
-
-  [[redirects]]
+[[redirects]]
   from = "/submit"
   to = "/.netlify/functions/submit"
 [[redirects]]
-
   from = "/contact"
   to = "/.netlify/functions/contact"
   status = 200
