@@ -8,7 +8,7 @@ var bodyParser = require('body-parser')
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:true}))
 
-app.post('/',(req,res)=>{
+app.use('/',(req,res)=>{
   res.send(`
  <html><head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
