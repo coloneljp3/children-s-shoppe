@@ -224,7 +224,10 @@ display:inline-block
 }
 
 
-
+#2_dif_forms{
+  border-color:rgb(145 151 81);border-style: solid;width:500px;background-color: white;border-width: .3cm;text-align: center;margin:auto
+  
+}
 
 
 #message-button{
@@ -236,6 +239,12 @@ width:100%
   display:block;
   margin:auto;
 
+  
+}
+
+#account-forms{
+
+  
   
 }
 
@@ -260,7 +269,7 @@ height:100px;
 width:100%;
   display:block;
   margin:auto;
-
+  box-shadow:1px 1px 10px gray
 
 }
 @keyframes shiftImage{
