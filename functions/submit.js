@@ -1,3 +1,4 @@
+'use strict'
 const mysql = require('mysql2');
 const express = require('express');
 const app = express();
@@ -12,6 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true}));
 
 app.use('/',(req,res)=>{
 let mail = nodemailer.createTransport({
+	service:'gmail',
 	host:'smtp.gmail.com',
 	port:993,
 	secure:false,
@@ -610,7 +612,10 @@ width.style.width = '0px'}
 	}
 
 
-
+catch{
+res.send('ur fucked')
+	
+}
 	
 })
 
