@@ -9,7 +9,7 @@ transition:visibility 1s;
 
 #review_arrow_1{left:5%}
 
-#review_arrow_2,#review_arrow_1{z-index:1;width:50px;height:50px;left:20px;position:absolute;top:1100px;border-style:none;font-size:3em;color:white;background-color:transparent}
+#review_arrow_2,#review_arrow_1{z-index:1;width:50px;height:50px;position:absolute;top:1100px;border-style:none;font-size:3em;color:white;background-color:transparent}
 .price,.product-titles{display:none}
 a{display:inline-block}
 footer{background-color:rgb(230, 234, 183)}
