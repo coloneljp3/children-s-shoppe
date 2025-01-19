@@ -2,6 +2,9 @@
 functions = "/functions"
 command = "npm run"
 [[redirects]]
+from = "/profile"
+to = "/.netlify/functions/profile"
+[[redirects]]
 from = "/hiring"
 to = "/.netlify/functions/hiring"
 [[redirects]]
