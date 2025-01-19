@@ -33,11 +33,11 @@ element.style.color = color_1;
   }
 };
 
-function propChange(id,property,value){
-document.getElementById(id).style[property] = value; 
+function propChange(element,property,value){
+element.style.property = value;
 }
 
-function backColorChange(id, color_1,color_2){
+function backColorChange(element, color_1){
   var element = document.getElementById(id);
    if(element.style.backgroundColor == color_1){
 
@@ -49,6 +49,8 @@ element.style.backgroundColor = color_1;
   }
 
 };
+
+
 
 function fadeIn(id,transition){
 var element = document.getElementById(id);
