@@ -106,17 +106,29 @@ function shiftImage(urlList,id,id_2){
 var elem = document.getElementById(id);
 var elem_2 = document.getElementById(id_2);
 var ind = urlList.indexOf(elem.src);
-  if(ind == -1){document.getElementById(id).src = urlList[0]}
+if(id_2 == 'arrow_1'){
+if(ind == 0){
+   ind+=urlList.length - 1
+   document.getElementById(id).src = urlList[ind]}
 else{
-if(id_2 == 'arrow_2'){
+   document.getElementById(id).src = urlList[ind-1]}
+
+ 
+}
+
+ 
+
+else{
+if(ind+1 == urlList.length){
+ ind = 0
+document.getElementById(id).src = urlList[ind]}
+
+else{
 document.getElementById(id).src = urlList[ind+1]}
 
-else{
-document.getElementById(id).src = urlList[ind-1]}
-
   
-}
-}
+
+}} 
 
   function xmlMailSend(){
 var sender = document.getElementById('sender');
@@ -312,10 +324,11 @@ var review = document.getElementById('review-paragraph')
 var rating = document.getElementById('review-rating')
 var i = data.Heading.indexOf(heading.innerHTML)
 if(id == 'review_arrow_1'){
- if(i-1 <0){
- heading.innerHTML = data.Heading[heading.length-1]
-review.innerHTML = data.Review[heading.length-1]
-rating.innerHTML = data.Rating[heading.length-1]
+ if(i == 0){
+ i = heading.length
+ heading.innerHTML = data.Heading[i]
+review.innerHTML = data.Review[i]
+rating.innerHTML = data.Rating[i]
   
  }
  else{
