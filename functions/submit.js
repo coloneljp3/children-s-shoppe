@@ -309,8 +309,127 @@ width.style.width = '0px'}
 
 </nav>
 </header>
-<h1 style = "width:50%;margin:auto;">Your message has been submitted!</h1>
+<h1 style = "width:50%;margin:auto;font-family:Raleway;">Your email has been submitted!</h1>
+<footer style="height:700px;position:relative;background-color:#e6eab7;position:relative;background-color:#e6eab7;">
+<div style="width:49%;color:white;background-color:#e6eab7;display:inline-block">
+<span class="main-nav-bar-items-container" onmouseleave="revDropDown('dropdown-button-7')">
 
+<form action="" method="POST" class="main-nav-bar-form">
+
+<button onmouseover="dropDown('dropdown-button-7')" type="submit" class="main-nav-bar-form-button">Sweaters</button>
+<div class="main-nav-bar-dropdown-container">
+<div class="main-nav-bar-dropdown">
+<a href="/products"><button class="dropdown-button-7">Cost  </button></a>
+<a href="/products"><button class="dropdown-button-7">Designs  </button></a>
+<a href="/products"><button class="dropdown-button-7">Sizes  </button></a>
+<a href="/products"><button class="dropdown-button-7">Brands  </button></a>
+
+</div>
+
+</div>
+</form>
+
+</span>
+
+
+<span class="main-nav-bar-items-container" onmouseleave="revDropDown('dropdown-button-8')">
+<form action="/products" method="POST" class="main-nav-bar-form">
+
+<button onmouseover="dropDown('dropdown-button-8')" type="submit" class="main-nav-bar-form-button">Coats</button>
+
+</form>
+<div class="main-nav-bar-dropdown-container">
+<div class="main-nav-bar-dropdown">
+<a href="/products"><button class="dropdown-button-8">Cost  </button></a>
+<a href="/products"><button class="dropdown-button-8">Designs  </button></a>
+<a href="/products"><button class="dropdown-button-8">Sizes  </button></a>
+<a href="/products"><button class="dropdown-button-8">Brands  </button></a>
+
+</div>
+
+</div>
+
+
+</span>
+
+<span class="main-nav-bar-items-container" onmouseleave="revDropDown('dropdown-button-9')">
+<form action="/products" method="POST" class="main-nav-bar-form">
+
+<button onmouseover="dropDown('dropdown-button-10')" type="submit" class="main-nav-bar-form-button">Suits</button>
+
+</form>
+<div class="main-nav-bar-dropdown-container">
+<div class="main-nav-bar-dropdown">
+<a href="/products"><button class="dropdown-button-9">Cost  </button></a>
+<a href="/products"><button class="dropdown-button-9">Designs  </button></a>
+<a href="/products"><button class="dropdown-button-9">Sizes  </button></a>
+<a href="/products"><button class="dropdown-button-9">Brands  </button></a>
+
+</div>
+
+</div>
+
+
+</span>
+
+<span class="main-nav-bar-items-container" onmouseleave="revDropDown('dropdown-button-10')">
+<div class="main-nav-bar-dropdown-container">
+<div class="main-nav-bar-dropdown">
+<a href="/products"><button class="dropdown-button-10">Cost  </button></a>
+<a href="/products"><button class="dropdown-button-10">Designs  </button></a>
+<a href="/products"><button class="dropdown-button-10">Sizes  </button></a>
+<a href="/products"><button class="dropdown-button-10">Brands  </button></a>
+
+</div>
+
+</div>
+<form action="" method="POST" class="main-nav-bar-form">
+
+<button onmouseover="dropDown('dropdown-button-10')" type="submit" class="main-nav-bar-form-button">Dresses</button>
+
+</form>
+
+</span>
+
+
+
+
+</div>
+
+
+<div>
+<div style="color:white;background-color:black;font-family:helvetica" id="contact-footer-div">
+<h3>The Children's Shoppe</h3>
+<div id="map"></div>
+<p><b>109 N Trenton St<br>
+Ruston, LA 71270</b></p>
+<p><b>(318)-251-9599</b></p>
+
+
+</div>
+<div id="messaging-feature">
+<h4 style="text-align:center">Have a Question? Contact Us.</h4>
+<form method="POST" id="email" action="/submit">
+<h4 style="text-align:center">Type your full name in the box below.</h4>
+<textarea id="sender" name="sender"></textarea>
+<h4 style="text-align:center">Type your message in the box below.</h4>
+<textarea id="message" name="message"></textarea>
+<button id="message-button" type="submit">Send</button>
+</form>
+
+</div>
+
+<p style="display:inline-block;text-align:center;width:100%;font-family:Cormorant Garamond;color:#a1ad20;background-color:#e6eab7">Hephty Solutions | All Rights Reserved</p>
+<div style="color:#a1ad20;background-color:#e6eab7;display:block">
+<h4 style="text-align:center">Follow Us!</h4>
+<div style="margin: auto;width: 40%;">
+<div class="social-media-image-container"><a href=""><img class="social-media-image" width="50" height="50" src="https://img.icons8.com/ios/50/facebook-new.png" alt="facebook-new">
+</a></div>
+<div class="social-media-image-container"><a href=""><img src="/twitter.png" class="social-media-image"></a></div>
+<div class="social-media-image-container"><a href=""><img src="https://pluspng.com/img-png/instagram-png-instagram-icon-1600.png" class="social-media-image"></a></div></div>
+</div>
+</div>
+</footer>
 </html>
 
 
@@ -612,10 +731,6 @@ width.style.width = '0px'}
 	}
 
 
-catch{
-res.send('ur fucked')
-	
-}
 	
 })
 
