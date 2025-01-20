@@ -18,7 +18,7 @@ res.send(`
 
 
 <style>
-
+html{font-family:Raleway}
 @media(max-width:600px){#post-header-body-div-1{display:none}#messaging-feature{margin:25%}#review-slider{width:100%;height:100%;visibility:visible}#start-review{width:50%;height:inherit;font-size:1em}body{font-family:Raleway}#contact-footer-div{visibility:hidden;position:fixed}#image-slider{display:none;background-color:transparent}.circle-select-buttons{display:none}
 #main-nav-bar-bottom-half,.main-nav-bar-items-container{display:none}
 #search_icon{position:fixed;top:10px;width:25px;right:20px}
