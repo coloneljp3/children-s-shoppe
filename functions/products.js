@@ -373,7 +373,6 @@ width.style.width = '0px'}
 
 </nav>
 
-<button onclick = "">Add to Cart</button>
 </header>
 <div class = "alert-item" id = "special-offers" style="z-index:2;opacity:80%;background-color:black;width:80%;height:500px;right:10%;position:fixed;top:30px;margin:auto;color:white;text-align:center">
 <span style = "float:left;font-size:20px;font-family:Raleway;font-weight:bold" onclick = "document.getElementById('special-offers').style.visibility = 'hidden'">X</span>
