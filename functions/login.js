@@ -402,7 +402,6 @@ window.onsubmit = () =>{
 
 }
 </script>
-<button onclick="">Add to Cart</button>
 </div></header>
 <div class="alert-item" id="special-offers" style="z-index: 2; opacity: 0.8; background-color: black; width: 80%; height: 500px; right: 10%; position: fixed; top: 30px; margin: auto; color: white; text-align: center; visibility: hidden;">
 <span style="float:left;font-size:20px;font-family:Raleway;font-weight:bold" onclick="document.getElementById('special-offers').style.visibility = 'hidden'">X</span>
