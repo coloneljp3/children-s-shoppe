@@ -8,7 +8,7 @@ const bodyParser = require('body-parser')
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use('/',(req,res)=>{
-var connection = mysql.createConnection(process.env.DATABASE_URL);
+//var connection = mysql.createConnection(process.env.DATABASE_URL);
 //var user = req.body.User;
 //var psw = req.body.psw;
 //var cell = req.body.cell;
