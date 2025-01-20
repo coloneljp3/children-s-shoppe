@@ -1,4 +1,4 @@
-'use strict'
+ 'use strict'
 var mysql = require('mysql2')
 var express = require('express')
 var app = express();
