@@ -399,53 +399,55 @@ width.style.width = '0px'}
 <body>
 <div id = "product-selection"></div>
 <div id = "main-page-heading-container"><h1 id = "main-page-heading" >The Children's Shoppe</h1></div>
-<div id = "post-header-body-div-1" class = "body-div">
+<div id="post-header-body-div-1" class="body-div">
 
 
 
-<div style = "width:100%;background-color:rgb(145 151 81)">
-<button id = "arrow_1" onclick = "shiftImage(['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB'
-,'https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider','arrow_1')" >
-<
+<div style="width:100%;background-color:rgb(145 151 81)">
+<button id="arrow_1" onclick="shiftImage(['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&amp;ccb=1-7&amp;_nc_sid=6ee11a&amp;_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.xx&amp;_nc_gid=AmqjLffJszvv4kLMv8bD48C&amp;oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&amp;oe=672CD2EB'
+,'https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider','arrow_1')">
+&lt;
 
 </button>
-<button id = "arrow_2" onclick = "shiftImage(['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB'
+<button id="arrow_2" onclick="shiftImage(['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&amp;ccb=1-7&amp;_nc_sid=6ee11a&amp;_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.xx&amp;_nc_gid=AmqjLffJszvv4kLMv8bD48C&amp;oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&amp;oe=672CD2EB'
 ,'https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider','arrow_2')">
->
+&gt;
 </button>
-<form method = 'POST' action = '/products'><button type = "submit" id = "call-to-action" style = "border-width:5px;border-color:white;border-radius:25px;font-family:Raleway;text-align:center;position:absolute;font-size:40px;width:79%;left:12.5%;top:700px;z-index:1;color:white;margin:auto;background-color:transparent;border-style:none">Browse Our Store Online Or In Person!</button>
+<form method="POST" action="/products"><button type="submit" id="call-to-action" style="border-width:5px;border-color:white;border-radius:25px;font-family:Raleway;text-align:center;position:absolute;font-size:40px;width:79%;left:12.5%;top:700px;z-index:1;color:white;margin:auto;background-color:transparent;border-style:none">Browse Our Store Online Or In Person!</button>
 <img src="https://www.consignkoolkids.com/img/slideClothesEdge.jpg" id="image-slider" style="filter:grayscale(40%);height:100%;opacity:80%">
-<svg class = "circle-select-buttons" onclick = "circleSelect(0,['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider');
-" style = "text-align:center;margin:auto;width:100px"><circle  fill="none" cx = "20" cy = "20" r = "5" stroke = "black"></circle></svg>
-<svg style = "text-align:center;margin:auto;width:100px" onclick = "circleSelect(1,['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider');
-"><circle  fill="none" cx = "40" cy = "20" r = "5" stroke = "black"></circle></svg>
-<svg style = "text-align:center;margin:auto;width:100px" onclick = "circleSelect(2,['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider');
-" ><circle fill="none" cx = "60" cy = "20" r = "5" stroke = "black"></circle></svg>
+<svg class="circle-select-buttons" onclick="circleSelect(0,['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider');
+" style="text-align:center;margin:auto;width:100px"><circle fill="none" cx="20" cy="20" r="5" stroke="black"></circle></svg>
+<svg style="text-align:center;margin:auto;width:100px" onclick="circleSelect(1,['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider');
+"><circle fill="none" cx="40" cy="20" r="5" stroke="black"></circle></svg>
+<svg style="text-align:center;margin:auto;width:100px" onclick="circleSelect(2,['https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider');
+"><circle fill="none" cx="60" cy="20" r="5" stroke="black"></circle></svg>
+
+
+</form></div>
 
 
 </div>
+<br><br>
+<div style="width:100%;background-color:rgb(145 151 81)">
+
+<div id="review-slider">
+<div id="start-review" class="review-container">
+<h2 id="review-heading" class="review-header">Friendly Staff.</h2>
+<p id="review-rating" class="review-description">3/5</p>
+<p id="review-paragraph" class="review-description">Staff was very informative and helpful. Great customer service!</p>
 
 
 </div>
-<div style = "width:100%;background-color:rgb(145 151 81)">
-<div id = "review-slider">
-<div id = "start-review" class = "review-container">
-<h2 id = "review-heading" class = "review-header" >Beautiful Outfits for my 4 y/o!</h2>
-<p id = "review-rating" class = "review-description">4/5</p>
-<p id = "review-paragraph" class = "review-description">One of the best stores we've been to! Had just what we needed for family portraits. If your kid needs dress clothes, the Children's Shoppe is a MUST!<br/>-Kelsey Selma</p>
-
-
-</div>
-<button onclick = "shiftReview({Heading:['Great Company to Work With!','Affordable Toys for growing kids!','Friendly Staff.'],Rating:['4/5','4/5','3/5'],Review:['The store has a great selection, and the owner helped us find exactly what we needed!','With our kids constantly outgrowing their toys, pricing is important to us. We're finally glad to have found a kid's store that doesn't break the bank.','Staff was very informative and helpful. Great customer service!']})"  >
-<
+<button id="review_arrow_1" onclick="insertReview('review_arrow_1',{Heading:['Great Company to Work With!','Affordable Toys for growing kids!','Friendly Staff.'],Rating:['4/5','4/5','3/5'],Review:['The store has a great selection, and the owner helped us find exactly what we needed!','With our kids constantly outgrowing their toys, pricing is important to us. We are finally glad to have found a kid store that does not break the bank.','Staff was very informative and helpful. Great customer service!']})" type="text">
+&lt;
 
 </button>
-<button onclick = "shiftReview({Heading:['Great Company to Work With!','Affordable Toys for growing kids!','Friendly Staff.'],Rating:['4/5','4/5','3/5'],Review:['The store has a great selection, and the owner helped us find exactly what we needed!','With our kids constantly outgrowing their toys, pricing is important to us. We're finally glad to have found a kid's store that doesn't break the bank.','Staff was very informative and helpful. Great customer service!']})">
->
+<button id="review_arrow_2" onclick="insertReview('review_arrow_2',{Heading:['Great Company to Work With!','Affordable Toys for growing kids!','Friendly Staff.'],Rating:['4/5','4/5','3/5'],Review:['The store has a great selection, and the owner helped us find exactly what we needed!','With our kids constantly outgrowing their toys, pricing is important to us. We are finally glad to have found a kid store that does not break the bank.','Staff was very informative and helpful. Great customer service!']})" type="text">
+&gt;
 </button>
-<svg class = "circle-select-buttons" onclick = "shiftReview({Heading:['Great Company to Work With!'],Rating:['4/5'],Review:['The store has a great selection, and the owner helped us find exactly what we needed!']})" style = "text-align:center;margin:auto;width:100px"><circle  fill="none" cx = "20" cy = "20" r = "5" stroke = "black"></circle></svg>
-<svg style = "text-align:center;margin:auto;width:100px" onclick = "shiftReview({Heading:['Affordable Toys for growing kids!'],Rating:['4/5'],Review:['With our kids constantly outgrowing their toys, pricing is important to us. We're finally glad to have found a kid's store that doesn't break the bank.']})"><circle  fill="none" cx = "40" cy = "20" r = "5" stroke = "black"></circle></svg>
-<svg style = "text-align:center;margin:auto;width:100px" onclick = "shiftReview({Heading:['Friendly Staff.'],Rating:['3/5'],Review:['Staff was very informative and helpful. Great customer service!']})" ><circle fill="none" cx = "60" cy = "20" r = "5" stroke = "black"></circle></svg>
+<svg class="circle-select-buttons" onclick="shiftReview({Heading:['Great Company to Work With!'],Rating:['4/5'],Review:['The store has a great selection, and the owner helped us find exactly what we needed!']})" style="text-align:center;margin:auto;width:100px"><circle fill="none" cx="20" cy="20" r="5" stroke="black"></circle></svg>
+<svg style="text-align:center;margin:auto;width:100px" onclick="shiftReview({Heading:['Affordable Toys for growing kids!'],Rating:['4/5'],Review:['With our kids constantly outgrowing their toys, pricing is important to us. We're finally glad to have found a kid's store that doesn't break the bank.']})"><circle fill="none" cx="40" cy="20" r="5" stroke="black"></circle></svg>
+<svg style="text-align:center;margin:auto;width:100px" onclick="shiftReview({Heading:['Friendly Staff.'],Rating:['3/5'],Review:['Staff was very informative and helpful. Great customer service!']})"><circle fill="none" cx="60" cy="20" r="5" stroke="black"></circle></svg>
 
 </div>
 </div>
