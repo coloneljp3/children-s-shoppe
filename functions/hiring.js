@@ -399,8 +399,6 @@ width.style.width = '0px'}
 <div id = "main-page-heading-container"><h1 id = "main-page-heading" >The Children's Shoppe</h1></div>
 <div id = "post-header-body-div-1" class = "body-div">
 
-
-
 <div style = "width:100%;background-color:rgb(145 151 81)">
 <button id = "arrow_1" onclick = "shiftImage(['https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB'
 ,'https://childrensshoppe.netlify.app/pic_1.jpg','https://childrensshoppe.netlify.app/pic_2.jpg','https://childrensshoppe.netlify.app/pic_3.jpg','https://childrensshoppe.netlify.app/pic_4.jpg'],'image-slider','arrow_1')" >
@@ -447,6 +445,26 @@ width.style.width = '0px'}
 
 </div>
 </div>
+<div style="background-color:rgb(145 151 81)">
+<div class="hiring-forms" id="hiring-contact-info"><h1 class="hiring-form-headers">Children's Shoppe Hiring Contact Information</h1>
+<div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers">Phone Number</h2><label class = "hiring-label">Please type below...</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers">Email Address</h2><label class = "hiring-label">Please type below...</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers">Name</h2><label class = "hiring-label">First Name</label><input class = "hiring-inputs" placeholder="Please type in..."><label class = "hiring-label">Middle Initial</label><input style = "width:20px;display:inline-block" class = "hiring-inputs" placeholder="Please type in..."><label class = "hiring-label">Last Name</label><input style = "display:inline-block" class = "hiring-inputs" placeholder="Please type in..."></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Please type below...</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
+
+<div class="hiring-forms" id="hiring-work-history"><h1 class="hiring-form-headers">Children's Shoppe Work History Form</h1><div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Job 1</label><input class = "hiring-inputs" placeholder="Type description"></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Job 2</label><input class = "hiring-inputs" placeholder="Type description"></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Job 3</label><input class = "hiring-inputs" placeholder="Type description"></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Job 4</label><input class = "hiring-inputs" placeholder="Type description"></div></div>
+<div class="hiring-forms" id="hiring-references"><h1 class="hiring-form-headers">Children's Shoppe Work References Form</h1><div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Reference #1</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Reference #2</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Reference #3</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Reference #4</label><input class = "hiring-inputs" placeholder="Please type in..."></div></div>
+<div class="hiring-forms" id="hiring-preferences"><h1 class="hiring-form-headers">Hiring Preferences</h1><div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">Type in available hours and days for working</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">What type of work are you looking for? Part Time? Full Time?</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">When is the earliest you can start?</label><input class = "hiring-inputs" placeholder="Please type in..."></div>
+    <div class="sub-hiring-forms"><h2 class="sub-hiring-form-headers"></h2><label class = "hiring-label">What is the best way to contact you?</label><input class = "hiring-inputs" placeholder="Please type in..."></div></div>
+
 <br>
 <br>
 <br>
