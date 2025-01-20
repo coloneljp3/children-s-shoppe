@@ -11,10 +11,15 @@ to = "/.netlify/functions/hiring"
   from = "/home"
   to = "/.netlify/functions/home"
   status = 200
-
+[[redirects]]
+from = "/login"
+to = "/.netlify/functions/login"
 [[redirects]]
 from = "/"
 to = "/home"
+[[redirects]]
+from = "/checkout"
+to = "/.netlify/functions/checkout"
 [[redirects]]
   from = "/products"
   to = "/.netlify/functions/products"
