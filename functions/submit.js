@@ -45,37 +45,71 @@ try{
 <meta name="author" content = "The Children's Shoppe">
 <meta name = "description" content = "The Children's Shoppe is the best children's toy, clothing, and furniture store in Ruston, Louisiana.">
 <meta name = "generator" content = "The Children's Shoppe">
-<title>The Children's Shoppe</title>
+<title>The Childen's Shoppe Email Submission</title>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&amp;family=Raleway:ital,wght@1,200&amp;display=swap" rel="stylesheet">
 </head>
 
-<header id = "main-header">
-<div style = "background-color:#e6eab7;height:50%;width:100%">
+<header id="main-header">
+<div style="background-color:#e6eab7;height:50%;width:100%">
 
-<img style = "height:100%" src = "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326706496_3310115642633019_2159792958870315398_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mQtcmYTH5HIQ7kNvgGbkPeO&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AmqjLffJszvv4kLMv8bD48C&oh=00_AYBA6nn84jTfbhrh8HRPvdmTRpsK68ohphqmSMMRGO48gQ&oe=672CD2EB"></img>
+<svg style="height:50px;width:40px;z-index:1;position:fixed;left:15px;display:inline-block" onmouseover="menuStat('menu-bar')">
+
+<polyline stroke="green" stroke-width="4" points="0 10 40 10"></polyline>
+<polyline stroke="green" stroke-width="4" points="0 20 40 20"></polyline>
+<polyline stroke="green" stroke-width="4" points="0 30 40 30"></polyline>
+
+</svg>
+
+<div id="menu-bar" onmouseleave="menuStat('menu-bar')">
+<a href="" class="menu-bar-options"><button type="submit" class="menu-bar-options">About Us</button></a>
+<a href="" class="menu-bar-options"><button type="submit" class="menu-bar-options">Products</button></a>
+<a href="" class="menu-bar-options"><button type="submit" class="menu-bar-options">Careers</button></a>
+<a href="" class="menu-bar-options"><button type="submit" class="menu-bar-options">Specials</button></a>
+<a href="" class="menu-bar-options"><button type="submit" class="menu-bar-options">Create Account/Login</button></a>
+
 
 </div>
-<nav id = "main-nav-bar">
-<div id = "main-nav-bar-top-half">
+ <img style="height:100px;width:100px" src="/main_logo.jpg">
+
+<nav id="main-nav-bar">
+<div id="main-nav-bar-top-half">
 <br>
 
 <script>
 window.onload = (event) =>{
 document.getElementById('search').style.width = '350px';
-document.getElementById('main-page-heading').style.width = '100%';
+
+}
+
+
+window.onclick = (event) =>{
+document.getElementById('options').innerHTML = '';
+var menu = document.getElementById('menu-bar') 
+menu.style.width = "0px";
+menu.style.height = "0px";
+menu.style.fontSize = "0px"
+var specialOffers = document.getElementById('special-offers');specialOffers.style.visibility = hidden;
+}
+  window.onload = (event) =>{
+document.getElementById('search').style.width = '350px';
 }
 window.onclick = (event) =>{
 document.getElementById('options').innerHTML = '';
 }
     
 var search_list = {
-"CLOTHES":"",
-"SHIRTS":"",
-"PANTS":"", 
-"TOPS":"",
-"BOTTOMS":"",
-"HATS":"",
-"TOYS":"",
-"SWEATSHIRTS":""
+"CLOTHES":"/products",
+"SHIRTS":"/products",
+"PANTS":"/products", 
+"TOPS":"/products",
+"BOTTOMS":"/products",
+"HATS":"/products",
+"TOYS":"/products",
+"SWEATSHIRTS":"/products",
+"HOME":"/home",
+"CAREERS AND HIRING":"/hiring",
+"PRODUCTS":"/products",
+"FURNITURE":"/products"
 
         }
 function searchReq(){
@@ -92,10 +126,10 @@ if(i.includes(val.toUpperCase())){
     
     a.className = 'search_op';
     elem.className = 'search_op';
-but.style.fontFamily = 'Cormorant Garamond'
+but.style.fontFamily = 'Raleway'
 but.style.color = "white";
-but.style.borderColor = "#e6eab7"
-but.style.backgroundColor = "#e6eab7";
+but.style.borderColor = "rgb(145 151 81)"
+but.style.backgroundColor = "rgb(145 151 81)";
 but.style.borderRadius = "10px"
 but.style.fontWeight = "bold";
 but.style.margin = "0px";
@@ -160,7 +194,7 @@ transition:width 1s;
 border-style:solid}
 </style>
   
-<svg onclick = "
+<svg id="search_icon" onclick="
 
 var width = document.getElementById('search');
 if(width.style.width == '0px'){
@@ -170,145 +204,149 @@ else{
 width.style.width = '0px'}
 
 
-" style = "width:30px;height:20px;display:inline-block;">
-<circle cx = 8 cy = 8 stroke-width = 3 stroke = "white" fill = "none" r = 6></circle>
-<polyline points = "12 12 20 20 " stroke-width = 3 stroke = "white" fill = "none"></polyline>
+" style="z-index:1;width:30px;height:20px;display:inline-block;color:green">
+<circle cx="8" cy="8" stroke-width="3" stroke="green" fill="none" r="6"></circle>
+<polyline points="12 12 20 20 " stroke-width="3" stroke="green" fill="none"></polyline>
 </svg>
-<input placeholder = "Search for info about The Children's Shoppe"  onkeyup = "searchReq()" id  = "search" type = "search" />
+<input placeholder="Search for info about The Children's Shoppe" onkeyup="searchReq()" id="search" type="search" style="width: 350px;">
 
-<div style = "position:relative"> 
+<div style="position:relative"> 
     
-<div id = "options"></div>
-
-</div><br/>
+<div id="options"></div>
+<div id="precursor"></div>
+</div><br>
 </div>
 <br>
 
-<div id = "main-nav-bar-bottom-half">
+<div id="main-nav-bar-bottom-half">
 
 
-<span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-1')">
+<span class="main-nav-bar-items-container" onmouseleave="revDropDown('dropdown-button-1')">
 
-<form action = "" method = "POST" class = "main-nav-bar-form">
+<form action="/home" method="POST" class="main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-1')"type = "submit" id = "contact-button" class = "main-nav-bar-form-button">Contact</button>
-<div class = "main-nav-bar-dropdown-container">
-<ul class = "main-nav-bar-dropdown" onmouseenter = "dropDown('dropdown-button-1')"  >
-<a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-1">Lorem  </button></a><br>
-
-</ul>
-
-</div>
-</form>
-
-</span>
-
-<span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-2')">
-
-<form action = "" method = "POST" class = "main-nav-bar-form">
-
-<button onmouseover = "dropDown('dropdown-button-2')"  type = "submit" id = "products-button" class = "main-nav-bar-form-button">Products</button>
-
-</form>
-<div class = "main-nav-bar-dropdown-container" >
-<ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-2">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-2">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-2">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-2">Lorem  </button></a><br>
-
-</ul>
-
-</div>
-</span>
-
-<span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-3')">
-
-<form action = "" method = "POST" class = "main-nav-bar-form">
-
-<button onmouseover = "dropDown('dropdown-button-3')"  type = "submit" id = "contac-button" class = "main-nav-bar-form-button">Lorem  </button>
-
-</form>
-<div class = "main-nav-bar-dropdown-container" >
-<ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-3">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-3">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-3">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-3">Lorem  </button></a><br>
-
-</ul>
+<button onmouseover="dropDown('dropdown-button-1')" type="submit" id="contact-button" class="main-nav-bar-form-button">Contact</button>
+<div class="main-nav-bar-dropdown-container">
+<div class="main-nav-bar-dropdown" onmouseenter="dropDown('dropdown-button-1')">
+<button type="submit" class="dropdown-button-1">Owner  </button>
+<form action="/home" method="POST"><button type="submit" class="dropdown-button-1">Staff  </button></form>
+<form action="/home" method="POST"><button type="submit" class="dropdown-button-1">Locations  </button></form>
+<form action="/home" method="POST"><button type="submit" class="dropdown-button-1">FAQs  </button></form>
 
 </div>
 
+</div></form>
+
+
 </span>
 
-<span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-4')">
+<span class="main-nav-bar-items-container" onmouseleave="revDropDown('dropdown-button-2')">
 
-<form action = "" method = "POST" class = "main-nav-bar-form">
+<form action="" method="POST" class="main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-4')"  type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem  </button>
+<button onmouseover="dropDown('dropdown-button-2')" type="submit" id="products-button" class="main-nav-bar-form-button">Products</button>
 
 </form>
-<div class = "main-nav-bar-dropdown-container" >
-<ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-4">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-4">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-4">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-4">Lorem  </button></a><br>
+<div class="main-nav-bar-dropdown-container">
+<div class="main-nav-bar-dropdown">
+<form class="main-nav-bar-dropdown-forms" method="POST" action="/products"><button type="submit" class="dropdown-button-2">Tops  </button></form>
+<form class="main-nav-bar-dropdown-forms" method="POST" action="/products"><button type="submit" class="dropdown-button-2">Bottoms  </button></form>
+<form class="main-nav-bar-dropdown-forms" method="POST" action="/products"><button type="submit" class="dropdown-button-2">Toys  </button></form>
+<form class="main-nav-bar-dropdown-forms" method="POST" action="/products"><button type="submit" class="dropdown-button-2">Furniture  </button></form>
 
-</ul>
+</div>
 
 </div>
 </span>
 
-<span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-5')">
+<span class="main-nav-bar-items-container" onmouseleave="revDropDown('dropdown-button-3')">
 
-<form action = "" method = "POST" class = "main-nav-bar-form">
+<form action="/products" method="POST" class="main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-5')"  type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem  </button>
+<button onmouseover="dropDown('dropdown-button-3')" type="submit" id="contac-button" class="main-nav-bar-form-button">Shirts  </button>
 
 </form>
-<div class = "main-nav-bar-dropdown-container" >
-<ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-5">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-5">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-5">Lorem  </button></a><br>
-<a href = ""><button class = "dropdown-button-5">Lorem  </button></a><br>
+<div class="main-nav-bar-dropdown-container">
+<div class="main-nav-bar-dropdown">
+<form class="main-nav-bar-dropdown-forms" method="POST" action="/products"><button type="submit" class="dropdown-button-3">Cost  </button></form>
+<form class="main-nav-bar-dropdown-forms" method="POST" action="/products"><button type="submit" class="dropdown-button-3">Designs  </button></form>
+<form class="main-nav-bar-dropdown-forms" method="POST" action="/products"><button type="submit" class="dropdown-button-3">Sizes  </button></form>
+<form class="main-nav-bar-dropdown-forms" method="POST" action="/products"><button type="submit" class="dropdown-button-3">Brands  </button></form>
 
-</ul>
+</div>
+
+</div>
+
+</span>
+
+<span class="main-nav-bar-items-container" onmouseleave="revDropDown('dropdown-button-4')">
+
+<form action="/products" method="POST" class="main-nav-bar-form">
+
+<button onmouseover="dropDown('dropdown-button-4')" type="submit" id="home-button" class="main-nav-bar-form-button">Pants  </button>
+
+</form>
+<div class="main-nav-bar-dropdown-container">
+<div class="main-nav-bar-dropdown">
+<form class="main-nav-bar-dropdown-forms" method="POST" action="/products"><button type="submit" class="dropdown-button-4">Cost  </button></form>
+<form class="main-nav-bar-dropdown-forms" method="POST" action="/products"><button type="submit" class="dropdown-button-4">Designs  </button></form>
+<form class="main-nav-bar-dropdown-forms" method="POST" action="/products"><button type="submit" class="dropdown-button-4">Sizes  </button></form>
+<form class="main-nav-bar-dropdown-forms" method="POST" action="/products"><button type="submit" class="dropdown-button-4">Brands  </button></form>
+
+
+</div>
 
 </div>
 </span>
 
-<span class = "main-nav-bar-items-container" onmouseleave = "revDropDown('dropdown-button-6')">
+<span class="main-nav-bar-items-container" onmouseleave="revDropDown('dropdown-button-5')">
 
-<form action = "" method = "POST" class = "main-nav-bar-form">
+<form action="" method="POST" class="main-nav-bar-form">
 
-<button onmouseover = "dropDown('dropdown-button-6')"  type = "submit" id = "home-button" class = "main-nav-bar-form-button">Lorem  </button>
+<button onmouseover="dropDown('dropdown-button-5')" type="submit" id="home-button" class="main-nav-bar-form-button">Shorts  </button>
 
 </form>
-<div class = "main-nav-bar-dropdown-container" >
-<ul class = "main-nav-bar-dropdown">
-<a href = ""><button class = "dropdown-button-6">Lorem</button></a><br>
-<a href = ""><button class = "dropdown-button-6">Lorem</button></a><br>
-<a href = ""><button class = "dropdown-button-6">Lorem</button></a><br>
-<a href = ""><button class = "dropdown-button-6">Lorem</button></a><br>
+<div class="main-nav-bar-dropdown-container">
+<div class="main-nav-bar-dropdown">
+<form class="main-nav-bar-dropdown-forms" method="POST" action="/products"><button type="submit" class="dropdown-button-5">Cost  </button></form>
+<form class="main-nav-bar-dropdown-forms" method="POST" action="/products"><button type="submit" class="dropdown-button-5">Designs  </button></form>
+<form class="main-nav-bar-dropdown-forms" method="POST" action="/products"><button type="submit" class="dropdown-button-5">Sizes  </button></form>
+<form class="main-nav-bar-dropdown-forms" method="POST" action="/products"><button type="submit" class="dropdown-button-5">Brands  </button></form>
 
-</ul>
+</div>
+
+</div>
+</span>
+
+<span class="main-nav-bar-items-container" onmouseleave="revDropDown('dropdown-button-6')">
+
+<form action="" method="POST" class="main-nav-bar-form">
+
+<button onmouseover="dropDown('dropdown-button-6')" type="submit" id="home-button" class="main-nav-bar-form-button">Skirts  </button>
+
+</form>
+<div class="main-nav-bar-dropdown-container">
+<div class="main-nav-bar-dropdown">
+<form class="main-nav-bar-dropdown-forms" method="POST" action="/products"><button type="submit" class="dropdown-button-6">Costs</button></form>
+<form class="main-nav-bar-dropdown-forms" method="POST" action="/products"><button type="submit" class="dropdown-button-6">Designs </button></form>
+<form class="main-nav-bar-dropdown-forms" method="POST" action="/products"><button type="submit" class="dropdown-button-6">Sizes </button></form>
+<form class="main-nav-bar-dropdown-forms" method="POST" action="/products"><button type="submit" class="dropdown-button-6">Brands </button></form>
+
+</div>
 
 </div>
 </span>
 
 
 
+
 </div>
+
 
 
 </nav>
-</header>
+
+</div></header>
 <h1 style = "width:50%;margin:auto;font-family:Raleway;">Your email has been submitted!</h1>
 <footer style="height:700px;position:relative;background-color:#e6eab7;position:relative;background-color:#e6eab7;">
 <div style="width:49%;color:white;background-color:#e6eab7;display:inline-block">
@@ -442,6 +480,7 @@ Ruston, LA 71270</b></p>
 			`
 <html>
 <head>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&amp;family=Raleway:ital,wght@1,200&amp;display=swap" rel="stylesheet">
 <link rel = "stylesheet" href = "/styles.css"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
