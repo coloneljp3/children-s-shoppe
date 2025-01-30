@@ -1,22 +1,72 @@
 'use strict'
+import { DsqlSigner } from "@aws-sdk/dsql-signer";
+import pg from "pg";
+import assert from "node:assert";
+const { Client } = pg;
 const mysql = require('mysql2');
 const express = require('express');
 const router = express.Router();
 const app = express();
 const serverless = require('serverless-http');
 const bodyParser = require('body-parser')
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use('/',(req,res)=>{
-//var connection = mysql.createConnection(process.env.DATABASE_URL);
-//var user = req.body.User;
-//var psw = req.body.psw;
-//var cell = req.body.cell;
-//var email_user = req.body.email_user;
-//var email_psw = req.body.email_psw
-//const Signup = connection.query(`Select COUNT(*) from Clientele where username = ? or pasword = ?`,[user,psw],(err,results)=>{var count = results[0]["count(*)"]; if(count == 0){connection.query(`Insert Into Clientele(username,pasword,cell,email,email_psw) values(?,?,?,?,?)`,[user,psw,cell,email_user,email_psw]);connection.query(`SELECT start_date,time FROM Records`,[user,psw],(err,result,fields) => {var z = [];for(let i of result){var b = i["start_date"] +":"+i["time"] + "<br>";z.push(b)};connection.query(`SELECT services FROM Records WHERE username = ?`,[user],(err,results,fields)=>{let a = [];for(let i of results){a.push(i["services"]+"<br>");};})})}});
-//Signup;
+var user = req.body.User;
+var psw = req.body.psw;
+var cell = req.body.cell;
+var email_user = req.body.email_user;
+var email_psw = req.body.email_psw
 
+async function example(clusterEndpoint) {
+  let client;
+  const region = "us-east-1";
+  try {
+    // The token expiration time is optional, and the default value 900 seconds
+    const signer = new DsqlSigner({
+      hostname: clusterEndpoint,
+      region,
+    });
+    const token = await signer.getDbConnectAdminAuthToken();
+    client = new Client({
+      host: clusterEndpoint,
+      user: "admin",
+      password: token,
+      database: "postgres",
+      port: 5432,
+      // <https://node-postgres.com/announcements> for version 8.0
+      ssl: true
+    });
+
+    // Connect
+    await client.connect();
+
+    // Create a new table
+    await client.query(`CREATE TABLE IF NOT EXISTS Clients (
+      id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+      username VARCHAR(30) NOT NULL,
+      password VARCHAR(80) NOT NULL,
+      email VARCHAR(40)
+      cell varchar(12)
+      profile_information varchar(255)
+    )`);
+
+    // Insert some data
+    await client.query("INSERT INTO Clients VALUES(?,?,?)",[user,psw,email_user]
+    );
+
+
+  } catch (error) {
+    console.error(error);
+    raise
+  } finally {
+    client?.end()
+  }
+  Promise.resolve()
+}
+example('jeabtzew5q42xhj32swa5o3j3u.dsql.us-east-1.on.aws
+');
 res.send(`<!DOCTYPE html>
 <html><head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
