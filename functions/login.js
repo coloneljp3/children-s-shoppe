@@ -60,12 +60,11 @@ async function example(clusterEndpoint) {
     console.error(error);
     raise
   } finally {
-    client?.end()
+    client.end()
   }
   Promise.resolve()
 }
-example('jeabtzew5q42xhj32swa5o3j3u.dsql.us-east-1.on.aws
-');
+example("jeabtzew5q42xhj32swa5o3j3u.dsql.us-east-1.on.aws");
 res.send(`<!DOCTYPE html>
 <html><head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
