@@ -1,7 +1,6 @@
 'use strict'
 var awsSdk = require('@aws-sdk/dsql-signer')
-import pg from "pg";
-import assert from "node:assert";
+var assert = require('node:assert').assert
 var pg = require('pg')
 const mysql = require('mysql2');
 const express = require('express');
