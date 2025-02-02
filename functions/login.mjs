@@ -1,9 +1,8 @@
 'use strict'
-import { createRequire } from 'module';
-var require = createRequire(import.meta.url)
-//import {DsqlSigner} from '@aws-sdk/dsql-signer' 
-//import assert from "node:assert"
-import {Client} from 'pg'
+
+//var awsSdk = require('@aws-sdk/dsql-signer')
+var assert = require('node:assert')
+var pg = require('pg')
 const mysql = require('mysql2');
 const express = require('express');
 const router = express.Router();
@@ -25,12 +24,12 @@ async function example(clusterEndpoint) {
   const region = "us-east-1";
   try {
     // The token expiration time is optional, and the default value 900 seconds
-    const signer = new DsqlSigner({
+    const signer = new awsSdk.DsqlSigner({
       hostname: clusterEndpoint,
       region,
     });
     const token = await signer.getDbConnectAdminAuthToken();
-    client = new Client({
+    client = new pg.Client({
       host: clusterEndpoint,
       user: "admin",
       password: token,
