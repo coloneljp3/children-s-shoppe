@@ -1,8 +1,8 @@
 'use strict'
 import { createRequire } from 'module';
 var require = createRequire(import.meta.url)
-import {DsqlSigner} from '@aws-sdk/dsql-signer' 
-import assert from "node:assert"
+//import {DsqlSigner} from '@aws-sdk/dsql-signer' 
+//import assert from "node:assert"
 import {Client} from 'pg'
 const mysql = require('mysql2');
 const express = require('express');
