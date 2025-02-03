@@ -1,6 +1,6 @@
 'use strict'
 
-var awsSdk = require('@aws-sdk/dsql-signer')
+const { DsqlSigner } = require("@aws-sdk/dsql-signer");
 var assert = require('node:assert')
 var pg = require('pg')
 const mysql = require('mysql2');
@@ -24,7 +24,7 @@ async function example(clusterEndpoint) {
   const region = "us-east-1";
   try {
     // The token expiration time is optional, and the default value 900 seconds
-    const signer = new awsSdk.DsqlSigner({
+    const signer = new DsqlSigner({
       hostname: clusterEndpoint,
       region,
     });
