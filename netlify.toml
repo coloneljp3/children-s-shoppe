@@ -1,6 +1,6 @@
 [build]
 functions = "/functions"
-command = "npm run"
+command = "npm run;npm install @aws-sdk/dsql-signer"
 [[redirects]]
 from = "/profile"
 to = "/.netlify/functions/profile"
