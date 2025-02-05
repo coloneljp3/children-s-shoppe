@@ -1,5 +1,5 @@
-var aws = require('aws-cdk-lib');
-const handler = new NodejsFunction(this, 'DSQLHandler', {
+var aws = require('@aws-cdk-lib/aws-lambda');
+const handler = new aws.NodejsFunction(this, 'DSQLHandler', {
   runtime: Runtime.NODEJS_22_X,
   handler: 'handler',
   entry: '/login.js',
