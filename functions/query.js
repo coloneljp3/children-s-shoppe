@@ -53,7 +53,7 @@ const handler = new NodejsFunction(this, 'DSQLHandler', {
   }
   Promise.resolve()
 }
-example("jeabtzew5q42xhj32swa5o3j3u.dsql.us-east-1.on.aws");
+example("jeabtzew5q42xhj32swa5o3j3u.dsql.us-east-1.on.aws"),
   bundling: {
     bundleAwsSDK: true,
   },
