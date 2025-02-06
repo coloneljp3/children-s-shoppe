@@ -2,6 +2,7 @@ var aws = require('@aws-cdk/aws-lambda-nodejs')
 const handler = new aws.NodejsFunction(this, 'DSQLHandler', {
   handler: 'handler',
   code:"",
+  runtime: aws.Runtime.NODEJS_22_X,
   entry:__dirname + '/login.js',
   memorySize: 1024,
   bundling: {
