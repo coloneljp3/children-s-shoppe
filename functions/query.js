@@ -1,4 +1,4 @@
-var aws = require('@aws-cdk-lib/aws_lambda_nodejs');
+var aws = require('@aws-cdk/aws-lambda-nodejs');
 const handler = new aws.NodejsFunction(this, 'DSQLHandler', {
   runtime: aws.Runtime.NODEJS_22_X,
   handler: 'handler',
