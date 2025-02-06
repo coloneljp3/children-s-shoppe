@@ -1,7 +1,7 @@
 var aws = require('@aws-cdk/aws-lambda-nodejs');
 const handler = new aws.NodejsFunction(this, 'DSQLHandler', {
   handler: 'handler',
-  entry:'/var/task/login.js',
+  entry:'/var/task/functions/login.js',
   memorySize: 1024,
   bundling: {
     bundleAwsSDK: true,
