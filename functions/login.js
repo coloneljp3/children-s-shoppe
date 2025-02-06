@@ -1,6 +1,6 @@
 'use strict'
-
-const { DsqlSigner } = require("@aws-sdk/dsql-signer");
+import * from '@aws-sdk/dsql-signer'
+//const { DsqlSigner } = require("@aws-sdk/dsql-signer");
 var assert = require('node:assert')
 var pg = require('pg')
 const mysql = require('mysql2');
