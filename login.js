@@ -511,5 +511,6 @@ window.onsubmit = () =>{
 }
         )
 
+app.use('/.netlify/functions/login',router)
 
-
+module.exports.handler = serverless(app)
