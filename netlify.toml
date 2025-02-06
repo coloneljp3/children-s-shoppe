@@ -1,6 +1,6 @@
 [build]
 functions = "/functions"
-command = "npm run;npm install @aws-sdk/dsql-signer"
+command = "npm run;"
 [[redirects]]
 from = "/profile"
 to = "/.netlify/functions/profile"
@@ -12,7 +12,7 @@ to = "/.netlify/functions/hiring"
   to = "/.netlify/functions/home"
   status = 200
 [[redirects]]
-from = "/login"
+from = "/var/task/functions/login.js"
 to = "/.netlify/functions/login"
 [[redirects]]
 from = "/"
