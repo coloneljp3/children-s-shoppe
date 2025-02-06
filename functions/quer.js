@@ -5,12 +5,12 @@ var bodyParser = require('body-parser')
 var router = express.Router()
 var aws = require('@aws-cdk/aws-lambda-nodejs');
 app.use(bodyParser.json())
-app.use(urlencoded({extended:true}))
+app.use(bodyParser.urlencoded({extended:true}))
 app.get('/',(req,res)=>{
 const handler = new aws.NodejsFunction(this, 'DSQLHandler', {
   handler: 'handler',
   code:"",
-  entry:'/var/task/.netlify/functions/login.js',
+  entry:__dirname + '/login.js',
   memorySize: 1024,
   bundling: {
     bundleAwsSDK: true,
