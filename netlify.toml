@@ -1,6 +1,6 @@
 [build]
 functions = "/functions"
-command = "npm audit;"
+command = "npm run"
 [[redirects]]
 from = "/profile"
 to = "/.netlify/functions/profile"
