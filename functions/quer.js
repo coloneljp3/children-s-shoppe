@@ -1,7 +1,6 @@
-var runtime = require('aws-cdk-lib/aws-lambda').Runtime.NODEJS_22_X
 var aws = require('aws-cdk-lib')
 const handler = new aws.NodejsFunction(this, 'DSQLHandler', {
-  runtime: runtime,
+  runtime: aws.Runtime.NODEJS_22_X,
   handler: 'handler',
   entry:__dirname + "/login.js",
   memorySize: 1024,
