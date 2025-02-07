@@ -1,5 +1,6 @@
 var lambda = require('aws-cdk-lib')
 var path = require('path')
+
 const handler = new lambda.NodejsFunction(this, 'DSQLHandler', {
   runtime: lambda.Runtime.NODEJS_20_X,
   handler: 'handler',
