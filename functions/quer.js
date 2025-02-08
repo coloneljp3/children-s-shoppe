@@ -1,5 +1,5 @@
 var lambda = require('aws-cdk-lib')
-var run = require('aws-cdk-lib/aws-lambda')
+var run = require('aws-cdk/aws-lambda-nodejs')
 var path = require('path')
 
 
