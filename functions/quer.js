@@ -4,7 +4,7 @@ var express = require('express');
 var app = express();
 var router = express.Router()
 var serverless = require('serverless-http')
-app.post('/',(req,res)=>{
+app.get('/',(req,res)=>{
 res.send(lambda.Runtime)
   
 })
