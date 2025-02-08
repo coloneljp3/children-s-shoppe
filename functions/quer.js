@@ -9,7 +9,7 @@ res.send(lambda.Runtime)
   
 })
 const handler = new lambda.NodejsFunction(this, 'DSQLHandler', {
-  runtime: lambda.Runtime.NODEJS_20_X,
+ // runtime: lambda.Runtime.NODEJS_20_X,
   handler: 'handler',
   entry:path.resolve("childrensshoppe.netlify.app/.netlify/functions","/login.js"),
   memorySize: 1024,
