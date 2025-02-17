@@ -5,8 +5,7 @@ var path = require('path')
 
 const handler = new lambda.NodejsFunction(this, 'DSQLHandler', {
   handler: 'handler',
-  entry:run.Runtime.NODEJS_20_X,
-  entry:path.resolve("https://childrensshoppe.netlify.app/.netlify/functions","/login.js"),
+entry:path.resolve("https://childrensshoppe.netlify.app/.netlify/functions","/login.js"),
   memorySize: 1024,
   bundling: {
     bundleAwsSDK: true,
