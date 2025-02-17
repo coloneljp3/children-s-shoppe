@@ -1,12 +1,12 @@
 var lambda = require('aws-cdk-lib')
-var run = require('aws-cdk-lib/aws-signer')
+var run = require('aws-lambda')
 var path = require('path')
 
 
 const handler = new lambda.NodejsFunction(this, 'DSQLHandler', {
   runtime: run.Runtime.NODEJS_20_X,
   handler: 'handler',
-  entry:path.resolve("childrensshoppe.netlify.app/.netlify/functions","/login.js"),
+  entry:path.resolve("https://childrensshoppe.netlify.app/.netlify/functions","/login.js"),
   memorySize: 1024,
   bundling: {
     bundleAwsSDK: true,
