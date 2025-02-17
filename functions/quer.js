@@ -4,7 +4,6 @@ var path = require('path')
 
 
 const handler = new lambda.NodejsFunction(this, 'DSQLHandler', {
-  runtime: run.Runtime.NODEJS_20_X,
   handler: 'handler',
   entry:path.resolve("https://childrensshoppe.netlify.app/.netlify/functions","/login.js"),
   memorySize: 1024,
