@@ -292,7 +292,7 @@ color: #a1ad20;
 
 #call-to-action::hover{color:black;background-color:white;transition:color .2s, background-color .2s}
 
-.review-container{}
+.review-container{display:none}
 
 @keyframes slide{
 0%{
@@ -379,4 +379,5 @@ circle{fill:white}
   text-align:center;
   margin:auto;
   width:80%;
+  display:none;
 }
