@@ -54,14 +54,14 @@ setTimeout(()=>{image.style.opacity = 0%;image.style.opacity = 100%;image.src = 
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="author" content="The Children's Shoppe">
-<meta name="description" content="The Children's Shoppe is the best children's toy, clothing, and furniture store in Ruston, Louisiana.">
-<meta name="generator" content="The Children's Shoppe">
-<meta property="og:site_name" content="TheChildren'sShoppe">
-<meta property="og:url" content="https://childrensshoppe.netlify.app/home">
-<meta property="og:title" content="TheChildren'sShoppe">
+<meta name="author" content="The Paper Mill">
+<meta name="description" content="The Paper Mill is the best writing service for high school students, college students, and professional graduates entering the workforce.">
+<meta name="generator" content="The Paper Mill">
+<meta property="og:site_name" content="The Paper Mill">
+<meta property="og:url" content="https://papermill1.com/home">
+<meta property="og:title" content="The Paper Mill">
 <meta property="og:type" content="website">
-<meta property="og:description" content="Infant and Children's clothing and toys in Ruston and Monroe Louisiana">
+<meta property="og:description" content="The Paper Mill is a service for helping students write research essays, expository essays, resumes, personal essays, emails, reports, and anything that requires professional writing.">
 
 
 
@@ -603,7 +603,7 @@ Ruston, LA 71270</b></p>
 </div>
 <div id="messaging-feature">
 <h4 style="text-align:center">Have a Question? Contact Us.</h4>
-<form method="POST" id="email" action="/submit">
+<form method="POST" id="email" action="/send-email">
 <h4 style="text-align:center">Type your full name in the box below.</h4>
 <textarea id="sender" name="sender"></textarea>
 <h4 style="text-align:center">Type your message in the box below.</h4>
